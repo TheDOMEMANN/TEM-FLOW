@@ -1,0 +1,3 @@
+# Preserve the verified release bytes on every platform. Several sealed inputs
+# use byte-level checksums, so automatic line-ending conversion is disabled.
+* -text

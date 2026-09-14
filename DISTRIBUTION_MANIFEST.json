@@ -9,10 +9,15 @@
     "ledger/temflow_evidence_ledger.jsonl",
     "ledger/ledger_manifest.json"
   ],
-  "latest_correction": "Clean-source provenance packaging and repository-native manuscript validation reproduction.",
+  "latest_correction": "Cross-platform preservation of sealed validation bytes and resolved public repository identifiers.",
   "version": "1.0.0",
-  "file_count": 169,
+  "file_count": 170,
   "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 164,
+      "sha256": "8bcc321624a543b02082b36f3fe8ba24c4cbf1bcca003a3c3248894540b77380"
+    },
     {
       "path": ".github/workflows/tests.yml",
       "bytes": 433,
@@ -22,6 +27,121 @@
       "path": ".gitignore",
       "bytes": 172,
       "sha256": "6cf5c2a8d406c2ffd20af48c3c1a2fcfc7ce68b048998bf8dd4c71b100d148e2"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 741,
+      "sha256": "20dd1f56055bb99cb2fee70845f5caaebcdd293da935d67f0c0d7ab11143f326"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 417,
+      "sha256": "33c2c807c161e989d99c9bfdae2daca52b6c155baf9e7b15d0c65f6604d6c1d7"
+    },
+    {
+      "path": "Create desktop shortcut.vbs",
+      "bytes": 610,
+      "sha256": "be4ea8fd9fb2df61c052b5d5f5e0816e5679cfde4330bfad5ac5beb43ea9859b"
+    },
+    {
+      "path": "DESKTOP_START_HERE.md",
+      "bytes": 3439,
+      "sha256": "1d8e211d33006c3e5c25c24ce7aba28188dad8ae602a9bab8907e79cfc3c64d1"
+    },
+    {
+      "path": "DEVELOPER_GUIDE.md",
+      "bytes": 5700,
+      "sha256": "f5b75e29d43ad37d670c115f7a134399b0ae591148dcc073715ef8739fce871e"
+    },
+    {
+      "path": "Edit source.cmd",
+      "bytes": 53,
+      "sha256": "dd0e286183ae165d5183ac35580fe34d1b30158c70c60f8fe3489d2cb8a6484a"
+    },
+    {
+      "path": "FORMULATION/ERR_FORMAL_RESULTS_V1_1.md",
+      "bytes": 4677,
+      "sha256": "f98f1ac5d68a9a43168499be7e67f60ddbe70fa976ea66cab2d8fe44a8be3aba"
+    },
+    {
+      "path": "FORMULATION/ERR_MATHEMATICAL_FORMULATION_V1_1.md",
+      "bytes": 5773,
+      "sha256": "d06c3f5232dd860d1c9bc8779a39997bbc90f2ed17265c5f7cfa7d298a265b28"
+    },
+    {
+      "path": "FORMULATION/TEMFLOW_FORMAL_PROOFS_V0_3.md",
+      "bytes": 11912,
+      "sha256": "457eb21020d4b5d3271e10eff04432f37e43ddbd555bc7fe6cf0187e5c616840"
+    },
+    {
+      "path": "FORMULATION/TEMFLOW_MATHEMATICAL_FORMULATION_V0_3.md",
+      "bytes": 15540,
+      "sha256": "f4f9f3af45f46e632d58ee1ab81b70bcad0ece33798997f7b877c28bd975ddf6"
+    },
+    {
+      "path": "FORMULATION/TEMFLOW_V1_0_ALGORITHM_LINEAGE.md",
+      "bytes": 2307,
+      "sha256": "969c12caa0a868047b923c30b804f55ff2a81d64fb16e2b192bfdb79eb3cd9f7"
+    },
+    {
+      "path": "GEOGRAPHIC_COVERAGE.csv",
+      "bytes": 1539,
+      "sha256": "fe2fc157e0cb3f6857e00835d9206012fb12b0d0b71685fe21ed747e76f4ccd6"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1528,
+      "sha256": "8fe7ac9e4b8cffa70721f8f7e92716b9ecdba53b5c6167842338df9e9349ab93"
+    },
+    {
+      "path": "Launch TEM-FLOW.cmd",
+      "bytes": 91,
+      "sha256": "d13479c0fef3b0c24928f355e9140d1f370aa00b7e67c93d9a5708efc36cdca4"
+    },
+    {
+      "path": "Launch TEM-FLOW.vbs",
+      "bytes": 325,
+      "sha256": "b5ed2ebf9c612cbb4f9460a0e9e4b67c3f3d4f93429020ed80d07a2e55c2a068"
+    },
+    {
+      "path": "PUBLIC_DATA_BOUNDARY.md",
+      "bytes": 396,
+      "sha256": "a2000f85ec334787f22d00223994ee4046e8465f504a6d41f4682d6041631861"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6378,
+      "sha256": "0e78bb60b3ad300c1d903809d647e2edc7480634d90f9eeba9c25b695b6390a4"
+    },
+    {
+      "path": "RELEASE_NOTES_1.0.0.md",
+      "bytes": 2051,
+      "sha256": "98e87a332db01780e6f5ae61845705f840d20c0b343e6d4672ad4bcbfaec43b1"
+    },
+    {
+      "path": "Restart TEM-FLOW.cmd",
+      "bytes": 100,
+      "sha256": "513981dd6ee99a4f9ddb3941f4534c1aeadc80f5878142a22f5f3b260f9b803c"
+    },
+    {
+      "path": "Run checks.cmd",
+      "bytes": 85,
+      "sha256": "0300c6b7ea18066786a9f6084074c0b4780e4009bc94fdbaecf0bd6e07faea6f"
+    },
+    {
+      "path": "Stop TEM-FLOW.cmd",
+      "bytes": 97,
+      "sha256": "9768c4ca33184d1e10df1c647203dba99af347a6dc08253b87f390846d17e737"
+    },
+    {
+      "path": "analysis/R/reproduce_validation_summary.R",
+      "bytes": 1230,
+      "sha256": "b1303e82d21296d10745e6a93335fa06505849fc74f4fa0bdbcacb141eeae2be"
+    },
+    {
+      "path": "analysis/README.md",
+      "bytes": 2307,
+      "sha256": "4af6d591fb806a8d3f5d548fb1d011bb23360ae9bb7474de678f620fc4a9ec06"
     },
     {
       "path": "analysis/data/crosscommodity/EVIDENCE_ROLE_LEDGER_V1_0_0.csv",
@@ -74,14 +194,14 @@
       "sha256": "1ab6310f1abb0717efe533e912a6efcb4fc74a298eca887113054ede512f582b"
     },
     {
-      "path": "analysis/data/uk_rpa/cattle-movements-to-slaughterhouses-during-2010.csv",
-      "bytes": 739301,
-      "sha256": "23584327dde9a6f6e59efe1281204cdaf5b9f6a3c69aed9233e43c0c7c163875"
-    },
-    {
       "path": "analysis/data/uk_rpa/UNBLINDED_DESTINATION_TRUTH_V1_0_0.csv",
       "bytes": 1043399,
       "sha256": "e3e028193efbce3501f5d91a1bc90812cefbc8c6f8b798df516539c65b7e94fc"
+    },
+    {
+      "path": "analysis/data/uk_rpa/cattle-movements-to-slaughterhouses-during-2010.csv",
+      "bytes": 739301,
+      "sha256": "23584327dde9a6f6e59efe1281204cdaf5b9f6a3c69aed9233e43c0c7c163875"
     },
     {
       "path": "analysis/data/validation_summary.csv",
@@ -189,14 +309,14 @@
       "sha256": "631ef330685a8b18394062b8f0ef55d72b0ad9d6ab4287bcafc64379baf3185f"
     },
     {
-      "path": "analysis/R/reproduce_validation_summary.R",
-      "bytes": 1230,
-      "sha256": "b1303e82d21296d10745e6a93335fa06505849fc74f4fa0bdbcacb141eeae2be"
+      "path": "analysis/results/REPRODUCTION_REPORT_V1_0_0.json",
+      "bytes": 2360,
+      "sha256": "fa0c7d730cca20435e0a5e0b3f0662f8ce9a66d8cd4934331c0989b43172d3d2"
     },
     {
-      "path": "analysis/README.md",
-      "bytes": 2307,
-      "sha256": "4af6d591fb806a8d3f5d548fb1d011bb23360ae9bb7474de678f620fc4a9ec06"
+      "path": "analysis/results/SOURCE_ONLY_ALLOCATION_SCORE_V1_0_0.json",
+      "bytes": 1275,
+      "sha256": "6a8eb2c06abcbb7381c59b33774186bd121dda7a8f0a7fee0557a6e58ab0ac12"
     },
     {
       "path": "analysis/results/crosscommodity/FROZEN_PREDICTIONS_V1_0_0.json",
@@ -239,16 +359,6 @@
       "sha256": "1cf1688203821b4ef12bfdbfbad2ab77980ab7092cf6d5f8db0d16b2b8941e72"
     },
     {
-      "path": "analysis/results/REPRODUCTION_REPORT_V1_0_0.json",
-      "bytes": 2360,
-      "sha256": "fa0c7d730cca20435e0a5e0b3f0662f8ce9a66d8cd4934331c0989b43172d3d2"
-    },
-    {
-      "path": "analysis/results/SOURCE_ONLY_ALLOCATION_SCORE_V1_0_0.json",
-      "bytes": 1275,
-      "sha256": "6a8eb2c06abcbb7381c59b33774186bd121dda7a8f0a7fee0557a6e58ab0ac12"
-    },
-    {
       "path": "analysis/results/uk_rpa/FROZEN_PREDICTIONS_V1_0_0.json",
       "bytes": 3081015,
       "sha256": "5a40817e23240ca1557311d44a71cad4099c062270d9fff0273a23639e213c1d"
@@ -284,21 +394,6 @@
       "sha256": "1a671f12fa7d8870b3c5e2b35a34e8ebc1edc5f5563517d3152e8ee501cda218"
     },
     {
-      "path": "CHANGELOG.md",
-      "bytes": 741,
-      "sha256": "20dd1f56055bb99cb2fee70845f5caaebcdd293da935d67f0c0d7ab11143f326"
-    },
-    {
-      "path": "CITATION.cff",
-      "bytes": 417,
-      "sha256": "33c2c807c161e989d99c9bfdae2daca52b6c155baf9e7b15d0c65f6604d6c1d7"
-    },
-    {
-      "path": "Create desktop shortcut.vbs",
-      "bytes": 610,
-      "sha256": "be4ea8fd9fb2df61c052b5d5f5e0816e5679cfde4330bfad5ac5beb43ea9859b"
-    },
-    {
       "path": "desktop_launcher.py",
       "bytes": 5274,
       "sha256": "a62e5934ef2b9107e38e463cc9fab702718c8bc5202c7f59eea0f9db8a403ce6"
@@ -307,16 +402,6 @@
       "path": "desktop_server.py",
       "bytes": 2377,
       "sha256": "55024082f9347a37eff78552e26c58edc938721915af6665f3e952f90b6ea9e8"
-    },
-    {
-      "path": "DESKTOP_START_HERE.md",
-      "bytes": 3439,
-      "sha256": "1d8e211d33006c3e5c25c24ce7aba28188dad8ae602a9bab8907e79cfc3c64d1"
-    },
-    {
-      "path": "DEVELOPER_GUIDE.md",
-      "bytes": 5700,
-      "sha256": "f5b75e29d43ad37d670c115f7a134399b0ae591148dcc073715ef8739fce871e"
     },
     {
       "path": "docs/COORDINATE_RECONCILIATION_V1_0_0.md",
@@ -332,51 +417,6 @@
       "path": "docs/REPRODUCIBILITY.md",
       "bytes": 1113,
       "sha256": "b39cbae58e705e361d8753af907a3a9c75a94c45d57eecfd64dec7687a0de69d"
-    },
-    {
-      "path": "Edit source.cmd",
-      "bytes": 53,
-      "sha256": "dd0e286183ae165d5183ac35580fe34d1b30158c70c60f8fe3489d2cb8a6484a"
-    },
-    {
-      "path": "FORMULATION/ERR_FORMAL_RESULTS_V1_1.md",
-      "bytes": 4677,
-      "sha256": "f98f1ac5d68a9a43168499be7e67f60ddbe70fa976ea66cab2d8fe44a8be3aba"
-    },
-    {
-      "path": "FORMULATION/ERR_MATHEMATICAL_FORMULATION_V1_1.md",
-      "bytes": 5773,
-      "sha256": "d06c3f5232dd860d1c9bc8779a39997bbc90f2ed17265c5f7cfa7d298a265b28"
-    },
-    {
-      "path": "FORMULATION/TEMFLOW_FORMAL_PROOFS_V0_3.md",
-      "bytes": 11912,
-      "sha256": "457eb21020d4b5d3271e10eff04432f37e43ddbd555bc7fe6cf0187e5c616840"
-    },
-    {
-      "path": "FORMULATION/TEMFLOW_MATHEMATICAL_FORMULATION_V0_3.md",
-      "bytes": 15540,
-      "sha256": "f4f9f3af45f46e632d58ee1ab81b70bcad0ece33798997f7b877c28bd975ddf6"
-    },
-    {
-      "path": "FORMULATION/TEMFLOW_V1_0_ALGORITHM_LINEAGE.md",
-      "bytes": 2307,
-      "sha256": "969c12caa0a868047b923c30b804f55ff2a81d64fb16e2b192bfdb79eb3cd9f7"
-    },
-    {
-      "path": "GEOGRAPHIC_COVERAGE.csv",
-      "bytes": 1539,
-      "sha256": "fe2fc157e0cb3f6857e00835d9206012fb12b0d0b71685fe21ed747e76f4ccd6"
-    },
-    {
-      "path": "Launch TEM-FLOW.cmd",
-      "bytes": 91,
-      "sha256": "d13479c0fef3b0c24928f355e9140d1f370aa00b7e67c93d9a5708efc36cdca4"
-    },
-    {
-      "path": "Launch TEM-FLOW.vbs",
-      "bytes": 325,
-      "sha256": "b5ed2ebf9c612cbb4f9460a0e9e4b67c3f3d4f93429020ed80d07a2e55c2a068"
     },
     {
       "path": "ledger/certificate_ledger_summary.json",
@@ -399,29 +439,9 @@
       "sha256": "8026eeee368eaa7e8c7cf67ec3bf180636544a37c33819bf385e9dc183483d8a"
     },
     {
-      "path": "LICENSE",
-      "bytes": 1528,
-      "sha256": "8fe7ac9e4b8cffa70721f8f7e92716b9ecdba53b5c6167842338df9e9349ab93"
-    },
-    {
-      "path": "PUBLIC_DATA_BOUNDARY.md",
-      "bytes": 396,
-      "sha256": "a2000f85ec334787f22d00223994ee4046e8465f504a6d41f4682d6041631861"
-    },
-    {
       "path": "pyproject.toml",
       "bytes": 1193,
       "sha256": "0b047160c98337e403a004eafb18359351795b6cffd489ba6e0d46c9f7791cb0"
-    },
-    {
-      "path": "README.md",
-      "bytes": 6378,
-      "sha256": "0e78bb60b3ad300c1d903809d647e2edc7480634d90f9eeba9c25b695b6390a4"
-    },
-    {
-      "path": "RELEASE_NOTES_1.0.0.md",
-      "bytes": 2051,
-      "sha256": "98e87a332db01780e6f5ae61845705f840d20c0b343e6d4672ad4bcbfaec43b1"
     },
     {
       "path": "requirements-desktop.txt",
@@ -432,16 +452,6 @@
       "path": "requirements-lock.txt",
       "bytes": 171,
       "sha256": "bfc062c4ab193f988f14b3f31c2e9d7b3b3e55663c0d41e3e3146433706f6b03"
-    },
-    {
-      "path": "Restart TEM-FLOW.cmd",
-      "bytes": 100,
-      "sha256": "513981dd6ee99a4f9ddb3941f4534c1aeadc80f5878142a22f5f3b260f9b803c"
-    },
-    {
-      "path": "Run checks.cmd",
-      "bytes": 85,
-      "sha256": "0300c6b7ea18066786a9f6084074c0b4780e4009bc94fdbaecf0bd6e07faea6f"
     },
     {
       "path": "src/temflow/__init__.py",
@@ -722,11 +732,6 @@
       "path": "start_preview.py",
       "bytes": 2724,
       "sha256": "b27371a54bd678a98a6dcc4f57895fcfc45301045cf72f1a317acdc27242de21"
-    },
-    {
-      "path": "Stop TEM-FLOW.cmd",
-      "bytes": 97,
-      "sha256": "9768c4ca33184d1e10df1c647203dba99af347a6dc08253b87f390846d17e737"
     },
     {
       "path": "tests/test_certificates.py",
