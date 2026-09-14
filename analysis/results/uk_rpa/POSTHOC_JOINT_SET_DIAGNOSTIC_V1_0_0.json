@@ -1,0 +1,24 @@
+{
+  "all_classes": {
+    "median_total_variation": 0.20873846074854613,
+    "remainder_weighted_joint_set_coverage": 0.979831608538081,
+    "simultaneous_joint_set_coverage": 0.8745318352059925,
+    "target_count": 534
+  },
+  "by_class": {
+    "direct": {
+      "median_total_variation": 0.16697465976387657,
+      "remainder_weighted_joint_set_coverage": 0.9789661295050319,
+      "simultaneous_joint_set_coverage": 0.8656716417910447,
+      "target_count": 268
+    },
+    "indirect": {
+      "median_total_variation": 0.2476334599844066,
+      "remainder_weighted_joint_set_coverage": 0.9837214936854538,
+      "simultaneous_joint_set_coverage": 0.8834586466165414,
+      "target_count": 266
+    }
+  },
+  "interpretation": "Simultaneous coverage tests whether the whole withheld destination vector, not merely each coordinate, lies inside the frozen joint total-variation set.",
+  "status": "post_hoc_diagnostic_not_a_frozen_gate"
+}

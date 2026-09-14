@@ -1,0 +1,34 @@
+{
+  "role": "Cartographic reference roads only; not evidence that a shipment used any represented highway.",
+  "licence": "OpenStreetMap data © OpenStreetMap contributors, Open Data Commons Open Database License (ODbL)",
+  "attribution_url": "https://www.openstreetmap.org/copyright",
+  "extracts": {
+    "CPV": {
+      "source_url": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:180];area[\"ISO3166-1\"=\"CV\"][\"admin_level\"=\"2\"]->.country;way[\"highway\"~\"^(motorway|trunk|primary|secondary|tertiary)$\"](area.country);out geom qt;",
+      "timestamp_osm_base": "2026-08-30T09:56:36Z",
+      "element_count": 2827,
+      "raw_sha256": "e08f14161aeeb7b2d786bd569c3c6c138584790418f2ffd56aae8dc8ce340b53",
+      "compressed_sha256": "a59f7303a7a098b4f4287ec2fbb4bcc25f07c13af220f955e994f00ce4d6be01",
+      "file": "osm_overpass_highways_CPV.json.gz"
+    },
+    "MUS": {
+      "source_url": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:180];area[\"ISO3166-1\"=\"MU\"][\"admin_level\"=\"2\"]->.country;way[\"highway\"~\"^(motorway|trunk|primary|secondary|tertiary)$\"](area.country);out geom qt;",
+      "timestamp_osm_base": "2026-08-30T09:57:36Z",
+      "element_count": 4522,
+      "raw_sha256": "5a6c26ae68f84ab6ac0ce1e910aa3b13ca1695c8c6b1c971ab2bf4ac5a5192c4",
+      "compressed_sha256": "58767916ce4363d15bfd7e8bb4723456768cec167630284935a3101a5dd65527",
+      "file": "osm_overpass_highways_MUS.json.gz"
+    },
+    "SYC": {
+      "source_url": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:180];way[\"highway\"~\"^(motorway|trunk|primary|secondary|tertiary)$\"](-4.95,55.1,-4.2,56.0);out geom qt;",
+      "timestamp_osm_base": "2026-08-30T10:00:38Z",
+      "element_count": 496,
+      "raw_sha256": "8b0ee44dd17f54a379c534b6c1f280172808671bbd06fe845289f4a15d35dda7",
+      "compressed_sha256": "52b09151c33f9d5c29f11dc1173c9c0dd1d907b25b6f5222e33d6ec9e96e8794",
+      "file": "osm_overpass_highways_SYC.json.gz"
+    }
+  }
+}

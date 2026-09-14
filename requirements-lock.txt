@@ -1,0 +1,5 @@
+# Exact environment used for the TEM-FLOW 1.0.0 release checks.
+# Python 3.13; the Windows desktop bundle records Python 3.13.15.
+numpy==2.5.1
+scipy==1.18.0
+pandas==3.0.5

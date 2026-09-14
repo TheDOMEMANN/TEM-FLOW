@@ -1,0 +1,55 @@
+iso3,country,registered,located,unresolved,restored_support
+AGO,Angola,50,30,20,30
+BDI,Burundi,44,26,18,26
+BEN,Benin,118,91,27,76
+BFA,Burkina Faso,518,488,30,80
+BWA,Botswana,57,32,25,30
+CAF,Central African Republic,37,32,5,30
+CIV,Côte d’Ivoire,137,94,43,80
+CMR,Cameroon,326,278,48,30
+COD,Democratic Republic of the Congo,160,117,43,117
+COG,Republic of the Congo,50,30,20,30
+COM,Comoros,25,19,6,19
+CPV,Cabo Verde,62,30,32,30
+DJI,Djibouti,44,9,35,9
+DZA,Algeria,62,31,31,30
+EGY,Egypt,104,46,58,30
+ERI,Eritrea,20,12,8,12
+ETH,Ethiopia,340,258,82,80
+GAB,Gabon,66,31,35,30
+GHA,Ghana,756,710,46,80
+GIN,Guinea,53,38,15,30
+GMB,Gambia,50,32,18,30
+GNB,Guinea-Bissau,56,39,17,39
+GNQ,Equatorial Guinea,30,13,17,13
+KEN,Kenya,192,145,47,140
+LBR,Liberia,44,26,18,26
+LBY,Libya,102,30,72,30
+LSO,Lesotho,32,28,4,28
+MAR,Morocco,58,34,24,30
+MDG,Madagascar,48,30,18,30
+MLI,Mali,568,541,27,72
+MOZ,Mozambique,60,30,30,30
+MRT,Mauritania,60,33,27,30
+MUS,Mauritius,75,30,45,30
+MWI,Malawi,82,38,44,34
+NAM,Namibia,56,30,26,30
+NER,Niger,107,69,38,64
+NGA,Nigeria,212,154,58,140
+RWA,Rwanda,48,32,16,30
+SDN,Sudan,76,39,37,30
+SEN,Senegal,133,86,47,80
+SLE,Sierra Leone,63,30,33,30
+SOM,Somalia,95,73,22,64
+SSD,South Sudan,46,24,22,22
+STP,Sao Tome and Principe,6,5,1,5
+SWZ,Eswatini,32,10,22,10
+SYC,Seychelles,27,11,16,11
+TCD,Chad,45,31,14,30
+TGO,Togo,63,37,26,32
+TUN,Tunisia,44,30,14,30
+TZA,Tanzania,180,140,40,140
+UGA,Uganda,113,84,29,80
+ZAF,South Africa,277,33,244,30
+ZMB,Zambia,149,84,65,80
+ZWE,Zimbabwe,54,30,24,30

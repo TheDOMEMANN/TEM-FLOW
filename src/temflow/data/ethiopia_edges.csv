@@ -1,0 +1,283 @@
+﻿corridor_id,corridor_name,branch,segment_order,from_id,to_id,evidence_state,qualitative_role
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,1,1,TEND_AWASH,DUBTI,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,1,2,DUBTI,LOGIA,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,1,3,LOGIA,SEMERA,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,1,4,SEMERA,AWASH_ARBA,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,1,5,AWASH_ARBA,METEHARA,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,1,6,METEHARA,ADAMA,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,1,7,ADAMA,MODJO,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,1,8,MODJO,DUKEM,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,1,9,DUKEM,BISHOFTU,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,1,10,BISHOFTU,ADDIS,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,2,1,YARDI_SOURCE_UNVERIFIED,AWASH_ARBA,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,2,2,AWASH_ARBA,METEHARA,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,2,3,METEHARA,ADAMA,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,2,4,ADAMA,ADDIS,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,3,1,MELKA_WAKENA_RES,ADAMA,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,3,2,ADAMA,ADDIS,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,4,1,TEND_AWASH,ASAYITA,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,4,2,ASAYITA,DUBTI,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,5,1,AWASH_ARBA,DIRE_DAWA,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,5,2,DIRE_DAWA,HARAR,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,6,1,HAROMAYA_ADELLE_LAKE,HARAR,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,7,1,ARERTI,ADAMA,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,7,2,ADAMA,ADDIS,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,8,1,OLENCHITI,ADAMA,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,9,1,MELKA_WAKENA_RES,GOBA_BALE,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,9,2,GOBA_BALE,ROBE_BALE,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,10,1,MELKA_WAKENA_RES,ASASA,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,10,2,ASASA,DODOLA,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,10,3,DODOLA,KOFELE,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,10,4,KOFELE,SHASHEMENE,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,11,1,MELKA_WAKENA_RES,BEKOJI,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,11,2,BEKOJI,ASELA,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,1,1,CHAMO_LAKE,ARBAMINCH,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,1,2,ARBAMINCH,LANTE,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,1,3,LANTE,WOLAITA_SODO,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,1,4,WOLAITA_SODO,HAWASSA_CITY,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,1,5,HAWASSA_CITY,SHASHEMENE,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,1,6,SHASHEMENE,ARSI_NEGELE,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,1,7,ARSI_NEGELE,DOLE_UNVERIFIED,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,1,8,DOLE_UNVERIFIED,BATU_ZIWAY,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,1,9,BATU_ZIWAY,MEKI,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,1,10,MEKI,BOTE_ALEM_TENA,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,1,11,BOTE_ALEM_TENA,KOKA_TOWN,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,1,12,KOKA_TOWN,MODJO,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,1,13,MODJO,DUKEM,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,1,14,DUKEM,BISHOFTU,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,1,15,BISHOFTU,ADDIS,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,2,1,ABAYA_LAKE_CHILD,ARBAMINCH,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,2,2,ARBAMINCH,HAWASSA_CITY,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,2,3,HAWASSA_CITY,ADDIS,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,3,1,HAWASSA_LAKE,HAWASSA_CITY,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,3,2,HAWASSA_CITY,SHASHEMENE,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,3,3,SHASHEMENE,ADDIS,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,4,1,ZIWAY_LAKE,BATU_ZIWAY,expert-supported main local market; share not isolated,published source and local consumption access
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,4,2,BATU_ZIWAY,MEKI,expert-elicited main consumption corridor; share unmeasured,candidate local market route
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,4,3,MEKI,BOTE_ALEM_TENA,published Addis destination path; intermediate segment tonnage unmeasured,market corridor
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,4,4,BOTE_ALEM_TENA,KOKA_TOWN,published Addis destination path; intermediate segment tonnage unmeasured,market corridor
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,4,5,KOKA_TOWN,MODJO,published Ziway market study names Modjo; segment tonnage unmeasured,reported destination corridor
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,4,6,MODJO,DUKEM,published Addis destination path; intermediate segment tonnage unmeasured,market corridor
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,4,7,DUKEM,BISHOFTU,published Addis destination path; intermediate segment tonnage unmeasured,market corridor
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,4,8,BISHOFTU,ADDIS,published 2018-2019 Ziway destination share; whole-source bound retained in evidence ledger,reported large-volume terminal
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,5,1,LANGANO_LAKE_CHILD,BULBULA,expert-elicited local/corridor access; share unmeasured,candidate local market route
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,5,2,BULBULA,ADAMI_TULU,expert-elicited local/corridor access; share unmeasured,candidate local market route
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,5,3,ADAMI_TULU,BATU_ZIWAY,expert-elicited main consumption corridor; share unmeasured,candidate local market route
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,5,4,BATU_ZIWAY,MEKI,expert-elicited main consumption corridor; share unmeasured,candidate local market route
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,5,5,MEKI,BOTE_ALEM_TENA,historical Langano-to-Addis connectivity; segment tonnage unmeasured,market corridor
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,5,6,BOTE_ALEM_TENA,KOKA_TOWN,historical Langano-to-Addis connectivity; segment tonnage unmeasured,market corridor
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,5,7,KOKA_TOWN,MODJO,historical Langano-to-Addis connectivity; segment tonnage unmeasured,market corridor
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,5,8,MODJO,DUKEM,historical Langano-to-Addis connectivity; segment tonnage unmeasured,market corridor
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,5,9,DUKEM,BISHOFTU,historical Langano-to-Addis connectivity; segment tonnage unmeasured,market corridor
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,5,10,BISHOFTU,ADDIS,FAO historical evidence identifies Langano supply to Addis; current share unmeasured,historical destination terminal
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,14,1,ZIWAY_LAKE,BATU_ZIWAY,expert-supported main local market; share not isolated,published source and local consumption access
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,14,2,BATU_ZIWAY,ADAMI_TULU,expert-elicited local/corridor access; share unmeasured,candidate local market route
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,14,3,ADAMI_TULU,BULBULA,expert-elicited local/corridor access; share unmeasured,candidate local market route
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,14,4,BULBULA,DOLE_UNVERIFIED,expert-elicited local/corridor access; share unmeasured,candidate local market route
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,14,5,DOLE_UNVERIFIED,ARSI_NEGELE,expert-elicited local/corridor access; share unmeasured,candidate local market route
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,14,6,ARSI_NEGELE,SHASHEMENE,published Ziway market study names Shashemene; intermediate shares unmeasured,reported destination corridor
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,15,1,LANGANO_LAKE_CHILD,BULBULA,expert-elicited local/corridor access; share unmeasured,candidate local market route
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,15,2,BULBULA,DOLE_UNVERIFIED,expert-elicited local/corridor access; share unmeasured,candidate local market route
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,15,3,DOLE_UNVERIFIED,ARSI_NEGELE,expert-elicited local/corridor access; share unmeasured,candidate local market route
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,15,4,ARSI_NEGELE,SHASHEMENE,expert-elicited Langano destination corridor; share unmeasured,candidate regional market route
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,16,1,ZIWAY_LAKE,BATU_ZIWAY,published Ziway market-chain source; share not isolated,reported source-market topology
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,16,2,BATU_ZIWAY,MEKI,expert-elicited main consumption corridor; share unmeasured,candidate local market route
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,16,3,MEKI,BOTE_ALEM_TENA,published Adama/Modjo destination branch; intermediate shares unmeasured,market corridor
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,16,4,BOTE_ALEM_TENA,KOKA_TOWN,published Adama/Modjo destination branch; intermediate shares unmeasured,market corridor
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,16,5,KOKA_TOWN,MODJO,published Ziway market study names Modjo; share unmeasured,reported destination corridor
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,16,6,MODJO,ADAMA,published Ziway market study names Adama; share unmeasured,reported destination terminal
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,17,1,ZIWAY_LAKE,BATU_ZIWAY,published Ziway market-chain source; share not isolated,reported source-market topology
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,17,2,BATU_ZIWAY,MEKI,expert-elicited main consumption corridor; share unmeasured,candidate local market route
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,17,3,MEKI,BUTAJIRA,published Ziway market study names Butajira; share unmeasured,reported destination terminal
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,6,1,ABIYATA_LAKE_CHILD,BATU_ZIWAY,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,6,2,BATU_ZIWAY,ADDIS,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,7,1,KOKA_RES,KOKA_TOWN,expert-supported near-source absorption; share not measured,local consumption access
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,7,2,KOKA_TOWN,MODJO,Koka market-chain evidence supports urban dispatch; segment tonnage unmeasured,market route
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,10,1,KOKA_RES,BOTE_ALEM_TENA,expert-supported near-source absorption; share not measured,local consumption access
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,11,1,MODJO,ADAMA,expert-elicited Koka branch; not measured flow,candidate market route
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,11,2,ADAMA,ASELA,expert-elicited Koka branch; not measured flow,candidate market route
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,12,1,BESEKA_LAKE,METEHARA,official/institutional local-consumption evidence; tonnage unmeasured,local consumption access
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,12,2,METEHARA,WONJI,expert-elicited Beseka branch; not measured flow,candidate market route
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,12,3,WONJI,ADAMA,expert-elicited Beseka branch; not measured flow,candidate market route
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,13,1,BESEKA_LAKE,AWASH_ARBA,expert-elicited Beseka branch; not measured flow,candidate local market access
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,8,1,BISHOFTU_CRATER_LAKES,BISHOFTU,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,8,2,BISHOFTU,ADDIS,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,9,1,KOFTU_DAM_UNVERIFIED,BISHOFTU,candidate connectivity; not measured flow,candidate connectivity
+C_RIFT_ADDIS,Rift Valley-south-to-Addis,9,2,BISHOFTU,DUKEM,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,1,1,CHAMO_LAKE,ARBAMINCH,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,1,2,ARBAMINCH,BIRBIR_UNVERIFIED,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,1,3,BIRBIR_UNVERIFIED,HUMBO,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,1,4,HUMBO,WOLAITA_SODO,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,1,5,WOLAITA_SODO,BODITI,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,1,6,BODITI,AREKA,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,1,7,AREKA,HOSAENA,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,1,8,HOSAENA,BUTAJIRA,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,2,1,ABAYA_LAKE_CHILD,ARBAMINCH,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,2,2,ARBAMINCH,WOLAITA_SODO,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,2,3,WOLAITA_SODO,HALABA_KULITO,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,2,4,HALABA_KULITO,SHONE,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,2,5,SHONE,WERABE,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,2,6,WERABE,BUTAJIRA,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,3,1,SMALL_ABAYA_SILTI_UNVERIFIED,WERABE,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,3,2,WERABE,BUTAJIRA,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,3,3,BUTAJIRA,HOSAENA,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,8,1,ARBAMINCH,JINKA,user-corrected Chamo-Abaya market access; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,18,1,GILGEL_GIBE_III_RES,TERCHA,user-corrected GG-III candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,18,2,TERCHA,BELE_HAWASSA_UNVERIFIED,user-corrected GG-III candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,18,3,BELE_HAWASSA_UNVERIFIED,WOLAITA_SODO,user-corrected GG-III candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,19,1,GILGEL_GIBE_III_RES,BELE_HAWASSA_UNVERIFIED,user-corrected GG-III candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,19,2,BELE_HAWASSA_UNVERIFIED,HADERO,user-corrected GG-III candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,19,3,HADERO,SHINSHICHO,user-corrected GG-III candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,19,4,SHINSHICHO,DURAME,user-corrected GG-III candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,19,5,DURAME,HOSAENA,user-corrected GG-III candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,5,1,CHAMO_LAKE,ARBAMINCH,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,5,2,ARBAMINCH,LANTE,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,5,3,LANTE,BELE_HAWASSA_UNVERIFIED,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,5,4,BELE_HAWASSA_UNVERIFIED,WOLAITA_SODO,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,6,1,HAWASSA_LAKE,HAWASSA_CITY,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,6,2,HAWASSA_CITY,HALABA_KULITO,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,6,3,HALABA_KULITO,HOSAENA,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,7,1,SHALLA_EMERGENT,SHASHEMENE,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,7,2,SHASHEMENE,HAWASSA_CITY,candidate connectivity; not measured flow,candidate connectivity
+C_SOUTHWEST_MULTI,Southern/southwest multi-source,7,3,HAWASSA_CITY,WOLAITA_SODO,candidate connectivity; not measured flow,candidate connectivity
+C_TURKANA_ADDIS,Turkana local/Kenya-dominant/Addis,1,1,TURKANA_ETH_LAKE,JINKA,candidate connectivity; not measured flow,candidate connectivity
+C_TURKANA_ADDIS,Turkana local/Kenya-dominant/Addis,1,2,JINKA,SAWLA,candidate connectivity; not measured flow,candidate connectivity
+C_TURKANA_ADDIS,Turkana local/Kenya-dominant/Addis,1,3,SAWLA,TUM_UNVERIFIED,candidate connectivity; not measured flow,candidate connectivity
+C_TURKANA_ADDIS,Turkana local/Kenya-dominant/Addis,2,1,TURKANA_ETH_LAKE,ADDIS,candidate connectivity; not measured flow,USER-STATED SMALLER ADDIS-BOUND PORTION; UNQUANTIFIED
+C_TURKANA_ADDIS,Turkana local/Kenya-dominant/Addis,3,1,TURKANA_ETH_LAKE,KENYA_MARKET,candidate connectivity; not measured flow,USER-STATED DOMINANT EXPORT DIRECTION; UNQUANTIFIED
+C_GAMBELLA_LOCAL,Gambella diffuse local,1,1,TATA_LENTIC,PINYUDO,user-specified important-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,1,2,PINYUDO,ABOBO,user-specified important-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,1,3,ABOBO,GAMBELLA,user-specified important-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,2,1,GOP_LENTIC_UNVERIFIED,PINYUDO,user-specified important-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,2,2,PINYUDO,ABOBO,user-specified important-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,2,3,ABOBO,GAMBELLA,user-specified important-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,3,1,ALWERO_RES,ABOBO,user-specified important-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,3,2,ABOBO,GAMBELLA,user-specified important-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,4,1,AKOBO_PINYUDO_WETLANDS,PINYUDO,user-specified important-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,4,2,PINYUDO,ABOBO,user-specified important-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,4,3,ABOBO,GAMBELLA,user-specified important-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,5,1,PIBOR_FLOODPLAIN,ITANG,user-specified important-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,5,2,ITANG,GAMBELLA,user-specified important-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,6,1,GILO_FLOODPLAIN,PINYUDO,user-specified important-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,6,2,PINYUDO,ABOBO,user-specified important-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,6,3,ABOBO,GAMBELLA,user-specified important-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,7,1,MAJANG_ITANG_BARO_WETLANDS,ITANG,user-specified important-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,7,2,ITANG,GAMBELLA,user-specified important-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,8,1,GAMBELLA_DIFFUSE,ITANG,user-specified diffuse-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,8,2,ITANG,GAMBELLA,user-specified diffuse-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,9,1,GAMBELLA_DIFFUSE,ABOBO,user-specified diffuse-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_LOCAL,Gambella diffuse local,9,2,ABOBO,GAMBELLA,user-specified diffuse-source connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_SURPLUS,Gambella regional/surplus/South Sudan,1,1,ALWERO_RES,ABOBO,candidate connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_SURPLUS,Gambella regional/surplus/South Sudan,1,2,ABOBO,GAMBELLA,candidate connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_SURPLUS,Gambella regional/surplus/South Sudan,1,3,GAMBELLA,BURE_GAMBELLA_UNVERIFIED,candidate connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_SURPLUS,Gambella regional/surplus/South Sudan,1,4,BURE_GAMBELLA_UNVERIFIED,METU,candidate connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_SURPLUS,Gambella regional/surplus/South Sudan,1,5,METU,BEDELE,candidate connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_SURPLUS,Gambella regional/surplus/South Sudan,1,6,BEDELE,JIMMA,candidate connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_SURPLUS,Gambella regional/surplus/South Sudan,1,7,JIMMA,ADDIS,candidate connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_SURPLUS,Gambella regional/surplus/South Sudan,2,1,GAMBELLA_DIFFUSE,GAMBELLA,candidate connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_SURPLUS,Gambella regional/surplus/South Sudan,2,2,GAMBELLA,BONGA,candidate connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_SURPLUS,Gambella regional/surplus/South Sudan,2,3,BONGA,JIMMA,candidate connectivity; not measured flow,candidate connectivity
+C_GAMBELLA_SURPLUS,Gambella regional/surplus/South Sudan,3,1,GAMBELLA,SOUTH_SUDAN_EXPORT,candidate connectivity; not measured flow,USER-STATED INFORMAL CROSS-BORDER EXPORT TO SOUTH SUDAN; DESTINATION UNSPECIFIED; UNQUANTIFIED
+C_GIBE_I,Gilgel Gibe I-Jimma-Addis,1,1,GILGEL_GIBE_I_RES,JIMMA,candidate connectivity; not measured flow,candidate connectivity
+C_GIBE_I,Gilgel Gibe I-Jimma-Addis,1,2,JIMMA,ASENDABO,candidate connectivity; not measured flow,candidate connectivity
+C_GIBE_I,Gilgel Gibe I-Jimma-Addis,1,3,ASENDABO,DENEBA_UNVERIFIED,candidate connectivity; not measured flow,candidate connectivity
+C_GIBE_I,Gilgel Gibe I-Jimma-Addis,1,4,DENEBA_UNVERIFIED,SOKORU,candidate connectivity; not measured flow,candidate connectivity
+C_GIBE_I,Gilgel Gibe I-Jimma-Addis,1,5,SOKORU,WOLKITE,candidate connectivity; not measured flow,candidate connectivity
+C_GIBE_I,Gilgel Gibe I-Jimma-Addis,1,6,WOLKITE,ADDIS,candidate connectivity; not measured flow,candidate connectivity
+C_GIBE_I,Gilgel Gibe I-Jimma-Addis,2,1,GILGEL_GIBE_I_RES,HADERO,candidate connectivity; not measured flow,candidate connectivity
+C_GIBE_I,Gilgel Gibe I-Jimma-Addis,2,2,HADERO,SHINSHICHO,candidate connectivity; not measured flow,candidate connectivity
+C_GIBE_I,Gilgel Gibe I-Jimma-Addis,2,3,SHINSHICHO,DURAME,candidate connectivity; not measured flow,candidate connectivity
+C_GIBE_I,Gilgel Gibe I-Jimma-Addis,2,4,DURAME,HOSAENA,candidate connectivity; not measured flow,candidate connectivity
+C_GIBE_I,Gilgel Gibe I-Jimma-Addis,2,5,HOSAENA,WOLKITE,candidate connectivity; not measured flow,candidate connectivity
+C_GIBE_I,Gilgel Gibe I-Jimma-Addis,2,6,WOLKITE,ADDIS,candidate connectivity; not measured flow,candidate connectivity
+C_FINCHA_WEST,Fincha-Amerti western Oromia,1,1,FINCHA_RES,NEKEMTE,candidate connectivity; not measured flow,candidate connectivity
+C_FINCHA_WEST,Fincha-Amerti western Oromia,1,2,NEKEMTE,BAKO,candidate connectivity; not measured flow,candidate connectivity
+C_FINCHA_WEST,Fincha-Amerti western Oromia,1,3,BAKO,IJAJI,candidate connectivity; not measured flow,candidate connectivity
+C_FINCHA_WEST,Fincha-Amerti western Oromia,1,4,IJAJI,GEDO,candidate connectivity; not measured flow,candidate connectivity
+C_FINCHA_WEST,Fincha-Amerti western Oromia,1,5,GEDO,AMBO,candidate connectivity; not measured flow,candidate connectivity
+C_FINCHA_WEST,Fincha-Amerti western Oromia,1,6,AMBO,GINCHI,candidate connectivity; not measured flow,candidate connectivity
+C_FINCHA_WEST,Fincha-Amerti western Oromia,1,7,GINCHI,HOLETA,candidate connectivity; not measured flow,candidate connectivity
+C_FINCHA_WEST,Fincha-Amerti western Oromia,1,8,HOLETA,ADDIS,candidate connectivity; not measured flow,candidate connectivity
+C_FINCHA_WEST,Fincha’a-Amerti western Oromia,2,1,AMERTI_RES,NEKEMTE,candidate connectivity; not measured flow,candidate connectivity
+C_FINCHA_WEST,Fincha-Amerti western Oromia,2,2,NEKEMTE,GIMBI,candidate connectivity; not measured flow,candidate connectivity
+C_FINCHA_WEST,Fincha-Amerti western Oromia,2,3,GIMBI,DEMBI_DOLO,candidate connectivity; not measured flow,candidate connectivity
+C_FINCHA_WEST,Fincha-Amerti western Oromia,3,1,DEMBI_DOLO,GAMBELLA,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,1,1,TANA_LAKE,BAHIR_DAR,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,1,2,BAHIR_DAR,WERETA,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,1,3,WERETA,HAMUSIT,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,1,4,HAMUSIT,GONDAR,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,1,5,GONDAR,DEBARK,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,2,1,TANA_LAKE,BAHIR_DAR,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,2,2,BAHIR_DAR,DEBRE_TABOR,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,2,3,DEBRE_TABOR,GONDAR,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,3,1,TANA_LAKE,BAHIR_DAR,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,3,2,BAHIR_DAR,DANGILA,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,3,3,DANGILA,INJIBARA,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,3,4,INJIBARA,FINOTE_SELAM,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,3,5,FINOTE_SELAM,DEBRE_MARKOS,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,3,6,DEBRE_MARKOS,DEJEN,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,3,7,DEJEN,GOHATSION,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,3,8,GOHATSION,FITCHE,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,3,9,FITCHE,ADDIS,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,4,1,GERAY_RES_UNVERIFIED,FINOTE_SELAM,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,4,2,FINOTE_SELAM,MOTA,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,4,3,MOTA,DEBRE_MARKOS,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,5,1,TANA_LAKE,BAHIR_DAR,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,5,2,BAHIR_DAR,GONDAR,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,5,3,GONDAR,METEMA,candidate connectivity; not measured flow,candidate connectivity
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,5,4,METEMA,SUDAN_EXPORT_NW,candidate connectivity; not measured flow,USER-STATED SURPLUS EXPORT TO SUDAN; UNQUANTIFIED
+C_TANA_NW,Lake Tana northwest/Addis/Sudan,6,1,TANA_LAKE,ADDIS,candidate connectivity; not measured flow,USER-STATED HISTORICALLY ONE OF LARGE ADDIS CONTRIBUTORS; CURRENT RANK VS GERD UNCERTAIN; UNQUANTIFIED
+C_GERD_WEST,GERD/Lake Nigat west/Sudan,1,1,GERD_RIVERS,ASOSA,candidate connectivity; not measured flow,candidate connectivity
+C_GERD_WEST,GERD/Lake Nigat west/Sudan,1,2,ASOSA,BAMBASI,candidate connectivity; not measured flow,candidate connectivity
+C_GERD_WEST,GERD/Lake Nigat west/Sudan,1,3,BAMBASI,KURMUK,candidate connectivity; not measured flow,candidate connectivity
+C_GERD_WEST,GERD/Lake Nigat west/Sudan,1,4,KURMUK,SUDAN_EXPORT_WEST,candidate connectivity; not measured flow,USER-STATED SURPLUS EXPORT TO SUDAN; UNQUANTIFIED
+C_GERD_WEST,GERD/Lake Nigat west/Sudan,2,1,GERD_RIVERS,GILGEL_BELES,candidate connectivity; not measured flow,candidate connectivity
+C_GERD_WEST,GERD/Lake Nigat west/Sudan,2,2,GILGEL_BELES,CHAGNI,candidate connectivity; not measured flow,candidate connectivity
+C_GERD_WEST,GERD/Lake Nigat west/Sudan,2,3,CHAGNI,NEKEMTE,candidate connectivity; not measured flow,candidate connectivity
+C_GERD_WEST,GERD/Lake Nigat west/Sudan,2,4,NEKEMTE,ADDIS,candidate connectivity; not measured flow,candidate connectivity
+C_GERD_WEST,GERD/Lake Nigat west/Sudan,3,1,ASOSA,NEKEMTE,candidate connectivity; not measured flow,candidate connectivity
+C_GERD_WEST,GERD/Lake Nigat west/Sudan,3,2,NEKEMTE,ADDIS,candidate connectivity; not measured flow,candidate connectivity
+C_TEKEZE_NORTH,Tekeze-Hashenge northern,1,1,TEKEZE_RES,SHIRE,candidate connectivity; not measured flow,candidate connectivity
+C_TEKEZE_NORTH,Tekeze-Hashenge northern,1,2,SHIRE,AXUM,candidate connectivity; not measured flow,candidate connectivity
+C_TEKEZE_NORTH,Tekeze-Hashenge northern,1,3,AXUM,ADWA,candidate connectivity; not measured flow,candidate connectivity
+C_TEKEZE_NORTH,Tekeze-Hashenge northern,1,4,ADWA,MEKELE,candidate connectivity; not measured flow,candidate connectivity
+C_TEKEZE_NORTH,Tekeze-Hashenge northern,1,5,MEKELE,WUKRO,candidate connectivity; not measured flow,candidate connectivity
+C_TEKEZE_NORTH,Tekeze-Hashenge northern,1,6,WUKRO,ADIGRAT,candidate connectivity; not measured flow,candidate connectivity
+C_TEKEZE_NORTH,Tekeze-Hashenge northern,2,1,HASHENGE_LAKE_CHILD,MAICHEW,candidate connectivity; not measured flow,candidate connectivity
+C_TEKEZE_NORTH,Tekeze-Hashenge northern,2,2,MAICHEW,ALAMATA,candidate connectivity; not measured flow,candidate connectivity
+C_TEKEZE_NORTH,Tekeze-Hashenge northern,2,3,ALAMATA,KOBO,candidate connectivity; not measured flow,candidate connectivity
+C_TEKEZE_NORTH,Tekeze-Hashenge northern,2,4,KOBO,ROBIT_NORTH,candidate connectivity; not measured flow,candidate connectivity
+C_TEKEZE_NORTH,Tekeze-Hashenge northern,2,5,ROBIT_NORTH,WOLDIA,candidate connectivity; not measured flow,candidate connectivity
+C_TEKEZE_NORTH,Tekeze-Hashenge northern,2,6,WOLDIA,MEKELE,candidate connectivity; not measured flow,candidate connectivity
+C_TEKEZE_NORTH,Tekeze-Hashenge northern,3,1,TEKEZE_RES,MEKELE,candidate connectivity; not measured flow,candidate connectivity
+C_TEKEZE_NORTH,Tekeze-Hashenge northern,4,1,TEKEZE_RES,ADDIS,candidate connectivity; not measured flow,candidate connectivity
+C_TEKEZE_NORTH,Tekeze-Hashenge northern,5,1,TEKEZE_RES,KOREM,user-specified candidate connectivity; not measured flow,candidate connectivity
+C_TEKEZE_NORTH,Tekeze-Hashenge northern,5,2,KOREM,SEKOTA,user-specified candidate connectivity; not measured flow,candidate connectivity
+C_TEKEZE_NORTH,Tekeze-Hashenge northern,5,3,SEKOTA,GAYINT,user-specified candidate connectivity; not measured flow,candidate connectivity
+C_HAYQ_AMHARA,Hayq/Hardibo eastern Amhara,1,1,HAYQ_LAKE_CHILD,HAIK_TOWN,candidate connectivity; not measured flow,candidate connectivity
+C_HAYQ_AMHARA,Hayq/Hardibo eastern Amhara,1,2,HAIK_TOWN,DESSIE,candidate connectivity; not measured flow,candidate connectivity
+C_HAYQ_AMHARA,Hayq/Hardibo eastern Amhara,1,3,DESSIE,KOMBOLCHA,candidate connectivity; not measured flow,candidate connectivity
+C_HAYQ_AMHARA,Hayq/Hardibo eastern Amhara,1,4,KOMBOLCHA,KEMISSIE,candidate connectivity; not measured flow,candidate connectivity
+C_HAYQ_AMHARA,Hayq/Hardibo eastern Amhara,1,5,KEMISSIE,ATAYE,candidate connectivity; not measured flow,candidate connectivity
+C_HAYQ_AMHARA,Hayq/Hardibo eastern Amhara,2,1,HARDIBO_LAKE_CHILD,HAIK_TOWN,candidate connectivity; not measured flow,candidate connectivity
+C_HAYQ_AMHARA,Hayq/Hardibo eastern Amhara,2,2,HAIK_TOWN,WOLDIA,candidate connectivity; not measured flow,candidate connectivity
+C_HAYQ_AMHARA,Hayq/Hardibo eastern Amhara,3,1,KUTABER,DESSIE,candidate connectivity; not measured flow,candidate connectivity
+C_SHEWA_REEXPORT,Shewa reservoirs/Addis re-export,1,1,ADDIS_REEXPORT_MIX,SHENO,candidate connectivity; not measured flow,candidate connectivity
+C_SHEWA_REEXPORT,Shewa reservoirs/Addis re-export,1,2,SHENO,DEBRE_BIRHAN,candidate connectivity; not measured flow,candidate connectivity
+C_SHEWA_REEXPORT,Shewa reservoirs/Addis re-export,1,3,DEBRE_BIRHAN,SHEWA_ROBIT,candidate connectivity; not measured flow,candidate connectivity
+C_SHEWA_REEXPORT,Shewa reservoirs/Addis re-export,2,1,SHEWA_SMALL_RES_AGG,DEBRE_BIRHAN,candidate connectivity; not measured flow,candidate connectivity
+C_SHEWA_REEXPORT,Shewa reservoirs/Addis re-export,2,2,DEBRE_BIRHAN,ADDIS,candidate connectivity; not measured flow,candidate connectivity
+C_SOMALI_EAST,Somali riverine/reservoir/import,1,1,SHEBELE_RIVER_FISHERY,GODE,candidate connectivity; not measured flow,candidate connectivity
+C_SOMALI_EAST,Somali riverine/reservoir/import,1,2,GODE,DEGEHABUR,candidate connectivity; not measured flow,candidate connectivity
+C_SOMALI_EAST,Somali riverine/reservoir/import,1,3,DEGEHABUR,JIJIGA,candidate connectivity; not measured flow,candidate connectivity
+C_SOMALI_EAST,Somali riverine/reservoir/import,2,1,SHEBELE_RIVER_FISHERY,GODE,candidate connectivity; not measured flow,candidate connectivity
+C_SOMALI_EAST,Somali riverine/reservoir/import,2,2,GODE,DOLO_ODO,candidate connectivity; not measured flow,candidate connectivity
+C_SOMALI_EAST,Somali riverine/reservoir/import,3,1,SOMALI_IRRIGATION_RES_AGG,GODE,candidate connectivity; not measured flow,candidate connectivity
+C_SOMALI_EAST,Somali riverine/reservoir/import,3,2,GODE,DEGEHABUR,candidate connectivity; not measured flow,candidate connectivity
+C_SOMALI_EAST,Somali riverine/reservoir/import,4,1,IMPORT_SOMALIA,DOLO_ODO,candidate connectivity; not measured flow,candidate connectivity
+C_SOMALI_EAST,Somali riverine/reservoir/import,4,2,DOLO_ODO,GODE,candidate connectivity; not measured flow,candidate connectivity
+C_SOMALI_EAST,Somali riverine/reservoir/import,4,3,GODE,JIJIGA,candidate connectivity; not measured flow,candidate connectivity
+C_EASTERN_AWASH,Eastern/Awash/Melka-Wakena-Adama-Addis,14,1,ABHE_AFAMBO_CLUSTER,ASAYITA,user-specified cluster connectivity; not measured flow,candidate local-market access
+C_GENALE_DAWA,Genale-Dawa reservoir-Negele,1,1,GENALE_DAWA_RES_SYSTEM,NEGELE_BORANA,official master-plan project report identifies project-area catch marketed in Negele; reservoir-specific tonnage unmeasured,reported qualitative market linkage
+C_GENALE_DAWA,Genale-Dawa reservoir-Negele/Goba-Robe,2,1,GENALE_DAWA_RES_SYSTEM,GOBA_BALE,user-specified candidate access to the Bale highland market across/around the Bale Mountains; destination tonnage unmeasured,candidate regional market route
+C_GENALE_DAWA,Genale-Dawa reservoir-Negele/Goba-Robe,2,2,GOBA_BALE,ROBE_BALE,user-specified nearby Bale highland market continuation; destination tonnage unmeasured,candidate local market route

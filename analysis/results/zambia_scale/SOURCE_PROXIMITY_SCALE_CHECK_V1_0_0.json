@@ -1,0 +1,36 @@
+{
+  "approximate_all_household_share_selling_off_farm": 0.194661,
+  "approximate_all_household_share_selling_outside_district": 0.01161,
+  "claim_boundary": "The report demonstrates nonzero movement away from producing farms and districts. It does not report mass by sale location and cannot calibrate a geographic retention fraction.",
+  "decision": {
+    "district_node": "literal 100% retention is contradicted, but retained mass is not identified",
+    "farm_node": "automatic approximately 100% retention is contradicted as a general default",
+    "mass_allocation": "sale-location household shares cannot be applied to mass; use [0,M] outward/retained unresolved bounds unless compatible local mass evidence exists",
+    "required_software_rule": "node scale must be explicit; missing downstream records create an unresolved sink, not a zero-flow assertion"
+  },
+  "evidence_status": "independent_external_published_aggregate_not_blind",
+  "national_household_fish_sold_over_produced": 0.47029657859381996,
+  "off_farm_sale_share_among_selling_households": 0.503,
+  "outside_district_sale_share_among_selling_households": 0.03,
+  "province_ratios_above_1_05": [
+    "Lusaka",
+    "North-western",
+    "Southern"
+  ],
+  "province_sold_over_produced_ratios": {
+    "Central": 0.28456690070210633,
+    "Copperbelt": 0.9998046908315564,
+    "Eastern": 1.0213133720930232,
+    "Luapula": 0.07960672011318085,
+    "Lusaka": 1.614298116438356,
+    "Muchinga": 0.14910099312452255,
+    "North-western": 1.2161277886497066,
+    "Northern": 0.5750196370706416,
+    "Southern": 1.1393044715447156,
+    "Western": 0.765963694267516
+  },
+  "reported_household_share_selling": 0.387,
+  "runner_sha256": "631ef330685a8b18394062b8f0ef55d72b0ad9d6ab4287bcafc64379baf3185f",
+  "source_input_sha256": "395ca5ae32a7290bdba973e62864f4eebedccfb6bcbb4bbb7fd26b2446f42e9e",
+  "version": "1.0.0"
+}

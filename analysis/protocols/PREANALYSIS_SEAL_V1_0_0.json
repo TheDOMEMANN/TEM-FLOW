@@ -1,0 +1,12 @@
+{
+  "seal_version": "1.0.0",
+  "sealed_at_utc": "2026-09-12T14:05:22.9265849Z",
+  "protocol_file": "01_PROTOCOL/VALIDATION_PROTOCOL_V1_0_0.md",
+  "protocol_sha256": "aa8d59273fdb77f845e4bd683c9450d5f6197c7b77636b646b981500a5d8e353",
+  "source_catalogue_url": "https://www.data.gov.uk/dataset/28d5ad2b-bff8-48ef-bb1d-07d86c07c77a/cattle-movements-to-slaughterhouses-during-2010",
+  "source_csv_url": "https://s3-eu-west-1.amazonaws.com/data.defra.gov.uk/AnimalWelfare/cattle-movements-to-slaughterhouses-during-2010.csv",
+  "preseal_access": "Catalogue metadata and four-row public preview inspected; full CSV not downloaded, parsed or scored.",
+  "prior_project_use": "none found",
+  "target_state": "sealed_not_opened",
+  "analysis_rule": "No gate, split, anchor-selection rule or radius rule may be changed after raw acquisition. Any correction must be documented as an amendment and the original result retained."
+}

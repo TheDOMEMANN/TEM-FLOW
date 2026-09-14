@@ -1,0 +1,5609 @@
+{
+  "algorithm": "TEM-FLOW Evidence Bridge through ERR",
+  "episodes": [
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 235.5,
+      "episode_id": "849d4df4eab719ad50f20527",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.5794986684839878,
+            4.630020914118371
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.9368115209647093,
+            4.620684968880893
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.0250254651330246,
+            3.293041613552308
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.152835722507638,
+            3.2695658785420254
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.8816477675491337,
+            2.5083921199313304
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.20254064019221,
+            2.865152952712829
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.505290811966015,
+            2.895250352906768
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.5088950789129334,
+            3.8332537937037903
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.268544425903402,
+            4.797159064526887
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.8012111641585906,
+            5.454929970705205
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 2356,
+      "scale_B_kg": 4.7756977327647405,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 0.0,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart1"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 729.9,
+      "episode_id": "dc9021b93536f72ba16bf2fb",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.883637199121211,
+            1.7043005915334293
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.4024636190393938,
+            2.372462373665944
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.1105525745429943,
+            3.1980206835709657
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.0651449698252824,
+            4.66959023045258
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.323771580606055,
+            5.7416870031677325
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            5.381642229340919,
+            6.235112132983504
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.8865885519837966,
+            6.203831164127397
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.890182316259876,
+            4.5176698901582135
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.277213184025634,
+            5.243353569255835
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.174649391455143,
+            5.709325043016431
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 7299,
+      "scale_B_kg": 4.761781565607184,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart10"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 279.2,
+      "episode_id": "94e8919647b0de7960f4ba80",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.7113696826931544,
+            1.2697372378460878
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.919812480695317,
+            1.831698391812156
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.8460171971033467,
+            1.9054936754041265
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.1664936183532235,
+            1.7721190136377618
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.5815083015964413,
+            1.984145434538851
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.6959564076304936,
+            2.976154083555172
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.147398575034836,
+            3.911738758316682
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.1508950245034497,
+            4.553185579655046
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.6751876391528175,
+            4.571529783083373
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.7794539609307236,
+            5.395174898559781
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 2793,
+      "scale_B_kg": 4.632838256961404,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart11"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 488.9,
+      "episode_id": "6519717f005f2303e9fa667f",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.828967037399477,
+            3.705179698492004
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.9190023457271344,
+            3.6950018694506377
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.1434056501486967,
+            3.962653896222411
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.811019179273186,
+            4.0899172802903685
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.8736896410320876,
+            4.5617878515563905
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.477389770006616,
+            6.176676143402188
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.511591211748318,
+            6.142474701660487
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.291938131553194,
+            5.663298833075571
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.65851132476802,
+            5.454698145392593
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.473545134156241,
+            5.964173931977985
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 4890,
+      "scale_B_kg": 5.206353919278677,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart13"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 411.5,
+      "episode_id": "0f9c3d02ce628d7cf0f76713",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.5754098797196159,
+            2.9374223864567526
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.9272887340248777,
+            3.4306981601670152
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.36234735598999,
+            3.951751857694348
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.839566794179982,
+            4.848382729713061
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.08880351232509,
+            6.209018118873248
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            5.101176980423023,
+            6.386417783044529
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            5.767868315542636,
+            6.682842553638703
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.8805833438313333,
+            6.6797536471126
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.8790071526608365,
+            4.130019911206906
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.5045438675340366,
+            5.305187256762874
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 4116,
+      "scale_B_kg": 4.0928388797733195,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart16"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 322.5,
+      "episode_id": "2dc8b2c36c98347cc00a3267",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.43528119721177155,
+            1.064170845760812
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.8422227699029959,
+            1.471755726779185
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.3850112253810856,
+            2.5295427153293324
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.9330946735202328,
+            2.5115344607639027
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.973020395903083,
+            3.8738307882045366
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.9619723132428584,
+            3.8848788708647617
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.2050563050183407,
+            3.74693791994083
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.504027193194647,
+            3.9618240109397203
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.720956083171132,
+            5.289614181547818
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.7995553677146714,
+            5.760280917945428
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 3226,
+      "scale_B_kg": 4.8097626467025085,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart2"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 482.3,
+      "episode_id": "ee4d4d2a08966f4c639c6ee5",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.1194937031826615,
+            1.8203265969300035
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.58070614522811,
+            2.1123929206244934
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.9375396100398956,
+            2.359676518329918
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.0,
+            2.347153595145229
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.0,
+            1.9091060895088159
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.4119932271698301,
+            0.9342545438151403
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.7820793636789073,
+            1.7972780605372234
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.4061242234644826,
+            2.354941826102463
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.9941727792059907,
+            2.3559229132609674
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.9370647332697741,
+            2.8644497136924394
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 4823,
+      "scale_B_kg": 2.5475537117159384,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 4.440892098500626e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 4.440892098500626e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 4.440892098500626e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart20"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 373.8,
+      "episode_id": "28c40dc7abcb2925c9a001ee",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.5324523898261891,
+            1.3255987971093015
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.30931518160095,
+            2.574980839457513
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.863693259424271,
+            2.8501802449320617
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.476039787359782,
+            3.543316654296303
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.775415608481435,
+            4.136327784856989
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.6349640746657697,
+            4.7382703240356365
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.426834263547683,
+            5.211502586263762
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.942949794212054,
+            6.164920096250838
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            5.539965723733955,
+            6.478359618778026
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.566509730707182,
+            6.988386389396416
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 3739,
+      "scale_B_kg": 5.21198444766725,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart24"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 437.8,
+      "episode_id": "b01691196541214e803e25be",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.5408990588069558,
+            1.4514667524688003
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.4388148161694638,
+            2.0096831431427136
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.9271821362480934,
+            3.5830419202987347
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.736271769744499,
+            3.676117146651487
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.80363904639231,
+            4.042386167289026
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.730619728168761,
+            4.6658805596072686
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.0,
+            4.632897380360932
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.0,
+            4.6915619131965665
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.435639679365833,
+            5.041003131724381
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.296034422321804,
+            5.640596857361637
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 4379,
+      "scale_B_kg": 5.0209025056990555,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart25"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 384.1,
+      "episode_id": "e65b22c912c3753f39638cd1",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.8387209853179225,
+            3.3645011646196235
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.8482966634919951,
+            3.3549254864455507
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.9395092211256293,
+            2.19705503757668
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.661469301181896,
+            2.5528579431175675
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.739117525003957,
+            3.9500105816817532
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.751516529268122,
+            3.9612621055800927
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.964863672811231,
+            3.7877913671632446
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.468497246917066,
+            4.240663709498521
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.9929291281562893,
+            4.861403457480253
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.130048409184771,
+            5.5268196896619095
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 3842,
+      "scale_B_kg": 4.898330418865074,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart26"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 506.1,
+      "episode_id": "b8e2763c82876b124ac4b78b",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.47711456954223547,
+            1.20024113762615
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.182688978964167,
+            2.300481406719038
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.8107746741935893,
+            2.927737889247678
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.6980641284978804,
+            3.6844579282704837
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.2697496033319156,
+            4.665309215027054
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.9739752408238784,
+            5.0548513525739125
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.634029176552919,
+            6.523635734510009
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            5.325331682993708,
+            6.5181377880874205
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            5.823588017026612,
+            6.948275037773519
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            5.620326383482688,
+            8.183805905778557
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 5062,
+      "scale_B_kg": 7.284846170360041,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart38"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 363.3,
+      "episode_id": "8c331c7dacbc4d630a5a0dd5",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.8261743059631192,
+            1.9280695502902956
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.148776138045497,
+            2.048598871007678
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.977418270813231,
+            2.3758620731311546
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.258027772442778,
+            2.810610845868457
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.5515372053203493,
+            3.909978349189618
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.0504208247987203,
+            4.523268843667549
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.387569248633398,
+            4.495241043393025
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.3907892674194855,
+            4.805865339053306
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.591988314584582,
+            5.3119038800742775
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.643079378560494,
+            5.729415097845849
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 3634,
+      "scale_B_kg": 4.266564225861405,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart59"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 333.2,
+      "episode_id": "27b20e86c61a1afe804649e1",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.2854435331694656,
+            2.0592459405534833
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.8702957598850272,
+            2.802570024498541
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.0464240723927394,
+            3.142044617154353
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.9984299307781077,
+            3.7386631718072683
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.5213568368778736,
+            4.2121949187919245
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.886936363381433,
+            4.906668833525146
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.145078974485851,
+            4.872495379908979
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.516760435955943,
+            4.827341507958348
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.514757060324137,
+            5.452564823548315
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.56186697270401,
+            5.961623689923736
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 3333,
+      "scale_B_kg": 5.20209339458573,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart6"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 451.5,
+      "episode_id": "6a59400d3248daecb51616c8",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.4926873746984011,
+            2.436849956990517
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.2432757817761766,
+            2.472720068746441
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.3856610192670433,
+            3.2097141432386938
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.055764208714773,
+            4.458619273643211
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.2172642540995158,
+            4.758467076208685
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.389696483906989,
+            5.395387379845789
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            5.013689918949327,
+            5.927587855937417
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            5.652267979633957,
+            6.171188062516282
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            5.650216787258217,
+            6.97515916705421
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.670566231085653,
+            7.496368294755679
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 4515,
+      "scale_B_kg": 5.326257412465949,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart60"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 257.8,
+      "episode_id": "06ee5dad067bd368757c6c1b",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.5209387706964713,
+            1.0752978265225255
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.0622793358749472,
+            1.6118672417661228
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.2557278817406117,
+            2.1728634965342297
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.028262550913457,
+            2.662135493996801
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.441918148805305,
+            3.32685398279184
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.8852610376077656,
+            4.018414233498713
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.233871871060975,
+            3.9839404676385346
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.6939750625027776,
+            4.442632274662254
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.177710267922153,
+            4.85664670552258
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.077529785510178,
+            5.962883947306169
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 2579,
+      "scale_B_kg": 5.247808772329924,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart62"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 396.1,
+      "episode_id": "ddedd30e4289a56571815c23",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.5632254908528785,
+            1.205766007232579
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.1925790132411176,
+            1.4021091882611951
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.29168010804735,
+            3.000849512472208
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.7383472758523872,
+            3.0979299133307707
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.4398261458354975,
+            4.092632525778068
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.1654516259469787,
+            4.101977423194827
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.680005619585107,
+            4.698661857618943
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.245172943864714,
+            6.193049888335688
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.749408435006807,
+            6.194616623209939
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.566660357411782,
+            5.356488219502053
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 3962,
+      "scale_B_kg": 4.06828405567723,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart63"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 442.6,
+      "episode_id": "1c0244dc9c5a0ca6f77cfc2d",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.26321639101878597,
+            0.9090065612837799
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.6516898790610242,
+            1.3912442950729453
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.3217433624129327,
+            3.330084858699981
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.051764304182175,
+            3.816342747895346
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.0,
+            3.8874079443551905
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.0,
+            0.6424233151789946
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.4130256260715355,
+            1.3064238164897417
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.1131680491035107,
+            2.0396426229828606
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.8485134957204497,
+            3.2544359959579485
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.6860347676927616,
+            4.2983792837720145
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 4426,
+      "scale_B_kg": 3.811534030444258,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 0.0,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart67"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 269.9,
+      "episode_id": "6c88c397959c20dc27822e23",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.4776928260786917,
+            1.2316150622919033
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.0791151545347406,
+            2.326022020234209
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.71890951565724,
+            3.1252693833280136
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.8504809741754902,
+            3.1513779925607097
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.6874252541460404,
+            3.965788080322615
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.3115387382160657,
+            4.431600253774953
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.986540488895734,
+            4.9546323681920565
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.644515050282035,
+            5.35737948593413
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            5.047201704793608,
+            5.894978118908788
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.885397366322712,
+            6.874337349571773
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 2700,
+      "scale_B_kg": 6.120727513583651,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart69"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 361.0,
+      "episode_id": "d483b49339eee8b8080dd664",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.47249509118420097,
+            0.6880340353727329
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.67148187580924,
+            1.2492970482036723
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.165193930712724,
+            1.7892578993102812
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.534044212292453,
+            2.3069789469745285
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.9849091621884214,
+            3.36558887990109
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.9735508471955425,
+            4.370925280961362
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.942037272964562,
+            4.387824400713862
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.4968372903227123,
+            4.684546205607498
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.494932992456354,
+            5.258933788121356
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.317825217116182,
+            5.742816938988872
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 3610,
+      "scale_B_kg": 4.94482172720442,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart70"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 253.9,
+      "episode_id": "c521b31b44bc0e1435b85116",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.3928738609433498,
+            1.828784960901759
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.4021905660277708,
+            1.5922505577403159
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.5133283453391375,
+            2.265266510047616
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.134686203612378,
+            2.751847711809322
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.554186123310277,
+            2.959392874534882
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.661355191770367,
+            3.9468637759521656
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.6711317264805987,
+            4.677271841614045
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.3854747617556935,
+            5.264227412942697
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.967675442135627,
+            5.578865740790384
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.1781312079933475,
+            6.04523589025717
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 2540,
+      "scale_B_kg": 4.765855648969142,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart74"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 229.3,
+      "episode_id": "e80f6506b4160b8a97a0d939",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.23747975590862924,
+            2.617770942861516
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.7000734628366108,
+            2.6090580173366473
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.5851593905403256,
+            2.4161627906216845
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.945513054471284,
+            2.5705478297369995
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.3868599758381466,
+            3.15151461853992
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.871792467852257,
+            3.47429253403641
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.1953388086886934,
+            3.9201102038437363
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.693612191773029,
+            4.350430278389143
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.1268504240160535,
+            4.665009981332455
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.8689411048737323,
+            5.188504894046944
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 2294,
+      "scale_B_kg": 4.45699900935781,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart75"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 384.1,
+      "episode_id": "ae5446858a36700db1b62a8c",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.35924484382712063,
+            3.054928160781418
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.719324879197762,
+            4.649691783873119
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.4537641037692657,
+            4.88408855164079
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.39222047023232,
+            5.659952033912899
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.219788207832833,
+            5.925964907046062
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            5.35130102078342,
+            6.799408883998399
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            6.1698063597708614,
+            7.066678331632562
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            6.176786135766906,
+            7.84510509571286
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            6.907448147364809,
+            8.493492637766792
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            6.905247028336814,
+            10.387132944133855
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 3842,
+      "scale_B_kg": 9.248288456551489,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 1.7763568394002505e-15,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 1.7763568394002505e-15,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 1.7763568394002505e-15,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart77"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 494.2,
+      "episode_id": "55cd591495a3f5a79fb72071",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.43482484707864805,
+            5.344839895259948
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.5695968229792236,
+            8.56882088856268
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.907845198849965,
+            8.662178796997152
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.1066520065298784,
+            3.5599741865010603
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.6826841657979994,
+            3.6692506936132263
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.8482191372473356,
+            3.85757431660068
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.4492934782728644,
+            4.319834901180031
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.01404200809664,
+            5.472208855771593
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.7785786073944685,
+            6.301885254324956
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.884935050684659,
+            6.875419700637829
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-15-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 4943,
+      "scale_B_kg": 5.860971985372014,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 1.7763568394002505e-15,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 1.7763568394002505e-15,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 1.7763568394002505e-15,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-15-24_Cart8"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 583.1,
+      "episode_id": "0537fd16ec06e8ffb0563aef",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.2792015216440415,
+            1.0481150396803145
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.7931230858489893,
+            1.3938743207777256
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.3524121246099334,
+            2.2531431929723604
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.7803154631805123,
+            2.4232799444088213
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.3989685793299045,
+            2.4690712644947714
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.3933271484166707,
+            1.0600222697419985
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.9152892003068143,
+            1.6808000075653329
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.4762471709741398,
+            2.0888391736744976
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.9645881906042209,
+            2.590860421605542
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.9715587410805875,
+            2.8955874051541755
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 5832,
+      "scale_B_kg": 2.4559866643749837,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 4.440892098500626e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 4.440892098500626e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 4.440892098500626e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart1"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 462.6,
+      "episode_id": "f72e1c20cf6d61639b1e16a0",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.9097961345933105,
+            7.075479125306163
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.3689840305487835,
+            1.9261367485482603
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.829642873830417,
+            2.5469278104075137
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.111958304699922,
+            3.49732386611159
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.0069815989774913,
+            3.602300571834021
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.0639369453932237,
+            3.8313346241536514
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.5010865901882626,
+            4.22473791017429
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.937916200017566,
+            5.007654740587733
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.465571285978764,
+            5.009823043847145
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.094223084791178,
+            6.3971781545173965
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 4627,
+      "scale_B_kg": 5.63035502886521,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart11"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 281.4,
+      "episode_id": "4a6982f9f16093f0c5734aaf",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.1207381165535033,
+            2.191756089120459
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.645009613612684,
+            2.0721553990727664
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.9792295743607426,
+            2.832601990764728
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.9886378097329647,
+            3.433972631045114
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.887549768224153,
+            3.6833023454120797
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.14577343921451,
+            4.18041321011376
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.8324995175088086,
+            6.833990548991801
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.243686523281896,
+            6.829898670385142
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.457785379380962,
+            6.445993319264166
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.1752100271282835,
+            6.976550851233031
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 2815,
+      "scale_B_kg": 5.421789138365558,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart13"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 561.5,
+      "episode_id": "083344885102628647ca3606",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.909994516801252,
+            1.3210312691598045
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.0317876534462114,
+            2.0251157672776814
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.944579541520634,
+            2.8613719931678236
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.726672397767322,
+            3.270638539225225
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.647995265002156,
+            4.365839257787333
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.6433873661164733,
+            4.37699511506502
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.030541357209617,
+            4.69705759962913
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.448342223375207,
+            5.319459072442467
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.954803208851276,
+            5.699563554400871
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.258059773825539,
+            6.1748216691423385
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 5615,
+      "scale_B_kg": 4.856682129953414,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart16"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 396.1,
+      "episode_id": "3bdd4f8541213c5c564d63ba",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.6412059248940748,
+            1.4638852971625567
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.7789924040641387,
+            1.723068744077915
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.7866233991121971,
+            1.802620756729009
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.4295914007593178,
+            2.206583523386443
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.6034653338138403,
+            2.856171896561345
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.365343387663178,
+            3.0275513439820085
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.737932121653115,
+            3.568344706157286
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.3154516513240138,
+            4.060611016134351
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.8008100727081935,
+            5.397754208989237
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.6349846684805596,
+            5.88647359328162
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 3962,
+      "scale_B_kg": 4.9942433945516616,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart2"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 670.5,
+      "episode_id": "3f5078c0ee0141f71cf0641d",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.3931525015542642,
+            0.9434855617357634
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.9060583827923391,
+            4.1665756350435705
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.2997321588394246,
+            4.210698339880896
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.8232543213455568,
+            3.4064281998506303
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.0,
+            4.186627433761281
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.0,
+            4.192990170139226
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.814635925577491,
+            1.4373710577403642
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.2963915419205048,
+            1.8764679907384139
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.7109758542093736,
+            2.4211236618030205
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.85293074455332,
+            3.230650514220721
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 6705,
+      "scale_B_kg": 2.7700056835775486,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 0.0,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart20"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 725.1,
+      "episode_id": "3f2cec620ce91700b08e5e26",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.6912833500386691,
+            2.001119459714884
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.968284926797912,
+            3.5079475312254704
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.9864045805685464,
+            4.435901173231434
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.298244360311468,
+            5.3400601407921675
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            5.128697469577489,
+            6.229489201600235
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            5.117633116686747,
+            6.240636004246247
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.846644183048226,
+            6.162957095888193
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.850306594726861,
+            6.383419212150147
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.866403295124152,
+            6.385288048549633
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.250606087838192,
+            5.610431101420756
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 7251,
+      "scale_B_kg": 4.852740212559647,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart24"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 272.5,
+      "episode_id": "63e72855206a018f923ab3e5",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.3710078147750234,
+            1.2770744754955123
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.5888402853173311,
+            1.3926654246202521
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.7842626315435515,
+            1.9396160843380108
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.7941045656093433,
+            3.0090097529035718
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.338662236861987,
+            3.101053306852363
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.750394088962688,
+            3.5715958431878616
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.266943376265607,
+            4.1806566450885425
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.870728749111003,
+            4.6758424048477965
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.8688275812598927,
+            4.833875894372681
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.7523968146410143,
+            5.624465437487822
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 2726,
+      "scale_B_kg": 4.936694129271665,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart32"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 535.3,
+      "episode_id": "08440ce6e5c476d013a5e03c",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.5788527322192716,
+            1.3051473869450951
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.2925288553687595,
+            1.9786894065304017
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.8902700460668438,
+            3.1595587197815065
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.680937510125213,
+            4.500344101077007
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.1911377632352163,
+            4.591101623880443
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.7429725871380857,
+            4.9714512807029125
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.496853623140177,
+            5.476423006257024
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            5.229019303266253,
+            6.087785423615769
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.844149821078754,
+            6.089660028378384
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.2677272926966126,
+            5.571100737123376
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 5354,
+      "scale_B_kg": 4.867718713471609,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart38"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 453.5,
+      "episode_id": "537a20d3579b3760044ead32",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.5480408689060203,
+            1.5796968077945197
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.560824586899596,
+            2.268756885978257
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.1825827262183717,
+            4.0766286646416985
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.993175877077048,
+            4.1569970287761295
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.9429506314086633,
+            4.9199369247326405
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.599834616646138,
+            5.815784618555299
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            5.116457269808343,
+            7.190355372986268
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            5.120299990421723,
+            7.186512652372889
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            5.269595668683219,
+            6.232841758554351
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.8840163395562506,
+            8.900375649220294
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 4535,
+      "scale_B_kg": 5.091651753666808,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 0.0,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart4"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 420.9,
+      "episode_id": "02e32b83d42c8a3b73e9437a",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.0825583112278336,
+            1.7513384401090684
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.7302293565661926,
+            2.0162070292438306
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.7194943513137266,
+            2.458645436660401
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.246705764032172,
+            2.511061058491881
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.285833973617197,
+            3.57075333286755
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.2340728260671265,
+            4.060052152648627
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.7463378392156024,
+            4.726269667217356
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.329461371185926,
+            6.357809751453199
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.332043842575383,
+            6.359820981009603
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.331793504993855,
+            5.944324976240894
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 4210,
+      "scale_B_kg": 5.222487397899636,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart60"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 450.0,
+      "episode_id": "dcc1165df3709786d0782c97",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.2116913137242988,
+            2.187356126028121
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.1709316389366076,
+            3.5975156455324346
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.2146079133523617,
+            4.540425976667492
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.9054686351823227,
+            5.073683422018631
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.095861763942278,
+            7.2833755829138225
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.51483290062242,
+            7.29624637665754
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.6273905179426005,
+            6.5933380950608385
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.631619366951348,
+            3.8774901117970435
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.5806772510974,
+            4.610306930332472
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.7697314064845004,
+            7.678554497945839
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 4501,
+      "scale_B_kg": 5.603276594301359,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart61"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 320.9,
+      "episode_id": "797dfd346f62b6b625987040",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.30940433541101436,
+            1.2597862839338336
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.8986497809177039,
+            1.470300000417361
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.0876949421719908,
+            1.878942923422157
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.1132507482746137,
+            2.394457411104322
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.8093736866633707,
+            3.2387668645612426
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.7974318675990322,
+            3.3999577189954824
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.00170076467901,
+            3.8540764160898937
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.589673243705088,
+            4.2124415267856
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.942997709855517,
+            4.829306202515638
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.050082547492308,
+            5.955022571278269
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 3210,
+      "scale_B_kg": 5.19884916105133,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart62"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 319.5,
+      "episode_id": "ccf8b74ba04c69ad8ce14bd9",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.371064047255079,
+            1.2343154106228214
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.0967717880565053,
+            1.7200945550543
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.6325890182188516,
+            2.3413010188449053
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.200272023181652,
+            3.0277251373573515
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.616788628077958,
+            3.7427726690692857
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.2265657215429657,
+            4.556933251212614
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.9010605542619814,
+            5.845926145502686
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.216930629295189,
+            5.842071044720627
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.921682664568883,
+            5.31528453503116
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.421826008730761,
+            5.890677332022304
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 3196,
+      "scale_B_kg": 5.108055628398651,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 0.0,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart63"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 305.2,
+      "episode_id": "495a2b524253e89e0f253e3c",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.341191602167982,
+            1.9560481496104047
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.64491532418111,
+            2.435297391865394
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.4096519050723906,
+            3.778192665077302
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.030709303269575,
+            3.7984643048475273
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.731529200139239,
+            4.531477141735594
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.403454746532176,
+            5.073744335770422
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.2535689910818899,
+            5.064388000046358
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.254643908717428,
+            1.736691467291052
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.6625045699224161,
+            2.2015859526556083
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.48709058349170953,
+            2.3409609690240583
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 3053,
+      "scale_B_kg": 1.4242789977964656,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart69"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 366.5,
+      "episode_id": "5d0953232aba5c20505ff2a1",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.8243766153687236,
+            1.2316595922161988
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.2121256085598655,
+            1.752747161553061
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.6665326030913405,
+            2.250558869134124
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.105681040231115,
+            2.7744993538165397
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.54925019322733,
+            3.324310112070819
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.9969523436212784,
+            3.9541685920761043
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.6475725762346194,
+            4.298068867221378
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.011979968023335,
+            5.253224170006968
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.817519613929514,
+            5.602634592437467
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.6056084359369835,
+            6.116621417575095
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 3666,
+      "scale_B_kg": 5.252452406910164,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart70"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 962.5,
+      "episode_id": "481ae3c9395539ef92ba0bf9",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.044171504074472116,
+            1.4654470840263083
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.1176754847452859,
+            1.4951498100895677
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.4110878396019186,
+            2.0929077781910825
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.953082652798233,
+            2.5712476543977125
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.360168595298414,
+            3.1320710812716683
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.815468212067317,
+            4.014314286285525
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.9391859573648933,
+            3.9859731205056113
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.723904934636486,
+            4.2196118907319375
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.964032944799796,
+            4.749291589747298
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.99075249349164,
+            5.914486905723447
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 9626,
+      "scale_B_kg": 5.09944437133602,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart73"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 289.4,
+      "episode_id": "a886b8aba59217a80287a46b",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.0,
+            -0.0
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.0,
+            0.055449283921181376
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.01666023751268292,
+            0.34854522196543825
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.290941094938768,
+            1.541304844506489
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.5724966490910762,
+            1.5796618758356873
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.373146883610239,
+            2.0146865038966446
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.887521453783313,
+            2.3367070690144023
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.230992919184851,
+            2.957693260917369
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.8499147468440147,
+            3.491719526272748
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.0,
+            3.6930352464303895
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 2895,
+      "scale_B_kg": 2.057253585454694,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 4.440892098500626e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 4.440892098500626e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 4.440892098500626e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart74"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 223.5,
+      "episode_id": "772a1c273550600fe8620597",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.6538508962110783,
+            1.672992241287232
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.2543512525821785,
+            1.6633866253684721
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.373040604196252,
+            1.813920230436927
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.6676912128126866,
+            2.0342079024866746
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.831568872241182,
+            2.87841183381744
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.572500835735216,
+            3.947025557210774
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.0617189411483183,
+            3.914746972858121
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.544659468080654,
+            4.18249910321506
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.9345321107257916,
+            4.852485883557597
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.9680856648595175,
+            5.595322962362455
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 2235,
+      "scale_B_kg": 4.91364473528304,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 0.0,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart75"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 510.2,
+      "episode_id": "6f1dc2e65c42830c6a2e2f05",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.6894238022042225,
+            2.7497511800868186
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.250605970271411,
+            2.7998932191130455
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.475537430348619,
+            4.4690679309914785
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.0715264398758393,
+            4.97307393014843
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.9670663992287674,
+            5.3377573746733376
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.913347559318556,
+            5.8637487554260606
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            5.480993923459389,
+            6.439890479452052
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.87558874457176,
+            6.435041711154403
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.87311454028168,
+            5.637823974914042
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            4.674686874906388,
+            7.2223069521623335
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 5103,
+      "scale_B_kg": 6.4246772247507735,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart77"
+    },
+    {
+      "all_removal_claims_blocked": true,
+      "duration_seconds": 609.1,
+      "episode_id": "2d76f24d7d02f7068f6b47bd",
+      "hidden_intervals": [
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            0.5499133982415012,
+            1.19937491396208
+          ],
+          "q": 0.05,
+          "rho": 0.002143514998237819
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.186577212687213,
+            2.1309524821567436
+          ],
+          "q": 0.15,
+          "rho": 0.0001886288727136061
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.5863581377808622,
+            2.2011556084012023
+          ],
+          "q": 0.25,
+          "rho": 0.016117370499098657
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            1.72231636063126,
+            2.203660315280692
+          ],
+          "q": 0.35,
+          "rho": 0.011201704490921014
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.009334006432039,
+            3.509353409924464
+          ],
+          "q": 0.45,
+          "rho": 0.029846480030695195
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.3260019931902005,
+            4.068431344507694
+          ],
+          "q": 0.55,
+          "rho": 0.03214349206055058
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            2.354954469236618,
+            4.809789683288735
+          ],
+          "q": 0.65,
+          "rho": 0.02557431864822125
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.6885017763569836,
+            4.80646343164358
+          ],
+          "q": 0.75,
+          "rho": 0.024819608624973635
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.893075251099235,
+            4.549690518792758
+          ],
+          "q": 0.85,
+          "rho": 0.025204718133751608
+        },
+        {
+          "named_report_status": "evidence_resolved_model_claim",
+          "neutral_interval_kg": [
+            3.8584179414778697,
+            4.980976007245079
+          ],
+          "q": 0.95,
+          "rho": 0.12306125929182522
+        }
+      ],
+      "member": "5-25-24_train-ready_all_carts.csv",
+      "operational_projection": {
+        "reason": "a point table is not part of the set-valued ERR result unless explicitly requested",
+        "status": "not_requested"
+      },
+      "rows": 6092,
+      "scale_B_kg": 4.407324061818605,
+      "solver_certificate": {
+        "compactness_check": "all coordinate minima and maxima solved to finite optima",
+        "maximum_constraint_violation": 8.881784197001252e-16,
+        "maximum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "maximum_witness_residuals": {
+          "equality": 8.881784197001252e-16,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 8.881784197001252e-16,
+          "upper_bound": 0.0
+        },
+        "minimum_lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "minimum_witness_residuals": {
+          "equality": 0.0,
+          "inequality": 0.0,
+          "lower_bound": 0.0,
+          "maximum": 0.0,
+          "upper_bound": 0.0
+        },
+        "operational_projection_residuals": null,
+        "resolution_face_objective_residual": 0.0
+      },
+      "unit_id": "5-25-24_Cart8"
+    }
+  ],
+  "implementation_amendment": "nonnegative intersection applied to both interval endpoints",
+  "radii": {
+    "0.05": 0.002143514998237819,
+    "0.15": 0.0001886288727136061,
+    "0.25": 0.016117370499098657,
+    "0.35": 0.011201704490921014,
+    "0.45": 0.029846480030695195,
+    "0.55": 0.03214349206055058,
+    "0.65": 0.02557431864822125,
+    "0.75": 0.024819608624973635,
+    "0.85": 0.025204718133751608,
+    "0.95": 0.12306125929182522
+  },
+  "target_used_for_calibration": false,
+  "truth_access_during_prediction": false,
+  "version": "1.2.1"
+}

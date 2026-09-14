@@ -1,0 +1,2722 @@
+[
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      18.124965593173684
+    ],
+    "source_county": "0"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      5.736030828516378
+    ],
+    "source_county": "0"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      22.110927608037436
+    ],
+    "source_county": "0"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      9.708230112854391
+    ],
+    "source_county": "0"
+  },
+  {
+    "actual_same_county_count": 696.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      358.9261300992282,
+      1357.1985380777146
+    ],
+    "source_county": "AVON"
+  },
+  {
+    "actual_same_county_count": 658.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      325.7023153252481,
+      1208.0634268423396
+    ],
+    "source_county": "AVON"
+  },
+  {
+    "actual_same_county_count": 821.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      374.1764057331863,
+      1423.3865915544072
+    ],
+    "source_county": "AVON"
+  },
+  {
+    "actual_same_county_count": 725.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      367.3682469680265,
+      1343.2265806667422
+    ],
+    "source_county": "AVON"
+  },
+  {
+    "actual_same_county_count": 280.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      115.84507042253522,
+      315.5432424993119
+    ],
+    "source_county": "BEDFORDSHIRE"
+  },
+  {
+    "actual_same_county_count": 262.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      127.24569640062599,
+      348.7162124965593
+    ],
+    "source_county": "BEDFORDSHIRE"
+  },
+  {
+    "actual_same_county_count": 252.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      129.82003129890455,
+      355.17296999724744
+    ],
+    "source_county": "BEDFORDSHIRE"
+  },
+  {
+    "actual_same_county_count": 302.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      127.24569640062599,
+      348.17296999724744
+    ],
+    "source_county": "BEDFORDSHIRE"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      100.83319570602808
+    ],
+    "source_county": "BERKSHIRE"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      126.12469033856317
+    ],
+    "source_county": "BERKSHIRE"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      162.24938067712634
+    ],
+    "source_county": "BERKSHIRE"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      144.23589320121113
+    ],
+    "source_county": "BERKSHIRE"
+  },
+  {
+    "actual_same_county_count": 422.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      966.7080881909321
+    ],
+    "source_county": "BORDERS"
+  },
+  {
+    "actual_same_county_count": 402.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      1256.4280877444987
+    ],
+    "source_county": "BORDERS"
+  },
+  {
+    "actual_same_county_count": 530.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      1449.5687834474384
+    ],
+    "source_county": "BORDERS"
+  },
+  {
+    "actual_same_county_count": 415.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      1631.7788599720877
+    ],
+    "source_county": "BORDERS"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      588.26204238921
+    ],
+    "source_county": "BUCKINGHAMSHIRE"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      546.6094137076796
+    ],
+    "source_county": "BUCKINGHAMSHIRE"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      638.1508395265621
+    ],
+    "source_county": "BUCKINGHAMSHIRE"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      586.8458574181118
+    ],
+    "source_county": "BUCKINGHAMSHIRE"
+  },
+  {
+    "actual_same_county_count": 42.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      260.0860027721488
+    ],
+    "source_county": "CAMBRIDGESHIRE"
+  },
+  {
+    "actual_same_county_count": 38.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      221.62905316497879
+    ],
+    "source_county": "CAMBRIDGESHIRE"
+  },
+  {
+    "actual_same_county_count": 55.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      245.41904369850715
+    ],
+    "source_county": "CAMBRIDGESHIRE"
+  },
+  {
+    "actual_same_county_count": 24.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      180.88990550680745
+    ],
+    "source_county": "CAMBRIDGESHIRE"
+  },
+  {
+    "actual_same_county_count": 865.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      390.03748047891725,
+      1620.9042815345997
+    ],
+    "source_county": "CENTRAL"
+  },
+  {
+    "actual_same_county_count": 673.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      361.2680895366997,
+      1510.8015572590486
+    ],
+    "source_county": "CENTRAL"
+  },
+  {
+    "actual_same_county_count": 746.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      323.77355543987505,
+      1397.3677443293036
+    ],
+    "source_county": "CENTRAL"
+  },
+  {
+    "actual_same_county_count": 728.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      304.9083810515357,
+      1293.3402377248408
+    ],
+    "source_county": "CENTRAL"
+  },
+  {
+    "actual_same_county_count": 1073.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      3306.0045881568317
+    ],
+    "source_county": "CHESHIRE"
+  },
+  {
+    "actual_same_county_count": 1287.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      3370.6269878026724
+    ],
+    "source_county": "CHESHIRE"
+  },
+  {
+    "actual_same_county_count": 1379.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      3497.3827405238285
+    ],
+    "source_county": "CHESHIRE"
+  },
+  {
+    "actual_same_county_count": 934.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      2889.4590035558576
+    ],
+    "source_county": "CHESHIRE"
+  },
+  {
+    "actual_same_county_count": 90.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      3.6903127383676595,
+      353.9928194049267
+    ],
+    "source_county": "CLEVELAND"
+  },
+  {
+    "actual_same_county_count": 101.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      6.692601067887111,
+      325.8402204349831
+    ],
+    "source_county": "CLEVELAND"
+  },
+  {
+    "actual_same_county_count": 121.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      8.318840579710148,
+      331.07046995416925
+    ],
+    "source_county": "CLEVELAND"
+  },
+  {
+    "actual_same_county_count": 75.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      11.44622425629291,
+      286.528179340861
+    ],
+    "source_county": "CLEVELAND"
+  },
+  {
+    "actual_same_county_count": 768.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      1986.1317519123297
+    ],
+    "source_county": "CLWYD"
+  },
+  {
+    "actual_same_county_count": 822.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      2047.6012948698776
+    ],
+    "source_county": "CLWYD"
+  },
+  {
+    "actual_same_county_count": 940.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      2493.0625200534078
+    ],
+    "source_county": "CLWYD"
+  },
+  {
+    "actual_same_county_count": 649.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      1954.9504393828493
+    ],
+    "source_county": "CLWYD"
+  },
+  {
+    "actual_same_county_count": 6637.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      3881.9849817639547,
+      7902.0
+    ],
+    "source_county": "CORNWALL"
+  },
+  {
+    "actual_same_county_count": 6135.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      3540.0490470701234,
+      7129.0
+    ],
+    "source_county": "CORNWALL"
+  },
+  {
+    "actual_same_county_count": 6811.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      3991.3458548463705,
+      8076.0
+    ],
+    "source_county": "CORNWALL"
+  },
+  {
+    "actual_same_county_count": 5328.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      3103.048044315765,
+      6321.0
+    ],
+    "source_county": "CORNWALL"
+  },
+  {
+    "actual_same_county_count": 2530.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      795.5296089194412,
+      5374.492741587148
+    ],
+    "source_county": "CUMBRIA"
+  },
+  {
+    "actual_same_county_count": 2765.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      843.4071718052635,
+      5489.46014477097
+    ],
+    "source_county": "CUMBRIA"
+  },
+  {
+    "actual_same_county_count": 3040.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      956.557259871065,
+      6466.625545476419
+    ],
+    "source_county": "CUMBRIA"
+  },
+  {
+    "actual_same_county_count": 1890.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      676.2498674737941,
+      4665.983452945087
+    ],
+    "source_county": "CUMBRIA"
+  },
+  {
+    "actual_same_county_count": 616.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      1925.5022237167332
+    ],
+    "source_county": "DERBYSHIRE"
+  },
+  {
+    "actual_same_county_count": 525.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      1731.9041209494578
+    ],
+    "source_county": "DERBYSHIRE"
+  },
+  {
+    "actual_same_county_count": 726.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      2284.2995448117763
+    ],
+    "source_county": "DERBYSHIRE"
+  },
+  {
+    "actual_same_county_count": 496.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      1732.5901330941515
+    ],
+    "source_county": "DERBYSHIRE"
+  },
+  {
+    "actual_same_county_count": 3786.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      674.9859214120615,
+      7201.595515605482
+    ],
+    "source_county": "DEVON"
+  },
+  {
+    "actual_same_county_count": 3925.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      623.2192337325771,
+      6665.996694628872
+    ],
+    "source_county": "DEVON"
+  },
+  {
+    "actual_same_county_count": 4636.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      736.2014428801572,
+      7989.003315719916
+    ],
+    "source_county": "DEVON"
+  },
+  {
+    "actual_same_county_count": 2616.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      609.1671219443863,
+      6726.71975154959
+    ],
+    "source_county": "DEVON"
+  },
+  {
+    "actual_same_county_count": 484.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      50.93404161133244,
+      852.8803123088396
+    ],
+    "source_county": "DORSET"
+  },
+  {
+    "actual_same_county_count": 497.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      48.937583001328015,
+      840.6507120500302
+    ],
+    "source_county": "DORSET"
+  },
+  {
+    "actual_same_county_count": 621.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      59.40681717574147,
+      962.7676302599743
+    ],
+    "source_county": "DORSET"
+  },
+  {
+    "actual_same_county_count": 414.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      64.37361664453297,
+      1025.1725466294981
+    ],
+    "source_county": "DORSET"
+  },
+  {
+    "actual_same_county_count": 182.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      2703.261476091703
+    ],
+    "source_county": "DUMFRIES & GALLOWAY"
+  },
+  {
+    "actual_same_county_count": 172.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      2292.134783567943
+    ],
+    "source_county": "DUMFRIES & GALLOWAY"
+  },
+  {
+    "actual_same_county_count": 181.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      2542.646876127607
+    ],
+    "source_county": "DUMFRIES & GALLOWAY"
+  },
+  {
+    "actual_same_county_count": 206.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      1949.9051338209579
+    ],
+    "source_county": "DUMFRIES & GALLOWAY"
+  },
+  {
+    "actual_same_county_count": 1367.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      2.8573402851938714,
+      3274.425549102034
+    ],
+    "source_county": "DURHAM"
+  },
+  {
+    "actual_same_county_count": 1223.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      2.4507402056243732,
+      2845.2458327056606
+    ],
+    "source_county": "DURHAM"
+  },
+  {
+    "actual_same_county_count": 1374.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      2.849383336474312,
+      3295.7212269628812
+    ],
+    "source_county": "DURHAM"
+  },
+  {
+    "actual_same_county_count": 1244.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      2.4212994953620024,
+      2777.1957580405688
+    ],
+    "source_county": "DURHAM"
+  },
+  {
+    "actual_same_county_count": 2888.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      613.1921043355659,
+      7493.787710158593
+    ],
+    "source_county": "DYFED"
+  },
+  {
+    "actual_same_county_count": 2583.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      553.3648454940666,
+      6879.175385580726
+    ],
+    "source_county": "DYFED"
+  },
+  {
+    "actual_same_county_count": 2718.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      626.9926565620963,
+      7827.371845457892
+    ],
+    "source_county": "DYFED"
+  },
+  {
+    "actual_same_county_count": 2243.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      472.1280813065446,
+      5582.588149903705
+    ],
+    "source_county": "DYFED"
+  },
+  {
+    "actual_same_county_count": 155.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      591.9824455784511
+    ],
+    "source_county": "EAST SUSSEX"
+  },
+  {
+    "actual_same_county_count": 127.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      594.2252555394053
+    ],
+    "source_county": "EAST SUSSEX"
+  },
+  {
+    "actual_same_county_count": 197.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      670.8571623140699
+    ],
+    "source_county": "EAST SUSSEX"
+  },
+  {
+    "actual_same_county_count": 111.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      560.2005895134083
+    ],
+    "source_county": "EAST SUSSEX"
+  },
+  {
+    "actual_same_county_count": 597.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      265.28593130687716,
+      1002.7011070110701
+    ],
+    "source_county": "ESSEX"
+  },
+  {
+    "actual_same_county_count": 533.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      231.91086771055808,
+      915.671876130526
+    ],
+    "source_county": "ESSEX"
+  },
+  {
+    "actual_same_county_count": 787.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      318.6275169166121,
+      1229.7696259315535
+    ],
+    "source_county": "ESSEX"
+  },
+  {
+    "actual_same_county_count": 453.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      210.34068522951114,
+      794.0766948845959
+    ],
+    "source_county": "ESSEX"
+  },
+  {
+    "actual_same_county_count": 63.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      356.1078793980308
+    ],
+    "source_county": "FIFE"
+  },
+  {
+    "actual_same_county_count": 52.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      304.4317222870336
+    ],
+    "source_county": "FIFE"
+  },
+  {
+    "actual_same_county_count": 68.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      364.58973306913305
+    ],
+    "source_county": "FIFE"
+  },
+  {
+    "actual_same_county_count": 54.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      366.9643699199576
+    ],
+    "source_county": "FIFE"
+  },
+  {
+    "actual_same_county_count": 701.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      1674.198514851255
+    ],
+    "source_county": "GLOUCESTERSHIRE"
+  },
+  {
+    "actual_same_county_count": 599.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      1522.5968025260884
+    ],
+    "source_county": "GLOUCESTERSHIRE"
+  },
+  {
+    "actual_same_county_count": 780.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      1735.150621407895
+    ],
+    "source_county": "GLOUCESTERSHIRE"
+  },
+  {
+    "actual_same_county_count": 596.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      1716.1167182452014
+    ],
+    "source_county": "GLOUCESTERSHIRE"
+  },
+  {
+    "actual_same_county_count": 9981.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      5696.113274772187,
+      11791.254684833471
+    ],
+    "source_county": "GRAMPIAN"
+  },
+  {
+    "actual_same_county_count": 10572.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      6218.145127657828,
+      12722.050604459124
+    ],
+    "source_county": "GRAMPIAN"
+  },
+  {
+    "actual_same_county_count": 10853.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      6378.234895876092,
+      13132.648231764382
+    ],
+    "source_county": "GRAMPIAN"
+  },
+  {
+    "actual_same_county_count": 10624.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      7215.474553266016,
+      14769.933119185247
+    ],
+    "source_county": "GRAMPIAN"
+  },
+  {
+    "actual_same_county_count": 4.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      12.277731902009357
+    ],
+    "source_county": "GREATER LONDON"
+  },
+  {
+    "actual_same_county_count": 7.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      8.222130470685384
+    ],
+    "source_county": "GREATER LONDON"
+  },
+  {
+    "actual_same_county_count": 2.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      6.486099642169006
+    ],
+    "source_county": "GREATER LONDON"
+  },
+  {
+    "actual_same_county_count": 2.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      14.0
+    ],
+    "source_county": "GREATER LONDON"
+  },
+  {
+    "actual_same_county_count": 578.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      310.7093851132686,
+      743.0638671653633
+    ],
+    "source_county": "GREATER MANCHESTER"
+  },
+  {
+    "actual_same_county_count": 567.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      314.36478964401294,
+      740.2474781820242
+    ],
+    "source_county": "GREATER MANCHESTER"
+  },
+  {
+    "actual_same_county_count": 555.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      339.95262135922326,
+      794.1556726736937
+    ],
+    "source_county": "GREATER MANCHESTER"
+  },
+  {
+    "actual_same_county_count": 454.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      259.5337216828479,
+      570.6229173750426
+    ],
+    "source_county": "GREATER MANCHESTER"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      319.01183594825216
+    ],
+    "source_county": "GWENT"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      348.06688687035506
+    ],
+    "source_county": "GWENT"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      327.8301679053124
+    ],
+    "source_county": "GWENT"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      275.26231764382055
+    ],
+    "source_county": "GWENT"
+  },
+  {
+    "actual_same_county_count": 355.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      1768.5147829889856
+    ],
+    "source_county": "GWYNEDD"
+  },
+  {
+    "actual_same_county_count": 351.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      2098.453095696641
+    ],
+    "source_county": "GWYNEDD"
+  },
+  {
+    "actual_same_county_count": 381.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      2027.1593142216193
+    ],
+    "source_county": "GWYNEDD"
+  },
+  {
+    "actual_same_county_count": 237.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      965.6462292500005
+    ],
+    "source_county": "GWYNEDD"
+  },
+  {
+    "actual_same_county_count": 244.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      601.3586568637593
+    ],
+    "source_county": "HAMPSHIRE"
+  },
+  {
+    "actual_same_county_count": 275.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      650.7208669217277
+    ],
+    "source_county": "HAMPSHIRE"
+  },
+  {
+    "actual_same_county_count": 400.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      854.9021901596609
+    ],
+    "source_county": "HAMPSHIRE"
+  },
+  {
+    "actual_same_county_count": 219.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      758.7677076440234
+    ],
+    "source_county": "HAMPSHIRE"
+  },
+  {
+    "actual_same_county_count": 107.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      1819.2022318830968
+    ],
+    "source_county": "HEREFORD & WORCESTER"
+  },
+  {
+    "actual_same_county_count": 132.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      1771.041283658526
+    ],
+    "source_county": "HEREFORD & WORCESTER"
+  },
+  {
+    "actual_same_county_count": 161.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      2146.1258675278505
+    ],
+    "source_county": "HEREFORD & WORCESTER"
+  },
+  {
+    "actual_same_county_count": 134.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      1834.0358974271994
+    ],
+    "source_county": "HEREFORD & WORCESTER"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      78.66584090283513
+    ],
+    "source_county": "HERTFORDSHIRE"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      86.69364161849711
+    ],
+    "source_county": "HERTFORDSHIRE"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      85.54115056427196
+    ],
+    "source_county": "HERTFORDSHIRE"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      86.09688962290119
+    ],
+    "source_county": "HERTFORDSHIRE"
+  },
+  {
+    "actual_same_county_count": 691.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      198.81890737567846,
+      946.3311180032491
+    ],
+    "source_county": "HIGHLAND"
+  },
+  {
+    "actual_same_county_count": 734.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      222.76697299005815,
+      1165.0329345739183
+    ],
+    "source_county": "HIGHLAND"
+  },
+  {
+    "actual_same_county_count": 991.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      297.5183703056141,
+      1527.773740954069
+    ],
+    "source_county": "HIGHLAND"
+  },
+  {
+    "actual_same_county_count": 729.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      220.0816715371734,
+      1119.6374243095556
+    ],
+    "source_county": "HIGHLAND"
+  },
+  {
+    "actual_same_county_count": 451.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      91.821735546921,
+      884.027630470058
+    ],
+    "source_county": "HUMBERSIDE"
+  },
+  {
+    "actual_same_county_count": 439.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      105.18662427881786,
+      885.5117793211414
+    ],
+    "source_county": "HUMBERSIDE"
+  },
+  {
+    "actual_same_county_count": 557.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      110.75532791710822,
+      1043.4725059301786
+    ],
+    "source_county": "HUMBERSIDE"
+  },
+  {
+    "actual_same_county_count": 414.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      95.286706699635,
+      843.9081531577658
+    ],
+    "source_county": "HUMBERSIDE"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      27.555463804018714
+    ],
+    "source_county": "ISLE OF WIGHT"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      36.6804293971924
+    ],
+    "source_county": "ISLE OF WIGHT"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      63.40269749518305
+    ],
+    "source_county": "ISLE OF WIGHT"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      53.097164877511695
+    ],
+    "source_county": "ISLE OF WIGHT"
+  },
+  {
+    "actual_same_county_count": 374.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      667.0746716504796
+    ],
+    "source_county": "KENT"
+  },
+  {
+    "actual_same_county_count": 401.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      705.9388459644463
+    ],
+    "source_county": "KENT"
+  },
+  {
+    "actual_same_county_count": 551.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      1012.6517359570955
+    ],
+    "source_county": "KENT"
+  },
+  {
+    "actual_same_county_count": 265.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      605.0339927043198
+    ],
+    "source_county": "KENT"
+  },
+  {
+    "actual_same_county_count": 3057.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      1437.288897705482,
+      4960.703023563443
+    ],
+    "source_county": "LANCASHIRE"
+  },
+  {
+    "actual_same_county_count": 2913.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      1333.9363882827483,
+      4556.905616673737
+    ],
+    "source_county": "LANCASHIRE"
+  },
+  {
+    "actual_same_county_count": 3444.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      1555.4552668121407,
+      5258.095072051299
+    ],
+    "source_county": "LANCASHIRE"
+  },
+  {
+    "actual_same_county_count": 2837.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      1314.9884282219139,
+      4453.152289195239
+    ],
+    "source_county": "LANCASHIRE"
+  },
+  {
+    "actual_same_county_count": 95.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      934.4537080292649
+    ],
+    "source_county": "LEICESTERSHIRE"
+  },
+  {
+    "actual_same_county_count": 94.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      791.8134759222555
+    ],
+    "source_county": "LEICESTERSHIRE"
+  },
+  {
+    "actual_same_county_count": 137.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      983.8486411202808
+    ],
+    "source_county": "LEICESTERSHIRE"
+  },
+  {
+    "actual_same_county_count": 90.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      950.4157033832117
+    ],
+    "source_county": "LEICESTERSHIRE"
+  },
+  {
+    "actual_same_county_count": 1335.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      560.0572609208973,
+      2545.994243806537
+    ],
+    "source_county": "LINCOLNSHIRE"
+  },
+  {
+    "actual_same_county_count": 1320.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      474.71015348288074,
+      2024.3780668910183
+    ],
+    "source_county": "LINCOLNSHIRE"
+  },
+  {
+    "actual_same_county_count": 1459.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      490.0832349468713,
+      2254.2802200993137
+    ],
+    "source_county": "LINCOLNSHIRE"
+  },
+  {
+    "actual_same_county_count": 1506.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      478.6859504132231,
+      2252.0700601264725
+    ],
+    "source_county": "LINCOLNSHIRE"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      256.44260941370766
+    ],
+    "source_county": "LOTHIAN"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      211.7627305257363
+    ],
+    "source_county": "LOTHIAN"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      259.3872832369942
+    ],
+    "source_county": "LOTHIAN"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      364.7891549683457
+    ],
+    "source_county": "LOTHIAN"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      47.50277933262765
+    ],
+    "source_county": "MERSEYSIDE"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      79.67139494972446
+    ],
+    "source_county": "MERSEYSIDE"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      77.00956833057155
+    ],
+    "source_county": "MERSEYSIDE"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      79.74713060923636
+    ],
+    "source_county": "MERSEYSIDE"
+  },
+  {
+    "actual_same_county_count": 71.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      41.317796610169495,
+      164.59497800295782
+    ],
+    "source_county": "MID GLAMORGAN"
+  },
+  {
+    "actual_same_county_count": 132.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      57.90112994350284,
+      210.3035521840754
+    ],
+    "source_county": "MID GLAMORGAN"
+  },
+  {
+    "actual_same_county_count": 124.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      55.37146892655368,
+      195.45459581892914
+    ],
+    "source_county": "MID GLAMORGAN"
+  },
+  {
+    "actual_same_county_count": 69.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      47.22033898305086,
+      176.23382645896606
+    ],
+    "source_county": "MID GLAMORGAN"
+  },
+  {
+    "actual_same_county_count": 927.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      519.8358139337658,
+      1947.7393115913087
+    ],
+    "source_county": "NORFOLK"
+  },
+  {
+    "actual_same_county_count": 859.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      444.93075520502055,
+      1652.4291078666893
+    ],
+    "source_county": "NORFOLK"
+  },
+  {
+    "actual_same_county_count": 920.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      476.1632531908578,
+      1793.467911634642
+    ],
+    "source_county": "NORFOLK"
+  },
+  {
+    "actual_same_county_count": 800.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      458.95891108001524,
+      1708.377828426362
+    ],
+    "source_county": "NORFOLK"
+  },
+  {
+    "actual_same_county_count": 2289.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      8725.112409597099
+    ],
+    "source_county": "NORTH YORKSHIRE"
+  },
+  {
+    "actual_same_county_count": 2034.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      8170.598359372578
+    ],
+    "source_county": "NORTH YORKSHIRE"
+  },
+  {
+    "actual_same_county_count": 2334.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      9017.191579910988
+    ],
+    "source_county": "NORTH YORKSHIRE"
+  },
+  {
+    "actual_same_county_count": 1972.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      7768.467936841953
+    ],
+    "source_county": "NORTH YORKSHIRE"
+  },
+  {
+    "actual_same_county_count": 1.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      584.0143258968033
+    ],
+    "source_county": "NORTHAMPTONSHIRE"
+  },
+  {
+    "actual_same_county_count": 2.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      614.1823510875466
+    ],
+    "source_county": "NORTHAMPTONSHIRE"
+  },
+  {
+    "actual_same_county_count": 5.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      609.238792103626
+    ],
+    "source_county": "NORTHAMPTONSHIRE"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      520.5938893185498
+    ],
+    "source_county": "NORTHAMPTONSHIRE"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      848.300027525461
+    ],
+    "source_county": "NORTHUMBERLAND"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      1015.9936691439582
+    ],
+    "source_county": "NORTHUMBERLAND"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      1093.6036333608588
+    ],
+    "source_county": "NORTHUMBERLAND"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      1072.5359207266722
+    ],
+    "source_county": "NORTHUMBERLAND"
+  },
+  {
+    "actual_same_county_count": 327.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      1430.2494918680084
+    ],
+    "source_county": "NOTTINGHAMSHIRE"
+  },
+  {
+    "actual_same_county_count": 277.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      1100.847081962166
+    ],
+    "source_county": "NOTTINGHAMSHIRE"
+  },
+  {
+    "actual_same_county_count": 298.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      1308.8552574533344
+    ],
+    "source_county": "NOTTINGHAMSHIRE"
+  },
+  {
+    "actual_same_county_count": 300.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      1267.9881674923458
+    ],
+    "source_county": "NOTTINGHAMSHIRE"
+  },
+  {
+    "actual_same_county_count": 449.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      291.34446795513367,
+      663.0
+    ],
+    "source_county": "ORKNEY"
+  },
+  {
+    "actual_same_county_count": 538.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      320.711768271848,
+      715.0
+    ],
+    "source_county": "ORKNEY"
+  },
+  {
+    "actual_same_county_count": 626.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      351.9129039344548,
+      780.0
+    ],
+    "source_county": "ORKNEY"
+  },
+  {
+    "actual_same_county_count": 358.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      215.9816742421425,
+      481.0
+    ],
+    "source_county": "ORKNEY"
+  },
+  {
+    "actual_same_county_count": 148.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      535.309665169095
+    ],
+    "source_county": "OXFORDSHIRE"
+  },
+  {
+    "actual_same_county_count": 106.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      525.5120715475374
+    ],
+    "source_county": "OXFORDSHIRE"
+  },
+  {
+    "actual_same_county_count": 162.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      643.7691929441512
+    ],
+    "source_county": "OXFORDSHIRE"
+  },
+  {
+    "actual_same_county_count": 163.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      614.9676869748585
+    ],
+    "source_county": "OXFORDSHIRE"
+  },
+  {
+    "actual_same_county_count": 246.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      1086.436844931706
+    ],
+    "source_county": "POWYS"
+  },
+  {
+    "actual_same_county_count": 233.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      1220.0247332528986
+    ],
+    "source_county": "POWYS"
+  },
+  {
+    "actual_same_county_count": 297.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      1420.244394364499
+    ],
+    "source_county": "POWYS"
+  },
+  {
+    "actual_same_county_count": 260.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      1200.3290252417203
+    ],
+    "source_county": "POWYS"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      0.0
+    ],
+    "source_county": "SCILLY ISLES"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      0.0
+    ],
+    "source_county": "SCILLY ISLES"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      0.0
+    ],
+    "source_county": "SCILLY ISLES"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      0.0
+    ],
+    "source_county": "SCILLY ISLES"
+  },
+  {
+    "actual_same_county_count": 10.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      5.8558558558558556,
+      10.486099642169007
+    ],
+    "source_county": "SHETLAND"
+  },
+  {
+    "actual_same_county_count": 15.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      8.783783783783784,
+      17.91659785301404
+    ],
+    "source_county": "SHETLAND"
+  },
+  {
+    "actual_same_county_count": 31.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      18.153153153153152,
+      35.86099642169006
+    ],
+    "source_county": "SHETLAND"
+  },
+  {
+    "actual_same_county_count": 11.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      6.441441441441442,
+      11.486099642169007
+    ],
+    "source_county": "SHETLAND"
+  },
+  {
+    "actual_same_county_count": 3079.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      240.77628647652614,
+      7247.514410354765
+    ],
+    "source_county": "SHROPSHIRE"
+  },
+  {
+    "actual_same_county_count": 2921.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      213.84031464011696,
+      6332.721152118899
+    ],
+    "source_county": "SHROPSHIRE"
+  },
+  {
+    "actual_same_county_count": 3461.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      267.02581662495345,
+      8021.614685946973
+    ],
+    "source_county": "SHROPSHIRE"
+  },
+  {
+    "actual_same_county_count": 3175.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      218.86506779614436,
+      6454.250564341257
+    ],
+    "source_county": "SHROPSHIRE"
+  },
+  {
+    "actual_same_county_count": 2528.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      493.64717203036463,
+      4023.7343101825436
+    ],
+    "source_county": "SOMERSET"
+  },
+  {
+    "actual_same_county_count": 2848.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      524.4677999928722,
+      4267.168334887932
+    ],
+    "source_county": "SOMERSET"
+  },
+  {
+    "actual_same_county_count": 2994.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      583.5234327666703,
+      4824.856726223042
+    ],
+    "source_county": "SOMERSET"
+  },
+  {
+    "actual_same_county_count": 2125.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      458.9998218040558,
+      3735.535711457771
+    ],
+    "source_county": "SOMERSET"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      62.18029176988715
+    ],
+    "source_county": "SOUTH GLAMORGAN"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      70.91632259840353
+    ],
+    "source_county": "SOUTH GLAMORGAN"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      82.51362510322048
+    ],
+    "source_county": "SOUTH GLAMORGAN"
+  },
+  {
+    "actual_same_county_count": 0.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      58.26369391687311
+    ],
+    "source_county": "SOUTH GLAMORGAN"
+  },
+  {
+    "actual_same_county_count": 734.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      476.77700077700075,
+      1193.792348042026
+    ],
+    "source_county": "SOUTH YORKSHIRE"
+  },
+  {
+    "actual_same_county_count": 739.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      532.2678062678062,
+      1297.7556430200118
+    ],
+    "source_county": "SOUTH YORKSHIRE"
+  },
+  {
+    "actual_same_county_count": 881.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      549.1370111370111,
+      1350.3644659519662
+    ],
+    "source_county": "SOUTH YORKSHIRE"
+  },
+  {
+    "actual_same_county_count": 574.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      489.2069412069412,
+      1180.3032909152757
+    ],
+    "source_county": "SOUTH YORKSHIRE"
+  },
+  {
+    "actual_same_county_count": 2199.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      643.3266917005135,
+      4068.2720518303936
+    ],
+    "source_county": "STAFFORDSHIRE"
+  },
+  {
+    "actual_same_county_count": 2329.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      670.4640713209186,
+      3855.2083406690535
+    ],
+    "source_county": "STAFFORDSHIRE"
+  },
+  {
+    "actual_same_county_count": 2424.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      767.4375047896391,
+      4650.249153232637
+    ],
+    "source_county": "STAFFORDSHIRE"
+  },
+  {
+    "actual_same_county_count": 1827.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      657.5595831098169,
+      3761.5320518585313
+    ],
+    "source_county": "STAFFORDSHIRE"
+  },
+  {
+    "actual_same_county_count": 4233.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      2030.7580075055055,
+      6043.058892519059
+    ],
+    "source_county": "STRATHCLYDE"
+  },
+  {
+    "actual_same_county_count": 3951.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      1974.039383758274,
+      6040.385105135294
+    ],
+    "source_county": "STRATHCLYDE"
+  },
+  {
+    "actual_same_county_count": 4552.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      2477.193032512701,
+      7756.093311312965
+    ],
+    "source_county": "STRATHCLYDE"
+  },
+  {
+    "actual_same_county_count": 3912.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      2052.6004925089974,
+      6050.288071901291
+    ],
+    "source_county": "STRATHCLYDE"
+  },
+  {
+    "actual_same_county_count": 265.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      336.4290768961289
+    ],
+    "source_county": "SUFFOLK"
+  },
+  {
+    "actual_same_county_count": 245.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      276.68128018417036
+    ],
+    "source_county": "SUFFOLK"
+  },
+  {
+    "actual_same_county_count": 334.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      445.0251282436254
+    ],
+    "source_county": "SUFFOLK"
+  },
+  {
+    "actual_same_county_count": 227.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      382.3527562995771
+    ],
+    "source_county": "SUFFOLK"
+  },
+  {
+    "actual_same_county_count": 199.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      133.5052111903456,
+      292.67808200113194
+    ],
+    "source_county": "SURREY"
+  },
+  {
+    "actual_same_county_count": 148.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      117.46388736514902,
+      242.76276454596908
+    ],
+    "source_county": "SURREY"
+  },
+  {
+    "actual_same_county_count": 235.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      168.17516913512526,
+      358.10180554653505
+    ],
+    "source_county": "SURREY"
+  },
+  {
+    "actual_same_county_count": 447.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      253.55640884988114,
+      515.2204232735505
+    ],
+    "source_county": "SURREY"
+  },
+  {
+    "actual_same_county_count": 1050.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      337.97518505035805,
+      1984.4509768453288
+    ],
+    "source_county": "TAYSIDE"
+  },
+  {
+    "actual_same_county_count": 935.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      264.07168426161877,
+      1553.295277005833
+    ],
+    "source_county": "TAYSIDE"
+  },
+  {
+    "actual_same_county_count": 1275.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      360.67955951947584,
+      2110.0590915654034
+    ],
+    "source_county": "TAYSIDE"
+  },
+  {
+    "actual_same_county_count": 941.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      353.3653986166728,
+      2102.8785929212117
+    ],
+    "source_county": "TAYSIDE"
+  },
+  {
+    "actual_same_county_count": 88.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      19.516587677725123,
+      131.81077690802633
+    ],
+    "source_county": "TYNE & WEAR"
+  },
+  {
+    "actual_same_county_count": 54.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      15.805687203791473,
+      111.61080693954705
+    ],
+    "source_county": "TYNE & WEAR"
+  },
+  {
+    "actual_same_county_count": 79.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      14.431279620853084,
+      111.12438521721393
+    ],
+    "source_county": "TYNE & WEAR"
+  },
+  {
+    "actual_same_county_count": 61.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      18.82938388625593,
+      131.81938779776883
+    ],
+    "source_county": "TYNE & WEAR"
+  },
+  {
+    "actual_same_county_count": 69.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      622.2727243854412
+    ],
+    "source_county": "WARWICKSHIRE"
+  },
+  {
+    "actual_same_county_count": 67.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      427.955500857524
+    ],
+    "source_county": "WARWICKSHIRE"
+  },
+  {
+    "actual_same_county_count": 134.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      769.5509379830189
+    ],
+    "source_county": "WARWICKSHIRE"
+  },
+  {
+    "actual_same_county_count": 54.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      570.9485072730738
+    ],
+    "source_county": "WARWICKSHIRE"
+  },
+  {
+    "actual_same_county_count": 43.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      118.80478759016873
+    ],
+    "source_county": "WEST GLAMORGAN"
+  },
+  {
+    "actual_same_county_count": 27.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      109.24057214675163
+    ],
+    "source_county": "WEST GLAMORGAN"
+  },
+  {
+    "actual_same_county_count": 57.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      171.7690450260782
+    ],
+    "source_county": "WEST GLAMORGAN"
+  },
+  {
+    "actual_same_county_count": 16.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      89.48229624158351
+    ],
+    "source_county": "WEST GLAMORGAN"
+  },
+  {
+    "actual_same_county_count": 1.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      35.702713224017934
+    ],
+    "source_county": "WEST MIDLANDS"
+  },
+  {
+    "actual_same_county_count": 2.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      22.053873225590817
+    ],
+    "source_county": "WEST MIDLANDS"
+  },
+  {
+    "actual_same_county_count": 2.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      52.69089890291377
+    ],
+    "source_county": "WEST MIDLANDS"
+  },
+  {
+    "actual_same_county_count": 1.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      44.224548779049194
+    ],
+    "source_county": "WEST MIDLANDS"
+  },
+  {
+    "actual_same_county_count": 64.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      272.4593436428696
+    ],
+    "source_county": "WEST SUSSEX"
+  },
+  {
+    "actual_same_county_count": 41.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      252.91983522258087
+    ],
+    "source_county": "WEST SUSSEX"
+  },
+  {
+    "actual_same_county_count": 74.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      363.2845851162325
+    ],
+    "source_county": "WEST SUSSEX"
+  },
+  {
+    "actual_same_county_count": 18.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      299.78256449715985
+    ],
+    "source_county": "WEST SUSSEX"
+  },
+  {
+    "actual_same_county_count": 1194.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      284.29471139317025,
+      1800.8520054984651
+    ],
+    "source_county": "WEST YORKSHIRE"
+  },
+  {
+    "actual_same_county_count": 1095.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      279.30371713508623,
+      1749.57867492465
+    ],
+    "source_county": "WEST YORKSHIRE"
+  },
+  {
+    "actual_same_county_count": 1105.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      301.5712299788457,
+      1894.4123382617395
+    ],
+    "source_county": "WEST YORKSHIRE"
+  },
+  {
+    "actual_same_county_count": 915.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      262.0271985494108,
+      1584.5504910485806
+    ],
+    "source_county": "WEST YORKSHIRE"
+  },
+  {
+    "actual_same_county_count": 6.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      4.0,
+      6.0
+    ],
+    "source_county": "WESTERN ISLES"
+  },
+  {
+    "actual_same_county_count": 7.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      4.666666666666667,
+      10.0
+    ],
+    "source_county": "WESTERN ISLES"
+  },
+  {
+    "actual_same_county_count": 7.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      40.66666666666667,
+      76.0
+    ],
+    "source_county": "WESTERN ISLES"
+  },
+  {
+    "actual_same_county_count": 3.0,
+    "identity_status": "partly_unresolved_identity",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      27.333333333333336,
+      43.0
+    ],
+    "source_county": "WESTERN ISLES"
+  },
+  {
+    "actual_same_county_count": 337.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-09",
+    "neutral_interval_count": [
+      0.0,
+      952.7775711079095
+    ],
+    "source_county": "WILTSHIRE"
+  },
+  {
+    "actual_same_county_count": 348.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-10",
+    "neutral_interval_count": [
+      0.0,
+      1124.9702746048083
+    ],
+    "source_county": "WILTSHIRE"
+  },
+  {
+    "actual_same_county_count": 450.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-11",
+    "neutral_interval_count": [
+      0.0,
+      1566.0286147179813
+    ],
+    "source_county": "WILTSHIRE"
+  },
+  {
+    "actual_same_county_count": 285.0,
+    "identity_status": "named_fitted_destination",
+    "month": "2010-12",
+    "neutral_interval_count": [
+      0.0,
+      1225.3153625977802
+    ],
+    "source_county": "WILTSHIRE"
+  }
+]

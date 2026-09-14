@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use TEM-FLOW, please cite the archived software and the accompanying article."
+title: "TEM-FLOW: evidence-conditioned mass-flow reconstruction"
+type: software
+version: 1.0.0
+date-released: 2026-09-12
+authors:
+  - family-names: Zeleke
+    given-names: Kibru Teshome
+    email: kibrutz2000@gmail.com
+repository-code: "https://github.com/TheDOMEMANN/TEM-FLOW"
+license: "BSD-3-Clause"

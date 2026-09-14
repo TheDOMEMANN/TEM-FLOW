@@ -1,0 +1,499 @@
+{
+  "acquisition_not_truncated_gate_7": true,
+  "analysis_id": "TEMFLOW-AGRICULTURAL-CROSSCOMMODITY-2024-HOLDOUT-V1.0.0",
+  "claim_boundary": "External administrative cross-commodity holdout; not independently weighed destination receipt, consumption, processing, exposure or a unique cell reconstruction.",
+  "commodity_metrics": {
+    "cocoa_beans": {
+      "candidate_cell_count": 148,
+      "certified_positive_cell_count": 69,
+      "certified_positive_mass_kg": 1601705329.517,
+      "fraction_positive_certified_narrowed_20pct": 0.9565217391304348,
+      "median_normalized_interval_width": 0.06668248704249445,
+      "point_errors": {
+        "historical_route_share_point_kg": {
+          "cell_count": 148,
+          "mae_kg": 4434381.083618242,
+          "rmse_kg": 13036749.777618295,
+          "sum_absolute_error_over_eligible_truth_mass": 0.40241387385799066
+        },
+        "independent_margins_point_kg": {
+          "cell_count": 148,
+          "mae_kg": 3818750.830176254,
+          "rmse_kg": 8931146.10007962,
+          "sum_absolute_error_over_eligible_truth_mass": 0.34654629042746943
+        },
+        "tem_midpoint_kg": {
+          "cell_count": 99,
+          "mae_kg": 12125167.869959595,
+          "rmse_kg": 22360318.463832308,
+          "sum_absolute_error_over_eligible_truth_mass": 0.7494459792351333
+        }
+      },
+      "point_errors_on_common_certified_candidates": {
+        "historical_route_share_point_kg": {
+          "cell_count": 99,
+          "mae_kg": 6334490.609853534,
+          "rmse_kg": 15732118.853983046,
+          "sum_absolute_error_over_common_truth_mass": 0.3915293024370522
+        },
+        "independent_margins_point_kg": {
+          "cell_count": 99,
+          "mae_kg": 5519500.595225551,
+          "rmse_kg": 10899460.276497835,
+          "sum_absolute_error_over_common_truth_mass": 0.3411554852552733
+        },
+        "tem_midpoint_kg": {
+          "cell_count": 99,
+          "mae_kg": 12125167.869959595,
+          "rmse_kg": 22360318.463832308,
+          "sum_absolute_error_over_common_truth_mass": 0.7494459792351333
+        }
+      },
+      "positive_certified_interval_coverage": 1.0,
+      "positive_mass_certificate_coverage": 0.982111593106236,
+      "positive_route_certificate_coverage": 0.8734177215189873,
+      "positive_truth_cell_count": 79,
+      "positive_truth_mass_kg": 1630879159.517
+    },
+    "coconut": {
+      "candidate_cell_count": 230,
+      "certified_positive_cell_count": 57,
+      "certified_positive_mass_kg": 63160728.7,
+      "fraction_positive_certified_narrowed_20pct": 0.9122807017543859,
+      "median_normalized_interval_width": 0.021409213519249796,
+      "point_errors": {
+        "historical_route_share_point_kg": {
+          "cell_count": 230,
+          "mae_kg": 98947.5412523204,
+          "rmse_kg": 440987.0371232516,
+          "sum_absolute_error_over_eligible_truth_mass": 0.35995895891763624
+        },
+        "independent_margins_point_kg": {
+          "cell_count": 230,
+          "mae_kg": 229325.48590329668,
+          "rmse_kg": 1044299.2435386819,
+          "sum_absolute_error_over_eligible_truth_mass": 0.834257851324789
+        },
+        "tem_midpoint_kg": {
+          "cell_count": 86,
+          "mae_kg": 516489.4248255814,
+          "rmse_kg": 1392815.3706452735,
+          "sum_absolute_error_over_eligible_truth_mass": 0.7032548776626131
+        }
+      },
+      "point_errors_on_common_certified_candidates": {
+        "historical_route_share_point_kg": {
+          "cell_count": 86,
+          "mae_kg": 263895.00939574064,
+          "rmse_kg": 721153.4220795555,
+          "sum_absolute_error_over_common_truth_mass": 0.359320914675161
+        },
+        "independent_margins_point_kg": {
+          "cell_count": 86,
+          "mae_kg": 520071.45326575567,
+          "rmse_kg": 1670447.3294019403,
+          "sum_absolute_error_over_common_truth_mass": 0.7081321875384725
+        },
+        "tem_midpoint_kg": {
+          "cell_count": 86,
+          "mae_kg": 516489.4248255814,
+          "rmse_kg": 1392815.3706452735,
+          "sum_absolute_error_over_common_truth_mass": 0.7032548776626131
+        }
+      },
+      "positive_certified_interval_coverage": 1.0,
+      "positive_mass_certificate_coverage": 0.9990041125782158,
+      "positive_route_certificate_coverage": 0.8507462686567164,
+      "positive_truth_cell_count": 67,
+      "positive_truth_mass_kg": 63223692.38
+    },
+    "coffee": {
+      "candidate_cell_count": 485,
+      "certified_positive_cell_count": 185,
+      "certified_positive_mass_kg": 525041227.67,
+      "fraction_positive_certified_narrowed_20pct": 0.9783783783783784,
+      "median_normalized_interval_width": 0.01264761066779925,
+      "point_errors": {
+        "historical_route_share_point_kg": {
+          "cell_count": 485,
+          "mae_kg": 295647.22534076974,
+          "rmse_kg": 1375602.870149781,
+          "sum_absolute_error_over_eligible_truth_mass": 0.27227293701459204
+        },
+        "independent_margins_point_kg": {
+          "cell_count": 485,
+          "mae_kg": 418465.57438871433,
+          "rmse_kg": 1488889.7939861706,
+          "sum_absolute_error_over_eligible_truth_mass": 0.3853810934534808
+        },
+        "tem_midpoint_kg": {
+          "cell_count": 344,
+          "mae_kg": 1388680.058619186,
+          "rmse_kg": 4512215.241351035,
+          "sum_absolute_error_over_eligible_truth_mass": 0.909844627411333
+        }
+      },
+      "point_errors_on_common_certified_candidates": {
+        "historical_route_share_point_kg": {
+          "cell_count": 344,
+          "mae_kg": 412190.38811125973,
+          "rmse_kg": 1633157.1707538387,
+          "sum_absolute_error_over_common_truth_mass": 0.27006163713946224
+        },
+        "independent_margins_point_kg": {
+          "cell_count": 344,
+          "mae_kg": 569500.7037721281,
+          "rmse_kg": 1762741.495489421,
+          "sum_absolute_error_over_common_truth_mass": 0.3731292549482318
+        },
+        "tem_midpoint_kg": {
+          "cell_count": 344,
+          "mae_kg": 1388680.058619186,
+          "rmse_kg": 4512215.241351035,
+          "sum_absolute_error_over_common_truth_mass": 0.909844627411333
+        }
+      },
+      "positive_certified_interval_coverage": 1.0,
+      "positive_mass_certificate_coverage": 0.9969705663003327,
+      "positive_route_certificate_coverage": 0.8894230769230769,
+      "positive_truth_cell_count": 208,
+      "positive_truth_mass_kg": 526636638.45
+    },
+    "natural_rubber_latex": {
+      "candidate_cell_count": 65,
+      "certified_positive_cell_count": 12,
+      "certified_positive_mass_kg": 218208599.0,
+      "fraction_positive_certified_narrowed_20pct": 0.9166666666666666,
+      "median_normalized_interval_width": 0.10862774891006871,
+      "point_errors": {
+        "historical_route_share_point_kg": {
+          "cell_count": 65,
+          "mae_kg": 587767.6334843548,
+          "rmse_kg": 2258826.353779794,
+          "sum_absolute_error_over_eligible_truth_mass": 0.17368790983944773
+        },
+        "independent_margins_point_kg": {
+          "cell_count": 65,
+          "mae_kg": 664501.0823558491,
+          "rmse_kg": 2235961.3334282427,
+          "sum_absolute_error_over_eligible_truth_mass": 0.1963629800372638
+        },
+        "tem_midpoint_kg": {
+          "cell_count": 21,
+          "mae_kg": 2360537.26095238,
+          "rmse_kg": 5015135.903592896,
+          "sum_absolute_error_over_eligible_truth_mass": 0.22717382682063772
+        }
+      },
+      "point_errors_on_common_certified_candidates": {
+        "historical_route_share_point_kg": {
+          "cell_count": 21,
+          "mae_kg": 1735742.6731658604,
+          "rmse_kg": 3967445.6820582384,
+          "sum_absolute_error_over_common_truth_mass": 0.16704472831743475
+        },
+        "independent_margins_point_kg": {
+          "cell_count": 21,
+          "mae_kg": 1849536.717717512,
+          "rmse_kg": 3878205.9924989003,
+          "sum_absolute_error_over_common_truth_mass": 0.17799606087965283
+        },
+        "tem_midpoint_kg": {
+          "cell_count": 21,
+          "mae_kg": 2360537.26095238,
+          "rmse_kg": 5015135.903592896,
+          "sum_absolute_error_over_common_truth_mass": 0.22717382682063772
+        }
+      },
+      "positive_certified_interval_coverage": 1.0,
+      "positive_mass_certificate_coverage": 0.9920245639257511,
+      "positive_route_certificate_coverage": 0.631578947368421,
+      "positive_truth_cell_count": 19,
+      "positive_truth_mass_kg": 219962899.04
+    },
+    "raw_cotton": {
+      "candidate_cell_count": 234,
+      "certified_positive_cell_count": 54,
+      "certified_positive_mass_kg": 625464732.0,
+      "fraction_positive_certified_narrowed_20pct": 0.9074074074074074,
+      "median_normalized_interval_width": 0.04581173830942763,
+      "point_errors": {
+        "historical_route_share_point_kg": {
+          "cell_count": 234,
+          "mae_kg": 1441729.333366866,
+          "rmse_kg": 6105622.109525709,
+          "sum_absolute_error_over_eligible_truth_mass": 0.534442682623189
+        },
+        "independent_margins_point_kg": {
+          "cell_count": 234,
+          "mae_kg": 2826137.9704178716,
+          "rmse_kg": 11289795.25031671,
+          "sum_absolute_error_over_eligible_truth_mass": 1.0476368368299263
+        },
+        "tem_midpoint_kg": {
+          "cell_count": 121,
+          "mae_kg": 4584826.946280992,
+          "rmse_kg": 15082371.760079922,
+          "sum_absolute_error_over_eligible_truth_mass": 0.8869629766750782
+        }
+      },
+      "point_errors_on_common_certified_candidates": {
+        "historical_route_share_point_kg": {
+          "cell_count": 121,
+          "mae_kg": 2740360.834775592,
+          "rmse_kg": 8483264.225227233,
+          "sum_absolute_error_over_common_truth_mass": 0.530139661028636
+        },
+        "independent_margins_point_kg": {
+          "cell_count": 121,
+          "mae_kg": 4602029.431875822,
+          "rmse_kg": 15371445.261429999,
+          "sum_absolute_error_over_common_truth_mass": 0.8902909033358166
+        },
+        "tem_midpoint_kg": {
+          "cell_count": 121,
+          "mae_kg": 4584826.946280992,
+          "rmse_kg": 15082371.760079922,
+          "sum_absolute_error_over_common_truth_mass": 0.8869629766750782
+        }
+      },
+      "positive_certified_interval_coverage": 1.0,
+      "positive_mass_certificate_coverage": 0.990841913569523,
+      "positive_route_certificate_coverage": 0.8307692307692308,
+      "positive_truth_cell_count": 65,
+      "positive_truth_mass_kg": 631245735.0
+    },
+    "tea": {
+      "candidate_cell_count": 530,
+      "certified_positive_cell_count": 152,
+      "certified_positive_mass_kg": 728806618.996,
+      "fraction_positive_certified_narrowed_20pct": 0.8881578947368421,
+      "median_normalized_interval_width": 0.006304874375981679,
+      "point_errors": {
+        "historical_route_share_point_kg": {
+          "cell_count": 530,
+          "mae_kg": 276684.69179946755,
+          "rmse_kg": 1372247.5877095968,
+          "sum_absolute_error_over_eligible_truth_mass": 0.20104249934602345
+        },
+        "independent_margins_point_kg": {
+          "cell_count": 530,
+          "mae_kg": 575542.009000923,
+          "rmse_kg": 3550469.0307223564,
+          "sum_absolute_error_over_eligible_truth_mass": 0.4181959009573213
+        },
+        "tem_midpoint_kg": {
+          "cell_count": 244,
+          "mae_kg": 2296535.4368170686,
+          "rmse_kg": 6395897.944564372,
+          "sum_absolute_error_over_eligible_truth_mass": 0.7688660228625614
+        }
+      },
+      "point_errors_on_common_certified_candidates": {
+        "historical_route_share_point_kg": {
+          "cell_count": 244,
+          "mae_kg": 598512.836039827,
+          "rmse_kg": 2022399.8323129446,
+          "sum_absolute_error_over_common_truth_mass": 0.20037843810323475
+        },
+        "independent_margins_point_kg": {
+          "cell_count": 244,
+          "mae_kg": 866817.7262237917,
+          "rmse_kg": 3914180.310249982,
+          "sum_absolute_error_over_common_truth_mass": 0.2902052748779522
+        },
+        "tem_midpoint_kg": {
+          "cell_count": 244,
+          "mae_kg": 2296535.4368170686,
+          "rmse_kg": 6395897.944564372,
+          "sum_absolute_error_over_common_truth_mass": 0.7688660228625614
+        }
+      },
+      "positive_certified_interval_coverage": 1.0,
+      "positive_mass_certificate_coverage": 0.9991695305949312,
+      "positive_route_certificate_coverage": 0.8837209302325582,
+      "positive_truth_cell_count": 172,
+      "positive_truth_mass_kg": 729412373.656
+    }
+  },
+  "full_panel_gates_1_to_6": {
+    "fraction_positive_certified_narrowed_20pct": true,
+    "identity_mismatch_admissions": true,
+    "median_normalized_interval_width": true,
+    "positive_certified_interval_coverage": true,
+    "positive_mass_certificate_coverage": true,
+    "positive_route_certificate_coverage": true
+  },
+  "group_metrics": {
+    "food_or_beverage_crop": {
+      "candidate_cell_count": 1393,
+      "certified_positive_cell_count": 463,
+      "certified_positive_mass_kg": 2918713904.883,
+      "fraction_positive_certified_narrowed_20pct": 0.937365010799136,
+      "median_normalized_interval_width": 0.015426590130974789,
+      "point_errors": {
+        "historical_route_share_point_kg": {
+          "cell_count": 1393,
+          "mae_kg": 695677.0465237076,
+          "rmse_kg": 4411865.000733154,
+          "sum_absolute_error_over_eligible_truth_mass": 0.3284841494541243
+        },
+        "independent_margins_point_kg": {
+          "cell_count": 1393,
+          "mae_kg": 808264.9339360081,
+          "rmse_kg": 3771310.680949664,
+          "sum_absolute_error_over_eligible_truth_mass": 0.3816457948185526
+        },
+        "tem_midpoint_kg": {
+          "cell_count": 773,
+          "mae_kg": 2953260.409326474,
+          "rmse_kg": 9285645.071849616,
+          "sum_absolute_error_over_eligible_truth_mass": 0.7821493886708558
+        }
+      },
+      "point_errors_on_common_certified_candidates": {
+        "historical_route_share_point_kg": {
+          "cell_count": 773,
+          "mae_kg": 1212988.5726876128,
+          "rmse_kg": 5850960.981270785,
+          "sum_absolute_error_over_common_truth_mass": 0.3212511391126261
+        },
+        "independent_margins_point_kg": {
+          "cell_count": 773,
+          "mae_kg": 1291809.1477417876,
+          "rmse_kg": 4663054.640623812,
+          "sum_absolute_error_over_common_truth_mass": 0.3421261911055412
+        },
+        "tem_midpoint_kg": {
+          "cell_count": 773,
+          "mae_kg": 2953260.409326474,
+          "rmse_kg": 9285645.071849616,
+          "sum_absolute_error_over_common_truth_mass": 0.7821493886708558
+        }
+      },
+      "positive_certified_interval_coverage": 1.0,
+      "positive_mass_certificate_coverage": 0.9893436132886588,
+      "positive_route_certificate_coverage": 0.8802281368821293,
+      "positive_truth_cell_count": 526,
+      "positive_truth_mass_kg": 2950151864.003
+    },
+    "industrial_agricultural_raw_material": {
+      "candidate_cell_count": 299,
+      "certified_positive_cell_count": 66,
+      "certified_positive_mass_kg": 843673331.0,
+      "fraction_positive_certified_narrowed_20pct": 0.9090909090909091,
+      "median_normalized_interval_width": 0.04777661141227521,
+      "point_errors": {
+        "historical_route_share_point_kg": {
+          "cell_count": 299,
+          "mae_kg": 1256085.4855663201,
+          "rmse_kg": 5503068.972541301,
+          "sum_absolute_error_over_eligible_truth_mass": 0.44121916198359545
+        },
+        "independent_margins_point_kg": {
+          "cell_count": 299,
+          "mae_kg": 2356216.907795693,
+          "rmse_kg": 10041800.024238374,
+          "sum_absolute_error_over_eligible_truth_mass": 0.8276570834193464
+        },
+        "tem_midpoint_kg": {
+          "cell_count": 142,
+          "mae_kg": 4255882.697042254,
+          "rmse_kg": 14055477.063313631,
+          "sum_absolute_error_over_eligible_truth_mass": 0.7163143846963678
+        }
+      },
+      "point_errors_on_common_certified_candidates": {
+        "historical_route_share_point_kg": {
+          "cell_count": 142,
+          "mae_kg": 2591790.5432699276,
+          "rmse_kg": 7978144.235028832,
+          "sum_absolute_error_over_common_truth_mass": 0.43622838795686636
+        },
+        "independent_margins_point_kg": {
+          "cell_count": 142,
+          "mae_kg": 4194970.650204523,
+          "rmse_kg": 14267537.01628407,
+          "sum_absolute_error_over_common_truth_mass": 0.7060621812271581
+        },
+        "tem_midpoint_kg": {
+          "cell_count": 142,
+          "mae_kg": 4255882.697042254,
+          "rmse_kg": 14055477.063313631,
+          "sum_absolute_error_over_common_truth_mass": 0.7163143846963678
+        }
+      },
+      "positive_certified_interval_coverage": 1.0,
+      "positive_mass_certificate_coverage": 0.9911475251323099,
+      "positive_route_certificate_coverage": 0.7857142857142857,
+      "positive_truth_cell_count": 84,
+      "positive_truth_mass_kg": 851208634.04
+    }
+  },
+  "nonfood_industrial_claim_pass": true,
+  "nonfood_industrial_gates_1_to_6": {
+    "fraction_positive_certified_narrowed_20pct": true,
+    "identity_mismatch_admissions": true,
+    "median_normalized_interval_width": true,
+    "positive_certified_interval_coverage": true,
+    "positive_mass_certificate_coverage": true,
+    "positive_route_certificate_coverage": true
+  },
+  "overall_metrics": {
+    "candidate_cell_count": 1692,
+    "certified_positive_cell_count": 529,
+    "certified_positive_mass_kg": 3762387235.883,
+    "fraction_positive_certified_narrowed_20pct": 0.9338374291115312,
+    "median_normalized_interval_width": 0.017337314092697904,
+    "point_errors": {
+      "historical_route_share_point_kg": {
+        "cell_count": 1692,
+        "mae_kg": 794709.0342741456,
+        "rmse_kg": 4623468.29124475,
+        "sum_absolute_error_over_eligible_truth_mass": 0.3537280104541782
+      },
+      "independent_margins_point_kg": {
+        "cell_count": 1692,
+        "mae_kg": 1081809.638536508,
+        "rmse_kg": 5434046.043501038,
+        "sum_absolute_error_over_eligible_truth_mass": 0.4815175801784917
+      },
+      "tem_midpoint_kg": {
+        "cell_count": 915,
+        "mae_kg": 3155415.999332639,
+        "rmse_kg": 10173551.418173099,
+        "sum_absolute_error_over_eligible_truth_mass": 0.7673866240702792
+      }
+    },
+    "point_errors_on_common_certified_candidates": {
+      "historical_route_share_point_kg": {
+        "cell_count": 915,
+        "mae_kg": 1426966.5834227917,
+        "rmse_kg": 6228885.291456634,
+        "sum_absolute_error_over_common_truth_mass": 0.347033503457393
+      },
+      "independent_margins_point_kg": {
+        "cell_count": 915,
+        "mae_kg": 1742354.4300911955,
+        "rmse_kg": 7068290.1310765445,
+        "sum_absolute_error_over_common_truth_mass": 0.42373477358432676
+      },
+      "tem_midpoint_kg": {
+        "cell_count": 915,
+        "mae_kg": 3155415.999332639,
+        "rmse_kg": 10173551.418173099,
+        "sum_absolute_error_over_common_truth_mass": 0.7673866240702792
+      }
+    },
+    "positive_certified_interval_coverage": 1.0,
+    "positive_mass_certificate_coverage": 0.9897475490209191,
+    "positive_route_certificate_coverage": 0.8672131147540983,
+    "positive_truth_cell_count": 610,
+    "positive_truth_mass_kg": 3801360498.043
+  },
+  "prediction_sha256": "fdad611abf7b8913978a2fbc9118085123af794db7d381640c5ef2004ecfb772",
+  "provisional_full_panel_pass_gates_1_to_7": true,
+  "reproduction_gate_8": "pending independent runtime check",
+  "scoring_opened_truth_after_prediction_freeze": true,
+  "truth_sha256": "5778739535e5f91f69982e64f5ff6e7a77ad3e46984422f7acf22aa290ddedac"
+}

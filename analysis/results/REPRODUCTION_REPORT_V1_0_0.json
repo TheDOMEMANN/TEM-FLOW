@@ -1,0 +1,66 @@
+{
+  "checks": {
+    "crosscommodity": {
+      "level": "frozen_prediction_rescore",
+      "mass_certificate_coverage": 0.9897475490209191,
+      "median_relative_width": 0.017337314092697904,
+      "positive_routes": 610,
+      "route_certificate_coverage": 0.8672131147540983,
+      "status": "pass"
+    },
+    "dryad_transient": {
+      "coverage": 0.8863636363636364,
+      "level": "frozen_prediction_rescore",
+      "median_relative_width": 0.21938768441543063,
+      "raw_access": "external_large_archive; acquisition manifest included",
+      "status": "pass",
+      "targets": 440
+    },
+    "karg_source_only": {
+      "level": "frozen_prediction_rescore",
+      "median_relative_width": 0.9831693326003128,
+      "positive_compartment_coverage": 0.8234662210551444,
+      "status": "pass",
+      "targets": 5334
+    },
+    "nass_retention": {
+      "domains": {
+        "fish_capture": {
+          "coverage": 0.9738095238095238,
+          "median_upper_fraction": 0.9993577392594414,
+          "records": 1260
+        },
+        "fish_farming": {
+          "coverage": 0.9994722955145119,
+          "median_upper_fraction": 1.0,
+          "records": 1895
+        }
+      },
+      "hard_rule_status": "rejected",
+      "level": "derived_truth_rescore",
+      "raw_access": "restricted; acquisition manifest and limitation documented",
+      "status": "pass"
+    },
+    "summary_integrity": {
+      "level": "integrity",
+      "rows": 18,
+      "status": "pass"
+    },
+    "uk_rpa": {
+      "level": "raw_to_result",
+      "positive_compartment_coverage": 0.995334370139969,
+      "raw_sha256": "23584327dde9a6f6e59efe1281204cdaf5b9f6a3c69aed9233e43c0c7c163875",
+      "status": "pass",
+      "targets": 544
+    },
+    "zambia_scale": {
+      "level": "published_table_recalculation",
+      "on_farm_household_share": 0.49700000000000005,
+      "outside_district_household_share": 0.03,
+      "status": "pass"
+    }
+  },
+  "interpretation": "UK RPA is reproduced raw-to-result. Karg, Dryad and cross-commodity metrics are independently rescored from frozen predictions and unblinded truth. NASS is rescored from public derived truth because raw microdata are restricted. Zambia is recalculated from the published-table extraction.",
+  "software_version": "1.0.0",
+  "status": "pass"
+}

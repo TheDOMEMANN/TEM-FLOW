@@ -1,0 +1,25 @@
+{
+  "release": "TEM-FLOW 0.3.0",
+  "registry_edges_classified": 3907,
+  "certificate_records": 3911,
+  "status_counts": {
+    "blocked": 789,
+    "certified": 1656,
+    "not_applicable": 1466
+  },
+  "kind_counts": {
+    "aggregate_to_product_form": 447,
+    "allocation_bridge": 194,
+    "blocked_material_bridge": 1,
+    "blocked_route_bridge": 1,
+    "blocked_time_bridge": 1,
+    "denominator_bridge": 1,
+    "identity_preserving_transport": 1313,
+    "identity_scope_transport": 342,
+    "structural_attachment": 1466,
+    "topology_to_quantity": 145
+  },
+  "quantity_authorized_count": 1314,
+  "proof_digest_unique": true,
+  "boundary": "A certified scope or transformation never asserts occurrence; numerical claims require a compatible input measure. Blocked and not-applicable records remain visible."
+}

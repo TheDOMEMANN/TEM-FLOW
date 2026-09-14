@@ -1,0 +1,862 @@
+{
+  "release": "TEM-FLOW 1.0.0",
+  "distribution": "Patterns-public",
+  "created": "2026-09-13",
+  "excluded_from_public": [
+    "PRIVATE_EDITOR_DATA/",
+    "src/temflow/data/patterns/atlas_evidence_ledger.csv",
+    "ledger/temflow_evidence_ledger.csv",
+    "ledger/temflow_evidence_ledger.jsonl",
+    "ledger/ledger_manifest.json"
+  ],
+  "latest_correction": "Clean-source provenance packaging and repository-native manuscript validation reproduction.",
+  "version": "1.0.0",
+  "file_count": 169,
+  "files": [
+    {
+      "path": ".github/workflows/tests.yml",
+      "bytes": 433,
+      "sha256": "e9022223655d8bb57b9d314feb8b3bcaffb2c23f28d5d1cc6db6200fde080f8e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 172,
+      "sha256": "6cf5c2a8d406c2ffd20af48c3c1a2fcfc7ce68b048998bf8dd4c71b100d148e2"
+    },
+    {
+      "path": "analysis/data/crosscommodity/EVIDENCE_ROLE_LEDGER_V1_0_0.csv",
+      "bytes": 1973,
+      "sha256": "70ed4b1a95cec7a9d2d50ee5983810678852a11dcdf625826999c48e43cefa8d"
+    },
+    {
+      "path": "analysis/data/crosscommodity/SCORED_CELLS_V1_0_0.csv",
+      "bytes": 178918,
+      "sha256": "7a50d8b974b2e6a6babaacc9556769c132d01692540ca7ad40da3ca369a91805"
+    },
+    {
+      "path": "analysis/data/crosscommodity/SEALED_test_bilateral_truth.csv",
+      "bytes": 166346,
+      "sha256": "5778739535e5f91f69982e64f5ff6e7a77ad3e46984422f7acf22aa290ddedac"
+    },
+    {
+      "path": "analysis/data/dryad_transient/BRIDGE_CALIBRATION_PREFIX_V1_2_0.csv",
+      "bytes": 610898,
+      "sha256": "8bed7fcbb543152fcf13f7bb728c9cdd010d23a41ad3948580d66e60b4ea9ace"
+    },
+    {
+      "path": "analysis/data/dryad_transient/EVIDENCE_BRIDGE_UNBLINDED_TRUTH_V1_2_1.csv",
+      "bytes": 86336,
+      "sha256": "4dea503fdd93471df9351205a82915bee12e33f4f6b180a5f88f273161029350"
+    },
+    {
+      "path": "analysis/data/dryad_transient/HOLDOUT_ACQUISITION_MANIFEST_V1_2_0.json",
+      "bytes": 898,
+      "sha256": "6ca9a448bc37e0db349090cff7689e2b946321999a546016f2c860283d3fab0a"
+    },
+    {
+      "path": "analysis/data/karg_source_only/CALIBRATION_RESIDUALS_V1_0_0.csv",
+      "bytes": 1234729,
+      "sha256": "b3980daea16d3715f13e5d53ce89202631439b920eedcb558bb4e2513cf5ff9c"
+    },
+    {
+      "path": "analysis/data/karg_source_only/UNBLINDED_ROUTE_TRUTH_V1_0_0.csv",
+      "bytes": 3070853,
+      "sha256": "a01c0bbc917be592ff149d0f42d09d7129614977de74632535c4a7967cd6aa8a"
+    },
+    {
+      "path": "analysis/data/nass_retention/UNBLINDED_RETENTION_TRUTH_V1_0_0.csv",
+      "bytes": 354842,
+      "sha256": "7d37a7e6e738c6747c1a3f17a5d9cfa421a0ad140b5d88a777f9021032e46ac6"
+    },
+    {
+      "path": "analysis/data/uk_rpa/CALIBRATION_RESIDUALS_V1_0_0.csv",
+      "bytes": 28300,
+      "sha256": "1ab6310f1abb0717efe533e912a6efcb4fc74a298eca887113054ede512f582b"
+    },
+    {
+      "path": "analysis/data/uk_rpa/cattle-movements-to-slaughterhouses-during-2010.csv",
+      "bytes": 739301,
+      "sha256": "23584327dde9a6f6e59efe1281204cdaf5b9f6a3c69aed9233e43c0c7c163875"
+    },
+    {
+      "path": "analysis/data/uk_rpa/UNBLINDED_DESTINATION_TRUTH_V1_0_0.csv",
+      "bytes": 1043399,
+      "sha256": "e3e028193efbce3501f5d91a1bc90812cefbc8c6f8b798df516539c65b7e94fc"
+    },
+    {
+      "path": "analysis/data/validation_summary.csv",
+      "bytes": 3105,
+      "sha256": "b269108c1b3b09e9a23e8e9f392c62ff50f6f22f62700c7da0f116d6a36fe261"
+    },
+    {
+      "path": "analysis/data/zambia_scale/PUBLISHED_TABLE_EXTRACTION_V1_0_0.json",
+      "bytes": 1677,
+      "sha256": "395ca5ae32a7290bdba973e62864f4eebedccfb6bcbb4bbb7fd26b2446f42e9e"
+    },
+    {
+      "path": "analysis/protocols/ERR_EVIDENCE_BRIDGE_HOLDOUT_PROTOCOL_V1_2_0.md",
+      "bytes": 4707,
+      "sha256": "2ce7401e47e6c381f9a0ebf2e138ff1446e3f37ce01849347b89fc1f55abc7e8"
+    },
+    {
+      "path": "analysis/protocols/OUTCOME_BLIND_IMPLEMENTATION_AMENDMENT_V1_2_1.md",
+      "bytes": 1679,
+      "sha256": "5910f7a047d5fa27e4bd80a9564c8a019d4ec0fd779cfc7e43edaedf7db645c0"
+    },
+    {
+      "path": "analysis/protocols/PREANALYSIS_SEAL_V1_0_0.json",
+      "bytes": 919,
+      "sha256": "295af51f851f677db7b1c2d6da939757ddf0f3cbdb821ab9817bbcc8b1c5b6fc"
+    },
+    {
+      "path": "analysis/protocols/SOURCE_ONLY_ALLOCATION_PROTOCOL_V1_0_0.md",
+      "bytes": 4458,
+      "sha256": "c773047c82e58d7d94cb0197b029fcb9232309c91faf0c4fc6a9422d907e186c"
+    },
+    {
+      "path": "analysis/protocols/VALIDATION_PROTOCOL_V1_0_0.md",
+      "bytes": 6789,
+      "sha256": "aa8d59273fdb77f845e4bd683c9450d5f6197c7b77636b646b981500a5d8e353"
+    },
+    {
+      "path": "analysis/python/crosscommodity/freeze_predictions.py",
+      "bytes": 8042,
+      "sha256": "223aeb6c4d37ed23e66d05b8471e2a22077455a901de53d6e6ace3d7a716570a"
+    },
+    {
+      "path": "analysis/python/crosscommodity/prepare_sealed_panel.py",
+      "bytes": 12955,
+      "sha256": "ce3cc0416fcf2eb31d8ed4a9814e994dae72cbc7fae983c8c58b8c770e3855d9"
+    },
+    {
+      "path": "analysis/python/crosscommodity/score_holdout.py",
+      "bytes": 11035,
+      "sha256": "b0d24173b84ef8f7856557022923cf252fde5f1734eccf683ba622d2ad625032"
+    },
+    {
+      "path": "analysis/python/crosscommodity/verify_reproduction.py",
+      "bytes": 3497,
+      "sha256": "36dd4a107b0814f6890724f40ce27bb3cf9e809c2fd167826a4f7cbf32a6a176"
+    },
+    {
+      "path": "analysis/python/dryad_transient/build_training_bridge_calibration.py",
+      "bytes": 3381,
+      "sha256": "61661a3b81396f123247f69088c276f6164c98d693321f43ac92a156242546ff"
+    },
+    {
+      "path": "analysis/python/dryad_transient/run_evidence_bridge_holdout_v1_2_1.py",
+      "bytes": 16810,
+      "sha256": "f1a99d02c3e1e05271801d580d6c9a26fa23b712d856c9983f688b458ded3f77"
+    },
+    {
+      "path": "analysis/python/karg_source_only/run_source_only_allocation_validation.py",
+      "bytes": 20026,
+      "sha256": "05e8d7e973df136c0be7bb3d31a3f024a7eda8b2e1c241d394b45cf58196984a"
+    },
+    {
+      "path": "analysis/python/nass_retention/run_source_retention_validation.py",
+      "bytes": 15214,
+      "sha256": "836df97e4ad81a75ee2f9dff3e1a3e0771cffc98f7f15da6101aec6ff8bbaa4f"
+    },
+    {
+      "path": "analysis/python/reproduce_all.py",
+      "bytes": 12060,
+      "sha256": "9ddeb09636926bbe54f610ee7a7f1bbc24ab9a01884a7da75d284354efd1fa8a"
+    },
+    {
+      "path": "analysis/python/reproduce_validation_summary.py",
+      "bytes": 1234,
+      "sha256": "36721e568ee6c214cd7d2e0d9a6792086d3e50adb7fa6f9da7736cd4d9d5bffe"
+    },
+    {
+      "path": "analysis/python/uk_rpa/independent_recompute.py",
+      "bytes": 8274,
+      "sha256": "57b7da543c4a20a9a71b5b8b9f3375d73d71e5256d52167ff7eba05d1b7b8368"
+    },
+    {
+      "path": "analysis/python/uk_rpa/posthoc_joint_set_diagnostic.py",
+      "bytes": 3452,
+      "sha256": "5bbdfacf23e73609da63927a24e100635a6f37a727fd128c87e40f110359b77c"
+    },
+    {
+      "path": "analysis/python/uk_rpa/run_validation.py",
+      "bytes": 24330,
+      "sha256": "4039c3a7e379bf68d268124cc3c2583b2681adffc1c26d17c4097d3be7a4eb0b"
+    },
+    {
+      "path": "analysis/python/zambia_scale/run_scale_check.py",
+      "bytes": 3517,
+      "sha256": "631ef330685a8b18394062b8f0ef55d72b0ad9d6ab4287bcafc64379baf3185f"
+    },
+    {
+      "path": "analysis/R/reproduce_validation_summary.R",
+      "bytes": 1230,
+      "sha256": "b1303e82d21296d10745e6a93335fa06505849fc74f4fa0bdbcacb141eeae2be"
+    },
+    {
+      "path": "analysis/README.md",
+      "bytes": 2307,
+      "sha256": "4af6d591fb806a8d3f5d548fb1d011bb23360ae9bb7474de678f620fc4a9ec06"
+    },
+    {
+      "path": "analysis/results/crosscommodity/FROZEN_PREDICTIONS_V1_0_0.json",
+      "bytes": 1396204,
+      "sha256": "fdad611abf7b8913978a2fbc9118085123af794db7d381640c5ef2004ecfb772"
+    },
+    {
+      "path": "analysis/results/crosscommodity/HOLDOUT_SCORE_V1_0_0.json",
+      "bytes": 20302,
+      "sha256": "7c7c54b5f063854b4ee04a810a5093ca5498968d2a693c6e459a850473c9a523"
+    },
+    {
+      "path": "analysis/results/dryad_transient/EVIDENCE_BRIDGE_FROZEN_PREDICTIONS_V1_2_1.json",
+      "bytes": 179806,
+      "sha256": "3edea6c7520766c5a250f2d6d075a923240819eaf7b109fe68a987d47d07f902"
+    },
+    {
+      "path": "analysis/results/dryad_transient/EVIDENCE_BRIDGE_HOLDOUT_SCORE_V1_2_1.json",
+      "bytes": 1068,
+      "sha256": "6302262d1119c73368d53eb2371bda6b8f09f360df01d6290b066763e931c9e8"
+    },
+    {
+      "path": "analysis/results/karg_source_only/FROZEN_PREDICTIONS_V1_0_0.json",
+      "bytes": 10277949,
+      "sha256": "73cfdc640a72e6839ef719e8cf4c45a15307fc3288acb47e823ea46a7bd40584"
+    },
+    {
+      "path": "analysis/results/karg_source_only/SOURCE_ONLY_ALLOCATION_SCORE_V1_0_0.json",
+      "bytes": 1275,
+      "sha256": "6a8eb2c06abcbb7381c59b33774186bd121dda7a8f0a7fee0557a6e58ab0ac12"
+    },
+    {
+      "path": "analysis/results/nass_retention/FROZEN_RETENTION_PREDICTIONS_V1_0_0.json",
+      "bytes": 1398278,
+      "sha256": "0dcaeda8a870ef3e3ec2a8cf813fa934b5fa33fa7dcffd3358b717fa2c56e15b"
+    },
+    {
+      "path": "analysis/results/nass_retention/SOURCE_RETENTION_SCORE_V1_0_0.json",
+      "bytes": 2351,
+      "sha256": "1cf1688203821b4ef12bfdbfbad2ab77980ab7092cf6d5f8db0d16b2b8941e72"
+    },
+    {
+      "path": "analysis/results/REPRODUCTION_REPORT_V1_0_0.json",
+      "bytes": 2360,
+      "sha256": "fa0c7d730cca20435e0a5e0b3f0662f8ce9a66d8cd4934331c0989b43172d3d2"
+    },
+    {
+      "path": "analysis/results/SOURCE_ONLY_ALLOCATION_SCORE_V1_0_0.json",
+      "bytes": 1275,
+      "sha256": "6a8eb2c06abcbb7381c59b33774186bd121dda7a8f0a7fee0557a6e58ab0ac12"
+    },
+    {
+      "path": "analysis/results/uk_rpa/FROZEN_PREDICTIONS_V1_0_0.json",
+      "bytes": 3081015,
+      "sha256": "5a40817e23240ca1557311d44a71cad4099c062270d9fff0273a23639e213c1d"
+    },
+    {
+      "path": "analysis/results/uk_rpa/INDEPENDENT_RECOMPUTE_V1_0_0.json",
+      "bytes": 3389,
+      "sha256": "6fedb02118af5c11fbd5a43ba4b23e41ca6c2be7fcb2bb43298d6d5748d99685"
+    },
+    {
+      "path": "analysis/results/uk_rpa/POSTHOC_JOINT_SET_DIAGNOSTIC_V1_0_0.json",
+      "bytes": 959,
+      "sha256": "862ba8553aae55727d0f95ab933d3af3916effc8785a99e3168caa5a8868e577"
+    },
+    {
+      "path": "analysis/results/uk_rpa/PROVENANCE_AND_CHECKSUM_MANIFEST_V1_0_0.json",
+      "bytes": 1768,
+      "sha256": "018bc468135deff0fb18aa30aebd7ccb640be02129c39ad376b9e8dccdc6c510"
+    },
+    {
+      "path": "analysis/results/uk_rpa/SAME_COUNTY_RETENTION_SCORE_ROWS_V1_0_0.json",
+      "bytes": 67302,
+      "sha256": "bcbf963aee5947b3bd07e59371b09fbc4179b0e6b62b8411df083e18a45610e0"
+    },
+    {
+      "path": "analysis/results/uk_rpa/VALIDATION_SCORE_V1_0_0.json",
+      "bytes": 2077,
+      "sha256": "54f58195babf2860ffbfae6c54cf0aa456b55a81e88bdfd502dc0e24affb6e12"
+    },
+    {
+      "path": "analysis/results/zambia_scale/SOURCE_PROXIMITY_SCALE_CHECK_V1_0_0.json",
+      "bytes": 1915,
+      "sha256": "1a671f12fa7d8870b3c5e2b35a34e8ebc1edc5f5563517d3152e8ee501cda218"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 741,
+      "sha256": "20dd1f56055bb99cb2fee70845f5caaebcdd293da935d67f0c0d7ab11143f326"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 417,
+      "sha256": "33c2c807c161e989d99c9bfdae2daca52b6c155baf9e7b15d0c65f6604d6c1d7"
+    },
+    {
+      "path": "Create desktop shortcut.vbs",
+      "bytes": 610,
+      "sha256": "be4ea8fd9fb2df61c052b5d5f5e0816e5679cfde4330bfad5ac5beb43ea9859b"
+    },
+    {
+      "path": "desktop_launcher.py",
+      "bytes": 5274,
+      "sha256": "a62e5934ef2b9107e38e463cc9fab702718c8bc5202c7f59eea0f9db8a403ce6"
+    },
+    {
+      "path": "desktop_server.py",
+      "bytes": 2377,
+      "sha256": "55024082f9347a37eff78552e26c58edc938721915af6665f3e952f90b6ea9e8"
+    },
+    {
+      "path": "DESKTOP_START_HERE.md",
+      "bytes": 3439,
+      "sha256": "1d8e211d33006c3e5c25c24ce7aba28188dad8ae602a9bab8907e79cfc3c64d1"
+    },
+    {
+      "path": "DEVELOPER_GUIDE.md",
+      "bytes": 5700,
+      "sha256": "f5b75e29d43ad37d670c115f7a134399b0ae591148dcc073715ef8739fce871e"
+    },
+    {
+      "path": "docs/COORDINATE_RECONCILIATION_V1_0_0.md",
+      "bytes": 1065,
+      "sha256": "a8211d5c1e1acc3aef6abf27d1aad4bba66944fcf84bbe8788db0c6568d71767"
+    },
+    {
+      "path": "docs/PRIVATE_LAYER_INPUT_TEMPLATE.json",
+      "bytes": 1013,
+      "sha256": "ea1082b500f533be0ed122f266826e39334f3bdc92e05b5cf0f4545fa3d698c1"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "bytes": 1113,
+      "sha256": "b39cbae58e705e361d8753af907a3a9c75a94c45d57eecfd64dec7687a0de69d"
+    },
+    {
+      "path": "Edit source.cmd",
+      "bytes": 53,
+      "sha256": "dd0e286183ae165d5183ac35580fe34d1b30158c70c60f8fe3489d2cb8a6484a"
+    },
+    {
+      "path": "FORMULATION/ERR_FORMAL_RESULTS_V1_1.md",
+      "bytes": 4677,
+      "sha256": "f98f1ac5d68a9a43168499be7e67f60ddbe70fa976ea66cab2d8fe44a8be3aba"
+    },
+    {
+      "path": "FORMULATION/ERR_MATHEMATICAL_FORMULATION_V1_1.md",
+      "bytes": 5773,
+      "sha256": "d06c3f5232dd860d1c9bc8779a39997bbc90f2ed17265c5f7cfa7d298a265b28"
+    },
+    {
+      "path": "FORMULATION/TEMFLOW_FORMAL_PROOFS_V0_3.md",
+      "bytes": 11912,
+      "sha256": "457eb21020d4b5d3271e10eff04432f37e43ddbd555bc7fe6cf0187e5c616840"
+    },
+    {
+      "path": "FORMULATION/TEMFLOW_MATHEMATICAL_FORMULATION_V0_3.md",
+      "bytes": 15540,
+      "sha256": "f4f9f3af45f46e632d58ee1ab81b70bcad0ece33798997f7b877c28bd975ddf6"
+    },
+    {
+      "path": "FORMULATION/TEMFLOW_V1_0_ALGORITHM_LINEAGE.md",
+      "bytes": 2307,
+      "sha256": "969c12caa0a868047b923c30b804f55ff2a81d64fb16e2b192bfdb79eb3cd9f7"
+    },
+    {
+      "path": "GEOGRAPHIC_COVERAGE.csv",
+      "bytes": 1539,
+      "sha256": "fe2fc157e0cb3f6857e00835d9206012fb12b0d0b71685fe21ed747e76f4ccd6"
+    },
+    {
+      "path": "Launch TEM-FLOW.cmd",
+      "bytes": 91,
+      "sha256": "d13479c0fef3b0c24928f355e9140d1f370aa00b7e67c93d9a5708efc36cdca4"
+    },
+    {
+      "path": "Launch TEM-FLOW.vbs",
+      "bytes": 325,
+      "sha256": "b5ed2ebf9c612cbb4f9460a0e9e4b67c3f3d4f93429020ed80d07a2e55c2a068"
+    },
+    {
+      "path": "ledger/certificate_ledger_summary.json",
+      "bytes": 837,
+      "sha256": "627403095e7f8f1ddd9695f7a094aa0e96abf3d348085b12cfffac2e01161832"
+    },
+    {
+      "path": "ledger/temflow_registry_audit.csv",
+      "bytes": 1518804,
+      "sha256": "163c802e1c8cdde1d7db1fdebf20a6107fbc521df8aeb2d5cb5e1b7e4be28008"
+    },
+    {
+      "path": "ledger/temflow_transformation_certificate_ledger.csv",
+      "bytes": 3819202,
+      "sha256": "c6f7a1f1bf4dfc8430a3756e524cb9605625a917e3fb3aa1357875a003fd6c54"
+    },
+    {
+      "path": "ledger/temflow_transformation_certificate_ledger.jsonl",
+      "bytes": 4868482,
+      "sha256": "8026eeee368eaa7e8c7cf67ec3bf180636544a37c33819bf385e9dc183483d8a"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1528,
+      "sha256": "8fe7ac9e4b8cffa70721f8f7e92716b9ecdba53b5c6167842338df9e9349ab93"
+    },
+    {
+      "path": "PUBLIC_DATA_BOUNDARY.md",
+      "bytes": 396,
+      "sha256": "a2000f85ec334787f22d00223994ee4046e8465f504a6d41f4682d6041631861"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 1193,
+      "sha256": "0b047160c98337e403a004eafb18359351795b6cffd489ba6e0d46c9f7791cb0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6378,
+      "sha256": "0e78bb60b3ad300c1d903809d647e2edc7480634d90f9eeba9c25b695b6390a4"
+    },
+    {
+      "path": "RELEASE_NOTES_1.0.0.md",
+      "bytes": 2051,
+      "sha256": "98e87a332db01780e6f5ae61845705f840d20c0b343e6d4672ad4bcbfaec43b1"
+    },
+    {
+      "path": "requirements-desktop.txt",
+      "bytes": 27,
+      "sha256": "56b0f6a2aefb16d057a33511ef52b3eeae35b7debe92536121fa5749d460a5cd"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 171,
+      "sha256": "bfc062c4ab193f988f14b3f31c2e9d7b3b3e55663c0d41e3e3146433706f6b03"
+    },
+    {
+      "path": "Restart TEM-FLOW.cmd",
+      "bytes": 100,
+      "sha256": "513981dd6ee99a4f9ddb3941f4534c1aeadc80f5878142a22f5f3b260f9b803c"
+    },
+    {
+      "path": "Run checks.cmd",
+      "bytes": 85,
+      "sha256": "0300c6b7ea18066786a9f6084074c0b4780e4009bc94fdbaecf0bd6e07faea6f"
+    },
+    {
+      "path": "src/temflow/__init__.py",
+      "bytes": 723,
+      "sha256": "830bd7e2918fbd9bc97ab001ff1a8ad672a20ccf7930c6ac6ddd588713596345"
+    },
+    {
+      "path": "src/temflow/__main__.py",
+      "bytes": 1011,
+      "sha256": "b43239e5c54cafd2fd2b8e0f7a1b5ea4ffe209984c0a72b3fb2a62d05ea62402"
+    },
+    {
+      "path": "src/temflow/_version.py",
+      "bytes": 92,
+      "sha256": "d74c6e5cb23646089f62f3ca9ea8d4785c827590bd2aa3107d6b17950e1a6252"
+    },
+    {
+      "path": "src/temflow/certificates.py",
+      "bytes": 10353,
+      "sha256": "dbbf9cc8007453e4cbb5ab0cf5c705d2f0c3b33834a9435fbbcdf3f705784ec2"
+    },
+    {
+      "path": "src/temflow/compositional.py",
+      "bytes": 6915,
+      "sha256": "3e2ceb3abc6b44fad18a41e1827a3229b12b5feaf9a2768c5463e9b9c920d8d0"
+    },
+    {
+      "path": "src/temflow/constraints.py",
+      "bytes": 21385,
+      "sha256": "c0f64fd1d3829dbd0493c5c577e3ad1e991d7412bb4a3650e5b0c5f16b59d334"
+    },
+    {
+      "path": "src/temflow/core.py",
+      "bytes": 14623,
+      "sha256": "f87bed9ed4033384fd3ba420a69f85584f963f7f5389fef605fa875348339015"
+    },
+    {
+      "path": "src/temflow/cpc_compatibility.py",
+      "bytes": 8682,
+      "sha256": "41e2ee145a394f14835d844a902e05d534c0a3f62a0667f1716deef16c7bb4b1"
+    },
+    {
+      "path": "src/temflow/curation.py",
+      "bytes": 19807,
+      "sha256": "7a55fd3c66dc5e374a63f0340035f51545843739870c72a9db78c51fd7365d2e"
+    },
+    {
+      "path": "src/temflow/dashboard.py",
+      "bytes": 83416,
+      "sha256": "01ec959dbe633fc113b956dd96a873d8a95499546516d94a61ca7ba52763a671"
+    },
+    {
+      "path": "src/temflow/data/dashboard_ui.html",
+      "bytes": 140838,
+      "sha256": "d0259af7827a86e9a40241cfb01f0a095551c6b6f197ad480faf92e49718d9ff"
+    },
+    {
+      "path": "src/temflow/data/ethiopia_boundary.geojson",
+      "bytes": 183238,
+      "sha256": "ad9541d4e24a745f33c70f6a360708db92f71966fcfcbbfed876f62ec85506cf"
+    },
+    {
+      "path": "src/temflow/data/ethiopia_corridors.csv",
+      "bytes": 10621,
+      "sha256": "a860a408f6198ec7343af4fb6e9ea8b5b1584d6ced5f6abaf758d817973a3aa8"
+    },
+    {
+      "path": "src/temflow/data/ethiopia_edges.csv",
+      "bytes": 40249,
+      "sha256": "ce757d86d1813f722847cea23c98ef640e385da51119ffd5c8d2be3519821848"
+    },
+    {
+      "path": "src/temflow/data/ethiopia_nodes.csv",
+      "bytes": 25650,
+      "sha256": "d3237d71caa8c36dcae2acce4a41189d3a83b47995933cfdb028ce47619caddd"
+    },
+    {
+      "path": "src/temflow/data/ethiopia_route_geometries.json",
+      "bytes": 236731,
+      "sha256": "10092fdb11e7c15fc9fde6f6b9987a8d93457c14020c2b6b660fddf5a568641e"
+    },
+    {
+      "path": "src/temflow/data/ethiopia_sources.csv",
+      "bytes": 11576,
+      "sha256": "42dd3d76952b2f6e5b0de88ad5a8c5d8b94b69e026b4fd021ea6feb0a0194c32"
+    },
+    {
+      "path": "src/temflow/data/ethiopia_waterbodies.geojson",
+      "bytes": 319760,
+      "sha256": "729a88571627b3d601a66a1cd1cd56ed57facf03007f2e19a0b58d4b09af0927"
+    },
+    {
+      "path": "src/temflow/data/patterns/africa_countries.geojson",
+      "bytes": 838726,
+      "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f"
+    },
+    {
+      "path": "src/temflow/data/patterns/africa_major_lakes.geojson",
+      "bytes": 390931,
+      "sha256": "331d6ae229e72e0ed07a5f0aa720cb7babe57380394fb422ee8099586b466ae0"
+    },
+    {
+      "path": "src/temflow/data/patterns/africa_major_lakes_sources.json",
+      "bytes": 852,
+      "sha256": "15a76fe6d6c8dc2e64dcbf1f3d824a24870ada783378dabc79da6e8a2687abc5"
+    },
+    {
+      "path": "src/temflow/data/patterns/africa_route_display_geometries.json",
+      "bytes": 11180823,
+      "sha256": "c01c380b97b26603695e3f19aaae52c4aa00ed4c7c2d38a4a4cbd18756444b2f"
+    },
+    {
+      "path": "src/temflow/data/patterns/continental_candidate_national_routes_v1_2.csv",
+      "bytes": 4751768,
+      "sha256": "eab314d4428ec1121a0a98ceadfc3a1984ba90a6fd6b453345ee50bea101c287"
+    },
+    {
+      "path": "src/temflow/data/patterns/continental_geolocated_nodes_v1_2.csv",
+      "bytes": 997028,
+      "sha256": "7cff206ce83e7087c989fcf23a1d195b95393d9528b4ca1f15e9c65788524cdc"
+    },
+    {
+      "path": "src/temflow/data/patterns/edflow_edge_registry_v1_1.csv",
+      "bytes": 2044412,
+      "sha256": "7a915c28fb484db4adbec647ec4cae749c3dbd7f7036e4544402b9c97988fc48"
+    },
+    {
+      "path": "src/temflow/data/patterns/edflow_node_registry_v1_1.csv",
+      "bytes": 1171853,
+      "sha256": "d9de6b8d90b873d283036d9912daba6bfbf1154f6f2242e5931eaeae9aac9bd8"
+    },
+    {
+      "path": "src/temflow/data/patterns/karg_nodes_aggregated.csv",
+      "bytes": 185616,
+      "sha256": "a67129ad9cc2e6d925a18e7dd3de6f500a438c3f929422db6d305adaea574cb5"
+    },
+    {
+      "path": "src/temflow/data/patterns/karg_routes_aggregated.csv",
+      "bytes": 1629914,
+      "sha256": "41c735c143e5f004e8a7a59aed558571327277ca8e9716556f40066cd61c59c4"
+    },
+    {
+      "path": "src/temflow/data/patterns/karg_routes_by_commodity.csv",
+      "bytes": 2001486,
+      "sha256": "c7902d4395e8df73f5cd31fa75e724003701685af9308328aa8e9ddfff59860c"
+    },
+    {
+      "path": "src/temflow/data/patterns/node_coordinate_reconciliation_v1_0_0.csv",
+      "bytes": 19211,
+      "sha256": "c7fdcda1c315fb578e43adac91fe305118948c16c8a79adc0640f0d6a7c38a63"
+    },
+    {
+      "path": "src/temflow/data/patterns/predecessor_road_geometries.json",
+      "bytes": 11069034,
+      "sha256": "73f01671de6160dcf69bec26c470e7ad98ad6eb02afca04025cff4a4cd9df84b"
+    },
+    {
+      "path": "src/temflow/data/patterns/reference_roads/osm_overpass_highways_CPV.json.gz",
+      "bytes": 549759,
+      "sha256": "a59f7303a7a098b4f4287ec2fbb4bcc25f07c13af220f955e994f00ce4d6be01"
+    },
+    {
+      "path": "src/temflow/data/patterns/reference_roads/osm_overpass_highways_MUS.json.gz",
+      "bytes": 706192,
+      "sha256": "58767916ce4363d15bfd7e8bb4723456768cec167630284935a3101a5dd65527"
+    },
+    {
+      "path": "src/temflow/data/patterns/reference_roads/osm_overpass_highways_SYC.json.gz",
+      "bytes": 125204,
+      "sha256": "52b09151c33f9d5c29f11dc1173c9c0dd1d907b25b6f5222e33d6ec9e96e8794"
+    },
+    {
+      "path": "src/temflow/data/patterns/reference_roads/osm_overpass_sources.json",
+      "bytes": 2033,
+      "sha256": "cd2f6516335d61d858d45643e963e40acec32afeed731f3722d6c96e41cb97fd"
+    },
+    {
+      "path": "src/temflow/data/patterns/reference_waterbodies/ne_10m_lakes.geojson",
+      "bytes": 5043555,
+      "sha256": "aa59cf60dc238316b450ed2281bff6be3783516505290d99d57760072ae8fdcb"
+    },
+    {
+      "path": "src/temflow/data/patterns/reference_waterbodies/ne_10m_lakes_v5_0_0.zip",
+      "bytes": 2349685,
+      "sha256": "0803a06f9c3cb4671d89b68c48b142aad9366ba40f665245e12a913fbc61722a"
+    },
+    {
+      "path": "src/temflow/data/patterns/temflow_transformation_certificate_ledger.csv",
+      "bytes": 3819202,
+      "sha256": "c6f7a1f1bf4dfc8430a3756e524cb9605625a917e3fb3aa1357875a003fd6c54"
+    },
+    {
+      "path": "src/temflow/data/patterns/temflow_transformation_certificate_ledger.jsonl",
+      "bytes": 4868482,
+      "sha256": "8026eeee368eaa7e8c7cf67ec3bf180636544a37c33819bf385e9dc183483d8a"
+    },
+    {
+      "path": "src/temflow/data/patterns_private_ui.html",
+      "bytes": 132154,
+      "sha256": "10c2a21729b9929be47585c5e797809708dbef450500c2d9645fde0aa9e4618a"
+    },
+    {
+      "path": "src/temflow/data/regional_context.geojson",
+      "bytes": 3657151,
+      "sha256": "05292c9791de622c2ac3bc661fbed1901614bd378515e72d9f74e110f78e881a"
+    },
+    {
+      "path": "src/temflow/data/regional_context_sources.json",
+      "bytes": 6365,
+      "sha256": "13798d2be69205f3b874cff12587d4274a61b5be011a5a99952b380959db3501"
+    },
+    {
+      "path": "src/temflow/downstream_consequence.py",
+      "bytes": 20070,
+      "sha256": "333cbbebcda5b99b4947d2fd6c1de4582a42de5ad14b905f3482e214432cfc02"
+    },
+    {
+      "path": "src/temflow/evidential_resolution.py",
+      "bytes": 23314,
+      "sha256": "78202be3e2f71bf4a5aca392b61712596341a30f10339ea5511d1de9e99c4e95"
+    },
+    {
+      "path": "src/temflow/exposure_scenario.py",
+      "bytes": 7227,
+      "sha256": "05c3071e510281acc88a95a7bded49bba7301241dfbbbb9017791102de779254"
+    },
+    {
+      "path": "src/temflow/feature_changes.py",
+      "bytes": 6313,
+      "sha256": "e2e910369312453e6d250a4f4c3c819ee61d49aa06dadbfa42c1466198327923"
+    },
+    {
+      "path": "src/temflow/ledger.py",
+      "bytes": 5830,
+      "sha256": "3426c8bc9477408314066822395f64e3d71480faa057c32d26a55c2909282e9e"
+    },
+    {
+      "path": "src/temflow/monitoring_layers.py",
+      "bytes": 2129,
+      "sha256": "15652cb693d9a97bfc9d0bef55920fe3e9a212d9a4e44b6bd862ea503402139b"
+    },
+    {
+      "path": "src/temflow/preview_build.py",
+      "bytes": 769,
+      "sha256": "d1964aeebb506cb5a78754e2ba0b4ac6bb178fdb95f5382ef0cc1b31904cdfba"
+    },
+    {
+      "path": "src/temflow/private_engine.py",
+      "bytes": 96550,
+      "sha256": "f2ca2d60032d7de53f3a9694a7a6b2c10b365047b6a0c5863b70153b2d306b2d"
+    },
+    {
+      "path": "src/temflow/proof_obligations.py",
+      "bytes": 7070,
+      "sha256": "f182a83ccc5dbcf2265ca25b1e42803cef0f209b05277ab36a865183e007a5b4"
+    },
+    {
+      "path": "src/temflow/tem_calculus.py",
+      "bytes": 83547,
+      "sha256": "34a9a52f449abde92e0c59cc0dc9bf8c1960af1ed53e5702b49ad7bc3bbcf183"
+    },
+    {
+      "path": "src/temflow/temporal.py",
+      "bytes": 2109,
+      "sha256": "b67190ded0b7de5675621e88ad6431cf7e58c2649dac543e19964d8f1c74bf3d"
+    },
+    {
+      "path": "src/temflow/validation.py",
+      "bytes": 7774,
+      "sha256": "1b1698109027332d71cad2888fdd19f0b4ee4fbf3884b8db8cf239fa6aa6f7c7"
+    },
+    {
+      "path": "src/temflow/versioned_registry.py",
+      "bytes": 7599,
+      "sha256": "3fccbe5ad1e55cf0fb2260319fe9f8dd3a133c519e36cd7b564f3cd9998e8b3e"
+    },
+    {
+      "path": "start_preview.py",
+      "bytes": 2724,
+      "sha256": "b27371a54bd678a98a6dcc4f57895fcfc45301045cf72f1a317acdc27242de21"
+    },
+    {
+      "path": "Stop TEM-FLOW.cmd",
+      "bytes": 97,
+      "sha256": "9768c4ca33184d1e10df1c647203dba99af347a6dc08253b87f390846d17e737"
+    },
+    {
+      "path": "tests/test_certificates.py",
+      "bytes": 1361,
+      "sha256": "2ba5475ac79641f64671dfdb3fd5d8262e52724b072b4dc15466d334fc2774d4"
+    },
+    {
+      "path": "tests/test_compositional.py",
+      "bytes": 1806,
+      "sha256": "8450904264fc89b1dde3721964a0b318a5b9c14f6be851f0f907bbf45f2ee0ba"
+    },
+    {
+      "path": "tests/test_constraints.py",
+      "bytes": 6761,
+      "sha256": "22a1d2eb33cf5596272b913e5c69ff83cab5bb7920782fb835437078799c4766"
+    },
+    {
+      "path": "tests/test_continental_restoration.py",
+      "bytes": 1457,
+      "sha256": "21685e14de4744b5200b4c8982c952bb9fd20b37710aff0786c105e9b1ba64b3"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 4534,
+      "sha256": "08f1b50bc12d91ee11d537c722d36375f16e95e69fca1e1e32e1ee6ccbc449c6"
+    },
+    {
+      "path": "tests/test_cpc_compatibility.py",
+      "bytes": 3266,
+      "sha256": "126513905de7498604537ff0d2c12f116113d52c3afe441b241720bc5ffac3b6"
+    },
+    {
+      "path": "tests/test_curation.py",
+      "bytes": 7193,
+      "sha256": "012c097e8d9ababca7032f6d277d9c1f1af812e6ecb0ca7097827838d409483d"
+    },
+    {
+      "path": "tests/test_dashboard.py",
+      "bytes": 31743,
+      "sha256": "79c5d7e73babfaca4293c718a18f9a65ccda4b5fa82fad253e7249482f607dce"
+    },
+    {
+      "path": "tests/test_downstream_consequence.py",
+      "bytes": 8684,
+      "sha256": "e2e3cc6721ad2c8a06aded57911ecc4fa90665eace8b266946b3ef5f627791de"
+    },
+    {
+      "path": "tests/test_evidential_resolution.py",
+      "bytes": 8838,
+      "sha256": "c22a257b8bdc800332887f76cc1baede8d0a058960796675e20c4844573ece48"
+    },
+    {
+      "path": "tests/test_exposure_scenario.py",
+      "bytes": 3014,
+      "sha256": "e693dccc688139d60ad3b24d4081f63c8565dbd0ebc57ff297b01eac53992212"
+    },
+    {
+      "path": "tests/test_feature_changes.py",
+      "bytes": 8804,
+      "sha256": "4b34397b309dda21cd56832db7b7e7b6e2e3a6b74c0d68a35a98aabe9c0fda18"
+    },
+    {
+      "path": "tests/test_ledger.py",
+      "bytes": 4525,
+      "sha256": "8f9c53be777ae8cbce4357018a393885049aecd67235bce1c6695b7ca85826e6"
+    },
+    {
+      "path": "tests/test_monitoring_layers.py",
+      "bytes": 1287,
+      "sha256": "25541ea556861b0f8700aa25c04abb0e5556d36ea5c6d012b4a993fc2857b565"
+    },
+    {
+      "path": "tests/test_private_engine.py",
+      "bytes": 32901,
+      "sha256": "ed30552d6c53897e173ce3e04610a3cde55c90446b0d409dd2efe33c59fd2214"
+    },
+    {
+      "path": "tests/test_proof_obligations.py",
+      "bytes": 3833,
+      "sha256": "554c69e5da73333e9ae80837e6e7480203be55f8493a640e8873cb6a21fab66d"
+    },
+    {
+      "path": "tests/test_provenance_release.py",
+      "bytes": 2340,
+      "sha256": "b9d1f53af81859b8af7fef0a937a1af5cd2e6b7e101d8e57b0f2e94724ebfb24"
+    },
+    {
+      "path": "tests/test_road_geometry_consistency.py",
+      "bytes": 1215,
+      "sha256": "35f5a278e004b00e22fc0252efdf4c70ada0931ba0ee8f003f08dfb87826e05b"
+    },
+    {
+      "path": "tests/test_tem_calculus.py",
+      "bytes": 21769,
+      "sha256": "628c8ef46e3c3bab242bb85ad2c54690cda1960988d175cc32b50b1620d0e0f2"
+    },
+    {
+      "path": "tests/test_validation.py",
+      "bytes": 443,
+      "sha256": "7320aad1ecb44c2a8f319fabb0c5a69ba2ce70d58b322a4ac77ad7154e5adda1"
+    },
+    {
+      "path": "tests/test_versioned_registry.py",
+      "bytes": 2323,
+      "sha256": "41abb3442ccf64450c3b32f9218c77a18f2fa6a9caa0b2f27b49016373440824"
+    },
+    {
+      "path": "tools/build_africa_road_geometries.py",
+      "bytes": 20543,
+      "sha256": "7d813946b33b3db02c28e0cafaffd65519ffbdaf81c018da28dc86be38339f98"
+    },
+    {
+      "path": "tools/build_desktop_runtime.py",
+      "bytes": 2428,
+      "sha256": "aacd6aedfe174692c125da13e8913fcb7f1010fef5505d8abf9f1e14f9bfacee"
+    },
+    {
+      "path": "tools/check.py",
+      "bytes": 837,
+      "sha256": "4e2abc263939b96e1a97459d19aa7f7ef31e068aabe8313e88a51aab31b0259f"
+    },
+    {
+      "path": "tools/package_release.py",
+      "bytes": 3547,
+      "sha256": "81dd7551fb73643bc03da2e39850c7b9395e4b5cac33d6de5151008fe2ce56cb"
+    },
+    {
+      "path": "tools/set_version.py",
+      "bytes": 1556,
+      "sha256": "f37934697de9d1b4419a105616f73041070b4e2fbee4cacab03baf7757c423a5"
+    }
+  ]
+}

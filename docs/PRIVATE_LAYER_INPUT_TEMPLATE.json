@@ -1,0 +1,33 @@
+{
+  "_schema_version": "1.0.0",
+  "_instructions": "Populate only the layers you choose to enable. This template contains no application data.",
+  "cpc_compatibility": {
+    "identified_lower": null,
+    "identified_upper": null,
+    "measured_lower": null,
+    "measured_upper": null,
+    "concentration_mg_per_kg_food": null,
+    "body_weight_kg": null,
+    "reference_dose_mg_per_kg_day": null
+  },
+  "contaminant_trace": [],
+  "exposure_scenario": {
+    "requested": true,
+    "source_node_id": "",
+    "retained_mass_lower_kg_year": null,
+    "retained_mass_upper_kg_year": null,
+    "consumer_population": null,
+    "concentration_mg_per_kg_food": null,
+    "body_weight_kg": null,
+    "reference_dose_mg_per_kg_day": null,
+    "declared_thq_threshold": 1,
+    "mass_basis": "last_observed",
+    "population_basis": "last_known",
+    "chemistry_basis": "last_reported"
+  },
+  "market_access": [],
+  "flow_irregularity": [],
+  "postharvest_loss": [],
+  "supply_continuity": [],
+  "price_affordability": []
+}

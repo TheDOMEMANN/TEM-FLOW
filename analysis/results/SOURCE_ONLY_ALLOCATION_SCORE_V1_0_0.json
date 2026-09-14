@@ -1,0 +1,24 @@
+{
+  "claim_boundary": "Retrospective, temporally separated source-total-to-route interval validation on field-standardized West African city food flows. No target checkpoint or destination margins were supplied. This is not full farm-to-fork or source-retention validation.",
+  "eligible_target_source_dates": 5334,
+  "gates": {
+    "median_width_over_source_at_most_0_50": false,
+    "minimum_100_positive_compartments": true,
+    "minimum_50_target_source_dates": true,
+    "no_operational_point": true,
+    "positive_count_coverage_at_least_0_80": true,
+    "positive_mass_coverage_at_least_0_80": true,
+    "solver_violation_at_most_1e_8": true,
+    "unresolved_coverage_at_least_0_80": false,
+    "unresolved_identity_blocked": true
+  },
+  "known_path_share_of_target_mass": 0.6652258312812702,
+  "maximum_solver_constraint_violation": 5.820766091346741e-11,
+  "median_interval_width_over_source": 0.9831693326003128,
+  "positive_count_coverage": 0.8234662210551444,
+  "positive_mass_weighted_coverage": 0.8666434603310521,
+  "positive_target_compartments": 8378,
+  "prediction_sha256_before_truth_write": "73cfdc640a72e6839ef719e8cf4c45a15307fc3288acb47e823ea46a7bd40584",
+  "status": "fail",
+  "unresolved_route_coverage": 0.7757780277465317
+}

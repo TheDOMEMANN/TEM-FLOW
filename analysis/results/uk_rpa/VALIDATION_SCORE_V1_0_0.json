@@ -1,0 +1,48 @@
+{
+  "claim_boundary": "County-to-slaughterhouse movement-count allocation with direct/indirect class margins and a current nonlocal destination anchor; not farm-scale, African or instrument-weighed validation.",
+  "decision": "PASS",
+  "frozen_predictions_sha256_before_unblinding": "5a40817e23240ca1557311d44a71cad4099c062270d9fff0273a23639e213c1d",
+  "gates": {
+    "at_least_100_targets": true,
+    "at_least_200_positive_compartments": true,
+    "balance_violation_no_more_than_1e_8": true,
+    "count_coverage_at_least_0_80": true,
+    "median_contraction_at_least_0_20": true,
+    "median_width_no_more_than_0_50": true,
+    "movement_weighted_coverage_at_least_0_80": true,
+    "no_operational_point_estimate": true,
+    "same_county_retention_coverage_at_least_0_80": true,
+    "unresolved_coverage_at_least_0_80": true,
+    "unresolved_destinations_unnamed": true
+  },
+  "metrics": {
+    "all_unresolved_destinations_unnamed": true,
+    "compartment_count_coverage": 0.995334370139969,
+    "direct_radius": {
+      "epsilon": 0.3333333333333333,
+      "finite_sample_coverage": 0.9,
+      "residual_count": 201,
+      "scope": "direct"
+    },
+    "eligible_source_count": 68,
+    "indirect_radius": {
+      "epsilon": 0.48609964216900636,
+      "finite_sample_coverage": 0.9,
+      "residual_count": 198,
+      "scope": "indirect"
+    },
+    "maximum_balance_violation": 0.0,
+    "median_positive_compartment_width_over_remainder": 0.4879873456383185,
+    "median_total_width_contraction": 0.5069501789154968,
+    "movement_weighted_coverage": 0.9972825862282793,
+    "no_operational_point_estimate": true,
+    "positive_same_county_retention_case_count": 227,
+    "positive_unresolved_compartment_count": 403,
+    "positive_withheld_compartment_count": 6430,
+    "same_county_retention_coverage": 0.9911894273127754,
+    "same_county_retention_named_case_count": 192,
+    "target_source_class_month_count": 544,
+    "unresolved_compartment_coverage": 0.9751861042183623
+  },
+  "prediction_written_before_truth": true
+}

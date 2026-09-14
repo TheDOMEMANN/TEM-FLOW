@@ -1,0 +1,13 @@
+{
+  "dataset": "Natural Earth 1:10m lakes",
+  "version": "5.0.0",
+  "source_url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_lakes.geojson",
+  "source_commit": "ca96624a56bd078437bca8184e78163e5039ad19",
+  "source_sha256": "aa59cf60dc238316b450ed2281bff6be3783516505290d99d57760072ae8fdcb",
+  "ethiopia_source_sha256": "729a88571627b3d601a66a1cd1cd56ed57facf03007f2e19a0b58d4b09af0927",
+  "selection": "Named polygons intersecting the African display extent with Natural Earth scale rank 0-5",
+  "feature_count": 28,
+  "output": "africa_major_lakes.geojson",
+  "output_sha256": "331d6ae229e72e0ed07a5f0aa720cb7babe57380394fb422ee8099586b466ae0",
+  "interpretive_boundary": "Polygons provide geographic context only and do not create or validate a source node, route, commodity flow or contaminant link."
+}

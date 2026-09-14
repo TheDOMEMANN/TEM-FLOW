@@ -1,0 +1,23 @@
+{
+  "prefix_sha256": "19c1bfed7e4086bfe8fe5976279dfe93acfbfda8a95f9e952f9ffbbeccd52dcb",
+  "range_chunk_bytes": 4194304,
+  "targets": [
+    {
+      "compressed_sha256": "07ea2adce5a5dcc100befe868c220c9ccfa7306c6a6df4e75b88f4338a4bdb75",
+      "compressed_size": 161198788,
+      "crc32": "0b36a311",
+      "name": "5-25-24_train-ready_all_carts.csv",
+      "uncompressed_sha256": "063bf15c9c7d4887368362ef83815c61400b24e929b57b7d3dcb80e3e32ccfd6",
+      "uncompressed_size": 637292616
+    },
+    {
+      "compressed_sha256": "2902516c80e64ba1e47e19fa76e2192e1701e04587caf55872be85ed4ee4de61",
+      "compressed_size": 175958628,
+      "crc32": "52780cb5",
+      "name": "5-15-24_train-ready_all_carts.csv",
+      "uncompressed_sha256": "d043af7c6f5287278ccad973a0f940bda7655f4b4f296eb65aedf33ae30c178c",
+      "uncompressed_size": 714923098
+    }
+  ],
+  "worker_count": 16
+}

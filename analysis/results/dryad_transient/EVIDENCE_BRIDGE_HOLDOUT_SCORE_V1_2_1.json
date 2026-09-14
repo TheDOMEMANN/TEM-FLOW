@@ -1,0 +1,22 @@
+{
+  "all_hidden_coverage": 0.8863636363636364,
+  "claim_boundary": "Analyst-blind unseen-day validation of calibrated transient cart-mass intervals within one external strawberry field dataset. It is not farm-to-market, cross-study, population, CPC, chemistry, exposure or hazard validation.",
+  "eligible_target_episodes": 44,
+  "gates": {
+    "all_hidden_coverage_at_least_0_80": true,
+    "median_width_over_B_at_most_0_25": true,
+    "minimum_20_target_episodes": true,
+    "no_operational_point": true,
+    "q95_coverage_at_least_0_90": true,
+    "solver_violation_at_most_1e_8": true,
+    "target_excluded_from_calibration": true,
+    "target_files_crc_and_sha_verified": true,
+    "unsupported_removals_blocked": true
+  },
+  "hidden_target_measurements": 440,
+  "maximum_solver_constraint_violation": 1.7763568394002505e-15,
+  "median_width_over_B": 0.21938768441543063,
+  "prediction_sha256_before_unblinding": "3edea6c7520766c5a250f2d6d075a923240819eaf7b109fe68a987d47d07f902",
+  "q95_coverage": 0.9545454545454546,
+  "status": "pass"
+}

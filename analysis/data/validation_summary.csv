@@ -1,0 +1,19 @@
+validation,evidence_state,unit,targets,metric,value,status,claim_boundary
+Dryad transient,partial measured anchors plus calibrated bridge,mass,440,overall hidden-state coverage,0.8864,pass,Within-field cart mass on unseen days only
+Dryad transient,partial measured anchors plus calibrated bridge,mass,44,median relative interval width,0.2194,pass,Within-field cart mass on unseen days only
+Karg source-only,source total plus historical route identities,mass,8378,positive-compartment coverage,0.8235,fail,Source-only destination allocation remains uninformative
+Karg source-only,source total plus historical route identities,mass,5334,unresolved-destination coverage,0.7758,fail,Source-only destination allocation remains uninformative
+Karg source-only,source total plus historical route identities,mass,5334,median relative interval width,0.9832,fail,Source-only destination allocation remains uninformative
+UK RPA branching,current class margins plus one current destination anchor,count,6430,positive-compartment coverage,0.995334,pass,County-to-slaughterhouse administrative movements
+UK RPA branching,current class margins plus one current destination anchor,count,6430,movement-weighted coverage,0.997283,pass,County-to-slaughterhouse administrative movements
+UK RPA branching,current class margins plus one current destination anchor,count,544,unresolved-destination coverage,0.975186,pass,County-to-slaughterhouse administrative movements
+UK RPA branching,current class margins plus one current destination anchor,count,227,same-county retention coverage,0.991189,pass,County scale and not farm scale
+UK RPA branching,current class margins plus one current destination anchor,count,6430,median relative interval width,0.487987,pass,County-to-slaughterhouse administrative movements
+UK RPA branching,current class margins plus one current destination anchor,count,544,median total-width contraction,0.506950,pass,Relative to evidence-only bounds
+NASS retention,holding collection and sale evidence,mass,3014,weighted near-total retention share fish farming,0.1277,reject_default,Does not locate the buyer destination
+NASS retention,holding collection and sale evidence,mass,1864,weighted near-total retention share capture fishing,0.1876,reject_default,Does not locate the buyer destination
+Zambia scale,reported place of sale,household share,1,on-farm share among selling households,0.4970,scale_evidence,Household share and not mass share
+Zambia scale,reported place of sale,household share,1,outside-district share among selling households,0.0300,scale_evidence,Household share and not mass share
+Cross-commodity trade,two current margins plus historical route certificate,mass,610,positive-route certificate coverage,0.8670,pass,Same-source administrative holdout
+Cross-commodity trade,two current margins plus historical route certificate,mass,610,positive-mass certificate coverage,0.9900,pass,Same-source administrative holdout
+Cross-commodity trade,two current margins plus historical route certificate,mass,610,median relative interval width,0.0173,pass,Same-source administrative holdout

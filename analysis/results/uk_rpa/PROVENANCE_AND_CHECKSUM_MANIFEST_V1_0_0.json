@@ -1,0 +1,25 @@
+{
+  "checksums": {
+    "01_PROTOCOL/PREANALYSIS_SEAL_V1_0_0.json": "295af51f851f677db7b1c2d6da939757ddf0f3cbdb821ab9817bbcc8b1c5b6fc",
+    "01_PROTOCOL/VALIDATION_PROTOCOL_V1_0_0.md": "aa8d59273fdb77f845e4bd683c9450d5f6197c7b77636b646b981500a5d8e353",
+    "02_DATA/derived/CALIBRATION_RESIDUALS_V1_0_0.csv": "1ab6310f1abb0717efe533e912a6efcb4fc74a298eca887113054ede512f582b",
+    "02_DATA/derived/UNBLINDED_DESTINATION_TRUTH_V1_0_0.csv": "e3e028193efbce3501f5d91a1bc90812cefbc8c6f8b798df516539c65b7e94fc",
+    "02_DATA/raw/cattle-movements-to-slaughterhouses-during-2010.csv": "23584327dde9a6f6e59efe1281204cdaf5b9f6a3c69aed9233e43c0c7c163875",
+    "03_CODE/run_validation.py": "4039c3a7e379bf68d268124cc3c2583b2681adffc1c26d17c4097d3be7a4eb0b",
+    "04_RESULTS/FROZEN_PREDICTIONS_V1_0_0.json": "5a40817e23240ca1557311d44a71cad4099c062270d9fff0273a23639e213c1d",
+    "04_RESULTS/SAME_COUNTY_RETENTION_SCORE_ROWS_V1_0_0.json": "bcbf963aee5947b3bd07e59371b09fbc4179b0e6b62b8411df083e18a45610e0",
+    "04_RESULTS/VALIDATION_SCORE_V1_0_0.json": "54f58195babf2860ffbfae6c54cf0aa456b55a81e88bdfd502dc0e24affb6e12"
+  },
+  "dataset": {
+    "eligible_rows": 14000,
+    "excluded_blank_node_rows": 670,
+    "excluded_missing_count_rows": 0,
+    "excluded_other_year_or_bad_date_rows": 0,
+    "publisher": "UK Rural Payments Agency",
+    "raw_rows": 14670,
+    "retrieval_date": "2026-09-12",
+    "source_catalogue_url": "https://www.data.gov.uk/dataset/28d5ad2b-bff8-48ef-bb1d-07d86c07c77a/cattle-movements-to-slaughterhouses-during-2010",
+    "source_csv_url": "https://s3-eu-west-1.amazonaws.com/data.defra.gov.uk/AnimalWelfare/cattle-movements-to-slaughterhouses-during-2010.csv",
+    "title": "Cattle movements to slaughterhouses during 2010"
+  }
+}

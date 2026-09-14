@@ -1,0 +1,1693 @@
+commodity,commodity_class,reporter_name,partner_name,heldout_bilateral_net_weight_kg,claim_status,tem_lower_kg,tem_upper_kg,contained,independent_margins_point_kg,historical_route_share_point_kg
+cocoa_beans,food_or_beverage_crop,Cameroon,56,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,76,0,blocked_no_training_route_certificate,,,,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,100,0,blocked_no_training_route_certificate,,,,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,124,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,156,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,208,0,blocked_no_training_route_certificate,,,,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,232,0,blocked_no_training_route_certificate,,,,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,233,0,blocked_no_training_route_certificate,,,,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,251,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,276,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,288,0,blocked_no_training_route_certificate,,,,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,360,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,380,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,392,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,410,0,blocked_no_training_route_certificate,,,,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,428,0,blocked_no_training_route_certificate,,,,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,440,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,458,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,462,0,blocked_no_training_route_certificate,,,,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,484,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,528,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,554,0,blocked_no_training_route_certificate,,,,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,608,0,blocked_no_training_route_certificate,,,,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,616,0,blocked_no_training_route_certificate,,,,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,643,0,blocked_no_training_route_certificate,,,,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,699,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,702,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,704,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,724,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,748,0,blocked_no_training_route_certificate,,,,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,757,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,784,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,788,0,blocked_no_training_route_certificate,,,,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,792,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,826,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,842,0,certified_interval,0,0,true,0,0
+cocoa_beans,food_or_beverage_crop,Cameroon,858,0,blocked_no_training_route_certificate,,,,0,0
+cocoa_beans,food_or_beverage_crop,Ghana,56,23172000,certified_interval,0,212505400,true,34536415.4620465,30371532.7912778
+cocoa_beans,food_or_beverage_crop,Ghana,76,0,certified_interval,0,37677900,true,6123419.01964582,10362783.5194458
+cocoa_beans,food_or_beverage_crop,Ghana,100,0,certified_interval,0,18997426,true,3087465.05757258,95288.21656011
+cocoa_beans,food_or_beverage_crop,Ghana,124,14200000,certified_interval,0,50953930,true,8281041.78013376,7551439.18756166
+cocoa_beans,food_or_beverage_crop,Ghana,156,501000,certified_interval,0,734550,true,119379.19684698,2491665.28318523
+cocoa_beans,food_or_beverage_crop,Ghana,208,50000,certified_interval,0,50000,true,8126.00890660815,48252.0075882534
+cocoa_beans,food_or_beverage_crop,Ghana,232,125000,blocked_no_training_route_certificate,,,,20315.0222665204,0
+cocoa_beans,food_or_beverage_crop,Ghana,233,1050000,certified_interval,0,20488150,true,3329737.78759847,3808261.20362284
+cocoa_beans,food_or_beverage_crop,Ghana,251,3550000,certified_interval,0,30825340,true,5009739.74778449,5435379.68942956
+cocoa_beans,food_or_beverage_crop,Ghana,276,12325400,certified_interval,0,108812095,true,17684161.0623338,11751481.9968917
+cocoa_beans,food_or_beverage_crop,Ghana,288,0,blocked_no_training_route_certificate,,,,1629541.39511811,0
+cocoa_beans,food_or_beverage_crop,Ghana,360,825000,certified_interval,0,32923150,true,5350676.20267192,3904195.31319791
+cocoa_beans,food_or_beverage_crop,Ghana,380,7409659.074,certified_interval,0,58017869.074,true,9429074.41675499,7646966.59350269
+cocoa_beans,food_or_beverage_crop,Ghana,392,19936321.813,certified_interval,0,22012031.813,true,3577399.3312996,17504306.515094
+cocoa_beans,food_or_beverage_crop,Ghana,410,3400000,certified_interval,0,4000600,true,650178.224635531,1504114.81000611
+cocoa_beans,food_or_beverage_crop,Ghana,428,0,certified_interval,0,101790,true,16542.9289320729,7232671.9878251
+cocoa_beans,food_or_beverage_crop,Ghana,440,0,blocked_no_training_route_certificate,,,,8126.00890660815,0
+cocoa_beans,food_or_beverage_crop,Ghana,458,24962000,certified_interval,0,203466730,true,33067449.2035687,34028759.5120934
+cocoa_beans,food_or_beverage_crop,Ghana,462,0,blocked_no_training_route_certificate,,,,41566.160759082,0
+cocoa_beans,food_or_beverage_crop,Ghana,484,0,blocked_no_training_route_certificate,,,,650731.605842071,0
+cocoa_beans,food_or_beverage_crop,Ghana,528,71697125,certified_interval,0,265050771.517,true,72719882.8586875,52929254.2040473
+cocoa_beans,food_or_beverage_crop,Ghana,554,2312500,certified_interval,0,3213400,true,522242.340409892,1651330.54534667
+cocoa_beans,food_or_beverage_crop,Ghana,608,50000,certified_interval,0,50000,true,8126.00890660815,4749.21334530052
+cocoa_beans,food_or_beverage_crop,Ghana,616,100000,blocked_no_training_route_certificate,,,,976080.750444848,0
+cocoa_beans,food_or_beverage_crop,Ghana,643,0,blocked_no_training_route_certificate,,,,302019.373031905,0
+cocoa_beans,food_or_beverage_crop,Ghana,699,50000,certified_interval,0,2006940,true,326168.246300563,555050.062091964
+cocoa_beans,food_or_beverage_crop,Ghana,702,0,certified_interval,0,1220020,true,198277.867724801,247111.068782678
+cocoa_beans,food_or_beverage_crop,Ghana,704,0,certified_interval,0,3208120,true,521384.233869354,29806.0629551061
+cocoa_beans,food_or_beverage_crop,Ghana,724,22862500,certified_interval,0,69923580,true,11363992.6772385,15603806.4019322
+cocoa_beans,food_or_beverage_crop,Ghana,748,0,blocked_no_training_route_certificate,,,,41062.3482068723,0
+cocoa_beans,food_or_beverage_crop,Ghana,757,0,certified_interval,0,2426790,true,394402.343089352,0.379937067624043
+cocoa_beans,food_or_beverage_crop,Ghana,784,975000,certified_interval,0,1780400,true,289350.925146503,690877.852519731
+cocoa_beans,food_or_beverage_crop,Ghana,788,1512500,certified_interval,0,4116200,true,668965.557227609,2293148.16535167
+cocoa_beans,food_or_beverage_crop,Ghana,792,13150000,certified_interval,0,91185380,true,14819464.200649,12982719.7359686
+cocoa_beans,food_or_beverage_crop,Ghana,826,7067265.63,certified_interval,0,59799790.63,true,9718672.62545365,4506230.29275761
+cocoa_beans,food_or_beverage_crop,Ghana,842,33767500,certified_interval,0,120239335,true,19541318.1426928,29805323.7875412
+cocoa_beans,food_or_beverage_crop,Ghana,858,0,blocked_no_training_route_certificate,,,,18275.3940309617,0
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,56,168394000,certified_interval,0,212505400,true,137934048.110755,82219286.2066503
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,76,37537500,certified_interval,0,37677900,true,24456156.2732627,17995371.6768117
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,100,15891200,certified_interval,0,18997426,true,12330942.5165878,17230267.2493564
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,124,31556500,certified_interval,0,50953930,true,33073426.990806,49228241.5675087
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,156,100100,certified_interval,0,734550,true,476785.319524844,1999486.46246284
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,208,0,blocked_no_training_route_certificate,,,,32454.2454240586,0
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,232,0,blocked_no_training_route_certificate,,,,81135.6135601464,0
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,233,18194800,certified_interval,0,20488150,true,13298548.9676985,22714965.9874097
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,251,25449700,blocked_no_training_route_certificate,,,,20008262.992801,0
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,276,93676825,certified_interval,0,108812095,true,70628288.7247195,94811994.9798934
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,288,750750,certified_interval,0,10026702,true,6508180.95003798,1532076.63680785
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,360,18393380,certified_interval,0,32923150,true,21369919.8046619,52162949.7732177
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,380,42042000,certified_interval,0,58017869.074,true,37658523.2381699,29864537.0233698
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,392,1777730,certified_interval,0,22012031.813,true,14287677.6548257,58426.5524745633
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,410,600600,blocked_no_training_route_certificate,,,,2596729.08486977,0
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,428,0,blocked_no_training_route_certificate,,,,66070.3528342984,0
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,440,0,blocked_no_training_route_certificate,,,,32454.2454240586,0
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,458,94796100,certified_interval,0,203466730,true,132067183.821013,132005624.377453
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,462,0,blocked_no_training_route_certificate,,,,166009.956193144,0
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,484,4004005,certified_interval,0,4004005,true,2598939.21898315,4044430.06685092
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,528,248840075,certified_interval,0,447451410,true,290433957.509621,253012721.663626
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,554,900900,blocked_no_training_route_certificate,,,,2085769.4449134,0
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,608,0,blocked_no_training_route_certificate,,,,32454.2454240586,0
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,616,5905905,certified_interval,0,6005905,true,3898342.29727161,4732553.34458115
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,643,1851850,certified_interval,0,1858350,true,1206226.93967598,6885891.85547933
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,699,1476480,blocked_no_training_route_certificate,,,,1302674.4662272,0
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,702,0,blocked_no_training_route_certificate,,,,791896.570045199,0
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,704,0,certified_interval,0,3208120,true,2082342.27659662,6491.83916384037
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,724,38641300,certified_interval,0,69923580,true,45386340.5249759,38469991.9060219
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,748,0,blocked_no_training_route_certificate,,,,163997.792976853,0
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,757,0,blocked_no_training_route_certificate,,,,1575192.76505302,0
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,784,0,certified_interval,0,1780400,true,1155630.77105988,4024940.28158102
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,788,2552550,certified_interval,0,4116200,true,2671763.3002902,986760.849974497
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,792,73933000,certified_interval,0,91185380,true,59187054.0321208,54815715.0044603
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,826,52531275,certified_interval,0,59799790.63,true,38815141.6282668,43312615.7131236
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,842,78780525,certified_interval,0,120239335,true,78045537.7543119,146054723.114399
+cocoa_beans,food_or_beverage_crop,Côte d'Ivoire,858,0,blocked_no_training_route_certificate,,,,72989.5979587077,0
+cocoa_beans,food_or_beverage_crop,Nigeria,56,20939400,certified_interval,0,212505400,true,40034936.4269863,17990772.3096668
+cocoa_beans,food_or_beverage_crop,Nigeria,76,140400,certified_interval,0,37677900,true,7098324.70705378,83303.2331970441
+cocoa_beans,food_or_beverage_crop,Nigeria,100,3106226,certified_interval,0,18997426,true,3579018.4258206,1676731.13581631
+cocoa_beans,food_or_beverage_crop,Nigeria,124,5197430,certified_interval,0,50953930,true,9599461.22900928,7671190.50531917
+cocoa_beans,food_or_beverage_crop,Nigeria,156,133450,certified_interval,0,734550,true,138385.483627441,598246.630888054
+cocoa_beans,food_or_beverage_crop,Nigeria,208,0,blocked_no_training_route_certificate,,,,9419.74566928329,0
+cocoa_beans,food_or_beverage_crop,Nigeria,232,0,blocked_no_training_route_certificate,,,,23549.3641732082,0
+cocoa_beans,food_or_beverage_crop,Nigeria,233,1243350,certified_interval,0,20488150,true,3859863.24468253,71456055.768405
+cocoa_beans,food_or_beverage_crop,Nigeria,251,1825640,certified_interval,0,30825340,true,5807337.2593837,174498.935061592
+cocoa_beans,food_or_beverage_crop,Nigeria,276,2809870,certified_interval,0,108812095,true,20499645.2128378,17535823.8672695
+cocoa_beans,food_or_beverage_crop,Nigeria,288,9275952,certified_interval,0,10026702,true,1888979.65483388,3048.35517354453
+cocoa_beans,food_or_beverage_crop,Nigeria,360,13704770,certified_interval,0,32923150,true,6202553.99263329,29303791.1723399
+cocoa_beans,food_or_beverage_crop,Nigeria,380,8566210,certified_interval,0,58017869.074,true,10930271.4190171,3383788.41739183
+cocoa_beans,food_or_beverage_crop,Nigeria,392,297980,certified_interval,0,22012031.813,true,4146954.82685266,60210.5571414564
+cocoa_beans,food_or_beverage_crop,Nigeria,410,0,blocked_no_training_route_certificate,,,,753692.690490695,0
+cocoa_beans,food_or_beverage_crop,Nigeria,428,101790,blocked_no_training_route_certificate,,,,19176.7182335269,0
+cocoa_beans,food_or_beverage_crop,Nigeria,440,50000,certified_interval,0,50000,true,9419.74566928329,66068.9415386137
+cocoa_beans,food_or_beverage_crop,Nigeria,458,83708630,certified_interval,0,203466730,true,38332096.9752147,44363303.1130042
+cocoa_beans,food_or_beverage_crop,Nigeria,462,255760,blocked_no_training_route_certificate,,,,48183.8830475179,0
+cocoa_beans,food_or_beverage_crop,Nigeria,484,0,blocked_no_training_route_certificate,,,,754334.175170773,0
+cocoa_beans,food_or_beverage_crop,Nigeria,528,126914210,certified_interval,0,307249338,true,84297569.6312441,100293825.486741
+cocoa_beans,food_or_beverage_crop,Nigeria,554,0,blocked_no_training_route_certificate,,,,605388.214673499,0
+cocoa_beans,food_or_beverage_crop,Nigeria,608,0,blocked_no_training_route_certificate,,,,9419.74566928329,0
+cocoa_beans,food_or_beverage_crop,Nigeria,616,0,certified_interval,0,6005905,true,1131481.95227754,64292.5818420301
+cocoa_beans,food_or_beverage_crop,Nigeria,643,6500,certified_interval,0,1858350,true,350103.687290252,4988.21755670922
+cocoa_beans,food_or_beverage_crop,Nigeria,699,480460,certified_interval,0,2006940,true,378097.287470228,308449.203851092
+cocoa_beans,food_or_beverage_crop,Nigeria,702,1220020,certified_interval,0,1220020,true,229845.56222878,513293.129049331
+cocoa_beans,food_or_beverage_crop,Nigeria,704,3208120,certified_interval,0,3208120,true,604393.489530822,2823719.94094365
+cocoa_beans,food_or_beverage_crop,Nigeria,724,8419780,certified_interval,0,69923580,true,13173246.7977157,2961978.92120935
+cocoa_beans,food_or_beverage_crop,Nigeria,748,252660,certified_interval,0,252660,true,47599.8588160223,138561.598797478
+cocoa_beans,food_or_beverage_crop,Nigeria,757,2426790,certified_interval,0,2426790,true,457194.8918552,872771.798505556
+cocoa_beans,food_or_beverage_crop,Nigeria,784,805400,certified_interval,0,1780400,true,335418.30379184,75028.3345168586
+cocoa_beans,food_or_beverage_crop,Nigeria,788,51150,blocked_no_training_route_certificate,,,,775471.142478078,0
+cocoa_beans,food_or_beverage_crop,Nigeria,792,4102380,certified_interval,0,91185380,true,17178861.767139,944142.106814163
+cocoa_beans,food_or_beverage_crop,Nigeria,826,201250,certified_interval,0,59799790.63,true,11265976.3762198,41429.918040446
+cocoa_beans,food_or_beverage_crop,Nigeria,842,7691310,certified_interval,0,120239335,true,22652479.1028751,3786386.62502424
+cocoa_beans,food_or_beverage_crop,Nigeria,858,112450,blocked_no_training_route_certificate,,,,21185.0080102181,0
+coconut,food_or_beverage_crop,Ghana,36,655.2,blocked_no_training_route_certificate,,,,256.45208295036,0
+coconut,food_or_beverage_crop,Ghana,56,122341.25,certified_interval,0,2488999.25,true,974220.149762489,93058.4160869973
+coconut,food_or_beverage_crop,Ghana,120,0,blocked_no_training_route_certificate,,,,86.893105028968,0
+coconut,food_or_beverage_crop,Ghana,124,17100,certified_interval,0,643072,true,251705.057825174,8087.51564389343
+coconut,food_or_beverage_crop,Ghana,156,0,certified_interval,0,258,true,100.983878817449,218374.988564725
+coconut,food_or_beverage_crop,Ghana,174,0,blocked_no_training_route_certificate,,,,105.68080341361,0
+coconut,food_or_beverage_crop,Ghana,180,0,blocked_no_training_route_certificate,,,,355.087499469729,0
+coconut,food_or_beverage_crop,Ghana,204,35000,certified_interval,0,35000,true,13699.3634054679,320494.749898205
+coconut,food_or_beverage_crop,Ghana,208,0,blocked_no_training_route_certificate,,,,0.39141038301337,0
+coconut,food_or_beverage_crop,Ghana,214,5265231,certified_interval,0,6435931,true,2519090.21775762,7081943.09808138
+coconut,food_or_beverage_crop,Ghana,251,0,certified_interval,0,1646186,true,644334.292771247,8.38281951310508
+coconut,food_or_beverage_crop,Ghana,276,185679.8,certified_interval,0,662759.8,true,259411.067163864,147838.64285862
+coconut,food_or_beverage_crop,Ghana,288,0,blocked_no_training_route_certificate,,,,194230.35718349,0
+coconut,food_or_beverage_crop,Ghana,324,0,blocked_no_training_route_certificate,,,,710867.795317391,0
+coconut,food_or_beverage_crop,Ghana,360,0,blocked_no_training_route_certificate,,,,1.95705191506685,0
+coconut,food_or_beverage_crop,Ghana,376,9009,certified_interval,0,411944,true,161239.158820059,5713.52656026544
+coconut,food_or_beverage_crop,Ghana,380,0,certified_interval,0,2179909.8,true,853239.329752598,61853.2688395301
+coconut,food_or_beverage_crop,Ghana,392,50,certified_interval,0,50,true,19.5705191506685,1069.80018477245
+coconut,food_or_beverage_crop,Ghana,440,0,blocked_no_training_route_certificate,,,,16830.6464695749,0
+coconut,food_or_beverage_crop,Ghana,466,0,blocked_no_training_route_certificate,,,,1196484.00354557,0
+coconut,food_or_beverage_crop,Ghana,480,0,blocked_no_training_route_certificate,,,,211.36160682722,0
+coconut,food_or_beverage_crop,Ghana,504,0,blocked_no_training_route_certificate,,,,163961.8094443,0
+coconut,food_or_beverage_crop,Ghana,528,77072,certified_interval,0,6318922,true,2473291.68025161,58603.78316645
+coconut,food_or_beverage_crop,Ghana,562,0,blocked_no_training_route_certificate,,,,388670.510332276,0
+coconut,food_or_beverage_crop,Ghana,566,18994500,certified_interval,0,22830540,true,8936110.40580205,15955330.6706273
+coconut,food_or_beverage_crop,Ghana,634,0,blocked_no_training_route_certificate,,,,16595.8002397669,0
+coconut,food_or_beverage_crop,Ghana,643,0,blocked_no_training_route_certificate,,,,317120.692317432,0
+coconut,food_or_beverage_crop,Ghana,646,0,blocked_no_training_route_certificate,,,,4646.0412463687,0
+coconut,food_or_beverage_crop,Ghana,686,0,blocked_no_training_route_certificate,,,,2535951.78564745,0
+coconut,food_or_beverage_crop,Ghana,699,118,certified_interval,0,118,true,46.1864251955776,423205.37299494
+coconut,food_or_beverage_crop,Ghana,702,0,blocked_no_training_route_certificate,,,,15.6564153205348,0
+coconut,food_or_beverage_crop,Ghana,706,0,blocked_no_training_route_certificate,,,,26.8037830287555,0
+coconut,food_or_beverage_crop,Ghana,710,0,certified_interval,0,436232,true,170745.734202688,5.08049667460912
+coconut,food_or_beverage_crop,Ghana,724,0,certified_interval,0,657608,true,257394.599152656,52584.4107063733
+coconut,food_or_beverage_crop,Ghana,748,0,blocked_no_training_route_certificate,,,,23.4846229808022,0
+coconut,food_or_beverage_crop,Ghana,752,0,certified_interval,0,50913,true,19927.8768303597,3557.31296659456
+coconut,food_or_beverage_crop,Ghana,757,5535,certified_interval,0,41435,true,16218.089220159,9397.7757362751
+coconut,food_or_beverage_crop,Ghana,784,0,certified_interval,0,21819,true,8540.18314696871,53815.1610257972
+coconut,food_or_beverage_crop,Ghana,792,0,certified_interval,0,342746,true,134154.3431363,45724.4700714822
+coconut,food_or_beverage_crop,Ghana,800,0,blocked_no_training_route_certificate,,,,2117.72587729384,0
+coconut,food_or_beverage_crop,Ghana,804,0,blocked_no_training_route_certificate,,,,9589.55438382755,0
+coconut,food_or_beverage_crop,Ghana,818,0,blocked_no_training_route_certificate,,,,19428.8285920176,0
+coconut,food_or_beverage_crop,Ghana,826,10500,certified_interval,0,76061,true,29771.0651423799,24496.6308159629
+coconut,food_or_beverage_crop,Ghana,834,0,blocked_no_training_route_certificate,,,,260.972872874164,0
+coconut,food_or_beverage_crop,Ghana,842,23618.4,certified_interval,0,28881.4,true,11304.4798359623,87462.6554396493
+coconut,food_or_beverage_crop,Ghana,854,0,blocked_no_training_route_certificate,,,,1434005.52332149,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,36,0,blocked_no_training_route_certificate,,,,392.180104808602,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,56,2366658,certified_interval,0,2488999.25,true,1489829.03958109,6260491.70283516
+coconut,food_or_beverage_crop,Côte d'Ivoire,120,222,certified_interval,0,222,true,132.881537343574,285.742031245757
+coconut,food_or_beverage_crop,Côte d'Ivoire,124,624972,certified_interval,0,643072,true,384920.702624355,767009.079703194
+coconut,food_or_beverage_crop,Côte d'Ivoire,156,0,blocked_no_training_route_certificate,,,,154.42989475064,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,174,0,blocked_no_training_route_certificate,,,,161.612680552995,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,180,0,blocked_no_training_route_certificate,,,,543.018606658064,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,204,0,blocked_no_training_route_certificate,,,,20949.7919235364,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,208,1,blocked_no_training_route_certificate,,,,0.598565483529612,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,214,1170700,certified_interval,0,6435931,true,3852326.15097822,758838.762556439
+coconut,food_or_beverage_crop,Côte d'Ivoire,251,1646186,certified_interval,0,1646186,true,985350.119069678,1520329.84614513
+coconut,food_or_beverage_crop,Côte d'Ivoire,276,477080,certified_interval,0,662759.8,true,396705.140150989,630869.193863026
+coconut,food_or_beverage_crop,Côte d'Ivoire,288,496232,certified_interval,0,496232,true,297027.347022866,241998.10117349
+coconut,food_or_beverage_crop,Côte d'Ivoire,324,1816170,certified_interval,0,1816170,true,1087096.67422198,1322690.33790223
+coconut,food_or_beverage_crop,Côte d'Ivoire,360,0,blocked_no_training_route_certificate,,,,2.99282741764806,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,376,402935,certified_interval,0,411944,true,246575.459547123,193371.157278379
+coconut,food_or_beverage_crop,Côte d'Ivoire,380,2157820,certified_interval,0,2179909.8,true,1304818.76348794,2127508.48568872
+coconut,food_or_beverage_crop,Côte d'Ivoire,392,0,blocked_no_training_route_certificate,,,,29.9282741764806,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,440,43000,certified_interval,0,43000,true,25738.3157917733,14842.7110674879
+coconut,food_or_beverage_crop,Côte d'Ivoire,466,3056853,certified_interval,0,3056853,true,1829726.69402395,1944043.0521602
+coconut,food_or_beverage_crop,Côte d'Ivoire,480,0,blocked_no_training_route_certificate,,,,323.225361105991,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,504,418900,certified_interval,0,418900,true,250739.081050555,315652.237111979
+coconut,food_or_beverage_crop,Côte d'Ivoire,528,6241850,certified_interval,0,6318922,true,3782288.6023159,5472693.93788541
+coconut,food_or_beverage_crop,Côte d'Ivoire,562,993000,certified_interval,0,993000,true,594375.525144905,3388709.99588718
+coconut,food_or_beverage_crop,Côte d'Ivoire,566,3836040,certified_interval,0,22830540,true,13665573.2143422,1511257.85414422
+coconut,food_or_beverage_crop,Côte d'Ivoire,634,0,blocked_no_training_route_certificate,,,,25379.1765016556,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,643,810200,certified_interval,0,810200,true,484957.754755692,1452797.89197165
+coconut,food_or_beverage_crop,Côte d'Ivoire,646,0,blocked_no_training_route_certificate,,,,7104.9722894965,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,686,6479010,certified_interval,0,6479010,true,3878111.75344319,5478594.19333946
+coconut,food_or_beverage_crop,Côte d'Ivoire,699,0,blocked_no_training_route_certificate,,,,70.6307270564942,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,702,0,blocked_no_training_route_certificate,,,,23.9426193411845,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,706,0,blocked_no_training_route_certificate,,,,40.9897643121078,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,710,0,blocked_no_training_route_certificate,,,,261113.41801109,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,724,657608,certified_interval,0,657608,true,393621.450492941,901230.366549117
+coconut,food_or_beverage_crop,Côte d'Ivoire,748,0,blocked_no_training_route_certificate,,,,35.9139290117767,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,752,0,blocked_no_training_route_certificate,,,,30474.7644629431,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,757,30900,certified_interval,0,41435,true,24801.5608100495,5216.37952596422
+coconut,food_or_beverage_crop,Côte d'Ivoire,784,21785,certified_interval,0,21819,true,13060.1002851326,6991.15503114619
+coconut,food_or_beverage_crop,Côte d'Ivoire,792,342710,certified_interval,0,342746,true,205155.92521784,242785.479215144
+coconut,food_or_beverage_crop,Côte d'Ivoire,800,0,blocked_no_training_route_certificate,,,,3238.53854863697,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,804,24500,certified_interval,0,24500,true,14664.8543464755,149220.838539451
+coconut,food_or_beverage_crop,Côte d'Ivoire,818,0,certified_interval,0,49638,true,29711.5934714429,7324.52073426624
+coconut,food_or_beverage_crop,Côte d'Ivoire,826,64500,certified_interval,0,76061,true,45527.4892427458,571122.122585268
+coconut,food_or_beverage_crop,Côte d'Ivoire,834,0,blocked_no_training_route_certificate,,,,399.093536143369,0
+coconut,food_or_beverage_crop,Côte d'Ivoire,842,0,certified_interval,0,28881.4,true,17287.4091560121,5103.67016919505
+coconut,food_or_beverage_crop,Côte d'Ivoire,854,3663688,certified_interval,0,3663688,true,2192957.17922164,2493086.20548225
+coconut,food_or_beverage_crop,Kenya,36,0,blocked_no_training_route_certificate,,,,1.00652335699499,0
+coconut,food_or_beverage_crop,Kenya,56,0,blocked_no_training_route_certificate,,,,3823.62008648965,0
+coconut,food_or_beverage_crop,Kenya,120,0,blocked_no_training_route_certificate,,,,0.341038133780355,0
+coconut,food_or_beverage_crop,Kenya,124,0,blocked_no_training_route_certificate,,,,987.892228677479,0
+coconut,food_or_beverage_crop,Kenya,156,258,certified_interval,0,258,true,0.396341614933926,10.691140441477
+coconut,food_or_beverage_crop,Kenya,174,0,blocked_no_training_route_certificate,,,,0.414776108651783,0
+coconut,food_or_beverage_crop,Kenya,180,907.2,certified_interval,0,907.2,true,1.39364772506999,12894.2860254614
+coconut,food_or_beverage_crop,Kenya,204,0,blocked_no_training_route_certificate,,,,53.7672733437496,0
+coconut,food_or_beverage_crop,Kenya,208,0,blocked_no_training_route_certificate,,,,0.00153620780982142,0
+coconut,food_or_beverage_crop,Kenya,214,0,blocked_no_training_route_certificate,,,,9886.92746567177,0
+coconut,food_or_beverage_crop,Kenya,251,0,blocked_no_training_route_certificate,,,,2528.88378961868,0
+coconut,food_or_beverage_crop,Kenya,276,0,blocked_no_training_route_certificate,,,,1018.13678079568,0
+coconut,food_or_beverage_crop,Kenya,288,0,blocked_no_training_route_certificate,,,,762.315473883302,0
+coconut,food_or_beverage_crop,Kenya,324,0,blocked_no_training_route_certificate,,,,2790.01453796336,0
+coconut,food_or_beverage_crop,Kenya,360,5,certified_interval,0,5,true,0.00768103904910709,5.34557022073849
+coconut,food_or_beverage_crop,Kenya,376,0,certified_interval,0,97124.73,true,632.831590009074,191.104135391401
+coconut,food_or_beverage_crop,Kenya,380,22089.8,certified_interval,0,97124.73,true,3348.79445946624,1206.89611658723
+coconut,food_or_beverage_crop,Kenya,392,0,blocked_no_training_route_certificate,,,,0.0768103904910709,0
+coconut,food_or_beverage_crop,Kenya,440,0,blocked_no_training_route_certificate,,,,66.056935822321,0
+coconut,food_or_beverage_crop,Kenya,466,0,blocked_no_training_route_certificate,,,,4695.96145207603,0
+coconut,food_or_beverage_crop,Kenya,480,540,certified_interval,0,540,true,0.829552217303566,1970.06535843467
+coconut,food_or_beverage_crop,Kenya,504,0,blocked_no_training_route_certificate,,,,643.517451534192,0
+coconut,food_or_beverage_crop,Kenya,528,0,blocked_no_training_route_certificate,,,,9707.17732605237,0
+coconut,food_or_beverage_crop,Kenya,562,0,blocked_no_training_route_certificate,,,,1525.45435515267,0
+coconut,food_or_beverage_crop,Kenya,566,0,blocked_no_training_route_certificate,,,,35072.4538504403,0
+coconut,food_or_beverage_crop,Kenya,634,0,blocked_no_training_route_certificate,,,,65.1352111364281,0
+coconut,food_or_beverage_crop,Kenya,643,0,blocked_no_training_route_certificate,,,,1244.63556751731,0
+coconut,food_or_beverage_crop,Kenya,646,11870,certified_interval,0,11870,true,18.2347867025802,5473.41844185116
+coconut,food_or_beverage_crop,Kenya,686,0,blocked_no_training_route_certificate,,,,9953.10576191106,0
+coconut,food_or_beverage_crop,Kenya,699,0,blocked_no_training_route_certificate,,,,0.181272521558927,0
+coconut,food_or_beverage_crop,Kenya,702,5,certified_interval,0,40,true,0.0614483123928567,5.34557022073849
+coconut,food_or_beverage_crop,Kenya,706,68.48,blocked_no_training_route_certificate,,,,0.105199510816571,0
+coconut,food_or_beverage_crop,Kenya,710,0,certified_interval,0,97124.73,true,670.143005294017,41.4281692107233
+coconut,food_or_beverage_crop,Kenya,724,0,blocked_no_training_route_certificate,,,,1010.22254540104,0
+coconut,food_or_beverage_crop,Kenya,748,0,blocked_no_training_route_certificate,,,,0.0921724685892851,0
+coconut,food_or_beverage_crop,Kenya,752,0,blocked_no_training_route_certificate,,,,78.2129482214378,0
+coconut,food_or_beverage_crop,Kenya,757,0,blocked_no_training_route_certificate,,,,63.6527705999504,0
+coconut,food_or_beverage_crop,Kenya,784,0,certified_interval,0,21819,true,33.5185182024935,3527.2745101543
+coconut,food_or_beverage_crop,Kenya,792,0,certified_interval,0,97124.73,true,526.529081985052,19511.3313056955
+coconut,food_or_beverage_crop,Kenya,800,5410.5,certified_interval,0,5410.5,true,8.31165235503878,4153.33433048164
+coconut,food_or_beverage_crop,Kenya,804,0,blocked_no_training_route_certificate,,,,37.6370913406247,0
+coconut,food_or_beverage_crop,Kenya,818,49638,certified_interval,0,49638,true,76.2542832639155,43432.7580435003
+coconut,food_or_beverage_crop,Kenya,826,411,certified_interval,0,76061,true,116.845502222827,3375.72759439635
+coconut,food_or_beverage_crop,Kenya,834,666.75,certified_interval,0,666.75,true,1.02426655719843,896.296213553074
+coconut,food_or_beverage_crop,Kenya,842,5255,blocked_no_training_route_certificate,,,,44.3678322385763,0
+coconut,food_or_beverage_crop,Kenya,854,0,blocked_no_training_route_certificate,,,,5628.18611834901,0
+coconut,food_or_beverage_crop,Mozambique,36,0,blocked_no_training_route_certificate,,,,4.91548512117585,0
+coconut,food_or_beverage_crop,Mozambique,56,0,certified_interval,0,474321,true,18673.1361111002,0.504735342253513
+coconut,food_or_beverage_crop,Mozambique,120,0,blocked_no_training_route_certificate,,,,1.66550320039841,0
+coconut,food_or_beverage_crop,Mozambique,124,0,blocked_no_training_route_certificate,,,,4824.49763102075,0
+coconut,food_or_beverage_crop,Mozambique,156,0,certified_interval,0,258,true,1.93558480046302,7.06629479154917
+coconut,food_or_beverage_crop,Mozambique,174,0,blocked_no_training_route_certificate,,,,2.02561200048456,0
+coconut,food_or_beverage_crop,Mozambique,180,0,blocked_no_training_route_certificate,,,,6.80605632162811,0
+coconut,food_or_beverage_crop,Mozambique,204,0,blocked_no_training_route_certificate,,,,262.579333396146,0
+coconut,food_or_beverage_crop,Mozambique,208,0,certified_interval,0,1,true,0.00750226666846132,15.1420602676053
+coconut,food_or_beverage_crop,Mozambique,214,0,blocked_no_training_route_certificate,,,,48284.0706218169,0
+coconut,food_or_beverage_crop,Mozambique,251,0,blocked_no_training_route_certificate,,,,12350.1263578877,0
+coconut,food_or_beverage_crop,Mozambique,276,0,certified_interval,0,474321,true,4972.20075673609,5.04735342253513
+coconut,food_or_beverage_crop,Mozambique,288,0,blocked_no_training_route_certificate,,,,3722.8647934239,0
+coconut,food_or_beverage_crop,Mozambique,324,0,blocked_no_training_route_certificate,,,,13625.3916552594,0
+coconut,food_or_beverage_crop,Mozambique,360,0,blocked_no_training_route_certificate,,,,0.0375113333423066,0
+coconut,food_or_beverage_crop,Mozambique,376,0,blocked_no_training_route_certificate,,,,3090.51374047263,0
+coconut,food_or_beverage_crop,Mozambique,380,0,blocked_no_training_route_certificate,,,,16354.2646327922,0
+coconut,food_or_beverage_crop,Mozambique,392,0,blocked_no_training_route_certificate,,,,0.375113333423066,0
+coconut,food_or_beverage_crop,Mozambique,440,0,blocked_no_training_route_certificate,,,,322.597466743837,0
+coconut,food_or_beverage_crop,Mozambique,466,0,blocked_no_training_route_certificate,,,,22933.326372286,0
+coconut,food_or_beverage_crop,Mozambique,480,0,certified_interval,0,540,true,4.05122400096911,38.8646213535204
+coconut,food_or_beverage_crop,Mozambique,504,0,blocked_no_training_route_certificate,,,,3142.69950741845,0
+coconut,food_or_beverage_crop,Mozambique,528,0,blocked_no_training_route_certificate,,,,47406.2379012069,0
+coconut,food_or_beverage_crop,Mozambique,562,0,blocked_no_training_route_certificate,,,,7449.75080178209,0
+coconut,food_or_beverage_crop,Mozambique,566,0,blocked_no_training_route_certificate,,,,171280.799264973,0
+coconut,food_or_beverage_crop,Mozambique,634,0,blocked_no_training_route_certificate,,,,318.09610674276,0
+coconut,food_or_beverage_crop,Mozambique,643,0,blocked_no_training_route_certificate,,,,6078.33645478736,0
+coconut,food_or_beverage_crop,Mozambique,646,0,blocked_no_training_route_certificate,,,,89.0519053546358,0
+coconut,food_or_beverage_crop,Mozambique,686,0,blocked_no_training_route_certificate,,,,48607.2607676275,0
+coconut,food_or_beverage_crop,Mozambique,699,0,certified_interval,0,118,true,0.885267466878435,2.01894136901405
+coconut,food_or_beverage_crop,Mozambique,702,35,certified_interval,0,40,true,0.300090666738453,16.6562662943659
+coconut,food_or_beverage_crop,Mozambique,706,0,blocked_no_training_route_certificate,,,,0.513755221456231,0
+coconut,food_or_beverage_crop,Mozambique,710,423232,certified_interval,0,436232,true,3272.72879331622,454902.317177481
+coconut,food_or_beverage_crop,Mozambique,724,0,blocked_no_training_route_certificate,,,,4933.55057931351,0
+coconut,food_or_beverage_crop,Mozambique,748,60,blocked_no_training_route_certificate,,,,0.450136000107679,0
+coconut,food_or_beverage_crop,Mozambique,752,50913,blocked_no_training_route_certificate,,,,381.962902891371,0
+coconut,food_or_beverage_crop,Mozambique,757,0,certified_interval,0,41435,true,310.856419407695,3140.96803484361
+coconut,food_or_beverage_crop,Mozambique,784,34,certified_interval,0,21819,true,163.691956439157,15.1420602676053
+coconut,food_or_beverage_crop,Mozambique,792,36,certified_interval,0,342746,true,2571.37189154844,12618.3835563378
+coconut,food_or_beverage_crop,Mozambique,800,0,blocked_no_training_route_certificate,,,,40.5910138097099,0
+coconut,food_or_beverage_crop,Mozambique,804,0,blocked_no_training_route_certificate,,,,183.805533377302,0
+coconut,food_or_beverage_crop,Mozambique,818,0,blocked_no_training_route_certificate,,,,372.397512889083,0
+coconut,food_or_beverage_crop,Mozambique,826,3,blocked_no_training_route_certificate,,,,570.629905069836,0
+coconut,food_or_beverage_crop,Mozambique,834,0,blocked_no_training_route_certificate,,,,5.00213630119658,0
+coconut,food_or_beverage_crop,Mozambique,842,8,blocked_no_training_route_certificate,,,,216.675964558499,0
+coconut,food_or_beverage_crop,Mozambique,854,0,blocked_no_training_route_certificate,,,,27485.9643660417,0
+coconut,food_or_beverage_crop,Tanzania,36,0,blocked_no_training_route_certificate,,,,0.645803762212332,0
+coconut,food_or_beverage_crop,Tanzania,56,0,blocked_no_training_route_certificate,,,,2453.30445633955,0
+coconut,food_or_beverage_crop,Tanzania,120,0,blocked_no_training_route_certificate,,,,0.218816293057292,0
+coconut,food_or_beverage_crop,Tanzania,124,1000,blocked_no_training_route_certificate,,,,633.849690130356,0
+coconut,food_or_beverage_crop,Tanzania,156,0,certified_interval,0,258,true,0.254300016255772,14617.9765590961
+coconut,food_or_beverage_crop,Tanzania,174,270,certified_interval,0,270,true,0.266127923988598,712.080665126117
+coconut,food_or_beverage_crop,Tanzania,180,0,certified_interval,0,907.2,true,0.894189824601691,6.74548116101978
+coconut,food_or_beverage_crop,Tanzania,204,0,blocked_no_training_route_certificate,,,,34.4980642207442,0
+coconut,food_or_beverage_crop,Tanzania,208,0,blocked_no_training_route_certificate,,,,0.00098565897773555,0
+coconut,food_or_beverage_crop,Tanzania,214,0,blocked_no_training_route_certificate,,,,6343.63317023654,0
+coconut,food_or_beverage_crop,Tanzania,251,0,blocked_no_training_route_certificate,,,,1622.57800992257,0
+coconut,food_or_beverage_crop,Tanzania,276,0,certified_interval,0,62317,true,653.255146952218,121.072738787535
+coconut,food_or_beverage_crop,Tanzania,288,0,blocked_no_training_route_certificate,,,,489.115525839667,0
+coconut,food_or_beverage_crop,Tanzania,324,0,blocked_no_training_route_certificate,,,,1790.12426559397,0
+coconut,food_or_beverage_crop,Tanzania,360,0,blocked_no_training_route_certificate,,,,0.00492829488867775,0
+coconut,food_or_beverage_crop,Tanzania,376,0,blocked_no_training_route_certificate,,,,406.036301924293,0
+coconut,food_or_beverage_crop,Tanzania,380,0,blocked_no_training_route_certificate,,,,2148.64766502371,0
+coconut,food_or_beverage_crop,Tanzania,392,0,blocked_no_training_route_certificate,,,,0.0492829488867775,0
+coconut,food_or_beverage_crop,Tanzania,440,0,blocked_no_training_route_certificate,,,,42.3833360426286,0
+coconut,food_or_beverage_crop,Tanzania,466,0,blocked_no_training_route_certificate,,,,3013.01460306785,0
+coconut,food_or_beverage_crop,Tanzania,480,0,blocked_no_training_route_certificate,,,,0.532255847977197,0
+coconut,food_or_beverage_crop,Tanzania,504,0,blocked_no_training_route_certificate,,,,412.892545773422,0
+coconut,food_or_beverage_crop,Tanzania,528,0,blocked_no_training_route_certificate,,,,6228.30219891068,0
+coconut,food_or_beverage_crop,Tanzania,562,0,blocked_no_training_route_certificate,,,,978.759364891401,0
+coconut,food_or_beverage_crop,Tanzania,566,0,blocked_no_training_route_certificate,,,,22503.1267175506,0
+coconut,food_or_beverage_crop,Tanzania,634,42400,certified_interval,0,42400,true,41.7919406559873,1.72961055410763
+coconut,food_or_beverage_crop,Tanzania,643,0,certified_interval,0,62317,true,798.580903761343,1.21072738787535
+coconut,food_or_beverage_crop,Tanzania,646,0,blocked_no_training_route_certificate,,,,11.699772065721,0
+coconut,food_or_beverage_crop,Tanzania,686,0,blocked_no_training_route_certificate,,,,6386.09437333841,0
+coconut,food_or_beverage_crop,Tanzania,699,0,blocked_no_training_route_certificate,,,,0.116307759372795,0
+coconut,food_or_beverage_crop,Tanzania,702,0,blocked_no_training_route_certificate,,,,0.039426359109422,0
+coconut,food_or_beverage_crop,Tanzania,706,0,blocked_no_training_route_certificate,,,,0.0674979267953305,0
+coconut,food_or_beverage_crop,Tanzania,710,13000,certified_interval,0,62317,true,429.975987175534,3469.59877153992
+coconut,food_or_beverage_crop,Tanzania,724,0,blocked_no_training_route_certificate,,,,648.17722903072,0
+coconut,food_or_beverage_crop,Tanzania,748,0,blocked_no_training_route_certificate,,,,0.059139538664133,0
+coconut,food_or_beverage_crop,Tanzania,752,0,certified_interval,0,50913,true,50.1828555334501,453.157965176201
+coconut,food_or_beverage_crop,Tanzania,757,5000,blocked_no_training_route_certificate,,,,40.8407797424725,0
+coconut,food_or_beverage_crop,Tanzania,784,0,certified_interval,0,21819,true,21.506093235212,31024.7163532503
+coconut,food_or_beverage_crop,Tanzania,792,0,blocked_no_training_route_certificate,,,,337.830671982949,0
+coconut,food_or_beverage_crop,Tanzania,800,0,blocked_no_training_route_certificate,,,,5.33290789903819,0
+coconut,food_or_beverage_crop,Tanzania,804,0,blocked_no_training_route_certificate,,,,24.148644954521,0
+coconut,food_or_beverage_crop,Tanzania,818,0,certified_interval,0,49638,true,48.9261403368372,2286.96025906328
+coconut,food_or_beverage_crop,Tanzania,826,647,certified_interval,0,62317,true,74.9702075055437,315.460209742583
+coconut,food_or_beverage_crop,Tanzania,834,0,blocked_no_training_route_certificate,,,,0.657188123405178,0
+coconut,food_or_beverage_crop,Tanzania,842,0,certified_interval,0,28881.4,true,28.4672111995715,70.2221884967699
+coconut,food_or_beverage_crop,Tanzania,854,0,blocked_no_training_route_certificate,,,,3611.146968822,0
+coffee,food_or_beverage_crop,Ethiopia,8,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,12,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,36,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,40,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,44,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,48,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,51,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,56,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,100,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,124,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,132,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,144,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,156,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,180,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,191,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,203,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,208,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,218,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,233,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,246,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,251,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,268,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,276,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,300,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,344,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,348,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,360,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,364,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,368,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,372,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,376,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,380,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,392,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,400,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,404,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,408,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,410,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,414,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,422,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,428,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,434,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,440,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,450,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,454,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,458,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,470,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,480,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,484,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,490,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,504,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,508,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,512,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,528,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,554,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,562,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,566,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,579,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,586,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,616,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,620,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,634,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,642,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,643,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,646,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,682,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,686,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,688,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,690,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,699,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,702,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,703,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,704,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,705,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,706,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,710,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,724,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,728,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,729,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,748,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,752,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,757,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,760,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,764,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,784,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,788,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,792,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,795,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,800,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,804,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,807,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,818,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,826,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,834,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,837,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Ethiopia,842,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,894,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Ethiopia,899,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Kenya,8,0,blocked_no_training_route_certificate,,,,35122.9498371712,0
+coffee,food_or_beverage_crop,Kenya,12,115200,certified_interval,0,10337890,true,1091653.9147481,3.53327267718213
+coffee,food_or_beverage_crop,Kenya,36,1497156.1,certified_interval,0,3737038.1,true,394621.365813313,1687575.397322
+coffee,food_or_beverage_crop,Kenya,40,109440,certified_interval,0,167040,true,17638.9833824428,8479.8544252371
+coffee,food_or_beverage_crop,Kenya,44,10,blocked_no_training_route_certificate,,,,1.05597362203322,0
+coffee,food_or_beverage_crop,Kenya,48,8,certified_interval,0,19208,true,2028.3141332014,488.376801157175
+coffee,food_or_beverage_crop,Kenya,51,0,blocked_no_training_route_certificate,,,,14340.1217872111,0
+coffee,food_or_beverage_crop,Kenya,56,7781233,certified_interval,0,27116107,true,2863389.37242303,6715788.73881166
+coffee,food_or_beverage_crop,Kenya,100,0,certified_interval,0,359840,true,37998.1548152433,5428.67717556384
+coffee,food_or_beverage_crop,Kenya,124,1130417.2,certified_interval,0,2432589.2,true,256875.002844288,852923.725006836
+coffee,food_or_beverage_crop,Kenya,132,0,blocked_no_training_route_certificate,,,,12164.8161258227,0
+coffee,food_or_beverage_crop,Kenya,144,0,blocked_no_training_route_certificate,,,,6088.32151519471,0
+coffee,food_or_beverage_crop,Kenya,156,1085207.5,certified_interval,0,10884954.54,true,1149422.48712707,625805.063315748
+coffee,food_or_beverage_crop,Kenya,180,19200,certified_interval,0,19200,true,2027.46935430378,410712.503689521
+coffee,food_or_beverage_crop,Kenya,191,0,blocked_no_training_route_certificate,,,,65375.3269400764,0
+coffee,food_or_beverage_crop,Kenya,203,192,certified_interval,0,50392,true,5321.26227614978,39.2585853020237
+coffee,food_or_beverage_crop,Kenya,208,898654,certified_interval,0,1638038,true,172972.491988805,1441462.18756464
+coffee,food_or_beverage_crop,Kenya,218,0,blocked_no_training_route_certificate,,,,19641.1093698178,0
+coffee,food_or_beverage_crop,Kenya,233,38400,certified_interval,0,1490691,true,157413.037460232,30935.7652179947
+coffee,food_or_beverage_crop,Kenya,246,1620621,certified_interval,0,3018458,true,318741.202721514,1066315.86182444
+coffee,food_or_beverage_crop,Kenya,251,960731,certified_interval,0,7760611,true,819500.050686082,173946.66494611
+coffee,food_or_beverage_crop,Kenya,268,0,certified_interval,0,156616,true,16538.2364788354,7538.82613554762
+coffee,food_or_beverage_crop,Kenya,276,8200575.25,certified_interval,0,55611439.86,true,7688916.83270913,8557995.84014366
+coffee,food_or_beverage_crop,Kenya,300,155675,certified_interval,0,4523915,true,477713.49083204,33313.3436610559
+coffee,food_or_beverage_crop,Kenya,344,28247,certified_interval,0,28247,true,2982.80869015723,73133.6408015811
+coffee,food_or_beverage_crop,Kenya,348,2288.78,blocked_no_training_route_certificate,,,,241.689130663719,0
+coffee,food_or_beverage_crop,Kenya,360,48,certified_interval,0,48,true,5.06867338575944,1712.45949087427
+coffee,food_or_beverage_crop,Kenya,364,354086,certified_interval,0,552586,true,58351.6239904847,225031.781294612
+coffee,food_or_beverage_crop,Kenya,368,38400,blocked_no_training_route_certificate,,,,12000.0842407855,0
+coffee,food_or_beverage_crop,Kenya,372,67668,certified_interval,0,101508,true,10718.9770425348,171421.866808166
+coffee,food_or_beverage_crop,Kenya,376,19200,certified_interval,0,4141120,true,437291.348567419,107987.412832717
+coffee,food_or_beverage_crop,Kenya,380,301242,certified_interval,0,55611439.86,true,12340795.3971028,348233.073689423
+coffee,food_or_beverage_crop,Kenya,392,794237.3,certified_interval,0,17786427.3,true,1878199.80590115,1472730.13930217
+coffee,food_or_beverage_crop,Kenya,400,945067,certified_interval,0,1390307,true,146812.751852813,598734.804404772
+coffee,food_or_beverage_crop,Kenya,404,0,blocked_no_training_route_certificate,,,,298484.883119499,0
+coffee,food_or_beverage_crop,Kenya,408,0,blocked_no_training_route_certificate,,,,39933.7544644301,0
+coffee,food_or_beverage_crop,Kenya,410,2798004.75,certified_interval,0,4413268.75,true,466029.538694351,4251693.99209821
+coffee,food_or_beverage_crop,Kenya,414,2943,certified_interval,0,22023,true,2325.57070780375,3737.65287226447
+coffee,food_or_beverage_crop,Kenya,422,19200,certified_interval,0,1313100,true,138659.896309182,15088.2520891268
+coffee,food_or_beverage_crop,Kenya,428,167895,certified_interval,0,941147,true,99382.6406455696,168537.342253099
+coffee,food_or_beverage_crop,Kenya,434,0,blocked_no_training_route_certificate,,,,2122.50698028676,0
+coffee,food_or_beverage_crop,Kenya,440,0,certified_interval,0,291480,true,30779.5191350242,15075.2967559771
+coffee,food_or_beverage_crop,Kenya,450,0,blocked_no_training_route_certificate,,,,74676.7649923938,0
+coffee,food_or_beverage_crop,Kenya,454,10,blocked_no_training_route_certificate,,,,1.05597362203322,0
+coffee,food_or_beverage_crop,Kenya,458,124786,certified_interval,0,593986,true,62723.3547857022,53960.5329117786
+coffee,food_or_beverage_crop,Kenya,470,18713,blocked_no_training_route_certificate,,,,15275.5032216081,0
+coffee,food_or_beverage_crop,Kenya,480,1316,certified_interval,0,217316,true,22947.996364577,157.819512914136
+coffee,food_or_beverage_crop,Kenya,484,0,certified_interval,0,683460,true,72171.5731714822,7406.72099600629
+coffee,food_or_beverage_crop,Kenya,490,194858,certified_interval,0,438862,true,46342.6695712741,399192.680340714
+coffee,food_or_beverage_crop,Kenya,504,345600,certified_interval,0,20376540,true,2151708.87483047,37626.9984968716
+coffee,food_or_beverage_crop,Kenya,508,20,blocked_no_training_route_certificate,,,,2.11194724406643,0
+coffee,food_or_beverage_crop,Kenya,512,38700,certified_interval,0,64287,true,6788.53762396494,79354.9488143926
+coffee,food_or_beverage_crop,Kenya,528,2160735,certified_interval,0,17524695,true,1850561.56541774,1723873.68899933
+coffee,food_or_beverage_crop,Kenya,554,173172,certified_interval,0,487792,true,51509.5485038827,172727.175510873
+coffee,food_or_beverage_crop,Kenya,562,0,certified_interval,0,21000,true,2217.54460626975,3.53327267718213
+coffee,food_or_beverage_crop,Kenya,566,20194,certified_interval,0,220194,true,23251.9055729982,10034.8869890503
+coffee,food_or_beverage_crop,Kenya,579,1235370,certified_interval,0,1235370,true,130451.813345117,1274844.6293914
+coffee,food_or_beverage_crop,Kenya,586,0,blocked_no_training_route_certificate,,,,8850.95970515801,0
+coffee,food_or_beverage_crop,Kenya,616,926392,certified_interval,0,4563423,true,481885.431417969,46370.6706153383
+coffee,food_or_beverage_crop,Kenya,620,0,blocked_no_training_route_certificate,,,,1006069.36462955,0
+coffee,food_or_beverage_crop,Kenya,634,288,certified_interval,0,5288,true,558.398851331165,16.8811916798702
+coffee,food_or_beverage_crop,Kenya,642,437325,certified_interval,0,1986502,true,209769.371211623,373811.494581347
+coffee,food_or_beverage_crop,Kenya,643,215137,certified_interval,0,8996323,true,949987.978329073,179066.259279591
+coffee,food_or_beverage_crop,Kenya,646,240,certified_interval,0,5309,true,560.616395937435,9690.98178180458
+coffee,food_or_beverage_crop,Kenya,682,197398,certified_interval,0,964153,true,101812.013560419,171929.519574706
+coffee,food_or_beverage_crop,Kenya,686,0,certified_interval,0,115200,true,12164.8161258227,13.7405048557083
+coffee,food_or_beverage_crop,Kenya,688,0,certified_interval,0,76000,true,8025.39952745244,30150.5935119542
+coffee,food_or_beverage_crop,Kenya,690,90359,certified_interval,0,218889.2,true,23114.1221347953,96.1835339899578
+coffee,food_or_beverage_crop,Kenya,699,1355026,certified_interval,0,29835936,true,3150596.14046712,653168.599562361
+coffee,food_or_beverage_crop,Kenya,702,222103,certified_interval,0,694563,true,73344.0206840257,91048.9036183064
+coffee,food_or_beverage_crop,Kenya,703,0,blocked_no_training_route_certificate,,,,6335.8417321993,0
+coffee,food_or_beverage_crop,Kenya,704,54000,certified_interval,0,4883500,true,515684.718319921,21670.7390867171
+coffee,food_or_beverage_crop,Kenya,705,0,blocked_no_training_route_certificate,,,,651183.029604735,0
+coffee,food_or_beverage_crop,Kenya,706,580971.84,certified_interval,0,580971.84,true,61349.0938184102,818728.170268587
+coffee,food_or_beverage_crop,Kenya,710,387493,certified_interval,0,2814417,true,297195.011340186,146315.475442479
+coffee,food_or_beverage_crop,Kenya,724,331981,certified_interval,0,19087251,true,2015563.35731271,463926.161645221
+coffee,food_or_beverage_crop,Kenya,728,17221.8,certified_interval,0,38221.8,true,4036.12125866292,14440.179214678
+coffee,food_or_beverage_crop,Kenya,729,0,blocked_no_training_route_certificate,,,,1903441.89967972,0
+coffee,food_or_beverage_crop,Kenya,748,192000,blocked_no_training_route_certificate,,,,22302.1628973415,0
+coffee,food_or_beverage_crop,Kenya,752,3908520,certified_interval,0,5912578,true,624352.640621391,4335673.0133824
+coffee,food_or_beverage_crop,Kenya,757,548013,certified_interval,0,15745981,true,1662734.05890362,2365939.81145565
+coffee,food_or_beverage_crop,Kenya,760,91200,certified_interval,0,116200,true,12270.413488026,128366.151877145
+coffee,food_or_beverage_crop,Kenya,764,35643,certified_interval,0,36035,true,3805.2009469967,6871.03759956019
+coffee,food_or_beverage_crop,Kenya,784,287020.8,certified_interval,0,6728740.9,true,710537.289989604,290793.978864939
+coffee,food_or_beverage_crop,Kenya,788,76800,certified_interval,0,2076280,true,219249.691195513,535681.040930996
+coffee,food_or_beverage_crop,Kenya,792,485864,certified_interval,0,1845675,true,194898.411484616,216558.993414729
+coffee,food_or_beverage_crop,Kenya,795,0,blocked_no_training_route_certificate,,,,24329.6322516453,0
+coffee,food_or_beverage_crop,Kenya,800,1164.55,certified_interval,0,346264.55,true,36564.6231045202,18799.1188286397
+coffee,food_or_beverage_crop,Kenya,804,19000,certified_interval,0,142800,true,15079.3033226343,45439.0643861213
+coffee,food_or_beverage_crop,Kenya,807,0,blocked_no_training_route_certificate,,,,4333.71574482432,0
+coffee,food_or_beverage_crop,Kenya,818,21602,certified_interval,0,2527342,true,266880.648585667,30463.8770226644
+coffee,food_or_beverage_crop,Kenya,826,1552287,certified_interval,0,4539853,true,479396.501590836,1175828.62773048
+coffee,food_or_beverage_crop,Kenya,834,19089.15,certified_interval,0,367089.15,true,38763.6459334595,6105.35385526364
+coffee,food_or_beverage_crop,Kenya,837,18,certified_interval,0,18,true,1.90075251965979,664.934436835964
+coffee,food_or_beverage_crop,Kenya,842,9938151.45,certified_interval,0,35008951.45,true,3696852.92662415,10477822.2289753
+coffee,food_or_beverage_crop,Kenya,894,137,blocked_no_training_route_certificate,,,,14.4668386218551,0
+coffee,food_or_beverage_crop,Kenya,899,154273.39,certified_interval,0,154273.39,true,16290.8630421643,33226.6410754163
+coffee,food_or_beverage_crop,Rwanda,8,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,12,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,36,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,40,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,44,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,48,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,51,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,56,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,100,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,124,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,132,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,144,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,156,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,180,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,191,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,203,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,208,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,218,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,233,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,246,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,251,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,268,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,276,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,300,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,344,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,348,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,360,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,364,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,368,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,372,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,376,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,380,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,392,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,400,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,404,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,408,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,410,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,414,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,422,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,428,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,434,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,440,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,450,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,454,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,458,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,470,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,480,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,484,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,490,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,504,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,508,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,512,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,528,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,554,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,562,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,566,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,579,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,586,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,616,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,620,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,634,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,642,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,643,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,646,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,682,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,686,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,688,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,690,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,699,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,702,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,703,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,704,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,705,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,706,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,710,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,724,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,728,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,729,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,748,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,752,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,757,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,760,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,764,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,784,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,788,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,792,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,795,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,800,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,804,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,807,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,818,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,826,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,834,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,837,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Rwanda,842,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,894,0,certified_interval,0,0,true,0,0
+coffee,food_or_beverage_crop,Rwanda,899,0,blocked_no_training_route_certificate,,,,0,0
+coffee,food_or_beverage_crop,Uganda,8,332612,certified_interval,0,332612,true,243865.041319471,316213.156854534
+coffee,food_or_beverage_crop,Uganda,12,9089890,certified_interval,0,10337890,true,7579552.06669076,14454622.4525093
+coffee,food_or_beverage_crop,Uganda,36,1274450,certified_interval,0,3737038.1,true,2739928.05632069,783836.716230552
+coffee,food_or_beverage_crop,Uganda,40,57600,certified_interval,0,167040,true,122470.676048983,32235.126213774
+coffee,food_or_beverage_crop,Uganda,44,0,blocked_no_training_route_certificate,,,,7.33181729220446,0
+coffee,food_or_beverage_crop,Uganda,48,0,certified_interval,0,19208,true,14082.9546548663,6910.40518207781
+coffee,food_or_beverage_crop,Uganda,51,116600,certified_interval,0,135800,true,99566.0788281366,96705.3786413221
+coffee,food_or_beverage_crop,Uganda,56,14846294,certified_interval,0,27116107,true,19881034.2199866,16278489.5872928
+coffee,food_or_beverage_crop,Uganda,100,260840,certified_interval,0,359840,true,263828.113442685,171835.720151252
+coffee,food_or_beverage_crop,Uganda,124,700390,certified_interval,0,2432589.2,true,1783529.95613898,621091.973236713
+coffee,food_or_beverage_crop,Uganda,132,115200,certified_interval,0,115200,true,84462.5352061954,228063.517962451
+coffee,food_or_beverage_crop,Uganda,144,0,blocked_no_training_route_certificate,,,,42272.325779934,0
+coffee,food_or_beverage_crop,Uganda,156,7415000,certified_interval,0,10884954.54,true,7980649.79212315,3455377.19797256
+coffee,food_or_beverage_crop,Uganda,180,0,certified_interval,0,19200,true,14077.0892010326,940.191181235075
+coffee,food_or_beverage_crop,Uganda,191,619100,certified_interval,0,619100,true,453912.808560378,1635678.13216497
+coffee,food_or_beverage_crop,Uganda,203,1200,certified_interval,0,50392,true,36946.4936988767,24944.2793858607
+coffee,food_or_beverage_crop,Uganda,208,437440,certified_interval,0,1638038,true,1200979.5333688,918743.405695713
+coffee,food_or_beverage_crop,Uganda,218,186000,certified_interval,0,186000,true,136371.801635003,155512.658114752
+coffee,food_or_beverage_crop,Uganda,233,826131,certified_interval,0,1490691,true,1092947.40511336,867081.243417107
+coffee,food_or_beverage_crop,Uganda,246,972797,certified_interval,0,3018458,true,2213078.25601929,1253990.39723179
+coffee,food_or_beverage_crop,Uganda,251,1136140,certified_interval,0,7760611,true,5689938.19278722,1700247.44044911
+coffee,food_or_beverage_crop,Uganda,268,156616,certified_interval,0,156616,true,114827.989703589,566266.403415814
+coffee,food_or_beverage_crop,Uganda,276,55156680,certified_interval,0,72813531.25,true,53385550.752522,55367470.8340715
+coffee,food_or_beverage_crop,Uganda,300,4074240,certified_interval,0,4523915,true,3316851.82254631,2167930.76912165
+coffee,food_or_beverage_crop,Uganda,344,0,blocked_no_training_route_certificate,,,,20710.1843052899,0
+coffee,food_or_beverage_crop,Uganda,348,0,blocked_no_training_route_certificate,,,,1678.09167820517,0
+coffee,food_or_beverage_crop,Uganda,360,0,blocked_no_training_route_certificate,,,,35.1927230025814,0
+coffee,food_or_beverage_crop,Uganda,364,198500,certified_interval,0,552586,true,405145.959023009,44424.0333133574
+coffee,food_or_beverage_crop,Uganda,368,20040,blocked_no_training_route_certificate,,,,83318.7717086115,0
+coffee,food_or_beverage_crop,Uganda,372,14640,certified_interval,0,101508,true,74423.8109697091,20133.186798455
+coffee,food_or_beverage_crop,Uganda,376,2563490,certified_interval,0,4141120,true,3036193.52250937,2200650.42957632
+coffee,food_or_beverage_crop,Uganda,380,103118570,certified_interval,0,116866512,true,85684391.356122,100520761.422458
+coffee,food_or_beverage_crop,Uganda,392,4606490,certified_interval,0,17786427.3,true,13040683.5244678,2592013.73911211
+coffee,food_or_beverage_crop,Uganda,400,193500,certified_interval,0,1390307,true,1019347.69040729,189933.728824898
+coffee,food_or_beverage_crop,Uganda,404,2823510,certified_interval,0,2826632,true,2072434.93762985,1312946.09259883
+coffee,food_or_beverage_crop,Uganda,408,378170,certified_interval,0,378170,true,277267.334539296,380446.346791385
+coffee,food_or_beverage_crop,Uganda,410,1071020,certified_interval,0,4413268.75,true,3235728.01363956,1517944.03462506
+coffee,food_or_beverage_crop,Uganda,414,19080,certified_interval,0,22023,true,16146.8612226219,684.996432042696
+coffee,food_or_beverage_crop,Uganda,422,832500,certified_interval,0,1313100,true,962740.928639368,321543.369287007
+coffee,food_or_beverage_crop,Uganda,428,734852,certified_interval,0,941147,true,690031.784910635,285683.806069572
+coffee,food_or_beverage_crop,Uganda,434,20100,certified_interval,0,20100,true,14736.952757331,20952.8320389531
+coffee,food_or_beverage_crop,Uganda,440,291480,certified_interval,0,291480,true,213707.810433176,70924.6648867269
+coffee,food_or_beverage_crop,Uganda,450,707184,certified_interval,0,707184,true,518494.387997032,570521.440076031
+coffee,food_or_beverage_crop,Uganda,454,0,blocked_no_training_route_certificate,,,,7.33181729220446,0
+coffee,food_or_beverage_crop,Uganda,458,277200,certified_interval,0,593986,true,435499.682612736,93018.4860806216
+coffee,food_or_beverage_crop,Uganda,470,125945,blocked_no_training_route_certificate,,,,106060.602585571,0
+coffee,food_or_beverage_crop,Uganda,480,216000,blocked_no_training_route_certificate,,,,159332.12066727,0
+coffee,food_or_beverage_crop,Uganda,484,608400,certified_interval,0,683460,true,501100.384653006,2057432.78585161
+coffee,food_or_beverage_crop,Uganda,490,179400,certified_interval,0,438862,true,321765.600049143,151303.623665902
+coffee,food_or_beverage_crop,Uganda,504,16940100,certified_interval,0,20376540,true,14939706.8327296,15039196.7287017
+coffee,food_or_beverage_crop,Uganda,508,0,blocked_no_training_route_certificate,,,,14.6636345844089,0
+coffee,food_or_beverage_crop,Uganda,512,14400,certified_interval,0,64287,true,47134.0538263948,725.290339809916
+coffee,food_or_beverage_crop,Uganda,528,13013700,certified_interval,0,17524695,true,12848786.1841609,4496913.39985883
+coffee,food_or_beverage_crop,Uganda,554,63120,certified_interval,0,487792,true,357640.1820599,70073.1203025794
+coffee,food_or_beverage_crop,Uganda,562,21000,certified_interval,0,21000,true,15396.8163136294,7051.43385926304
+coffee,food_or_beverage_crop,Uganda,566,200000,blocked_no_training_route_certificate,,,,161442.217683967,0
+coffee,food_or_beverage_crop,Uganda,579,0,blocked_no_training_route_certificate,,,,905750.712827063,0
+coffee,food_or_beverage_crop,Uganda,586,83818,blocked_no_training_route_certificate,,,,61453.8261797994,0
+coffee,food_or_beverage_crop,Uganda,616,3071970,certified_interval,0,4563423,true,3345818.36630436,2666693.12463761
+coffee,food_or_beverage_crop,Uganda,620,8832970,certified_interval,0,9527410,true,6985322.93879217,7349288.7759563
+coffee,food_or_beverage_crop,Uganda,634,5000,certified_interval,0,5288,true,3877.06498411772,13935.9837838569
+coffee,food_or_beverage_crop,Uganda,642,1386040,certified_interval,0,1986502,true,1456466.97145987,1963763.21737798
+coffee,food_or_beverage_crop,Uganda,643,8168586,certified_interval,0,8996323,true,6595939.65376567,4509239.50771434
+coffee,food_or_beverage_crop,Uganda,646,5069,blocked_no_training_route_certificate,,,,3892.46180043135,0
+coffee,food_or_beverage_crop,Uganda,682,657905,certified_interval,0,964153,true,706899.363773081,684758.026421743
+coffee,food_or_beverage_crop,Uganda,686,115200,blocked_no_training_route_certificate,,,,84462.5352061954,0
+coffee,food_or_beverage_crop,Uganda,688,76000,certified_interval,0,76000,true,55721.8114207539,14505.8067961983
+coffee,food_or_beverage_crop,Uganda,690,119760,blocked_no_training_route_certificate,,,,160485.56216368,0
+coffee,food_or_beverage_crop,Uganda,699,26973600,certified_interval,0,29835936,true,21875163.1493906,29401765.7342214
+coffee,food_or_beverage_crop,Uganda,702,252620,certified_interval,0,694563,true,509240.901392541,143305.282974109
+coffee,food_or_beverage_crop,Uganda,703,0,blocked_no_training_route_certificate,,,,43990.9037532268,0
+coffee,food_or_beverage_crop,Uganda,704,4637500,certified_interval,0,4883500,true,3580492.97464805,722424.435619971
+coffee,food_or_beverage_crop,Uganda,705,5869060,certified_interval,0,6166660,true,4521282.44231456,4364362.7623373
+coffee,food_or_beverage_crop,Uganda,706,0,certified_interval,0,580971.84,true,425957.938279584,148957.175103591
+coffee,food_or_beverage_crop,Uganda,710,1226480,certified_interval,0,2814417,true,2063479.12280742,2599232.3926886
+coffee,food_or_beverage_crop,Uganda,724,18277300,certified_interval,0,19087251,true,13994423.6942447,18584854.7775047
+coffee,food_or_beverage_crop,Uganda,728,21000,certified_interval,0,38221.8,true,28023.5254179181,514332.928824905
+coffee,food_or_beverage_crop,Uganda,729,18025468.25,certified_interval,0,18025468.25,true,13215943.9815432,42777775.344143
+coffee,food_or_beverage_crop,Uganda,748,0,certified_interval,0,211200,true,154847.981211358,6447.02524275481
+coffee,food_or_beverage_crop,Uganda,752,1636920,certified_interval,0,5912578,true,4334994.16219077,3567310.31592424
+coffee,food_or_beverage_crop,Uganda,757,7108608,certified_interval,0,15745981,true,11544665.5778523,1508013.80252537
+coffee,food_or_beverage_crop,Uganda,760,0,certified_interval,0,116200,true,85195.7169354158,498289.909447391
+coffee,food_or_beverage_crop,Uganda,764,0,blocked_no_training_route_certificate,,,,26420.2036124588,0
+coffee,food_or_beverage_crop,Uganda,784,6070660,certified_interval,0,6728740.9,true,4933389.88853834,3133799.91464651
+coffee,food_or_beverage_crop,Uganda,788,1999480,certified_interval,0,2076280,true,1522290.56074583,3045290.65262761
+coffee,food_or_beverage_crop,Uganda,792,930036,certified_interval,0,1845675,true,1353215.18807895,2445471.8479966
+coffee,food_or_beverage_crop,Uganda,795,230400,blocked_no_training_route_certificate,,,,168925.070412391,0
+coffee,food_or_beverage_crop,Uganda,800,0,blocked_no_training_route_certificate,,,,253874.84153674,0
+coffee,food_or_beverage_crop,Uganda,804,123800,certified_interval,0,142800,true,104698.35093268,711930.122389795
+coffee,food_or_beverage_crop,Uganda,807,41040,certified_interval,0,41040,true,30089.7781672071,20244.6666099442
+coffee,food_or_beverage_crop,Uganda,818,2252300,certified_interval,0,2527342,true,1853000.97789146,2699893.96150754
+coffee,food_or_beverage_crop,Uganda,826,2719040,certified_interval,0,4539853,true,3328537.27294663,1447554.00273789
+coffee,food_or_beverage_crop,Uganda,834,348000,certified_interval,0,367089.15,true,269143.057775064,276209.701005805
+coffee,food_or_beverage_crop,Uganda,837,0,blocked_no_training_route_certificate,,,,13.197271125968,0
+coffee,food_or_beverage_crop,Uganda,842,17827120,certified_interval,0,35008951.45,true,25667923.5623056,17030509.5623853
+coffee,food_or_beverage_crop,Uganda,894,0,blocked_no_training_route_certificate,,,,100.445896903201,0
+coffee,food_or_beverage_crop,Uganda,899,0,blocked_no_training_route_certificate,,,,113110.4308529,0
+coffee,food_or_beverage_crop,Tanzania,8,0,certified_interval,0,332612,true,53624.0088430252,9369.27518280103
+coffee,food_or_beverage_crop,Tanzania,12,1132800,certified_interval,0,10337890,true,1666684.01855081,1070049.30316906
+coffee,food_or_beverage_crop,Tanzania,36,965432,certified_interval,0,3737038.1,true,602488.67786226,839507.551668433
+coffee,food_or_beverage_crop,Tanzania,40,0,certified_interval,0,167040,true,26930.3405684068,39292.3977978717
+coffee,food_or_beverage_crop,Tanzania,44,0,blocked_no_training_route_certificate,,,,1.61220908575232,0
+coffee,food_or_beverage_crop,Tanzania,48,19200,blocked_no_training_route_certificate,,,,3096.73121191306,0
+coffee,food_or_beverage_crop,Tanzania,51,19200,blocked_no_training_route_certificate,,,,21893.7993845165,0
+coffee,food_or_beverage_crop,Tanzania,56,4488580,certified_interval,0,27116107,true,4371683.40756322,7857263.21294307
+coffee,food_or_beverage_crop,Tanzania,100,99000,certified_interval,0,359840,true,58013.7317417116,9384.4026583566
+coffee,food_or_beverage_crop,Tanzania,124,601782,certified_interval,0,2432589.2,true,392184.241014297,631131.455721361
+coffee,food_or_beverage_crop,Tanzania,132,0,blocked_no_training_route_certificate,,,,18572.6486678668,0
+coffee,food_or_beverage_crop,Tanzania,144,57656,certified_interval,0,57656,true,9295.35270481359,6984.50185892869
+coffee,food_or_beverage_crop,Tanzania,156,2384747.04,certified_interval,0,10884954.54,true,1754882.2607389,382061.474563657
+coffee,food_or_beverage_crop,Tanzania,180,0,certified_interval,0,19200,true,3095.44144464446,60807.5719025434
+coffee,food_or_beverage_crop,Tanzania,191,0,certified_interval,0,619100,true,99811.8644989263,51238.223655943
+coffee,food_or_beverage_crop,Tanzania,203,49000,blocked_no_training_route_certificate,,,,8124.2440249231,0
+coffee,food_or_beverage_crop,Tanzania,208,301944,certified_interval,0,1638038,true,264085.974640756,149313.063564242
+coffee,food_or_beverage_crop,Tanzania,218,0,blocked_no_training_route_certificate,,,,29987.0889949932,0
+coffee,food_or_beverage_crop,Tanzania,233,626160,certified_interval,0,1490691,true,240330.557424922,277061.666732487
+coffee,food_or_beverage_crop,Tanzania,246,425040,certified_interval,0,3018458,true,486638.541256178,793972.87428002
+coffee,food_or_beverage_crop,Tanzania,251,5663740,certified_interval,0,7760611,true,1251172.75651894,2669197.67935262
+coffee,food_or_beverage_crop,Tanzania,268,0,blocked_no_training_route_certificate,,,,25249.7738174186,0
+coffee,food_or_beverage_crop,Tanzania,276,9456276,certified_interval,0,72813531.25,true,11739063.6646961,10714188.2768992
+coffee,food_or_beverage_crop,Tanzania,300,294000,certified_interval,0,4523915,true,729349.686617122,569876.891315305
+coffee,food_or_beverage_crop,Tanzania,344,0,certified_interval,0,28247,true,4554.00700452459,11975.3000362505
+coffee,food_or_beverage_crop,Tanzania,348,0,blocked_no_training_route_certificate,,,,368.99919112882,0
+coffee,food_or_beverage_crop,Tanzania,360,0,blocked_no_training_route_certificate,,,,7.73860361161115,0
+coffee,food_or_beverage_crop,Tanzania,364,0,blocked_no_training_route_certificate,,,,89088.4169859533,0
+coffee,food_or_beverage_crop,Tanzania,368,55200,blocked_no_training_route_certificate,,,,18321.1440504894,0
+coffee,food_or_beverage_crop,Tanzania,372,19200,certified_interval,0,101508,true,16365.2119876547,59436.3394408939
+coffee,food_or_beverage_crop,Tanzania,376,1558430,certified_interval,0,4141120,true,667635.128919066,548162.620112999
+coffee,food_or_beverage_crop,Tanzania,380,13446700,certified_interval,0,84904837.34,true,18841325.2466583,12063560.5604048
+coffee,food_or_beverage_crop,Tanzania,392,12385700,certified_interval,0,17786427.3,true,2867543.96961332,10493642.8588423
+coffee,food_or_beverage_crop,Tanzania,400,251740,certified_interval,0,1390307,true,224146.557738505,66619.4504143747
+coffee,food_or_beverage_crop,Tanzania,404,3122,certified_interval,0,2826632,true,455712.179247826,232408.286790956
+coffee,food_or_beverage_crop,Tanzania,408,0,certified_interval,0,378170,true,60968.9109958956,28118.0731931342
+coffee,food_or_beverage_crop,Tanzania,410,544244,certified_interval,0,4413268.75,true,711511.19766168,754508.218454048
+coffee,food_or_beverage_crop,Tanzania,414,0,certified_interval,0,22023,true,3550.56806955234,234.231879570025
+coffee,food_or_beverage_crop,Tanzania,422,461400,certified_interval,0,1313100,true,211699.175050138,568422.213746558
+coffee,food_or_beverage_crop,Tanzania,428,38400,certified_interval,0,941147,true,151732.574442854,56215.651096806
+coffee,food_or_beverage_crop,Tanzania,434,0,certified_interval,0,20100,true,3240.54026236217,20495.2894623772
+coffee,food_or_beverage_crop,Tanzania,440,0,certified_interval,0,291480,true,46992.6704315087,9430.76105118815
+coffee,food_or_beverage_crop,Tanzania,450,0,certified_interval,0,707184,true,114012.847009867,2049.52894623772
+coffee,food_or_beverage_crop,Tanzania,454,0,certified_interval,0,10,true,1.61220908575232,967.065353451447
+coffee,food_or_beverage_crop,Tanzania,458,192000,certified_interval,0,593986,true,95762.9626009679,281053.368346826
+coffee,food_or_beverage_crop,Tanzania,470,0,blocked_no_training_route_certificate,,,,23321.894192676,0
+coffee,food_or_beverage_crop,Tanzania,480,0,blocked_no_training_route_certificate,,,,35035.8829679352,0
+coffee,food_or_beverage_crop,Tanzania,484,75060,certified_interval,0,683460,true,110188.042174828,18738.550365602
+coffee,food_or_beverage_crop,Tanzania,490,64604,certified_interval,0,438862,true,70753.7303791436,39385.1145835349
+coffee,food_or_beverage_crop,Tanzania,504,3090840,certified_interval,0,20376540,true,3285124.29241956,5357649.2192059
+coffee,food_or_beverage_crop,Tanzania,508,0,certified_interval,0,20,true,3.22441817150465,47431.9556129301
+coffee,food_or_beverage_crop,Tanzania,512,11187,certified_interval,0,64287,true,10364.408549576,10862.2594235187
+coffee,food_or_beverage_crop,Tanzania,528,2350260,certified_interval,0,17524695,true,2825347.25040383,1796038.8143193
+coffee,food_or_beverage_crop,Tanzania,554,251500,certified_interval,0,487792,true,78642.2694357297,190397.335240824
+coffee,food_or_beverage_crop,Tanzania,562,0,blocked_no_training_route_certificate,,,,3385.63908007988,0
+coffee,food_or_beverage_crop,Tanzania,566,0,blocked_no_training_route_certificate,,,,35499.8767428147,0
+coffee,food_or_beverage_crop,Tanzania,579,0,certified_interval,0,1235370,true,199167.473826585,140.417131971406
+coffee,food_or_beverage_crop,Tanzania,586,0,certified_interval,0,83818,true,13513.2141149588,49182.838912716
+coffee,food_or_beverage_crop,Tanzania,616,565061,certified_interval,0,4563423,true,735719.202273112,494775.806945083
+coffee,food_or_beverage_crop,Tanzania,620,694440,certified_interval,0,9527410,true,1536017.69656875,1467092.83432972
+coffee,food_or_beverage_crop,Tanzania,634,0,certified_interval,0,5288,true,852.536164545828,27317.7809379367
+coffee,food_or_beverage_crop,Tanzania,642,163137,certified_interval,0,1986502,true,320265.657326516,73490.2522150954
+coffee,food_or_beverage_crop,Tanzania,643,612600,certified_interval,0,8996323,true,1450395.36789626,1171378.01427106
+coffee,food_or_beverage_crop,Tanzania,646,0,blocked_no_training_route_certificate,,,,855.921803625908,0
+coffee,food_or_beverage_crop,Tanzania,682,108850,certified_interval,0,964153,true,155441.622665536,70444.2618145202
+coffee,food_or_beverage_crop,Tanzania,686,0,blocked_no_training_route_certificate,,,,18572.6486678668,0
+coffee,food_or_beverage_crop,Tanzania,688,0,blocked_no_training_route_certificate,,,,12252.7890517177,0
+coffee,food_or_beverage_crop,Tanzania,690,8770.2,certified_interval,0,218889.2,true,35289.5157013057,266848.668800151
+coffee,food_or_beverage_crop,Tanzania,699,1507310,certified_interval,0,29835936,true,4810176.71011248,1122170.77620422
+coffee,food_or_beverage_crop,Tanzania,702,219840,certified_interval,0,694563,true,111978.077922739,36891.521032279
+coffee,food_or_beverage_crop,Tanzania,703,60000,blocked_no_training_route_certificate,,,,9673.25451451394,0
+coffee,food_or_beverage_crop,Tanzania,704,192000,certified_interval,0,4883500,true,787322.307027147,7778.93831713702
+coffee,food_or_beverage_crop,Tanzania,705,297600,certified_interval,0,6166660,true,994194.528074542,18738.550365602
+coffee,food_or_beverage_crop,Tanzania,706,0,certified_interval,0,580971.84,true,93664.8079014245,30040.2385548557
+coffee,food_or_beverage_crop,Tanzania,710,1200444,certified_interval,0,2814417,true,453742.86584958,1499289.95810895
+coffee,food_or_beverage_crop,Tanzania,724,477970,certified_interval,0,19087251,true,3077263.94842351,1324084.51219057
+coffee,food_or_beverage_crop,Tanzania,728,0,blocked_no_training_route_certificate,,,,6162.15332338081,0
+coffee,food_or_beverage_crop,Tanzania,729,0,certified_interval,0,18025468.25,true,2906082.368759,5855.79698925063
+coffee,food_or_beverage_crop,Tanzania,748,19200,certified_interval,0,211200,true,34049.8558910891,46260.79621508
+coffee,food_or_beverage_crop,Tanzania,752,367138,certified_interval,0,5912578,true,953231.19718193,422328.862560239
+coffee,food_or_beverage_crop,Tanzania,757,8089360,certified_interval,0,15745981,true,2538581.36322834,8485066.91683205
+coffee,food_or_beverage_crop,Tanzania,760,25000,blocked_no_training_route_certificate,,,,18733.869576442,0
+coffee,food_or_beverage_crop,Tanzania,764,392,certified_interval,0,36035,true,5809.59544050849,9369.27518280103
+coffee,food_or_beverage_crop,Tanzania,784,371060.1,certified_interval,0,6728740.9,true,1084813.72146533,425991.419585474
+coffee,food_or_beverage_crop,Tanzania,788,0,blocked_no_training_route_certificate,,,,334739.748056583,0
+coffee,food_or_beverage_crop,Tanzania,792,429775,certified_interval,0,1845675,true,297561.400434592,1257784.69069519
+coffee,food_or_beverage_crop,Tanzania,795,0,blocked_no_training_route_certificate,,,,37145.2973357335,0
+coffee,food_or_beverage_crop,Tanzania,800,345100,certified_interval,0,346264.55,true,55825.0853583939,2608211.01765883
+coffee,food_or_beverage_crop,Tanzania,804,0,blocked_no_training_route_certificate,,,,23022.3457445432,0
+coffee,food_or_beverage_crop,Tanzania,807,0,certified_interval,0,41040,true,6616.50608792753,19324.130064527
+coffee,food_or_beverage_crop,Tanzania,818,253440,certified_interval,0,2527342,true,407460.373520345,551108.573981674
+coffee,food_or_beverage_crop,Tanzania,826,268526,certified_interval,0,4539853,true,731919.225457994,464844.866841032
+coffee,food_or_beverage_crop,Tanzania,834,0,blocked_no_training_route_certificate,,,,59182.4462911097,0
+coffee,food_or_beverage_crop,Tanzania,837,0,blocked_no_training_route_certificate,,,,2.90197635435418,0
+coffee,food_or_beverage_crop,Tanzania,842,7243680,certified_interval,0,35008951.45,true,5644174.9610352,4089251.82851538
+coffee,food_or_beverage_crop,Tanzania,894,0,certified_interval,0,137,true,22.0872644748068,1468.82907813703
+coffee,food_or_beverage_crop,Tanzania,899,0,blocked_no_training_route_certificate,,,,24872.0961047812,0
+natural_rubber_latex,industrial_agricultural_raw_material,Cameroon,156,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Cameroon,276,0,certified_interval,0,0,true,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Cameroon,360,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Cameroon,380,0,certified_interval,0,0,true,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Cameroon,458,0,certified_interval,0,0,true,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Cameroon,484,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Cameroon,504,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Cameroon,699,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Cameroon,702,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Cameroon,704,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Cameroon,724,0,certified_interval,0,0,true,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Cameroon,784,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Cameroon,842,0,certified_interval,0,0,true,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Ghana,156,352012,certified_interval,0,522012,true,210159.719451124,2742271.72932427
+natural_rubber_latex,industrial_agricultural_raw_material,Ghana,276,0,blocked_no_training_route_certificate,,,,48504.7144499962,0
+natural_rubber_latex,industrial_agricultural_raw_material,Ghana,360,1033070,certified_interval,0,20881070,true,8406626.30943211,4466165.22446149
+natural_rubber_latex,industrial_agricultural_raw_material,Ghana,380,0,blocked_no_training_route_certificate,,,,8116.32672071649,0
+natural_rubber_latex,industrial_agricultural_raw_material,Ghana,458,85946867,certified_interval,57180056.9997801,88556089.04,true,75924237.4904914,80476687.3874126
+natural_rubber_latex,industrial_agricultural_raw_material,Ghana,484,0,blocked_no_training_route_certificate,,,,41064.7482893394,0
+natural_rubber_latex,industrial_agricultural_raw_material,Ghana,504,0,certified_interval,0,170000,true,68441.247148899,277689.029500196
+natural_rubber_latex,industrial_agricultural_raw_material,Ghana,699,0,certified_interval,0,272050,true,109526.125216812,138844.514750098
+natural_rubber_latex,industrial_agricultural_raw_material,Ghana,702,955925.04,blocked_no_training_route_certificate,,,,466980.684334332,0
+natural_rubber_latex,industrial_agricultural_raw_material,Ghana,704,106920,blocked_no_training_route_certificate,,,,3070612.52737964,0
+natural_rubber_latex,industrial_agricultural_raw_material,Ghana,724,0,blocked_no_training_route_certificate,,,,136882.494297798,0
+natural_rubber_latex,industrial_agricultural_raw_material,Ghana,784,15,blocked_no_training_route_certificate,,,,6.03893357196167,0
+natural_rubber_latex,industrial_agricultural_raw_material,Ghana,842,161280,blocked_no_training_route_certificate,,,,64930.6137657319,0
+natural_rubber_latex,industrial_agricultural_raw_material,Côte d'Ivoire,156,170000,certified_interval,0,522012,true,311407.237721645,256415.650157684
+natural_rubber_latex,industrial_agricultural_raw_material,Côte d'Ivoire,276,0,blocked_no_training_route_certificate,,,,71872.5699805824,0
+natural_rubber_latex,industrial_agricultural_raw_material,Côte d'Ivoire,360,19848000,certified_interval,0,20881070,true,12456641.4744724,7389144.95597183
+natural_rubber_latex,industrial_agricultural_raw_material,Côte d'Ivoire,380,20160,blocked_no_training_route_certificate,,,,12026.4858134839,0
+natural_rubber_latex,industrial_agricultural_raw_material,Côte d'Ivoire,458,102640000,certified_interval,99843247.95978,131219280,true,112501849.235361,113937832.025309
+natural_rubber_latex,industrial_agricultural_raw_material,Côte d'Ivoire,484,102000,certified_interval,0,102000,true,60848.2913182222,175381.920563204
+natural_rubber_latex,industrial_agricultural_raw_material,Côte d'Ivoire,504,170000,blocked_no_training_route_certificate,,,,101413.818863704,0
+natural_rubber_latex,industrial_agricultural_raw_material,Côte d'Ivoire,699,205000,certified_interval,0,272050,true,162291.937775709,26701.7456912837
+natural_rubber_latex,industrial_agricultural_raw_material,Côte d'Ivoire,702,204000,certified_interval,0,1159925.04,true,691955.45824726,460847.856317293
+natural_rubber_latex,industrial_agricultural_raw_material,Côte d'Ivoire,704,7520120,certified_interval,0,7627040,true,4549925.01780131,7725788.91397669
+natural_rubber_latex,industrial_agricultural_raw_material,Côte d'Ivoire,724,340000,blocked_no_training_route_certificate,,,,202827.637727407,0
+natural_rubber_latex,industrial_agricultural_raw_material,Côte d'Ivoire,784,0,blocked_no_training_route_certificate,,,,8.94827813503267,0
+natural_rubber_latex,industrial_agricultural_raw_material,Côte d'Ivoire,842,0,blocked_no_training_route_certificate,,,,96211.8865078713,0
+natural_rubber_latex,industrial_agricultural_raw_material,Liberia,156,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Liberia,276,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Liberia,360,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Liberia,380,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Liberia,458,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Liberia,484,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Liberia,504,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Liberia,699,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Liberia,702,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Liberia,704,0,certified_interval,0,0,true,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Liberia,724,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Liberia,784,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Liberia,842,0,blocked_no_training_route_certificate,,,,0,0
+natural_rubber_latex,industrial_agricultural_raw_material,Nigeria,156,0,certified_interval,0,187530,true,445.042826709155,3093.56701204718
+natural_rubber_latex,industrial_agricultural_raw_material,Nigeria,276,120480,certified_interval,0,120480,true,102.715569300934,6257.13444553484
+natural_rubber_latex,industrial_agricultural_raw_material,Nigeria,360,0,blocked_no_training_route_certificate,,,,17802.2160745572,0
+natural_rubber_latex,industrial_agricultural_raw_material,Nigeria,380,0,blocked_no_training_route_certificate,,,,17.1874657794391,0
+natural_rubber_latex,industrial_agricultural_raw_material,Nigeria,458,0,blocked_no_training_route_certificate,,,,160780.273959034,0
+natural_rubber_latex,industrial_agricultural_raw_material,Nigeria,484,0,blocked_no_training_route_certificate,,,,86.9603923364479,0
+natural_rubber_latex,industrial_agricultural_raw_material,Nigeria,504,0,blocked_no_training_route_certificate,,,,144.933987227413,0
+natural_rubber_latex,industrial_agricultural_raw_material,Nigeria,699,67050,certified_interval,0,187530,true,231.937007207163,1138.0713679356
+natural_rubber_latex,industrial_agricultural_raw_material,Nigeria,702,0,blocked_no_training_route_certificate,,,,988.897417247745,0
+natural_rubber_latex,industrial_agricultural_raw_material,Nigeria,704,0,blocked_no_training_route_certificate,,,,6502.45481142923,0
+natural_rubber_latex,industrial_agricultural_raw_material,Nigeria,724,0,blocked_no_training_route_certificate,,,,289.867974454826,0
+natural_rubber_latex,industrial_agricultural_raw_material,Nigeria,784,0,blocked_no_training_route_certificate,,,,0.0127882929906541,0
+natural_rubber_latex,industrial_agricultural_raw_material,Nigeria,842,0,blocked_no_training_route_certificate,,,,137.499726235513,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,24,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,48,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,50,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,56,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,124,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,156,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,204,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,251,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,276,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,300,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,360,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,376,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,380,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,384,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,392,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,404,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,410,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,454,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,458,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,480,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,504,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,528,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,586,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,620,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,699,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,702,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,704,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,724,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,752,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,757,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,764,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,768,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,784,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,788,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,792,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,818,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,826,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,842,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Cameroon,894,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Benin,24,0,blocked_no_training_route_certificate,,,,20635.8050840644,0
+raw_cotton,industrial_agricultural_raw_material,Benin,48,0,blocked_no_training_route_certificate,,,,987455.580942779,0
+raw_cotton,industrial_agricultural_raw_material,Benin,50,249037000,certified_interval,0,259466655,true,129838514.24559,187465115.392642
+raw_cotton,industrial_agricultural_raw_material,Benin,56,0,certified_interval,0,137408,true,56480.0554734906,61925.0759123185
+raw_cotton,industrial_agricultural_raw_material,Benin,124,0,blocked_no_training_route_certificate,,,,411039.062307075,0
+raw_cotton,industrial_agricultural_raw_material,Benin,156,1962850,certified_interval,0,6240120,true,2564933.07348363,19478589.0613726
+raw_cotton,industrial_agricultural_raw_material,Benin,204,0,blocked_no_training_route_certificate,,,,1816272.69098345,0
+raw_cotton,industrial_agricultural_raw_material,Benin,251,0,certified_interval,0,9303401,true,3824061.22330671,57081.0890670856
+raw_cotton,industrial_agricultural_raw_material,Benin,276,0,certified_interval,0,363295,true,149328.436140849,334360.499327449
+raw_cotton,industrial_agricultural_raw_material,Benin,300,0,certified_interval,0,28000000,true,11509093.7445981,41296.7531569396
+raw_cotton,industrial_agricultural_raw_material,Benin,360,0,certified_interval,0,537763,true,221041.59926344,2293228.67189349
+raw_cotton,industrial_agricultural_raw_material,Benin,376,0,blocked_no_training_route_certificate,,,,0.822078124614151,0
+raw_cotton,industrial_agricultural_raw_material,Benin,380,0,certified_interval,0,374654,true,153997.428849595,56450.6646566739
+raw_cotton,industrial_agricultural_raw_material,Benin,384,0,blocked_no_training_route_certificate,,,,25943104.4630578,0
+raw_cotton,industrial_agricultural_raw_material,Benin,392,0,blocked_no_training_route_certificate,,,,4318.37638859813,0
+raw_cotton,industrial_agricultural_raw_material,Benin,404,0,blocked_no_training_route_certificate,,,,41695.8024804297,0
+raw_cotton,industrial_agricultural_raw_material,Benin,410,0,blocked_no_training_route_certificate,,,,25.4844218630387,0
+raw_cotton,industrial_agricultural_raw_material,Benin,454,0,blocked_no_training_route_certificate,,,,164.41562492283,0
+raw_cotton,industrial_agricultural_raw_material,Benin,458,0,certified_interval,0,7169870,true,2947096.64166363,2818064.90211116
+raw_cotton,industrial_agricultural_raw_material,Benin,480,0,certified_interval,0,12325389,true,5066216.33712994,2073158.58218871
+raw_cotton,industrial_agricultural_raw_material,Benin,504,94970,certified_interval,0,94970,true,39036.3797473029,42116.4178697597
+raw_cotton,industrial_agricultural_raw_material,Benin,528,0,blocked_no_training_route_certificate,,,,2055195.31153538,0
+raw_cotton,industrial_agricultural_raw_material,Benin,586,99424,certified_interval,0,69102724,true,28403918.8758246,11967387.2553872
+raw_cotton,industrial_agricultural_raw_material,Benin,620,585043,certified_interval,0,2160810,true,888177.316223751,908424.628510455
+raw_cotton,industrial_agricultural_raw_material,Benin,699,533508,certified_interval,0,13942878,true,5731067.49898195,723814.499650268
+raw_cotton,industrial_agricultural_raw_material,Benin,702,0,certified_interval,0,21406990,true,8799109.09641694,413233.032889194
+raw_cotton,industrial_agricultural_raw_material,Benin,704,1961980,certified_interval,0,18915518,true,7775016.7817726,10949308.3222149
+raw_cotton,industrial_agricultural_raw_material,Benin,724,0,blocked_no_training_route_certificate,,,,3.2883124984566,0
+raw_cotton,industrial_agricultural_raw_material,Benin,752,0,blocked_no_training_route_certificate,,,,1233117.18692123,0
+raw_cotton,industrial_agricultural_raw_material,Benin,757,0,blocked_no_training_route_certificate,,,,12113065.4998928,0
+raw_cotton,industrial_agricultural_raw_material,Benin,764,0,certified_interval,0,651889,true,267951.843288297,199657.274935577
+raw_cotton,industrial_agricultural_raw_material,Benin,768,0,certified_interval,0,67528,true,27756.6457994722,28597.8815206905
+raw_cotton,industrial_agricultural_raw_material,Benin,784,0,blocked_no_training_route_certificate,,,,78097.4218383443,0
+raw_cotton,industrial_agricultural_raw_material,Benin,788,0,blocked_no_training_route_certificate,,,,20346.4335842002,0
+raw_cotton,industrial_agricultural_raw_material,Benin,792,0,certified_interval,0,2503928,true,1029212.21720443,3307245.43487292
+raw_cotton,industrial_agricultural_raw_material,Benin,818,5191880,certified_interval,0,8258990,true,3394767.50520351,12956662.1198437
+raw_cotton,industrial_agricultural_raw_material,Benin,826,0,blocked_no_training_route_certificate,,,,0.411039062307075,0
+raw_cotton,industrial_agricultural_raw_material,Benin,842,0,blocked_no_training_route_certificate,,,,2055257.78947285,0
+raw_cotton,industrial_agricultural_raw_material,Benin,894,0,blocked_no_training_route_certificate,,,,82.2078124614151,0
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,24,50204,certified_interval,0,50204,true,11719.9911542984,134966.403670264
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,48,2402340,certified_interval,0,2402340,true,560819.925695507,1330170.95865217
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,50,58690200,certified_interval,0,147362649,true,73741064.7293173,41653018.1505706
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,56,0,certified_interval,0,137408,true,32077.5345496342,160762.697574945
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,124,0,blocked_no_training_route_certificate,,,,233447.357865876,0
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,156,1797710,certified_interval,0,6240120,true,1456739.52676601,3217982.0435723
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,204,2507320,blocked_no_training_route_certificate,,,,1031542.01085947,0
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,251,0,certified_interval,0,9303401,true,2171854.38261674,108536.641472846
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,276,199518,certified_interval,0,363295,true,84810.2578758833,233103.693312938
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,300,0,blocked_no_training_route_certificate,,,,6536526.02024452,0
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,360,498956,certified_interval,0,537763,true,125539.351508027,5670888.1139074
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,376,0,blocked_no_training_route_certificate,,,,0.466894715731751,0
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,380,98812,certified_interval,0,374654,true,87461.9864138817,544417.765291209
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,384,0,blocked_no_training_route_certificate,,,,14734242.4288004,0
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,392,0,blocked_no_training_route_certificate,,,,2452.59794173889,0
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,404,0,blocked_no_training_route_certificate,,,,23680.8999819144,0
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,410,0,blocked_no_training_route_certificate,,,,14.4737361876843,0
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,454,0,blocked_no_training_route_certificate,,,,93.3789431463502,0
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,458,7169870,certified_interval,0,7169870,true,1673787.20774181,2510811.933145
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,480,825389,certified_interval,0,12325389,true,2877329.49671913,77390.1713481881
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,504,0,certified_interval,0,94970,true,22170.4955765222,203030.972578618
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,528,0,blocked_no_training_route_certificate,,,,1167236.78932938,0
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,586,46759500,certified_interval,0,69102724,true,16131848.3391348,63476133.1518571
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,620,1390510,certified_interval,0,2160810,true,504435.385350163,1058549.7622871
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,699,4608410,certified_interval,0,13942878,true,3254928.03014624,4442538.15587384
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,702,0,blocked_no_training_route_certificate,,,,4997405.25536122,0
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,704,14789900,certified_interval,0,18915518,true,4415777.69976441,13402140.3615304
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,724,0,certified_interval,0,8,true,1.867578862927,63118.0481762163
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,752,0,blocked_no_training_route_certificate,,,,700342.073597627,0
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,757,0,blocked_no_training_route_certificate,,,,6879548.43205076,0
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,764,651889,certified_interval,0,651889,true,152181.764671828,1376487.13731473
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,768,0,blocked_no_training_route_certificate,,,,15764.2331819668,0
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,784,0,blocked_no_training_route_certificate,,,,44354.9979945164,0
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,788,0,certified_interval,0,49500,true,11555.6442143608,309613.818319586
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,792,1929410,certified_interval,0,2503928,true,584535.375886386,6674525.77009217
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,818,2992710,certified_interval,0,8258990,true,1928039.39414069,269892.31282833
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,826,1,blocked_no_training_route_certificate,,,,0.233447357865876,0
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,842,0,blocked_no_training_route_certificate,,,,1167272.27332777,0
+raw_cotton,industrial_agricultural_raw_material,Côte d'Ivoire,894,0,blocked_no_training_route_certificate,,,,46.6894715731751,0
+raw_cotton,industrial_agricultural_raw_material,Mali,24,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,48,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,50,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,56,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,124,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,156,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,204,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,251,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,276,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,300,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,360,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,376,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,380,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,384,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,392,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,404,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,410,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,454,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,458,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,480,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,504,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,528,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,586,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,620,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,699,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,702,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,704,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,724,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,752,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,757,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,764,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,768,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,784,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,788,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,792,0,certified_interval,0,0,true,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,818,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,826,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,842,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Mali,894,0,blocked_no_training_route_certificate,,,,0,0
+raw_cotton,industrial_agricultural_raw_material,Tanzania,24,0,blocked_no_training_route_certificate,,,,3842.44415661925,0
+raw_cotton,industrial_agricultural_raw_material,Tanzania,48,0,blocked_no_training_route_certificate,,,,183866.968672072,0
+raw_cotton,industrial_agricultural_raw_material,Tanzania,50,8021260,certified_interval,0,48313411,true,24176291.5638488,7077767.74174433
+raw_cotton,industrial_agricultural_raw_material,Tanzania,56,137408,certified_interval,0,137408,true,10516.7430219253,37388.2347256512
+raw_cotton,industrial_agricultural_raw_material,Tanzania,124,0,blocked_no_training_route_certificate,,,,76536.613748292,0
+raw_cotton,industrial_agricultural_raw_material,Tanzania,156,2479560,certified_interval,0,6240120,true,477597.654182992,3267847.18879974
+raw_cotton,industrial_agricultural_raw_material,Tanzania,204,0,blocked_no_training_route_certificate,,,,338195.013951059,0
+raw_cotton,industrial_agricultural_raw_material,Tanzania,251,0,certified_interval,0,9303401,true,712050.808882474,457596.753556367
+raw_cotton,industrial_agricultural_raw_material,Tanzania,276,163777,certified_interval,0,363295,true,27805.3690916857,686659.555401524
+raw_cotton,industrial_agricultural_raw_material,Tanzania,300,0,blocked_no_training_route_certificate,,,,2143025.18495218,0
+raw_cotton,industrial_agricultural_raw_material,Tanzania,360,38807,certified_interval,0,537763,true,41158.5590191228,87713.2284162022
+raw_cotton,industrial_agricultural_raw_material,Tanzania,376,2,blocked_no_training_route_certificate,,,,0.153073227496584,0
+raw_cotton,industrial_agricultural_raw_material,Tanzania,380,201044,certified_interval,0,374654,true,28674.7484872526,517856.273938333
+raw_cotton,industrial_agricultural_raw_material,Tanzania,384,0,blocked_no_training_route_certificate,,,,4830678.02504196,0
+raw_cotton,industrial_agricultural_raw_material,Tanzania,392,10506,certified_interval,0,10506,true,804.093664039556,23373.6632010741
+raw_cotton,industrial_agricultural_raw_material,Tanzania,404,101440,certified_interval,0,101440,true,7763.87409862674,133026.264779306
+raw_cotton,industrial_agricultural_raw_material,Tanzania,410,62,blocked_no_training_route_certificate,,,,4.7452700523941,0
+raw_cotton,industrial_agricultural_raw_material,Tanzania,454,400,blocked_no_training_route_certificate,,,,30.6146454993168,0
+raw_cotton,industrial_agricultural_raw_material,Tanzania,458,0,blocked_no_training_route_certificate,,,,548757.570815466,0
+raw_cotton,industrial_agricultural_raw_material,Tanzania,480,0,certified_interval,0,12325389,true,943343.537190447,706203.159242305
+raw_cotton,industrial_agricultural_raw_material,Tanzania,504,0,blocked_no_training_route_certificate,,,,7268.68220767529,0
+raw_cotton,industrial_agricultural_raw_material,Tanzania,528,0,certified_interval,0,5000000,true,382683.06874146,9039.78755694335
+raw_cotton,industrial_agricultural_raw_material,Tanzania,586,22243800,certified_interval,0,48313411,true,5288888.49574283,19994986.9275767
+raw_cotton,industrial_agricultural_raw_material,Tanzania,620,185257,certified_interval,0,2160810,true,165381.080353447,503789.272935173
+raw_cotton,industrial_agricultural_raw_material,Tanzania,699,8800960,certified_interval,0,13942878,true,1067140.66802556,5291134.02986917
+raw_cotton,industrial_agricultural_raw_material,Tanzania,702,288000,certified_interval,0,21406990,true,1638418.52514355,141989.341992588
+raw_cotton,industrial_agricultural_raw_material,Tanzania,704,1940280,certified_interval,0,18915518,true,1447729.69501486,3316883.92144159
+raw_cotton,industrial_agricultural_raw_material,Tanzania,724,8,blocked_no_training_route_certificate,,,,0.612292909986336,0
+raw_cotton,industrial_agricultural_raw_material,Tanzania,752,0,blocked_no_training_route_certificate,,,,229609.841244876,0
+raw_cotton,industrial_agricultural_raw_material,Tanzania,757,2935970,certified_interval,0,29469378,true,2255486.40138841,5045832.78710795
+raw_cotton,industrial_agricultural_raw_material,Tanzania,764,0,certified_interval,0,651889,true,49893.3765997603,313914.283205479
+raw_cotton,industrial_agricultural_raw_material,Tanzania,768,0,blocked_no_training_route_certificate,,,,5168.36445319466,0
+raw_cotton,industrial_agricultural_raw_material,Tanzania,784,190000,certified_interval,0,190000,true,14541.9566121755,310818.709270125
+raw_cotton,industrial_agricultural_raw_material,Tanzania,788,0,blocked_no_training_route_certificate,,,,3788.56238054045,0
+raw_cotton,industrial_agricultural_raw_material,Tanzania,792,574518,certified_interval,0,2503928,true,191642.170189533,96582.4052928456
+raw_cotton,industrial_agricultural_raw_material,Tanzania,818,0,blocked_no_training_route_certificate,,,,632115.127581006,0
+raw_cotton,industrial_agricultural_raw_material,Tanzania,826,0,certified_interval,0,1,true,0.076536613748292,41008.8769964973
+raw_cotton,industrial_agricultural_raw_material,Tanzania,842,152,blocked_no_training_route_certificate,,,,382694.70230675,0
+raw_cotton,industrial_agricultural_raw_material,Tanzania,894,200,blocked_no_training_route_certificate,,,,15.3073227496584,0
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,24,0,blocked_no_training_route_certificate,,,,14005.7596049677,0
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,48,0,blocked_no_training_route_certificate,,,,670197.524687239,0
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,50,130312,certified_interval,0,176103020,true,88122901.4609276,812135.27394743
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,56,0,certified_interval,0,137408,true,38333.6669548125,83737.3731144137
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,124,1000000,certified_interval,0,1000000,true,278976.966077757,212123.777896394
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,156,0,certified_interval,0,6240120,true,1740849.74556113,135355.878991238
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,204,1911415,certified_interval,0,4418735,true,1232725.2842016,198527.550563481
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,251,9303401,certified_interval,0,9303401,true,2595434.58518477,14222015.1904228
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,276,0,certified_interval,0,363295,true,101350.936891219,1353558.78991238
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,300,28000000,certified_interval,0,28000000,true,7811355.0501772,6767793.94956191
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,360,0,blocked_no_training_route_certificate,,,,150023.490208873,0
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,376,0,blocked_no_training_route_certificate,,,,0.557953932155514,0
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,380,74798,certified_interval,0,374654,true,104519.836248896,26392.7721327436
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,384,63115910,certified_interval,0,63115910,true,17607885.0830368,24077856.3336488
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,392,0,blocked_no_training_route_certificate,,,,2930.93200561292,0
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,404,0,blocked_no_training_route_certificate,,,,28299.4234389277,0
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,410,0,blocked_no_training_route_certificate,,,,17.2965718968209,0
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,454,0,blocked_no_training_route_certificate,,,,111.590786431103,0
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,458,0,blocked_no_training_route_certificate,,,,2000228.57977193,0
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,480,11500000,certified_interval,0,12325389,true,3438499.62894816,10963826.1982903
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,504,0,blocked_no_training_route_certificate,,,,26494.4424684046,0
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,528,5000000,certified_interval,0,5000000,true,1394884.83038879,270711.757982477
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,586,0,certified_interval,0,69102724,true,19278068.2892286,26463.157189819
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,620,0,certified_interval,0,2160810,true,602816.218070479,58778.2904519454
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,699,0,certified_interval,0,13942878,true,3889741.80283231,541423.515964953
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,702,21118990,certified_interval,0,21406990,true,5972057.12305689,34651037.3438175
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,704,223358,blocked_no_training_route_certificate,,,,5276993.82342921,0
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,724,0,certified_interval,0,8,true,2.23181572862206,6612.94682399594
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,752,3000000,blocked_no_training_route_certificate,,,,836930.898233272,0
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,757,26533408,certified_interval,0,29469378,true,8221277.6666386,62241044.1375561
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,764,0,blocked_no_training_route_certificate,,,,181862.015439463,0
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,768,67528,certified_interval,0,67528,true,18838.7565652988,626250.233193489
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,784,0,certified_interval,0,190000,true,53005.6235547739,1070308.74614719
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,788,49500,blocked_no_training_route_certificate,,,,13809.359820849,0
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,792,0,certified_interval,0,2503928,true,698538.236717146,117381.971819992
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,818,74400,certified_interval,0,8258990,true,2304067.97306654,235508.671686194
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,826,0,certified_interval,0,1,true,0.278976966077757,270711.757982477
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,842,5000000,certified_interval,0,5000152,true,1394927.23488763,16402542.6343495
+raw_cotton,industrial_agricultural_raw_material,Burkina Faso,894,0,blocked_no_training_route_certificate,,,,55.7953932155514,0
+tea,food_or_beverage_crop,Kenya,4,4041340,certified_interval,0,4041340,true,3465929.00237438,9166221.2180876
+tea,food_or_beverage_crop,Kenya,8,4590,certified_interval,0,4590,true,3936.47011162099,5344.51802595592
+tea,food_or_beverage_crop,Kenya,24,14700,certified_interval,0,39700,true,34047.4647998591,11724.0722902438
+tea,food_or_beverage_crop,Kenya,31,311779,certified_interval,0,311779,true,267387.519592828,329198.156927946
+tea,food_or_beverage_crop,Kenya,32,68000,certified_interval,0,68000,true,58318.0757277184,10217.9683578346
+tea,food_or_beverage_crop,Kenya,36,781778.79,certified_interval,0,781794.79,true,670481.878922878,54205.1407185384
+tea,food_or_beverage_crop,Kenya,40,55650.86,blocked_no_training_route_certificate,,,,47727.2215851861,0
+tea,food_or_beverage_crop,Kenya,44,5,blocked_no_training_route_certificate,,,,4.28809380350871,0
+tea,food_or_beverage_crop,Kenya,48,88495.7,certified_interval,0,88495.7,true,75895.5725614331,26246.1216595919
+tea,food_or_beverage_crop,Kenya,50,26216,certified_interval,0,26216,true,22483.3334305569,239899.82694522
+tea,food_or_beverage_crop,Kenya,56,54400,certified_interval,0,74683.9,true,64050.3137623728,215903.601103536
+tea,food_or_beverage_crop,Kenya,72,0,blocked_no_training_route_certificate,,,,467831.0339628,0
+tea,food_or_beverage_crop,Kenya,100,19360,certified_interval,0,19360,true,16603.4992071857,18566.293041326
+tea,food_or_beverage_crop,Kenya,104,2028,certified_interval,0,2028,true,1739.25084670313,40776.0471607677
+tea,food_or_beverage_crop,Kenya,120,20142.2,certified_interval,0,76222.2,true,65369.5887019603,66638.7512219078
+tea,food_or_beverage_crop,Kenya,124,834717,certified_interval,0,923438,true,791957.753144895,806757.737662027
+tea,food_or_beverage_crop,Kenya,140,107268,certified_interval,0,107268,true,91995.0492229544,26492.3070372928
+tea,food_or_beverage_crop,Kenya,144,2510940,certified_interval,0,2531820,true,2171336.33071988,1323102.00939202
+tea,food_or_beverage_crop,Kenya,148,2161391,certified_interval,0,2161391,true,1853649.4708119,1690928.24230976
+tea,food_or_beverage_crop,Kenya,156,13010506,certified_interval,0,13759066,true,11800033.1313335,2491917.83481913
+tea,food_or_beverage_crop,Kenya,170,0,certified_interval,0,25520,true,21886.4307731084,8506.2223739425
+tea,food_or_beverage_crop,Kenya,178,39540.8,certified_interval,0,39540.8,true,33910.9318931554,33150.7888844511
+tea,food_or_beverage_crop,Kenya,180,86671.8,certified_interval,0,1318333.4,true,1130627.45669971,4402131.07415087
+tea,food_or_beverage_crop,Kenya,196,10286.9,certified_interval,0,10286.9,true,8822.23842946274,7.50107793116621
+tea,food_or_beverage_crop,Kenya,203,565,certified_interval,0,588,true,504.279831292624,721.228643081629
+tea,food_or_beverage_crop,Kenya,231,90158.5,certified_interval,0,90158.5,true,77321.621036728,47017.1090232125
+tea,food_or_beverage_crop,Kenya,232,375426,certified_interval,0,375426,true,321972.380855212,193311.254504215
+tea,food_or_beverage_crop,Kenya,246,19,certified_interval,0,19,true,16.2947564533331,32507.421430295
+tea,food_or_beverage_crop,Kenya,251,1044,certified_interval,0,2348,true,2013.68885012769,3342.96789619318
+tea,food_or_beverage_crop,Kenya,262,393411,certified_interval,0,393411,true,337396.654266433,460446.167726706
+tea,food_or_beverage_crop,Kenya,266,18972.8,certified_interval,0,18972.8,true,16271.429223042,36437.6862231088
+tea,food_or_beverage_crop,Kenya,268,108120,blocked_no_training_route_certificate,,,,92725.7404070723,0
+tea,food_or_beverage_crop,Kenya,270,18972.8,certified_interval,0,18972.8,true,16271.429223042,8568.0312560953
+tea,food_or_beverage_crop,Kenya,276,2475134,certified_interval,0,3336495.87,true,2861441.45311588,1613247.97938395
+tea,food_or_beverage_crop,Kenya,288,176430.4,certified_interval,0,176430.4,true,151310.020998113,485676.41840208
+tea,food_or_beverage_crop,Kenya,320,500,blocked_no_training_route_certificate,,,,428.809380350871,0
+tea,food_or_beverage_crop,Kenya,324,120580,certified_interval,0,120580,true,103411.670165416,43678.0266853877
+tea,food_or_beverage_crop,Kenya,344,213668,certified_interval,0,213668,true,183245.68536162,113998.719515198
+tea,food_or_beverage_crop,Kenya,352,12819,blocked_no_training_route_certificate,,,,10993.8148934356,0
+tea,food_or_beverage_crop,Kenya,360,41480,certified_interval,0,41480,true,35574.0261939082,2039163.90999467
+tea,food_or_beverage_crop,Kenya,364,17819300,certified_interval,0,17819300,true,15282165.9825725,16587886.7374121
+tea,food_or_beverage_crop,Kenya,368,411442,certified_interval,0,411442,true,352860.378140646,128696.144086577
+tea,food_or_beverage_crop,Kenya,372,4776484.8,certified_interval,0,4776484.8,true,4096402.97468671,4025871.656855
+tea,food_or_beverage_crop,Kenya,376,81850,certified_interval,0,81850,true,70196.0955634376,33932.8137641648
+tea,food_or_beverage_crop,Kenya,380,2015,certified_interval,0,2015,true,1728.10180281401,6156.17216349775
+tea,food_or_beverage_crop,Kenya,384,849748,certified_interval,0,849748,true,728759.826668784,971759.582754979
+tea,food_or_beverage_crop,Kenya,392,3355284.1,certified_interval,0,4098132.1,true,3514634.97279403,3403219.08199957
+tea,food_or_beverage_crop,Kenya,398,8718920,certified_interval,0,8718920,true,7477509.36505763,10610324.240749
+tea,food_or_beverage_crop,Kenya,400,5199260,certified_interval,0,5199260,true,4458982.91776614,4432043.40015686
+tea,food_or_beverage_crop,Kenya,404,0,blocked_no_training_route_certificate,,,,50797968.4388167,0
+tea,food_or_beverage_crop,Kenya,414,6377,certified_interval,0,6377,true,5469.03483699501,3505.96631963743
+tea,food_or_beverage_crop,Kenya,417,493618,certified_interval,0,493618,true,423336.057420072,471176.459707239
+tea,food_or_beverage_crop,Kenya,454,3260,certified_interval,0,3260,true,2795.83715988768,3274.44554929198
+tea,food_or_beverage_crop,Kenya,458,4203600,certified_interval,0,4254720,true,3648927.69353291,3189058.90393203
+tea,food_or_beverage_crop,Kenya,466,249301.7,certified_interval,0,249301.7,true,213805.814994837,199242.956910623
+tea,food_or_beverage_crop,Kenya,470,27734.6,certified_interval,0,27734.6,true,23785.7132805585,7331.4035483632
+tea,food_or_beverage_crop,Kenya,478,37945.6,certified_interval,0,37945.6,true,32542.858446084,21347.4677058645
+tea,food_or_beverage_crop,Kenya,480,290480,certified_interval,0,290480,true,249121.097608642,184483.385908585
+tea,food_or_beverage_crop,Kenya,490,475974,certified_interval,0,497894,true,427003.235240833,729161.78310163
+tea,food_or_beverage_crop,Kenya,504,74400,certified_interval,0,74400,true,63806.8357962096,38102.8505130484
+tea,food_or_beverage_crop,Kenya,508,4920,certified_interval,0,4920,true,4219.48430265257,9.00129351739943
+tea,food_or_beverage_crop,Kenya,512,4042170,certified_interval,0,4074170,true,3494084.62628821,1263564.67866911
+tea,food_or_beverage_crop,Kenya,528,2082620,certified_interval,0,3104788.5,true,2662724.86561102,3242597.56262477
+tea,food_or_beverage_crop,Kenya,554,102994,certified_interval,0,102994,true,88329.5866397152,162273.425509499
+tea,food_or_beverage_crop,Kenya,562,123323,certified_interval,0,123323,true,105764.118426021,21670.7641646978
+tea,food_or_beverage_crop,Kenya,566,3846781.88,certified_interval,0,3846785.88,true,3299075.73909056,5346276.65367688
+tea,food_or_beverage_crop,Kenya,579,139,certified_interval,0,291,true,249.567059364207,107.359177889816
+tea,food_or_beverage_crop,Kenya,586,221460000,certified_interval,119853682.279271,223708320,true,191856452.157069,234369332.818848
+tea,food_or_beverage_crop,Kenya,598,4095.3,blocked_no_training_route_certificate,,,,3512.20611070184,0
+tea,food_or_beverage_crop,Kenya,604,71800,certified_interval,0,71800,true,61577.027018385,843666.487828676
+tea,food_or_beverage_crop,Kenya,616,11976901.92,certified_interval,0,12418961.92,true,10650734.7310325,10231915.7046172
+tea,food_or_beverage_crop,Kenya,634,1147588.6,certified_interval,0,1147588.6,true,984193.512927447,1556136.065952
+tea,food_or_beverage_crop,Kenya,642,36080,certified_interval,0,36080,true,30942.8848861188,85438.0277437763
+tea,food_or_beverage_crop,Kenya,643,21575400,certified_interval,0,22519500,true,19313145.6816229,22507600.1709623
+tea,food_or_beverage_crop,Kenya,646,1975,certified_interval,0,112724.4,true,96674.5602288474,1175.59893768409
+tea,food_or_beverage_crop,Kenya,682,16034967,certified_interval,0,16788747,true,14398344.3958751,6812156.16819637
+tea,food_or_beverage_crop,Kenya,686,127098,certified_interval,0,127098,true,109001.62924767,116440.282876403
+tea,food_or_beverage_crop,Kenya,688,0,blocked_no_training_route_certificate,,,,171.523752140348,0
+tea,food_or_beverage_crop,Kenya,690,344,certified_interval,0,344,true,295.020853681399,1095.90748574338
+tea,food_or_beverage_crop,Kenya,699,16119060,certified_interval,0,16993360,true,14573824.3433585,5511505.18134491
+tea,food_or_beverage_crop,Kenya,702,229823,certified_interval,0,229823,true,197100.516440756,164741.748966224
+tea,food_or_beverage_crop,Kenya,704,212247.2,certified_interval,0,212247.2,true,182027.180626415,78085.6211772057
+tea,food_or_beverage_crop,Kenya,706,5425039.54,certified_interval,0,5656849.54,true,4851420.29197102,6707292.76395795
+tea,food_or_beverage_crop,Kenya,710,1170632.05,certified_interval,0,8877354.05,true,7613385.37867159,638604.007132107
+tea,food_or_beverage_crop,Kenya,716,139.44,certified_interval,0,55424.44,true,47533.039545388,541.506566389853
+tea,food_or_beverage_crop,Kenya,724,147675.8,certified_interval,0,260455.8,true,223371.780413581,202057.623888124
+tea,food_or_beverage_crop,Kenya,728,2362375,certified_interval,0,8192005,true,7025617.17576247,1387157.49814007
+tea,food_or_beverage_crop,Kenya,729,7610160,certified_interval,0,7639779,true,6552017.79801519,21420722.0702732
+tea,food_or_beverage_crop,Kenya,757,5440750,certified_interval,0,5800750,true,4974832.02614063,2981945.51601291
+tea,food_or_beverage_crop,Kenya,760,14871.5,blocked_no_training_route_certificate,,,,12754.077399776,0
+tea,food_or_beverage_crop,Kenya,762,63060,certified_interval,0,63060,true,54081.4390498518,49638.0081555958
+tea,food_or_beverage_crop,Kenya,768,37945.6,certified_interval,0,37945.6,true,32542.858446084,55002.5540596279
+tea,food_or_beverage_crop,Kenya,784,33500892.256,certified_interval,0,34067461.556,true,29216894.1599109,38099381.4632838
+tea,food_or_beverage_crop,Kenya,792,1641853.3,certified_interval,0,1733753.3,true,1486899.35650855,2201529.01742918
+tea,food_or_beverage_crop,Kenya,800,133743.8,certified_interval,0,133743.8,true,114701.192007542,72091.8773552293
+tea,food_or_beverage_crop,Kenya,804,2809390,certified_interval,0,2809390,true,2409385.57012787,2485015.11787453
+tea,food_or_beverage_crop,Kenya,818,90903301.5,certified_interval,0,91623581.5,true,78578102.417085,92584092.2582712
+tea,food_or_beverage_crop,Kenya,826,64656554,certified_interval,0,79980222,true,68592538.8722902,56862471.4687727
+tea,food_or_beverage_crop,Kenya,834,168591.8,certified_interval,0,168591.8,true,144587.490580476,247429.048920784
+tea,food_or_beverage_crop,Kenya,837,11360,certified_interval,0,11360,true,9742.54912157178,158466.647212127
+tea,food_or_beverage_crop,Kenya,842,1854932.1,certified_interval,0,4488963.25,true,3849819.09930066,2208420.37024071
+tea,food_or_beverage_crop,Kenya,854,821337,certified_interval,0,821337,true,704394.020058486,549943.928868388
+tea,food_or_beverage_crop,Kenya,860,1211040,certified_interval,0,1211040,true,1038610.62396024,1918965.17451546
+tea,food_or_beverage_crop,Kenya,887,14291884,certified_interval,0,14291884,true,12256987.844173,21752552.918028
+tea,food_or_beverage_crop,Kenya,894,94437,certified_interval,0,186737,true,160149.154517161,124086.881719434
+tea,food_or_beverage_crop,Kenya,899,16611340,certified_interval,0,16611340,true,14246196.8243953,8405559.18328949
+tea,food_or_beverage_crop,Malawi,4,0,blocked_no_training_route_certificate,,,,156530.25820256,0
+tea,food_or_beverage_crop,Malawi,8,0,blocked_no_training_route_certificate,,,,177.781103581918,0
+tea,food_or_beverage_crop,Malawi,24,25000,blocked_no_training_route_certificate,,,,1537.67098305058,0
+tea,food_or_beverage_crop,Malawi,31,0,blocked_no_training_route_certificate,,,,12075.9073406682,0
+tea,food_or_beverage_crop,Malawi,32,0,blocked_no_training_route_certificate,,,,2633.79412713953,0
+tea,food_or_beverage_crop,Malawi,36,0,blocked_no_training_route_certificate,,,,30280.6842136806,0
+tea,food_or_beverage_crop,Malawi,40,0,blocked_no_training_route_certificate,,,,2155.48394468036,0
+tea,food_or_beverage_crop,Malawi,44,0,blocked_no_training_route_certificate,,,,0.193661332877907,0
+tea,food_or_beverage_crop,Malawi,48,0,blocked_no_training_route_certificate,,,,3427.63904319267,0
+tea,food_or_beverage_crop,Malawi,50,0,blocked_no_training_route_certificate,,,,1015.40510054544,0
+tea,food_or_beverage_crop,Malawi,56,20125.5,certified_interval,0,74683.9,true,2892.67672370406,27426.7125643393
+tea,food_or_beverage_crop,Malawi,72,545500,certified_interval,0,545500,true,21128.4514169796,260740.809821119
+tea,food_or_beverage_crop,Malawi,100,0,blocked_no_training_route_certificate,,,,749.856680903255,0
+tea,food_or_beverage_crop,Malawi,104,0,blocked_no_training_route_certificate,,,,78.549036615279,0
+tea,food_or_beverage_crop,Malawi,120,0,blocked_no_training_route_certificate,,,,2952.25856937728,0
+tea,food_or_beverage_crop,Malawi,124,88400,certified_interval,0,923438,true,35766.8467820217,35199.1960357394
+tea,food_or_beverage_crop,Malawi,140,0,blocked_no_training_route_certificate,,,,4154.73277102946,0
+tea,food_or_beverage_crop,Malawi,144,20880,blocked_no_training_route_certificate,,,,98063.1271613884,0
+tea,food_or_beverage_crop,Malawi,148,0,blocked_no_training_route_certificate,,,,83715.5723860624,0
+tea,food_or_beverage_crop,Malawi,156,312290,certified_interval,0,13759066,true,532919.812143018,503619.600014983
+tea,food_or_beverage_crop,Malawi,170,0,blocked_no_training_route_certificate,,,,988.447443008836,0
+tea,food_or_beverage_crop,Malawi,178,0,blocked_no_training_route_certificate,,,,1531.50480621175,0
+tea,food_or_beverage_crop,Malawi,180,4,certified_interval,0,1318333.4,true,51062.0406842925,0.2168773631284
+tea,food_or_beverage_crop,Malawi,196,0,blocked_no_training_route_certificate,,,,398.434953036348,0
+tea,food_or_beverage_crop,Malawi,203,0,blocked_no_training_route_certificate,,,,22.7745727464418,0
+tea,food_or_beverage_crop,Malawi,231,0,blocked_no_training_route_certificate,,,,3492.04305605455,0
+tea,food_or_beverage_crop,Malawi,232,0,blocked_no_training_route_certificate,,,,14541.0999114042,0
+tea,food_or_beverage_crop,Malawi,246,0,blocked_no_training_route_certificate,,,,0.735913064936046,0
+tea,food_or_beverage_crop,Malawi,251,1304,certified_interval,0,2348,true,90.943361919465,156.260140134012
+tea,food_or_beverage_crop,Malawi,262,0,blocked_no_training_route_certificate,,,,15237.699725766,0
+tea,food_or_beverage_crop,Malawi,266,0,blocked_no_training_route_certificate,,,,734.85954728519,0
+tea,food_or_beverage_crop,Malawi,268,0,blocked_no_training_route_certificate,,,,4187.73266215186,0
+tea,food_or_beverage_crop,Malawi,270,0,blocked_no_training_route_certificate,,,,734.85954728519,0
+tea,food_or_beverage_crop,Malawi,276,822420,certified_interval,0,3336495.87,true,129230.047465166,859758.25555539
+tea,food_or_beverage_crop,Malawi,288,0,blocked_no_training_route_certificate,,,,6833.54928483645,0
+tea,food_or_beverage_crop,Malawi,320,0,blocked_no_training_route_certificate,,,,19.3661332877907,0
+tea,food_or_beverage_crop,Malawi,324,0,blocked_no_training_route_certificate,,,,4670.3367036836,0
+tea,food_or_beverage_crop,Malawi,344,0,blocked_no_training_route_certificate,,,,8275.84593467132,0
+tea,food_or_beverage_crop,Malawi,352,0,blocked_no_training_route_certificate,,,,496.508925232377,0
+tea,food_or_beverage_crop,Malawi,360,0,blocked_no_training_route_certificate,,,,1606.61441755511,0
+tea,food_or_beverage_crop,Malawi,364,0,blocked_no_training_route_certificate,,,,690181.877790257,0
+tea,food_or_beverage_crop,Malawi,368,0,blocked_no_training_route_certificate,,,,15936.0812243903,0
+tea,food_or_beverage_crop,Malawi,372,0,certified_interval,0,4776484.8,true,185004.082567812,5205.05671508161
+tea,food_or_beverage_crop,Malawi,376,0,blocked_no_training_route_certificate,,,,3170.23601921133,0
+tea,food_or_beverage_crop,Malawi,380,0,blocked_no_training_route_certificate,,,,78.0455171497964,0
+tea,food_or_beverage_crop,Malawi,384,0,blocked_no_training_route_certificate,,,,32912.6660580671,0
+tea,food_or_beverage_crop,Malawi,392,742848,certified_interval,0,4098132.1,true,158729.944959147,399723.63169887
+tea,food_or_beverage_crop,Malawi,398,0,blocked_no_training_route_certificate,,,,337703.533691168,0
+tea,food_or_beverage_crop,Malawi,400,0,blocked_no_training_route_certificate,,,,201379.124315757,0
+tea,food_or_beverage_crop,Malawi,404,1555400,certified_interval,0,28251794.5,true,2294166.76176756,749224.104908646
+tea,food_or_beverage_crop,Malawi,414,0,blocked_no_training_route_certificate,,,,246.995663952482,0
+tea,food_or_beverage_crop,Malawi,417,0,blocked_no_training_route_certificate,,,,19118.9439625053,0
+tea,food_or_beverage_crop,Malawi,454,0,blocked_no_training_route_certificate,,,,126.267189036395,0
+tea,food_or_beverage_crop,Malawi,458,51120,certified_interval,0,4254720,true,164794.949244458,45049.7658690314
+tea,food_or_beverage_crop,Malawi,466,0,blocked_no_training_route_certificate,,,,9656.01990214561,0
+tea,food_or_beverage_crop,Malawi,470,0,certified_interval,0,27734.6,true,1074.22392056712,15094.6644737366
+tea,food_or_beverage_crop,Malawi,478,0,blocked_no_training_route_certificate,,,,1469.71909457038,0
+tea,food_or_beverage_crop,Malawi,480,0,blocked_no_training_route_certificate,,,,11250.9487948749,0
+tea,food_or_beverage_crop,Malawi,490,0,blocked_no_training_route_certificate,,,,19284.5631343825,0
+tea,food_or_beverage_crop,Malawi,504,0,blocked_no_training_route_certificate,,,,2881.68063322325,0
+tea,food_or_beverage_crop,Malawi,508,0,certified_interval,0,4920,true,190.56275155186,13.4463965139608
+tea,food_or_beverage_crop,Malawi,512,0,blocked_no_training_route_certificate,,,,157801.838514236,0
+tea,food_or_beverage_crop,Malawi,528,1022168.5,certified_interval,0,3104788.5,true,120255.495842799,1791688.96001265
+tea,food_or_beverage_crop,Malawi,554,0,blocked_no_training_route_certificate,,,,3989.19106368543,0
+tea,food_or_beverage_crop,Malawi,562,0,blocked_no_training_route_certificate,,,,4776.57931090042,0
+tea,food_or_beverage_crop,Malawi,566,0,blocked_no_training_route_certificate,,,,148994.736163342,0
+tea,food_or_beverage_crop,Malawi,579,0,blocked_no_training_route_certificate,,,,11.2710895734942,0
+tea,food_or_beverage_crop,Malawi,586,86560,certified_interval,0,28251794.5,true,8664730.28541546,40295.8140692569
+tea,food_or_beverage_crop,Malawi,598,0,blocked_no_training_route_certificate,,,,158.620251306978,0
+tea,food_or_beverage_crop,Malawi,604,0,blocked_no_training_route_certificate,,,,2780.97674012674,0
+tea,food_or_beverage_crop,Malawi,616,146400,certified_interval,0,12418961.92,true,481014.543677434,281875.508857981
+tea,food_or_beverage_crop,Malawi,634,0,blocked_no_training_route_certificate,,,,44448.7075742982,0
+tea,food_or_beverage_crop,Malawi,642,0,blocked_no_training_route_certificate,,,,1397.46017804698,0
+tea,food_or_beverage_crop,Malawi,643,253380,certified_interval,0,22519500,true,872231.277148804,313890.945202996
+tea,food_or_beverage_crop,Malawi,646,0,blocked_no_training_route_certificate,,,,4366.07151037246,0
+tea,food_or_beverage_crop,Malawi,682,740220,certified_interval,0,16788747,true,650266.224273992,352481.23568861
+tea,food_or_beverage_crop,Malawi,686,0,blocked_no_training_route_certificate,,,,4922.79361722324,0
+tea,food_or_beverage_crop,Malawi,688,0,blocked_no_training_route_certificate,,,,7.74645331511627,0
+tea,food_or_beverage_crop,Malawi,690,0,blocked_no_training_route_certificate,,,,13.323899702,0
+tea,food_or_beverage_crop,Malawi,699,366240,certified_interval,0,16993360,true,658191.349534821,265439.674770659
+tea,food_or_beverage_crop,Malawi,702,0,certified_interval,0,229823,true,8901.56570119983,919156.627768996
+tea,food_or_beverage_crop,Malawi,704,0,blocked_no_training_route_certificate,,,,8220.81513032073,0
+tea,food_or_beverage_crop,Malawi,706,0,blocked_no_training_route_certificate,,,,219102.604361235,0
+tea,food_or_beverage_crop,Malawi,710,6399372,certified_interval,0,8877354.05,true,343840.043550417,6166998.51433178
+tea,food_or_beverage_crop,Malawi,716,55285,certified_interval,0,55424.44,true,2146.71418488231,2819.4057206692
+tea,food_or_beverage_crop,Malawi,724,112780,blocked_no_training_route_certificate,,,,10088.0434767563,0
+tea,food_or_beverage_crop,Malawi,728,0,blocked_no_training_route_certificate,,,,317294.921448495,0
+tea,food_or_beverage_crop,Malawi,729,0,blocked_no_training_route_certificate,,,,295905.956806528,0
+tea,food_or_beverage_crop,Malawi,757,360000,certified_interval,0,5800750,true,224676.195338304,353800.717565883
+tea,food_or_beverage_crop,Malawi,760,0,blocked_no_training_route_certificate,,,,576.006902378758,0
+tea,food_or_beverage_crop,Malawi,762,0,blocked_no_training_route_certificate,,,,2442.45673025616,0
+tea,food_or_beverage_crop,Malawi,768,0,blocked_no_training_route_certificate,,,,1469.71909457038,0
+tea,food_or_beverage_crop,Malawi,784,224800,certified_interval,0,28251794.5,true,1319510.00254036,345728.75898761
+tea,food_or_beverage_crop,Malawi,792,68800,certified_interval,0,1733753.3,true,67152.1949918939,95079.0359954905
+tea,food_or_beverage_crop,Malawi,800,0,blocked_no_training_route_certificate,,,,5180.20051443124,0
+tea,food_or_beverage_crop,Malawi,804,0,certified_interval,0,2809390,true,108814.042394773,14287.880682899
+tea,food_or_beverage_crop,Malawi,818,219920,certified_interval,0,28251794.5,true,3548788.9832675,321188.868472267
+tea,food_or_beverage_crop,Malawi,826,11286900,certified_interval,0,28251794.5,true,3097815.27927818,10972348.6919883
+tea,food_or_beverage_crop,Malawi,834,0,certified_interval,0,168591.8,true,6529.9425400571,0.2168773631284
+tea,food_or_beverage_crop,Malawi,837,0,blocked_no_training_route_certificate,,,,439.998548298604,0
+tea,food_or_beverage_crop,Malawi,842,2631377.5,certified_interval,0,4488963.25,true,173867.721246988,2842437.0556221
+tea,food_or_beverage_crop,Malawi,854,0,blocked_no_training_route_certificate,,,,31812.2436323883,0
+tea,food_or_beverage_crop,Malawi,860,0,blocked_no_training_route_certificate,,,,46906.324113692,0
+tea,food_or_beverage_crop,Malawi,887,0,blocked_no_training_route_certificate,,,,553557.060955286,0
+tea,food_or_beverage_crop,Malawi,894,92300,certified_interval,0,186737,true,7232.74726352434,271064.215681503
+tea,food_or_beverage_crop,Malawi,899,0,certified_interval,0,16611340,true,643394.849057618,0.650632089385201
+tea,food_or_beverage_crop,Rwanda,4,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,8,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,24,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,31,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,32,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,36,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,40,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,44,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,48,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,50,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,56,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,72,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,100,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,104,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,120,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,124,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,140,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,144,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,148,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,156,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,170,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,178,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,180,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,196,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,203,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,231,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,232,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,246,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,251,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,262,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,266,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,268,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,270,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,276,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,288,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,320,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,324,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,344,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,352,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,360,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,364,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,368,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,372,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,376,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,380,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,384,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,392,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,398,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,400,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,404,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,414,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,417,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,454,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,458,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,466,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,470,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,478,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,480,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,490,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,504,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,508,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,512,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,528,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,554,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,562,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,566,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,579,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,586,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,598,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,604,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,616,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,634,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,642,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,643,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,646,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,682,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,686,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,688,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,690,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,699,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,702,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,704,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,706,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,710,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,716,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,724,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,728,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,729,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,757,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,760,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,762,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,768,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,784,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,792,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,800,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,804,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,818,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,826,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,834,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,837,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,842,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,854,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Rwanda,860,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,887,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,894,0,certified_interval,0,0,true,0,0
+tea,food_or_beverage_crop,Rwanda,899,0,blocked_no_training_route_certificate,,,,0,0
+tea,food_or_beverage_crop,Uganda,4,0,blocked_no_training_route_certificate,,,,331657.684377199,0
+tea,food_or_beverage_crop,Uganda,8,0,blocked_no_training_route_certificate,,,,376.684162008478,0
+tea,food_or_beverage_crop,Uganda,24,0,blocked_no_training_route_certificate,,,,3258.03076944152,0
+tea,food_or_beverage_crop,Uganda,31,0,blocked_no_training_route_certificate,,,,25586.5384197911,0
+tea,food_or_beverage_crop,Uganda,32,0,blocked_no_training_route_certificate,,,,5580.5061038293,0
+tea,food_or_beverage_crop,Uganda,36,0,blocked_no_training_route_certificate,,,,64158.9793755434,0
+tea,food_or_beverage_crop,Uganda,40,0,blocked_no_training_route_certificate,,,,4567.05829284338,0
+tea,food_or_beverage_crop,Uganda,44,0,blocked_no_training_route_certificate,,,,0.410331331163919,0
+tea,food_or_beverage_crop,Uganda,48,0,blocked_no_training_route_certificate,,,,7262.51167665657,0
+tea,food_or_beverage_crop,Uganda,50,0,blocked_no_training_route_certificate,,,,2151.44923555866,0
+tea,food_or_beverage_crop,Uganda,56,158.4,certified_interval,0,74683.9,true,6129.02882070261,9.36101624089533
+tea,food_or_beverage_crop,Uganda,72,0,blocked_no_training_route_certificate,,,,44767.1482299836,0
+tea,food_or_beverage_crop,Uganda,100,0,blocked_no_training_route_certificate,,,,1588.8029142667,0
+tea,food_or_beverage_crop,Uganda,104,0,blocked_no_training_route_certificate,,,,166.430387920086,0
+tea,food_or_beverage_crop,Uganda,120,56080,blocked_no_training_route_certificate,,,,6255.2713580485,0
+tea,food_or_beverage_crop,Uganda,124,321,certified_interval,0,923438,true,75783.1087574695,153.951117513006
+tea,food_or_beverage_crop,Uganda,140,0,blocked_no_training_route_certificate,,,,8803.08424625826,0
+tea,food_or_beverage_crop,Uganda,144,0,blocked_no_training_route_certificate,,,,207777.014173487,0
+tea,food_or_beverage_crop,Uganda,148,0,blocked_no_training_route_certificate,,,,177377.289239143,0
+tea,food_or_beverage_crop,Uganda,156,258950,certified_interval,0,13759066,true,1129155.17347044,104751.327583193
+tea,food_or_beverage_crop,Uganda,170,0,blocked_no_training_route_certificate,,,,2094.33111426064,0
+tea,food_or_beverage_crop,Uganda,178,0,blocked_no_training_route_certificate,,,,3244.96581985726,0
+tea,food_or_beverage_crop,Uganda,180,1171661,certified_interval,0,1318333.4,true,108190.699787971,279550.543288769
+tea,food_or_beverage_crop,Uganda,196,0,blocked_no_training_route_certificate,,,,844.207474110025,0
+tea,food_or_beverage_crop,Uganda,203,23,blocked_no_training_route_certificate,,,,48.2549645448769,0
+tea,food_or_beverage_crop,Uganda,231,0,blocked_no_training_route_certificate,,,,7398.97146414845,0
+tea,food_or_beverage_crop,Uganda,232,0,blocked_no_training_route_certificate,,,,30809.8100667091,0
+tea,food_or_beverage_crop,Uganda,246,0,certified_interval,0,19,true,1.55925905842289,2307.84056908499
+tea,food_or_beverage_crop,Uganda,251,0,certified_interval,0,2348,true,192.691593114577,5945.1528907204
+tea,food_or_beverage_crop,Uganda,262,0,blocked_no_training_route_certificate,,,,32285.7718649057,0
+tea,food_or_beverage_crop,Uganda,266,0,blocked_no_training_route_certificate,,,,1557.02685598136,0
+tea,food_or_beverage_crop,Uganda,268,0,blocked_no_training_route_certificate,,,,8873.00470508859,0
+tea,food_or_beverage_crop,Uganda,270,0,blocked_no_training_route_certificate,,,,1557.02685598136,0
+tea,food_or_beverage_crop,Uganda,276,360,certified_interval,0,3336495.87,true,273813.758352004,5203.53221346388
+tea,food_or_beverage_crop,Uganda,288,0,blocked_no_training_route_certificate,,,,14478.9841779566,0
+tea,food_or_beverage_crop,Uganda,320,0,blocked_no_training_route_certificate,,,,41.0331331163919,0
+tea,food_or_beverage_crop,Uganda,324,0,blocked_no_training_route_certificate,,,,9895.55038234908,0
+tea,food_or_beverage_crop,Uganda,344,0,blocked_no_training_route_certificate,,,,17534.9349734265,0
+tea,food_or_beverage_crop,Uganda,352,0,blocked_no_training_route_certificate,,,,1052.00746683806,0
+tea,food_or_beverage_crop,Uganda,360,0,blocked_no_training_route_certificate,,,,3404.10872333588,0
+tea,food_or_beverage_crop,Uganda,364,0,blocked_no_training_route_certificate,,,,1462363.41788185,0
+tea,food_or_beverage_crop,Uganda,368,0,certified_interval,0,411442,true,33765.5087113491,5.18615858221346
+tea,food_or_beverage_crop,Uganda,372,0,blocked_no_training_route_certificate,,,,391988.273253645,0
+tea,food_or_beverage_crop,Uganda,376,0,blocked_no_training_route_certificate,,,,6717.12389115336,0
+tea,food_or_beverage_crop,Uganda,380,0,blocked_no_training_route_certificate,,,,165.36352645906,0
+tea,food_or_beverage_crop,Uganda,384,0,blocked_no_training_route_certificate,,,,69735.6455987756,0
+tea,food_or_beverage_crop,Uganda,392,0,blocked_no_training_route_certificate,,,,336318.399975718,0
+tea,food_or_beverage_crop,Uganda,398,0,blocked_no_training_route_certificate,,,,715529.209982344,0
+tea,food_or_beverage_crop,Uganda,400,0,blocked_no_training_route_certificate,,,,426683.855373464,0
+tea,food_or_beverage_crop,Uganda,404,51864010,certified_interval,0,59231410,true,4860900.66240318,56635209.6047704
+tea,food_or_beverage_crop,Uganda,414,0,blocked_no_training_route_certificate,,,,523.336579766463,0
+tea,food_or_beverage_crop,Uganda,417,0,blocked_no_training_route_certificate,,,,40509.3862052943,0
+tea,food_or_beverage_crop,Uganda,454,0,blocked_no_training_route_certificate,,,,267.536027918875,0
+tea,food_or_beverage_crop,Uganda,458,0,blocked_no_training_route_certificate,,,,349168.98426595,0
+tea,food_or_beverage_crop,Uganda,466,0,blocked_no_training_route_certificate,,,,20459.2596844856,0
+tea,food_or_beverage_crop,Uganda,470,0,blocked_no_training_route_certificate,,,,2276.07506745977,0
+tea,food_or_beverage_crop,Uganda,478,0,blocked_no_training_route_certificate,,,,3114.05371196272,0
+tea,food_or_beverage_crop,Uganda,480,0,blocked_no_training_route_certificate,,,,23838.6090152991,0
+tea,food_or_beverage_crop,Uganda,490,0,blocked_no_training_route_certificate,,,,40860.3015597057,0
+tea,food_or_beverage_crop,Uganda,504,0,blocked_no_training_route_certificate,,,,6105.73020771912,0
+tea,food_or_beverage_crop,Uganda,508,0,blocked_no_training_route_certificate,,,,403.766029865297,0
+tea,food_or_beverage_crop,Uganda,512,32000,blocked_no_training_route_certificate,,,,334351.919897621,0
+tea,food_or_beverage_crop,Uganda,528,0,certified_interval,0,3104788.5,true,254798.399637486,37283.2940475325
+tea,food_or_beverage_crop,Uganda,554,0,blocked_no_training_route_certificate,,,,8452.33302437934,0
+tea,food_or_beverage_crop,Uganda,562,0,blocked_no_training_route_certificate,,,,10120.6581506256,0
+tea,food_or_beverage_crop,Uganda,566,4,certified_interval,0,3846785.88,true,315691.354168594,47.1940430981425
+tea,food_or_beverage_crop,Uganda,579,152,certified_interval,0,291,true,23.8812834737401,13.484012313755
+tea,food_or_beverage_crop,Uganda,586,0,blocked_no_training_route_certificate,,,,18358906.5476088,0
+tea,food_or_beverage_crop,Uganda,598,0,blocked_no_training_route_certificate,,,,336.08598010312,0
+tea,food_or_beverage_crop,Uganda,604,0,blocked_no_training_route_certificate,,,,5892.35791551388,0
+tea,food_or_beverage_crop,Uganda,616,0,blocked_no_training_route_certificate,,,,1019177.83526152,0
+tea,food_or_beverage_crop,Uganda,634,0,blocked_no_training_route_certificate,,,,94178.3115733077,0
+tea,food_or_beverage_crop,Uganda,642,0,blocked_no_training_route_certificate,,,,2960.95088567884,0
+tea,food_or_beverage_crop,Uganda,643,0,blocked_no_training_route_certificate,,,,1848091.28242918,0
+tea,food_or_beverage_crop,Uganda,646,99504,certified_interval,0,112724.4,true,9250.87062133082,41463.3378647966
+tea,food_or_beverage_crop,Uganda,682,0,blocked_no_training_route_certificate,,,,1377789.78101685,0
+tea,food_or_beverage_crop,Uganda,686,0,blocked_no_training_route_certificate,,,,10430.4583056544,0
+tea,food_or_beverage_crop,Uganda,688,200,blocked_no_training_route_certificate,,,,16.4132532465568,0
+tea,food_or_beverage_crop,Uganda,690,0,blocked_no_training_route_certificate,,,,28.2307955840777,0
+tea,food_or_beverage_crop,Uganda,699,50000,blocked_no_training_route_certificate,,,,1394581.60594954,0
+tea,food_or_beverage_crop,Uganda,702,0,blocked_no_training_route_certificate,,,,18860.7155044171,0
+tea,food_or_beverage_crop,Uganda,704,0,blocked_no_training_route_certificate,,,,17418.3352223629,0
+tea,food_or_beverage_crop,Uganda,706,231810,certified_interval,0,5656849.54,true,464236.520388441,37340.3417919369
+tea,food_or_beverage_crop,Uganda,710,70,blocked_no_training_route_certificate,,,,728531.300909982,0
+tea,food_or_beverage_crop,Uganda,716,0,blocked_no_training_route_certificate,,,,4548.47684884296,0
+tea,food_or_beverage_crop,Uganda,724,0,blocked_no_training_route_certificate,,,,21374.6350246727,0
+tea,food_or_beverage_crop,Uganda,728,5802630,certified_interval,0,8192005,true,672287.263310297,2579775.62745767
+tea,food_or_beverage_crop,Uganda,729,29619,certified_interval,0,7639779,true,626968.137373631,61657.7207680775
+tea,food_or_beverage_crop,Uganda,757,0,blocked_no_training_route_certificate,,,,476045.893849821,0
+tea,food_or_beverage_crop,Uganda,760,0,blocked_no_training_route_certificate,,,,1220.44847828085,0
+tea,food_or_beverage_crop,Uganda,762,0,blocked_no_training_route_certificate,,,,5175.09874863935,0
+tea,food_or_beverage_crop,Uganda,768,0,blocked_no_training_route_certificate,,,,3114.05371196272,0
+tea,food_or_beverage_crop,Uganda,784,38220,blocked_no_training_route_certificate,,,,2795789.36992983,0
+tea,food_or_beverage_crop,Uganda,792,23100,certified_interval,0,1733753.3,true,142282.659899768,5704.7744404348
+tea,food_or_beverage_crop,Uganda,800,0,blocked_no_training_route_certificate,,,,10975.8542977842,0
+tea,food_or_beverage_crop,Uganda,804,0,blocked_no_training_route_certificate,,,,230556.147691721,0
+tea,food_or_beverage_crop,Uganda,818,200160,certified_interval,0,59860150.05,true,7519205.23258017,37274.4775779428
+tea,food_or_beverage_crop,Uganda,826,10,certified_interval,0,59860150.05,true,6563678.19200916,25688.0806894197
+tea,food_or_beverage_crop,Uganda,834,0,blocked_no_training_route_certificate,,,,13835.6995434643,0
+tea,food_or_beverage_crop,Uganda,837,0,blocked_no_training_route_certificate,,,,932.272784404425,0
+tea,food_or_beverage_crop,Uganda,842,1107.65,certified_interval,0,4488963.25,true,368392.453183683,351.880859803184
+tea,food_or_beverage_crop,Uganda,854,0,blocked_no_training_route_certificate,,,,67404.060908836,0
+tea,food_or_beverage_crop,Uganda,860,0,blocked_no_training_route_certificate,,,,99385.5310585506,0
+tea,food_or_beverage_crop,Uganda,887,0,blocked_no_training_route_certificate,,,,1172881.55731206,0
+tea,food_or_beverage_crop,Uganda,894,0,blocked_no_training_route_certificate,,,,15324.8083575114,0
+tea,food_or_beverage_crop,Uganda,899,0,blocked_no_training_route_certificate,,,,1363230.65092329,0
+tea,food_or_beverage_crop,Tanzania,4,0,blocked_no_training_route_certificate,,,,87223.0550418232,0
+tea,food_or_beverage_crop,Tanzania,8,0,blocked_no_training_route_certificate,,,,99.0646227840192,0
+tea,food_or_beverage_crop,Tanzania,24,0,blocked_no_training_route_certificate,,,,856.833447609055,0
+tea,food_or_beverage_crop,Tanzania,31,0,blocked_no_training_route_certificate,,,,6729.0346464006,0
+tea,food_or_beverage_crop,Tanzania,32,0,certified_interval,0,68000,true,1467.62404124473,63396.315536031
+tea,food_or_beverage_crop,Tanzania,36,16,certified_interval,0,781794.79,true,16873.2474871158,4258.07886505842
+tea,food_or_beverage_crop,Tanzania,40,0,blocked_no_training_route_certificate,,,,1201.09617723448,0
+tea,food_or_beverage_crop,Tanzania,44,0,blocked_no_training_route_certificate,,,,0.107913532444465,0
+tea,food_or_beverage_crop,Tanzania,48,0,blocked_no_training_route_certificate,,,,1909.97671862914,0
+tea,food_or_beverage_crop,Tanzania,50,0,certified_interval,0,26216,true,565.812233312821,6920.36116156675
+tea,food_or_beverage_crop,Tanzania,56,0,blocked_no_training_route_certificate,,,,1611.88069314584,0
+tea,food_or_beverage_crop,Tanzania,72,0,blocked_no_training_route_certificate,,,,11773.3663896912,0
+tea,food_or_beverage_crop,Tanzania,100,0,blocked_no_training_route_certificate,,,,417.84119762497,0
+tea,food_or_beverage_crop,Tanzania,104,0,blocked_no_training_route_certificate,,,,43.7697287594752,0
+tea,food_or_beverage_crop,Tanzania,120,0,blocked_no_training_route_certificate,,,,1645.08137053771,0
+tea,food_or_beverage_crop,Tanzania,124,0,certified_interval,0,923438,true,19930.2913146904,3.02463337481064
+tea,food_or_beverage_crop,Tanzania,140,0,blocked_no_training_route_certificate,,,,2315.13375965058,0
+tea,food_or_beverage_crop,Tanzania,144,0,blocked_no_training_route_certificate,,,,54643.5279427093,0
+tea,food_or_beverage_crop,Tanzania,148,0,blocked_no_training_route_certificate,,,,46648.6675607351,0
+tea,food_or_beverage_crop,Tanzania,156,177320,certified_interval,0,13759066,true,296957.883039308,114528.952590555
+tea,food_or_beverage_crop,Tanzania,170,25520,blocked_no_training_route_certificate,,,,550.790669596551,0
+tea,food_or_beverage_crop,Tanzania,178,0,blocked_no_training_route_certificate,,,,853.397480736024,0
+tea,food_or_beverage_crop,Tanzania,180,59996.6,certified_interval,0,1318333.4,true,28453.2028267045,18378.2773120244
+tea,food_or_beverage_crop,Tanzania,196,0,blocked_no_training_route_certificate,,,,222.019143380594,0
+tea,food_or_beverage_crop,Tanzania,203,0,certified_interval,0,588,true,12.6906314154691,1.20985334992426
+tea,food_or_beverage_crop,Tanzania,231,0,blocked_no_training_route_certificate,,,,1945.86444297887,0
+tea,food_or_beverage_crop,Tanzania,232,0,blocked_no_training_route_certificate,,,,8102.70916629917,0
+tea,food_or_beverage_crop,Tanzania,246,0,certified_interval,0,19,true,0.410071423288969,7089.74063055613
+tea,food_or_beverage_crop,Tanzania,251,0,certified_interval,0,2348,true,50.676194835921,139.133135241289
+tea,food_or_beverage_crop,Tanzania,262,0,blocked_no_training_route_certificate,,,,8490.87414250192,0
+tea,food_or_beverage_crop,Tanzania,266,0,blocked_no_training_route_certificate,,,,409.484373672471,0
+tea,food_or_beverage_crop,Tanzania,268,0,blocked_no_training_route_certificate,,,,2333.52222557912,0
+tea,food_or_beverage_crop,Tanzania,270,0,blocked_no_training_route_certificate,,,,409.484373672471,0
+tea,food_or_beverage_crop,Tanzania,276,38581.87,certified_interval,0,3336495.87,true,72010.611063614,101582.86237629
+tea,food_or_beverage_crop,Tanzania,288,0,certified_interval,0,176430.4,true,3807.845538918,80.7577111074441
+tea,food_or_beverage_crop,Tanzania,320,0,blocked_no_training_route_certificate,,,,10.7913532444465,0
+tea,food_or_beverage_crop,Tanzania,324,0,blocked_no_training_route_certificate,,,,2602.44274843073,0
+tea,food_or_beverage_crop,Tanzania,344,0,certified_interval,0,213668,true,4611.53373006881,61950.843246209
+tea,food_or_beverage_crop,Tanzania,352,0,blocked_no_training_route_certificate,,,,276.66871448112,0
+tea,food_or_beverage_crop,Tanzania,360,0,blocked_no_training_route_certificate,,,,895.250665159285,0
+tea,food_or_beverage_crop,Tanzania,364,0,blocked_no_training_route_certificate,,,,384588.721737532,0
+tea,food_or_beverage_crop,Tanzania,368,0,blocked_no_training_route_certificate,,,,8880.03192320315,0
+tea,food_or_beverage_crop,Tanzania,372,0,blocked_no_training_route_certificate,,,,103089.469487059,0
+tea,food_or_beverage_crop,Tanzania,376,0,blocked_no_training_route_certificate,,,,1766.5445261159,0
+tea,food_or_beverage_crop,Tanzania,380,0,certified_interval,0,2015,true,43.4891535751196,7234.92303254704
+tea,food_or_beverage_crop,Tanzania,384,0,blocked_no_training_route_certificate,,,,18339.8616735239,0
+tea,food_or_beverage_crop,Tanzania,392,0,certified_interval,0,4098132.1,true,88448.782267011,41725.7247955252
+tea,food_or_beverage_crop,Tanzania,398,0,blocked_no_training_route_certificate,,,,188177.89126014,0
+tea,food_or_beverage_crop,Tanzania,400,0,certified_interval,0,5199260,true,112214.102539442,14324.6636631032
+tea,food_or_beverage_crop,Tanzania,404,5812000,certified_interval,0,15742693.17,true,1278374.13695329,6132901.18953151
+tea,food_or_beverage_crop,Tanzania,414,0,certified_interval,0,6377,true,137.632919279671,13792.3281891365
+tea,food_or_beverage_crop,Tanzania,417,0,blocked_no_training_route_certificate,,,,10653.6124116344,0
+tea,food_or_beverage_crop,Tanzania,454,0,blocked_no_training_route_certificate,,,,70.3596231537914,0
+tea,food_or_beverage_crop,Tanzania,458,0,blocked_no_training_route_certificate,,,,91828.3729524232,0
+tea,food_or_beverage_crop,Tanzania,466,0,certified_interval,0,249301.7,true,5380.60541828208,12497.7851047176
+tea,food_or_beverage_crop,Tanzania,470,0,blocked_no_training_route_certificate,,,,598.587731386854,0
+tea,food_or_beverage_crop,Tanzania,478,0,blocked_no_training_route_certificate,,,,818.968747344941,0
+tea,food_or_beverage_crop,Tanzania,480,0,blocked_no_training_route_certificate,,,,6269.34458089366,0
+tea,food_or_beverage_crop,Tanzania,490,21920,blocked_no_training_route_certificate,,,,10745.9000645809,0
+tea,food_or_beverage_crop,Tanzania,504,0,certified_interval,0,74400,true,1605.75336277365,6750.98169257734
+tea,food_or_beverage_crop,Tanzania,508,0,certified_interval,0,4920,true,106.186915925354,6869.54732086993
+tea,food_or_beverage_crop,Tanzania,512,0,certified_interval,0,4074170,true,87931.6152958535,6820.85072353547
+tea,food_or_beverage_crop,Tanzania,528,0,certified_interval,0,3104788.5,true,67009.7389055906,31391.1574804722
+tea,food_or_beverage_crop,Tanzania,554,0,blocked_no_training_route_certificate,,,,2222.88927211705,0
+tea,food_or_beverage_crop,Tanzania,562,0,blocked_no_training_route_certificate,,,,2661.64411232976,0
+tea,food_or_beverage_crop,Tanzania,566,0,certified_interval,0,3846785.88,true,83024.0505736583,6696.53829183076
+tea,food_or_beverage_crop,Tanzania,579,0,blocked_no_training_route_certificate,,,,6.28056758826789,0
+tea,food_or_beverage_crop,Tanzania,586,2161760,certified_interval,0,15742693.17,true,4828231.00968337,2149064.92517716
+tea,food_or_beverage_crop,Tanzania,598,0,blocked_no_training_route_certificate,,,,88.3876578839638,0
+tea,food_or_beverage_crop,Tanzania,604,0,blocked_no_training_route_certificate,,,,1549.63832590252,0
+tea,food_or_beverage_crop,Tanzania,616,295660,certified_interval,0,12418961.92,true,268034.8100161,285192.680910895
+tea,food_or_beverage_crop,Tanzania,634,0,certified_interval,0,1147588.6,true,24768.0679237997,33809.3518636334
+tea,food_or_beverage_crop,Tanzania,642,0,certified_interval,0,36080,true,778.704050119262,93606.3536836397
+tea,food_or_beverage_crop,Tanzania,643,690720,certified_interval,0,15742693.17,true,486031.758776628,945252.373029071
+tea,food_or_beverage_crop,Tanzania,646,11245.4,certified_interval,0,112724.4,true,2432.89763933658,22379.6283208623
+tea,food_or_beverage_crop,Tanzania,682,13560,certified_interval,0,15742693.17,true,362346.598817284,30.2463337481064
+tea,food_or_beverage_crop,Tanzania,686,0,blocked_no_training_route_certificate,,,,2743.11882932533,0
+tea,food_or_beverage_crop,Tanzania,688,0,blocked_no_training_route_certificate,,,,4.31654129777862,0
+tea,food_or_beverage_crop,Tanzania,690,0,blocked_no_training_route_certificate,,,,7.42445103217922,0
+tea,food_or_beverage_crop,Tanzania,699,458060,certified_interval,0,15742693.17,true,366762.701140096,263772.227350486
+tea,food_or_beverage_crop,Tanzania,702,0,blocked_no_training_route_certificate,,,,4960.20235339687,0
+tea,food_or_beverage_crop,Tanzania,704,0,certified_interval,0,212247.2,true,4580.86902068939,36719.0491702011
+tea,food_or_beverage_crop,Tanzania,706,0,blocked_no_training_route_certificate,,,,122090.12327365,0
+tea,food_or_beverage_crop,Tanzania,710,1307280,certified_interval,0,8877354.05,true,191597.326859136,1848667.53327643
+tea,food_or_beverage_crop,Tanzania,716,0,blocked_no_training_route_certificate,,,,1196.20942083127,0
+tea,food_or_beverage_crop,Tanzania,724,0,blocked_no_training_route_certificate,,,,5621.34108472984,0
+tea,food_or_beverage_crop,Tanzania,728,27000,blocked_no_training_route_certificate,,,,176805.639470545,0
+tea,food_or_beverage_crop,Tanzania,729,0,certified_interval,0,7639779,true,164887.107797009,7380.10543453796
+tea,food_or_beverage_crop,Tanzania,757,0,certified_interval,0,5800750,true,125195.884665447,6079.51308336939
+tea,food_or_beverage_crop,Tanzania,760,0,blocked_no_training_route_certificate,,,,320.967219549573,0
+tea,food_or_beverage_crop,Tanzania,762,0,blocked_no_training_route_certificate,,,,1361.0054711896,0
+tea,food_or_beverage_crop,Tanzania,768,0,blocked_no_training_route_certificate,,,,818.968747344941,0
+tea,food_or_beverage_crop,Tanzania,784,303549.3,certified_interval,0,15742693.17,true,735268.023584797,210245.260270128
+tea,food_or_beverage_crop,Tanzania,792,0,certified_interval,0,1733753.3,true,37419.0885980498,3.02463337481064
+tea,food_or_beverage_crop,Tanzania,800,0,blocked_no_training_route_certificate,,,,2886.55318010922,0
+tea,food_or_beverage_crop,Tanzania,804,0,certified_interval,0,2809390,true,60634.2397828313,48274.6609786652
+tea,food_or_beverage_crop,Tanzania,818,300200,certified_interval,0,15742693.17,true,1977484.86697567,127452.001147771
+tea,food_or_beverage_crop,Tanzania,826,4036758,certified_interval,0,15742693.17,true,1726189.65634251,2738715.99174314
+tea,food_or_beverage_crop,Tanzania,834,0,blocked_no_training_route_certificate,,,,3638.66733583416,0
+tea,food_or_beverage_crop,Tanzania,837,0,blocked_no_training_route_certificate,,,,245.179545713825,0
+tea,food_or_beverage_crop,Tanzania,842,1546,certified_interval,0,4488963.25,true,96883.9762641776,89994.8597690147
+tea,food_or_beverage_crop,Tanzania,854,0,blocked_no_training_route_certificate,,,,17726.675399468,0
+tea,food_or_beverage_crop,Tanzania,860,0,blocked_no_training_route_certificate,,,,26137.5208663091,0
+tea,food_or_beverage_crop,Tanzania,887,0,blocked_no_training_route_certificate,,,,308457.537545307,0
+tea,food_or_beverage_crop,Tanzania,894,0,blocked_no_training_route_certificate,,,,4030.28986161643,0
+tea,food_or_beverage_crop,Tanzania,899,0,blocked_no_training_route_certificate,,,,358517.675607209,0

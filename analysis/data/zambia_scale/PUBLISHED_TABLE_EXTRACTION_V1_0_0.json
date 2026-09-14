@@ -1,0 +1,50 @@
+{
+  "source": {
+    "publisher": "Zambia Statistics Agency and Ministry of Fisheries and Livestock",
+    "title": "2023 Aquaculture Survey Main Report",
+    "url": "https://www.zamstats.gov.zm/wp-content/uploads/2024/08/2023-Aquaculture-Survey-MAIN-REPORT.pdf",
+    "evidence_role": "official published survey aggregates; independently collected external evidence; not analyst-blind"
+  },
+  "table_6_6_household_fish_production_metric_tonnes": {
+    "Central": 997,
+    "Copperbelt": 1407,
+    "Eastern": 172,
+    "Luapula": 4241,
+    "Lusaka": 584,
+    "Muchinga": 1309,
+    "Northern": 1543,
+    "North-western": 511,
+    "Southern": 246,
+    "Western": 157,
+    "Zambia": 11165
+  },
+  "table_9_1_households": {
+    "all_fish_farming_households": 19697,
+    "households_reporting_fish_sales": 7619,
+    "reported_percent_selling": 38.7
+  },
+  "table_9_2_sale_location_percent_among_selling_households": {
+    "on_farm": 49.7,
+    "within_district_not_on_farm": 47.3,
+    "outside_district": 3.0
+  },
+  "table_9_4_household_fish_sold_kg": {
+    "Central": 283713.2,
+    "Copperbelt": 1406725.2,
+    "Eastern": 175665.9,
+    "Luapula": 337612.1,
+    "Lusaka": 942750.1,
+    "Muchinga": 195173.2,
+    "Northern": 887255.3,
+    "North-western": 621441.3,
+    "Southern": 280268.9,
+    "Western": 120256.3,
+    "Zambia": 5250861.3
+  },
+  "extraction_limits": [
+    "Sale location percentages are household shares, not mass shares.",
+    "Published province production and sales totals are not coherent in every province and must not be treated as a closed provincial balance.",
+    "On-farm sale does not establish local consumption; buyer movement after sale is unknown."
+  ]
+}
+

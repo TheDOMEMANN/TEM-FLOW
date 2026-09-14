@@ -1,0 +1,128 @@
+﻿Map code,Node ID,Display name,Map class,Corridor code(s),Node role,Absorption prior tier,Transit/interception role,Evidence state,Longitude,Latitude,Coordinate provenance,Coordinate status
+N001,ADDIS,Addis Ababa,consumption_hub,FF-01; FF-02; FF-04; FF-06; FF-07; FF-08; FF-10; FF-13,National market/consumption/redistribution hub,NATIONAL_TERMINAL,Terminal and re-export hub,USER-SPECIFIED CANDIDATE NODE,38.74689,9.02497,GeoNames,resolved
+N002,BISHOFTU,Bishoftu,source_proximate,FF-01; FF-02,Urban market/transit node,REGIONAL_HUB,Corridor interception and transit,USER-SPECIFIED CANDIDATE NODE,38.97846,8.75225,GeoNames,resolved
+N003,DUKEM,Dukem,intercept_transit,FF-01; FF-02,Urban corridor market,SMALL_TOWN_LOW,Transit/interception,USER-SPECIFIED CANDIDATE NODE,38.9,8.8,GeoNames,resolved
+N004,MODJO,Modjo,intercept_transit,FF-01; FF-02,Urban corridor market,LOCAL_MARKET,Transit/interception,USER-SPECIFIED CANDIDATE NODE,39.12111,8.58679,GeoNames,resolved
+N005,ADAMA,Adama,consumption_hub,FF-01; FF-02,Regional consumption/market/transit hub,REGIONAL_HUB,Major source-specific absorption and onward transit,USER-SPECIFIED CANDIDATE NODE,39.26667,8.55,GeoNames/Nazret alias,resolved
+N006,OLENCHITI,Olenchiti,intercept_transit,FF-01,Corridor town,SMALL_TOWN_LOW,Transit/interception,USER-SPECIFIED CANDIDATE NODE,39.43333,8.66667,GeoNames/Welenchiti alias,resolved
+N007,ARERTI,Arerti,intercept_transit,FF-01,Corridor town,SMALL_TOWN_LOW,Branch/interception,USER-SPECIFIED CANDIDATE NODE,39.4,8.83333,GeoNames context match,context-resolved
+N008,METEHARA,Metehara,intercept_transit,FF-01,Corridor town/market,LOCAL_MARKET,Transit/interception,USER-SPECIFIED CANDIDATE NODE,39.91667,8.9,GeoNames,resolved
+N009,DIRE_DAWA,Dire Dawa,consumption_hub,FF-01,Major regional city/market,REGIONAL_HUB,Eastern branch terminal/transit,USER-SPECIFIED CANDIDATE NODE,41.86611,9.59306,GeoNames,resolved
+N010,HARAR,Harar,consumption_hub,FF-01,Major regional city/market,REGIONAL_HUB,Eastern branch terminal,USER-SPECIFIED CANDIDATE NODE,42.11815,9.31387,GeoNames,resolved
+N011,AWASH_ARBA,Awash Arba,intercept_transit,FF-01,Small corridor market,LOW_CORRIDOR,Low absorption; transit possible,USER-SPECIFIED CANDIDATE NODE,40.168853,9.128642,User-supplied coordinate 2026-08-11,user-confirmed
+N012,SEMERA,Semera,intercept_transit,FF-01,Regional administrative market,LOW_CORRIDOR,Low absorption prior for fish,USER-SPECIFIED CANDIDATE NODE,41.00578,11.79342,GeoNames,resolved
+N013,DUBTI,Dubti,source_proximate,FF-01,Local corridor market,LOW_CORRIDOR,Low absorption prior,USER-SPECIFIED CANDIDATE NODE,41.082,11.73292,GeoNames,resolved
+N014,ASAYITA,Asaita,source_proximate,FF-01,Local corridor market,LOW_CORRIDOR,Low absorption prior,USER-SPECIFIED CANDIDATE NODE,41.43869,11.56838,GeoNames; Aisaita retained as an alias,resolved
+N015,LOGIA,Logia,source_proximate,FF-01,Local corridor market,LOW_CORRIDOR,Low absorption prior,USER-SPECIFIED CANDIDATE NODE,40.9797,11.72615,GeoNames,resolved
+N016,HAWASSA_CITY,Hawassa City,source_proximate,FF-02,Regional consumption/market hub,REGIONAL_HUB,Absorption and transit,USER-SPECIFIED CANDIDATE NODE,38.47635,7.06205,GeoNames,resolved
+N017,SHASHEMENE,Shashemene,consumption_hub,FF-02,Regional corridor market,REGIONAL_HUB,Absorption and transit,USER-SPECIFIED CANDIDATE NODE,38.6,7.2,GeoNames,resolved
+N018,ARSI_NEGELE,Arsi-Negele,intercept_transit,FF-02,Corridor market,LOCAL_MARKET,Absorption and transit,USER-SPECIFIED CANDIDATE NODE,38.67465,7.3547,GeoNames,resolved
+N019,DOLE_UNVERIFIED,Dole,intercept_transit,FF-02,Candidate town node,UNKNOWN,Unknown,USER-SPECIFIED CANDIDATE NODE,38.673715,7.51983,User-supplied coordinate 2026-08-11,user-confirmed
+N020,MEKI,Meki,consumption_hub,FF-02,Main Ziway/Langano corridor consumption center,HIGH_LOCAL_CULTURAL,High local absorption plus onward transit,EXPERT-ELICITED MAIN CONSUMPTION CENTER; SHARE UNQUANTIFIED,38.81667,8.15,GeoNames,resolved
+N021,BOTE_ALEM_TENA,Alem Tena,source_proximate,FF-02,Near-Koka local consumption market,HIGH_LOCAL_CULTURAL,Local absorption and transit,EXPERT-ELICITED NEAR-SOURCE CONSUMPTION PRIOR; SHARE UNQUANTIFIED,38.95,8.3,GeoNames; Bote retained as an alias,resolved
+N022,KOKA_TOWN,Koka town,source_proximate,FF-02,Town/market near source,LOCAL_MARKET,Absorption and transit,USER-SPECIFIED CANDIDATE NODE,39.03333,8.43333,GeoNames,resolved
+N023,BATU_ZIWAY,Batu,source_proximate,FF-02,Main lakeside consumption and market center,HIGH_LOCAL_CULTURAL,High local absorption plus onward transit,EXPERT-ELICITED MAIN CONSUMPTION CENTER; PUBLISHED ZIWAY MARKET-CHAIN CONTEXT; SHARE UNQUANTIFIED,38.71667,7.93333,GeoNames; Ziway town retained as the historical name,resolved
+N024,WOLAITA_SODO,Wolaita Sodo,consumption_hub,FF-03,Regional consumption/market node,REGIONAL_HUB,Absorption/transit only; no production-surplus role,USER-SPECIFIED CANDIDATE NODE,37.76159,6.86,GeoNames,resolved-consumption-only
+N025,BELE_HAWASSA_UNVERIFIED,Bale-Hawassa,intercept_transit,FF-03,Candidate town node,UNKNOWN,Unknown,USER-SPECIFIED CANDIDATE NODE,37.539423,6.91977,User-supplied coordinate 2026-08-11; display label corrected to Bale-Hawassa,user-confirmed
+N026,HOSAENA,Hosaena,intercept_transit,FF-03,Regional market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,37.85374,7.54978,GeoNames,resolved
+N027,BUTAJIRA,Butajira,intercept_transit,FF-03,Regional market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,38.36667,8.11667,GeoNames,resolved
+N028,WERABE,Worabe,intercept_transit,FF-03,Regional market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,38.18529,7.85257,GeoNames; Werabe retained as an alias,resolved
+N029,AREKA,Areka,intercept_transit,FF-03,Regional market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,37.7,7.06667,GeoNames,resolved
+N030,HALABA_KULITO,Halaba-Kulito,intercept_transit,FF-03,Regional market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,38.08333,7.31667,GeoNames,resolved
+N031,SHONE,Shone,intercept_transit,FF-03,Local market,SMALL_TOWN_LOW,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,37.95,7.13333,GeoNames context match,context-resolved
+N032,BODITI,Boditi,intercept_transit,FF-03,Local market,LOCAL_MARKET,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,37.86667,6.96667,GeoNames,resolved
+N033,HUMBO,Humbo,intercept_transit,FF-03,Local market,SMALL_TOWN_LOW,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,37.75,6.73333,GeoNames context match,context-resolved
+N034,BIRBIR_UNVERIFIED,Birbir,intercept_transit,FF-03,Candidate local market,UNKNOWN,Unknown,USER-SPECIFIED CANDIDATE NODE,37.73333,6.38333,GeoNames southern context match; original user spelling retained in audit history,context-resolved
+N035,LANTE,Lante,source_proximate,FF-03,Local market near Arba Minch,SMALL_TOWN_LOW,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,37.638289,6.13304,User-supplied coordinate 2026-08-11,user-confirmed
+N036,ARBAMINCH,Arba Minch,source_proximate,FF-03,Production-zone city/regional hub,REGIONAL_HUB,High regional absorption/transit,USER-SPECIFIED CANDIDATE NODE,37.55,6.03333,GeoNames,resolved
+N037,JINKA,Jinka,consumption_hub,FF-03; FF-04,Regional market,REGIONAL_HUB,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,36.65,5.65,GeoNames,resolved
+N038,SAWLA,Sawla,intercept_transit,FF-04,Regional market,LOCAL_MARKET,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,36.88333,6.3,GeoNames/Felege Neway,resolved
+N039,TUM_UNVERIFIED,Tum,intercept_transit,FF-04,Candidate small market,SMALL_TOWN_LOW,Interception,USER-SPECIFIED CANDIDATE NODE,35.520373,6.257595,User-supplied coordinate 2026-08-11,user-confirmed
+N040,ABOBO,Abobo,source_proximate,FF-05; FF-06,Local/regional market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,34.55,7.85,GeoNames,resolved
+N041,GAMBELLA,Gambella Town,source_proximate,FF-05; FF-06,Regional fish-consumption and market hub,HIGH_LOCAL_CULTURAL,Strong local absorption for selected species; transit,USER-SPECIFIED CANDIDATE NODE,34.58333,8.25,GeoNames,resolved
+N042,BONGA,Bonga,intercept_transit,FF-06,Regional route market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,36.24167,7.28889,GeoNames context match,context-resolved
+N043,BURE_GAMBELLA_UNVERIFIED,Bure,intercept_transit,FF-06,Candidate route market,UNKNOWN,Unknown,USER-SPECIFIED CANDIDATE NODE,35.087725,8.26589,User-supplied coordinate 2026-08-11,user-confirmed
+N044,METU,Metu,consumption_hub,FF-06,Regional market,REGIONAL_HUB,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,35.58333,8.3,GeoNames,resolved
+N045,BEDELE,Bedele,intercept_transit,FF-06,Regional market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,36.35302,8.456,GeoNames,resolved
+N046,JIMMA,Jimma,consumption_hub,FF-06; FF-07,Major regional market,REGIONAL_HUB,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,36.83441,7.67344,GeoNames,resolved
+N047,WOLKITE,Wolkite,intercept_transit,FF-07,Regional market,LOCAL_MARKET,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,37.78333,8.28333,GeoNames,resolved
+N048,ASENDABO,Assendabo,intercept_transit,FF-07,Local corridor market,SMALL_TOWN_LOW,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,37.23333,7.76667,GeoNames; Asendabo retained as an alias,resolved
+N049,DENEBA_UNVERIFIED,Deneba,intercept_transit,FF-07,Candidate local market,UNKNOWN,Unknown,USER-SPECIFIED CANDIDATE NODE,37.361199,7.838194,User-supplied coordinate 2026-08-11,user-confirmed
+N050,SOKORU,Sokoru,intercept_transit,FF-07,Local corridor market,SMALL_TOWN_LOW,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,37.41667,7.91667,GeoNames/Sekoru alias,resolved
+N051,DEMBI_DOLO,Dembi Dolo,consumption_hub,FF-08,Regional market,REGIONAL_HUB,Absorption/transit; Gambella cross-supply candidate,USER-SPECIFIED CANDIDATE NODE,34.8,8.53333,GeoNames,resolved
+N052,NEKEMTE,Nekemte,consumption_hub,FF-08; FF-10,Major regional market,REGIONAL_HUB,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,36.55,9.08333,GeoNames,resolved
+N053,GIMBI,Gimbi,intercept_transit,FF-08,Regional market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,35.83491,9.17031,GeoNames,resolved
+N054,AMBO,Ambo,consumption_hub,FF-08,Regional market,REGIONAL_HUB,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,37.85,8.98333,GeoNames/Hagere Hiywet,resolved
+N055,GEDO,Gedo,intercept_transit,FF-08,Corridor town,SMALL_TOWN_LOW,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,37.45,9.01667,GeoNames context match,context-resolved
+N056,BAKO,Bako,intercept_transit,FF-08,Corridor town,LOCAL_MARKET,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,37.05,9.13333,GeoNames western context match,context-resolved
+N057,IJAJI,Ijaji,intercept_transit,FF-08,Corridor town,SMALL_TOWN_LOW,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,37.31667,9.0,GeoNames context match,context-resolved
+N058,HOLETA,Holeta,intercept_transit,FF-08,Urban corridor market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,38.5,9.06667,GeoNames/Genet,resolved
+N059,GINCHI,Ginchi,intercept_transit,FF-08,Corridor town,SMALL_TOWN_LOW,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,38.15,9.03333,GeoNames,resolved
+N060,FITCHE,Fiche,intercept_transit,FF-09,Regional market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,38.73333,9.8,GeoNames; Fitche and Fische retained as aliases,resolved
+N061,GOHATSION,Gohatsion,intercept_transit,FF-09,Corridor town,SMALL_TOWN_LOW,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,38.25,10.01667,GeoNames/Goha Tsiyon,resolved
+N062,DEJEN,Dejen,intercept_transit,FF-09,Regional corridor market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,38.13333,10.16667,GeoNames,resolved
+N063,MOTA,Mota,intercept_transit,FF-09,Regional market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,37.86667,11.08333,GeoNames,resolved
+N064,FINOTE_SELAM,Finote Selam,intercept_transit,FF-09,Regional market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,37.26667,10.7,GeoNames,resolved
+N065,DEBRE_MARKOS,Debre Markos,consumption_hub,FF-09,Major regional market,REGIONAL_HUB,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,37.73333,10.35,GeoNames,resolved
+N066,DANGILA,Dangila,intercept_transit,FF-09,Regional market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,36.83333,11.26667,GeoNames,resolved
+N067,INJIBARA,Injibara,intercept_transit,FF-09,Regional market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,36.91667,11.0,GeoNames,resolved
+N068,BAHIR_DAR,Bahir Dar,source_proximate,FF-09,Major source-region market,REGIONAL_HUB,Absorption/processing/transit,USER-SPECIFIED CANDIDATE NODE,37.39077,11.59364,GeoNames,resolved
+N069,WERETA,Wereta,source_proximate,FF-09,Regional corridor market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,37.7,11.91667,GeoNames/Werota,resolved
+N070,HAMUSIT,Hamusit,intercept_transit,FF-09,Local corridor market,SMALL_TOWN_LOW,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,37.56667,11.78333,GeoNames context match,context-resolved
+N071,GONDAR,Gondar,consumption_hub,FF-09,Major regional market,REGIONAL_HUB,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,37.46667,12.6,GeoNames/Gonder,resolved
+N072,DEBRE_TABOR,Debre Tabor,intercept_transit,FF-09,Regional market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,38.01667,11.85,GeoNames,resolved
+N073,DEBARK,Debark,intercept_transit,FF-09,Regional market,LOCAL_MARKET,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,37.89806,13.15611,GeoNames,resolved
+N074,ASOSA,Asosa,consumption_hub,FF-10,Regional market,REGIONAL_HUB,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,34.53333,10.06667,GeoNames,resolved
+N075,BAMBASI,Bambasi,intercept_transit,FF-10,Local/regional market,LOCAL_MARKET,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,34.73333,9.75,GeoNames/Bambesi,resolved
+N076,GILGEL_BELES,Gilgel Beles,intercept_transit,FF-10,Regional market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,36.349492,11.149727,User-supplied coordinate 2026-08-11,user-confirmed
+N077,CHAGNI,Chagni,intercept_transit,FF-10,Regional market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,36.50456,10.95627,GeoNames,resolved
+N078,KURMUK,Kurmuk,intercept_transit,FF-10,Border market,LOCAL_MARKET,Domestic/cross-border absorption,USER-SPECIFIED CANDIDATE NODE,34.28333,10.53333,GeoNames context match,context-resolved
+N079,MEKELE,Mekelle,consumption_hub,FF-11,Major regional market,REGIONAL_HUB,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,39.47528,13.49667,GeoNames,resolved
+N080,ADWA,Adwa,intercept_transit,FF-11,Regional market,LOCAL_MARKET,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,38.89924,14.16347,GeoNames,resolved
+N081,SHIRE,Shire,consumption_hub,FF-11,Regional market,REGIONAL_HUB,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,38.28289,14.10307,GeoNames/Inda Silase,resolved
+N082,ADIGRAT,Adigrat,intercept_transit,FF-11,Regional market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,39.462,14.277,GeoNames,resolved
+N083,AXUM,Axum,intercept_transit,FF-11,Regional market,LOCAL_MARKET,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,38.72337,14.12109,GeoNames,resolved
+N084,WUKRO,Wukro,intercept_transit,FF-11,Regional market,LOCAL_MARKET,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,39.60303,13.79525,GeoNames; Wukiro retained as an alias,resolved
+N085,WOLDIA,Woldiya,consumption_hub,FF-11; FF-12,Regional hub,REGIONAL_HUB,Multi-source absorption/transit,USER-SPECIFIED CANDIDATE NODE,39.59164,11.8277,GeoNames coordinate record,resolved
+N086,ALAMATA,Alamata,intercept_transit,FF-11,Regional market,LOCAL_MARKET,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,39.55971,12.416,GeoNames,resolved
+N087,MAICHEW,Maichew,intercept_transit,FF-11,Regional market,LOCAL_MARKET,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,39.54222,12.7875,GeoNames,resolved
+N088,KOBO,Kobo,intercept_transit,FF-11,Regional market,LOCAL_MARKET,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,39.632996,12.155681,Latest user-supplied coordinate 2026-08-11,user-confirmed
+N089,ROBIT_NORTH,Robit,intercept_transit,FF-11,Candidate corridor market,SMALL_TOWN_LOW,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,39.625454,12.006424,User-supplied coordinate 2026-08-11,user-confirmed
+N090,HAIK_TOWN,Haik,source_proximate,FF-12,Source-area town/market,LOCAL_MARKET,Local absorption/transit,USER-SPECIFIED CANDIDATE NODE,39.68333,11.3,GeoNames; Haiq retained as an alias,resolved
+N091,DESSIE,Dessie,consumption_hub,FF-12,Major regional market,REGIONAL_HUB,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,39.63333,11.13333,GeoNames,resolved
+N092,KUTABER,Kutaber,intercept_transit,FF-12,Local/regional market,SMALL_TOWN_LOW,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,39.53333,11.26667,GeoNames context match,context-resolved
+N093,KOMBOLCHA,Kombolcha,consumption_hub,FF-12,Regional industrial/market city,REGIONAL_HUB,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,39.74339,11.08155,GeoNames,resolved
+N094,KEMISSIE,Kemissie,intercept_transit,FF-12,Regional market,LOCAL_MARKET,Absorption/transit,USER-SPECIFIED CANDIDATE NODE,39.86997,10.71668,GeoNames,resolved
+N095,ATAYE,Ataye,intercept_transit,FF-12,Corridor market,SMALL_TOWN_LOW,Absorption/interception,USER-SPECIFIED CANDIDATE NODE,39.93626,10.35028,GeoNames,resolved
+N096,SHEWA_ROBIT,Shewa Robit,intercept_transit,FF-13,Regional market,LOCAL_MARKET,Local supply plus Addis re-export absorption,USER-SPECIFIED CANDIDATE NODE,39.89693,9.99461,GeoNames,resolved
+N097,DEBRE_BIRHAN,Debre Birhan,consumption_hub,FF-13,Regional city/market,REGIONAL_HUB,Local supply plus Addis re-export absorption,USER-SPECIFIED CANDIDATE NODE,39.53262,9.67954,GeoNames,resolved
+N098,SHENO,Sheno,intercept_transit,FF-13,Corridor town,SMALL_TOWN_LOW,Local supply plus Addis re-export absorption,USER-SPECIFIED CANDIDATE NODE,39.29337,9.32936,GeoNames,resolved
+N099,JIJIGA,Jigjiga,intercept_transit,FF-14,Regional capital and market node,REMOTE_CONSTRAINED,Potential regional absorption/transit,USER-SPECIFIED CANDIDATE NODE + OFFICIAL NAME CROSS-CHECK,42.8,9.35,GeoNames; Jijiga retained as an alias,resolved
+N100,DEGEHABUR,Degehabur,intercept_transit,FF-14,Remote regional market node,REMOTE_CONSTRAINED,Potential river/import interception,USER-SPECIFIED CANDIDATE NODE + OFFICIAL NAME CROSS-CHECK,43.55722,8.22056,GeoNames; Degeh Bur retained as an alias,resolved
+N101,GODE,Gode,source_proximate,FF-14,Wabi Shebele regional market node,REMOTE_CONSTRAINED,Potential riverine absorption/transit,USER-SPECIFIED CANDIDATE NODE + GEOGRAPHIC CROSS-CHECK,43.55186,5.95056,GeoNames; Godey retained as an alias,resolved
+N102,DOLO_ODO,Dolo Odo,intercept_transit,FF-14,Remote border/river market candidate,REMOTE_CONSTRAINED,Potential local/import interception,USER-SPECIFIED CANDIDATE NODE + PROVISIONAL OFFICIAL MATCH,42.05889,4.17861,GeoNames context match; Dolo retained as a shortened alias,context-resolved
+N103,HADERO,Hadero,intercept_transit,FF-07,Fish market/transit node,LOCAL_MARKET,Corridor interception and transit,USER-SPECIFIED CANDIDATE NODE,37.658393,7.188133,User-supplied coordinate 2026-08-11,user-confirmed
+N104,SHINSHICHO,Shinshicho,intercept_transit,FF-07,Fish market/transit node,LOCAL_MARKET,Corridor interception and transit,USER-SPECIFIED CANDIDATE NODE,37.777004,7.204275,User-supplied coordinate 2026-08-11,user-confirmed
+N105,DURAME,Durame,intercept_transit,FF-07,Fish market/transit node,LOCAL_MARKET,Corridor interception and transit,USER-SPECIFIED CANDIDATE NODE,37.903829,7.244595,User-supplied coordinate 2026-08-11,user-confirmed
+N106,METEMA,Metema,intercept_transit,FF-09,Border market/transit node,LOCAL_MARKET,Export-corridor interception and transit,POSTER-V3 CANDIDATE NODE,36.15549,12.95479,GeoNames/Metemma-Metema alias,resolved
+X01,SUDAN_EXPORT_NW,Sudan export market (Tana surplus)*,external_terminal,FF-09,External export market sink,UNKNOWN,External terminal,USER-STATED SURPLUS EXPORT DIRECTION,35.35,13.15,Schematic external export sink,external-schematic
+X02,SUDAN_EXPORT_WEST,Sudan export market (GERD surplus)*,external_terminal,FF-10,External export market sink,UNKNOWN,External terminal,USER-STATED SURPLUS EXPORT DIRECTION,33.55,10.65,Schematic external export sink,external-schematic
+X03,KENYA_MARKET,Kenya export market [dominant]*,external_terminal,FF-04,External export market sink,UNKNOWN,External terminal,USER-STATED DOMINANT EXPORT DIRECTION; UNQUANTIFIED,36.05,3.35,Schematic external export sink,external-schematic
+X04,SOUTH_SUDAN_EXPORT,South Sudan informal cross-border export*,external_terminal,FF-06,External export market sink,UNKNOWN,Informal external terminal; destination town unspecified,USER-STATED INFORMAL CROSS-BORDER EXPORT; UNQUANTIFIED,33.15,8.25,Schematic external sink; informal cross-border destination unspecified,external-schematic
+N107,GOBA_BALE,Goba,intercept_transit,FF-01,Fish market/transit node,LOCAL_MARKET,Candidate Melka-Wakena carp destination/interception node,USER-SPECIFIED MELKA-WAKENA CANDIDATE DESTINATION; UNQUANTIFIED,39.98333,7.01667,GeoNames Goba/Gobba (geonameid 336350),resolved
+N108,ROBE_BALE,Bale Robe,intercept_transit,FF-01,Fish market/transit node,LOCAL_MARKET,Candidate Melka-Wakena carp destination/interception node,USER-SPECIFIED MELKA-WAKENA CANDIDATE DESTINATION; UNQUANTIFIED,40.00412,7.12294,GeoNames Bale Robe (geonameid 329607),resolved
+N109,DODOLA,Dodola,intercept_transit,FF-01,Fish market/transit node,LOCAL_MARKET,Candidate Melka-Wakena carp destination/interception node,USER-SPECIFIED MELKA-WAKENA CANDIDATE DESTINATION; UNQUANTIFIED,39.18333,6.98333,GeoNames Dodola (geonameid 338726),resolved
+N110,ASASA,Asasa,intercept_transit,FF-01,Fish market/transit node,LOCAL_MARKET,Candidate Melka-Wakena carp destination/interception node,USER-SPECIFIED MELKA-WAKENA CANDIDATE DESTINATION; UNQUANTIFIED,39.2,7.1,GeoNames Asasa (geonameid 343413),resolved
+N111,BEKOJI,Bekoji,intercept_transit,FF-01,Fish market/transit node,LOCAL_MARKET,Candidate Melka-Wakena carp destination/interception node,USER-SPECIFIED MELKA-WAKENA CANDIDATE DESTINATION; UNQUANTIFIED,39.25,7.53333,GeoNames Bekoji/Bek'oji (geonameid 342478),resolved
+N112,ASELA,Asela,intercept_transit,FF-01; FF-02,Fish market/transit node,LOCAL_MARKET,Candidate Melka-Wakena and Koka destination/interception node,USER-SPECIFIED MELKA-WAKENA/KOKA CANDIDATE DESTINATION; UNQUANTIFIED,39.13333,7.95,GeoNames Asela/Asella (geonameid 343370),resolved
+N113,KOFELE,Kofele,intercept_transit,FF-01,Fish market/transit node,LOCAL_MARKET,Candidate Melka-Wakena carp destination/interception node,USER-SPECIFIED MELKA-WAKENA CANDIDATE DESTINATION; UNQUANTIFIED,38.78333,7.06667,GeoNames Kofele (geonameid 332938),resolved
+N114,WONJI,Wonji,intercept_transit,FF-01,Local market/transit node,LOCAL_MARKET,Candidate Lake Beseka westbound destination/interception node,EXPERT-ELICITED BESEKA ROUTE CANDIDATE; UNQUANTIFIED,39.21752,8.4541,GeoNames Wonji (geonameid 12640451),resolved
+N115,ADAMI_TULU,Adami Tulu,source_proximate,FF-02,Near-Ziway production-area market node,LOCAL_MARKET,Local absorption and north-south corridor transit,EXPERT-ELICITED ZIWAY/LANGANO DESTINATION; SHARE UNQUANTIFIED,38.7,7.86667,GeoNames Adami Tulu (geonameid 345490),resolved
+N116,BULBULA,Bulbula,intercept_transit,FF-02,Rift corridor town and market node,LOCAL_MARKET,Local absorption and north-south corridor transit,EXPERT-ELICITED ZIWAY/LANGANO DESTINATION; SHARE UNQUANTIFIED,38.65,7.71667,GeoNames Bulbula (geonameid 341484),resolved
+N117,TERCHA,Tercha,intercept_transit,FF-03,Fish market/transit node,LOCAL_MARKET,Candidate Gilgel Gibe III western corridor interception node,USER-SPECIFIED GG-III CANDIDATE DESTINATION; UNQUANTIFIED,37.17184,7.15139,GeoNames Ethiopia gazetteer Tarch'a Sodo (geonameid 327913); retained as an alias,resolved
+N118,PINYUDO,Pinyudo,source_proximate,FF-05,Fishing-area town and local consumption/assembly node,HIGH_LOCAL_CULTURAL,Local absorption/source assembly and transit,USER-SPECIFIED IMPORTANT GAMBELLA NODE; QUANTITY UNMEASURED,34.26601,7.6409,GeoNames Pinyudo (geonameid 11429228); Pugnido retained as an alias,resolved
+N119,ITANG,Itang,source_proximate,FF-05,Fishing-area town and Baro-floodplain consumption/assembly node,HIGH_LOCAL_CULTURAL,Local absorption/source assembly and transit,USER-SPECIFIED IMPORTANT GAMBELLA NODE; QUANTITY UNMEASURED,34.26667,8.2,GeoNames Itang (geonameid 334050),resolved
+N120,KOREM,Korem,intercept_transit,FF-11,Northern corridor town and market node,LOCAL_MARKET,Candidate Tekeze route interception/absorption,USER-SPECIFIED TEKEZE ROUTE NODE; FLOW UNMEASURED,39.52278,12.50583,GeoNames Korem (geonameid 332746),resolved
+N121,SEKOTA,Sekota,intercept_transit,FF-11,Northern corridor town and market node,LOCAL_MARKET,Candidate Tekeze route interception/absorption,USER-SPECIFIED TEKEZE ROUTE NODE; FLOW UNMEASURED,39.03472,12.63056,GeoNames Sek’ot’a (geonameid 328962),resolved
+N122,GAYINT,Gayint,intercept_transit,FF-11,Northern corridor town and market node,LOCAL_MARKET,Candidate Tekeze route destination/interception,USER-SPECIFIED TEKEZE ROUTE NODE; FLOW UNMEASURED,38.36667,11.85,GeoNames Gayint (geonameid 337204),resolved
+N123,NEGELE_BORANA,Negele Borana,consumption_hub,FF-15,Regional fish market linked to the Genale project area,REGIONAL_HUB,Local/regional absorption and assembly,OFFICIAL MASTER-PLAN PROJECT REPORT IDENTIFIES NEGELE MARKET; TONNAGE UNMEASURED,39.58333,5.31667,GeoNames Negele/Negelle (geonameid 330134),resolved

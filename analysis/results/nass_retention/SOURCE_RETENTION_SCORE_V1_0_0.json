@@ -1,0 +1,55 @@
+{
+  "calibrated_alternative_status": "fail_use_logical_unresolved_interval",
+  "claim_boundary": "Independent respondent-reported production and sales data test whether absence of a destination record can justify full source retention. Exact local absorption, losses, stock change and destinations are not measured by this test.",
+  "domain_summaries": {
+    "fish_capture": {
+      "approximately_full_retention_share": 0.11319742489270386,
+      "balance_incoherent_rows": 0,
+      "confirmed_non_seller_rows": 192,
+      "eligible_rows": 1864,
+      "hard_rule_supported": false,
+      "literal_zero_outward_share": 0.10300429184549356,
+      "primary_fish_domain": true,
+      "raw_rows": 13326,
+      "weighted_approximately_full_retention_share": 0.18755549578317662
+    },
+    "fish_farming": {
+      "approximately_full_retention_share": 0.13769077637690777,
+      "balance_incoherent_rows": 0,
+      "confirmed_non_seller_rows": 340,
+      "eligible_rows": 3014,
+      "hard_rule_supported": false,
+      "literal_zero_outward_share": 0.11280690112806901,
+      "primary_fish_domain": true,
+      "raw_rows": 3761,
+      "weighted_approximately_full_retention_share": 0.12774555188731865
+    }
+  },
+  "gates": {
+    "calibration_holdout_zones_disjoint": true,
+    "fish_capture_coverage_at_least_0_90": true,
+    "fish_capture_upper_below_0_95": false,
+    "fish_farming_coverage_at_least_0_90": true,
+    "fish_farming_upper_below_0_95": false,
+    "minimum_100_fish_farming_holdout": true,
+    "minimum_200_fish_capture_holdout": true
+  },
+  "geographic_holdout": {
+    "fish_capture": {
+      "holdout_coverage": 0.9738095238095238,
+      "holdout_records": 1260,
+      "median_upper_fraction": 0.9993577392594414,
+      "weighted_holdout_coverage": 0.9689791411425462
+    },
+    "fish_farming": {
+      "holdout_coverage": 0.9994722955145119,
+      "holdout_records": 1895,
+      "median_upper_fraction": 1.0,
+      "weighted_holdout_coverage": 0.999384668744465
+    }
+  },
+  "hard_100_percent_rule_status": "rejected",
+  "prediction_sha256_before_truth_write": "0dcaeda8a870ef3e3ec2a8cf813fa934b5fa33fa7dcffd3358b717fa2c56e15b",
+  "secondary_crop_extension_status": "not_computable: public-use archive omits the catalogued computed harvest_QTY source field",
+  "version": "1.0.0"
+}

@@ -1,0 +1,71 @@
+{
+  "all_manifest_checksums_match": true,
+  "checksum_results": {
+    "01_PROTOCOL/PREANALYSIS_SEAL_V1_0_0.json": {
+      "expected": "295af51f851f677db7b1c2d6da939757ddf0f3cbdb821ab9817bbcc8b1c5b6fc",
+      "match": true,
+      "observed": "295af51f851f677db7b1c2d6da939757ddf0f3cbdb821ab9817bbcc8b1c5b6fc"
+    },
+    "01_PROTOCOL/VALIDATION_PROTOCOL_V1_0_0.md": {
+      "expected": "aa8d59273fdb77f845e4bd683c9450d5f6197c7b77636b646b981500a5d8e353",
+      "match": true,
+      "observed": "aa8d59273fdb77f845e4bd683c9450d5f6197c7b77636b646b981500a5d8e353"
+    },
+    "02_DATA/derived/CALIBRATION_RESIDUALS_V1_0_0.csv": {
+      "expected": "1ab6310f1abb0717efe533e912a6efcb4fc74a298eca887113054ede512f582b",
+      "match": true,
+      "observed": "1ab6310f1abb0717efe533e912a6efcb4fc74a298eca887113054ede512f582b"
+    },
+    "02_DATA/derived/UNBLINDED_DESTINATION_TRUTH_V1_0_0.csv": {
+      "expected": "e3e028193efbce3501f5d91a1bc90812cefbc8c6f8b798df516539c65b7e94fc",
+      "match": true,
+      "observed": "e3e028193efbce3501f5d91a1bc90812cefbc8c6f8b798df516539c65b7e94fc"
+    },
+    "02_DATA/raw/cattle-movements-to-slaughterhouses-during-2010.csv": {
+      "expected": "23584327dde9a6f6e59efe1281204cdaf5b9f6a3c69aed9233e43c0c7c163875",
+      "match": true,
+      "observed": "23584327dde9a6f6e59efe1281204cdaf5b9f6a3c69aed9233e43c0c7c163875"
+    },
+    "03_CODE/run_validation.py": {
+      "expected": "4039c3a7e379bf68d268124cc3c2583b2681adffc1c26d17c4097d3be7a4eb0b",
+      "match": true,
+      "observed": "4039c3a7e379bf68d268124cc3c2583b2681adffc1c26d17c4097d3be7a4eb0b"
+    },
+    "04_RESULTS/FROZEN_PREDICTIONS_V1_0_0.json": {
+      "expected": "5a40817e23240ca1557311d44a71cad4099c062270d9fff0273a23639e213c1d",
+      "match": true,
+      "observed": "5a40817e23240ca1557311d44a71cad4099c062270d9fff0273a23639e213c1d"
+    },
+    "04_RESULTS/SAME_COUNTY_RETENTION_SCORE_ROWS_V1_0_0.json": {
+      "expected": "bcbf963aee5947b3bd07e59371b09fbc4179b0e6b62b8411df083e18a45610e0",
+      "match": true,
+      "observed": "bcbf963aee5947b3bd07e59371b09fbc4179b0e6b62b8411df083e18a45610e0"
+    },
+    "04_RESULTS/VALIDATION_SCORE_V1_0_0.json": {
+      "expected": "54f58195babf2860ffbfae6c54cf0aa456b55a81e88bdfd502dc0e24affb6e12",
+      "match": true,
+      "observed": "54f58195babf2860ffbfae6c54cf0aa456b55a81e88bdfd502dc0e24affb6e12"
+    }
+  },
+  "frozen_prediction_hash_matches_score": true,
+  "recomputed_metrics": {
+    "all_unresolved_destinations_unnamed": true,
+    "compartment_count_coverage": 0.995334370139969,
+    "maximum_balance_violation": 0.0,
+    "median_positive_compartment_width_over_remainder": 0.4879873456383185,
+    "median_total_width_contraction": 0.5069501789154968,
+    "movement_weighted_coverage": 0.9972825862282793,
+    "no_operational_point_estimate": true,
+    "positive_same_county_retention_case_count": 227,
+    "positive_unresolved_compartment_count": 403,
+    "positive_withheld_compartment_count": 6430,
+    "same_county_retention_coverage": 0.9911894273127754,
+    "same_county_retention_named_case_count": 192,
+    "same_county_retention_named_coverage": 1.0,
+    "target_source_class_month_count": 544,
+    "unresolved_compartment_coverage": 0.9751861042183623
+  },
+  "reported_metrics_match": true,
+  "retention_truth_matches_raw_csv": true,
+  "status": "PASS"
+}

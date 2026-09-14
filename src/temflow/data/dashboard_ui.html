@@ -1,0 +1,770 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TEM-FLOW local research dashboard</title>
+  <style>
+    :root {
+      --ink:#17232c; --muted:#5d6d78; --paper:#fff; --canvas:#eef3f2;
+      --navy:#174f67; --blue:#2784a5; --amber:#dc9a35; --red:#bc4a3c;
+      --line:#cbd8da; --water:#bfe8f5;
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--canvas); color:var(--ink); font:15px/1.45 "Segoe UI",Arial,sans-serif; }
+    header { background:linear-gradient(112deg,#143f51,#1c6978); color:white; padding:22px 30px 18px; box-shadow:0 2px 10px #11313d44; }
+    header h1 { margin:0 0 3px; font-size:25px; }
+    header p { margin:0; color:#d8eef0; max-width:960px; }
+    .status { float:right; margin-top:5px; border:1px solid #9dd2d7; border-radius:20px; padding:5px 10px; font-size:13px; background:#ffffff12; }
+    main { max-width:1660px; margin:18px auto; padding:0 18px 40px; }
+    .notice { background:#fff8e8; border-left:4px solid var(--amber); padding:10px 13px; margin-bottom:14px; border-radius:4px; color:#544728; }
+    .grid { display:grid; grid-template-columns:minmax(520px,.88fr) minmax(650px,1.12fr); gap:14px; align-items:start; }
+    .card { background:var(--paper); border:1px solid var(--line); border-radius:8px; padding:16px; box-shadow:0 2px 8px #19394312; }
+    .card h2 { font-size:18px; margin:0 0 5px; color:#174f67; }
+    .card h3 { font-size:15px; margin:14px 0 6px; }
+    .sub { color:var(--muted); font-size:13px; margin:0 0 12px; }
+    .fields { display:grid; grid-template-columns:repeat(4,minmax(110px,1fr)); gap:8px; }
+    .field label { display:block; color:#4d606b; font-size:12px; font-weight:650; margin:0 0 3px; }
+    .field input,.field select,.map-toolbar select { width:100%; height:34px; border:1px solid #b9c9cc; border-radius:4px; padding:5px 7px; background:white; color:var(--ink); font:14px "Segoe UI",Arial,sans-serif; }
+    .field input:focus,.field select:focus,.map-toolbar select:focus { outline:2px solid #7bbbc7; border-color:#4a95a4; }
+    .field input[readonly] { background:#f1f5f4; color:#43565f; }
+    .source-data-summary { display:grid; grid-template-columns:repeat(3,minmax(150px,1fr)); gap:6px; margin:8px 0 2px; }
+    .source-data-details { margin:8px 0 2px; padding:0; border:1px solid #d4e0e1; border-radius:4px; background:#f9fbfa; }
+    .source-data-details > summary { display:flex; align-items:center; justify-content:space-between; gap:10px; padding:7px 9px; list-style:none; color:#315b66; }
+    .source-data-details > summary::-webkit-details-marker { display:none; }
+    .source-data-details > summary::before { content:'▸'; color:#44717b; }
+    .source-data-details[open] > summary::before { content:'▾'; }
+    .source-data-details > summary b { margin-right:auto; }
+    .source-data-details > summary span { max-width:64%; color:#65777e; font-size:11px; text-align:right; }
+    .source-data-details .source-data-summary { margin:0; padding:7px; border-top:1px solid #e0e8e8; }
+    .state-item { min-height:48px; padding:6px 8px; border:1px solid #cfdddd; border-left:4px solid #6d8993; border-radius:4px; background:#f7faf9; color:#51636b; font-size:11px; line-height:1.35; }
+    .state-item b { display:block; color:#294f5c; font-size:12px; }
+    .state-item.reported { border-left-color:#24805e; background:#f0f8f4; }
+    .state-item.missing { border-left-color:#c48728; background:#fff9ec; }
+    .state-item.manual { border-left-color:#7a45a8; background:#f8f2fc; }
+    .input-section { margin:0 0 8px; padding:0; border:1px solid #cad7d9; border-radius:5px; background:#fbfdfc; }
+    .input-section > summary { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:9px 11px; color:#244f5c; list-style:none; cursor:pointer; }
+    .input-section > summary::-webkit-details-marker { display:none; }
+    .input-section > summary::before { content:'▸'; flex:0 0 auto; color:#44717b; }
+    .input-section[open] > summary::before { content:'▾'; }
+    .input-section-title { margin-right:auto; font-weight:750; }
+    .input-section-status { max-width:64%; color:#5b6e75; font-size:11px; font-weight:500; text-align:right; }
+    .input-section-body { padding:2px 10px 10px; border-top:1px solid #e0e8e8; }
+    .input-section-body > .sub:first-child { margin-top:8px; }
+    .table-wrap { overflow:auto; border:1px solid var(--line); border-radius:5px; }
+    table { border-collapse:collapse; width:100%; font-size:13px; white-space:nowrap; }
+    th { background:#edf4f3; color:#294956; text-align:right; padding:7px 5px; border-bottom:1px solid #b9cccf; font-weight:650; }
+    th:first-child,td:first-child { text-align:left; }
+    td { padding:4px 5px; border-bottom:1px solid #e2e9e9; text-align:right; }
+    td input { width:76px; border:1px solid #cad6d8; border-radius:3px; padding:4px; font:13px "Segoe UI",Arial,sans-serif; }
+    td:first-child input { width:128px; }
+    .check { width:auto; }
+    button { border:0; border-radius:5px; background:var(--navy); color:white; padding:9px 14px; font-weight:650; font-size:14px; cursor:pointer; }
+    button:hover { background:#0f6074; }
+    button:disabled { cursor:not-allowed; opacity:.48; }
+    button:focus-visible { outline:3px solid #eab65d; outline-offset:2px; }
+    .secondary { background:#e5eeee; color:#264b56; }
+    .secondary:hover { background:#d2e3e3; }
+    .danger { background:#f7e3df; color:#81372e; }
+    .button-row { display:flex; gap:8px; align-items:center; margin-top:11px; flex-wrap:wrap; }
+    .pending-node-row { background:#fff9e9; }
+    .pending-node-registration { margin-top:8px; padding:8px 9px; border:1px solid #d7bc77; border-left:4px solid #c58a24; border-radius:5px; background:#fffaf0; }
+    .pending-node-registration h3 { margin:0 0 6px; color:#67501f; font-size:13px; }
+    .pending-node-fields { display:grid; grid-template-columns:150px minmax(220px,1fr) minmax(170px,.8fr); gap:7px; align-items:end; }
+    .pending-node-fields label { color:#53666e; font-size:11px; font-weight:650; }
+    .pending-node-fields input,.pending-node-fields select { width:100%; margin-top:3px; padding:6px; border:1px solid #c6d2d3; border-radius:4px; background:white; }
+    .pending-node-status { margin-top:6px; color:#665a3d; font-size:11px; }
+    #geoMap.anchor-mode { cursor:crosshair; }
+    .pending-anchor { fill:#ffd15c; stroke:#9b5b00; stroke-width:2.6; vector-effect:non-scaling-stroke; animation:sourceGlow 1s ease-in-out infinite alternate; }
+    .message { font-size:13px; color:var(--muted); }
+    .error { color:#a83227; font-weight:650; }
+    .download { margin-left:auto; }
+    .map-toolbar { display:grid; grid-template-columns:repeat(2,minmax(190px,1fr)); gap:8px; align-items:end; margin:10px 0 8px; }
+    .map-toolbar label { display:block; color:#4d606b; font-size:12px; font-weight:650; }
+    .map-actions { grid-column:1/-1; display:flex; gap:5px; align-items:center; justify-content:flex-end; }
+    .map-actions button { min-width:36px; padding:7px 9px; }
+    .map-actions .full { min-width:104px; }
+    .map-toolbar select[multiple] { height:76px; padding:3px 5px; }
+    .map-controls-strip { display:flex; justify-content:flex-end; align-items:center; gap:10px; min-height:32px; margin:2px 0 5px; color:#52666f; font-size:12px; }
+    .map-controls-strip button { padding:6px 10px; font-size:12px; }
+    .map-controls-drawer { max-height:1100px; opacity:1; overflow:hidden; transition:max-height .24s ease,opacity .18s ease,margin .24s ease; }
+    #mapCard.controls-collapsed .map-controls-drawer { max-height:0; opacity:0; margin:0; pointer-events:none; }
+    .map-options { display:flex; align-items:center; gap:12px; margin:0 0 7px; color:#4d606b; font-size:12px; }
+    .map-options input { vertical-align:-2px; }
+    .temporal-panel { display:grid; grid-template-columns:minmax(220px,1.4fr) minmax(145px,.65fr) auto auto; gap:8px; align-items:end; margin:7px 0 8px; padding:9px 10px; background:#edf6f5; border:1px solid #bed3d4; border-radius:6px; }
+    .temporal-panel label { display:block; color:#405963; font-size:12px; font-weight:650; }
+    .temporal-panel input[type="range"] { width:100%; accent-color:var(--navy); }
+    .temporal-panel select { width:100%; height:32px; border:1px solid #b9c9cc; border-radius:4px; background:white; padding:4px 6px; color:var(--ink); }
+    .temporal-date { color:#174f67; font-size:15px; font-weight:750; }
+    .temporal-status { grid-column:1/-1; color:#52666f; font-size:11px; line-height:1.35; }
+    .temporal-section { margin:7px 0 8px; }
+    .temporal-section .temporal-panel { margin:0; border:0; border-radius:0; }
+    .evidence-editor { margin:7px 0 8px; padding:7px 9px; border:1px solid #d1dede; border-radius:5px; background:#fbfdfc; }
+    .evidence-editor summary { font-size:12px; }
+    .evidence-grid { display:grid; grid-template-columns:repeat(4,minmax(115px,1fr)); gap:7px; margin-top:8px; }
+    .evidence-grid label { display:block; color:#4d606b; font-size:11px; font-weight:650; }
+    .evidence-grid input,.evidence-grid select { width:100%; height:31px; border:1px solid #b9c9cc; border-radius:4px; padding:4px 6px; background:white; }
+    .evidence-ledger { max-height:120px; overflow:auto; margin-top:7px; padding:6px 8px; background:#f1f5f4; border-radius:4px; color:#53666e; font-size:11px; }
+    .evidence-ledger div { padding:2px 0; border-bottom:1px solid #dce6e5; }
+    .custom-analyte { display:none; margin-top:4px; }
+    .custom-analyte.visible { display:block; }
+    .map-shell { position:relative; overflow:hidden; border:1px solid #b8c9cc; border-radius:6px; background:#e9eff0; }
+    .map-context-menu { position:absolute; z-index:20; min-width:270px; max-width:340px; padding:5px; background:#fff; border:1px solid #80979e; border-radius:5px; box-shadow:0 5px 18px #24374038; color:#243740; }
+    .map-context-menu[hidden] { display:none; }
+    .map-context-title { padding:6px 8px; font-size:12px; font-weight:700; border-bottom:1px solid #d9e2e3; }
+    .map-context-menu button { display:block; width:100%; padding:7px 8px; border-radius:3px; background:transparent; color:#243740; text-align:left; font-size:12px; font-weight:600; }
+    .map-context-menu button:hover,.map-context-menu button:focus-visible { background:#e5eeee; color:#174f67; }
+    .map-context-menu button.retire-action { color:#9b261f; border-top:1px solid #d7e0e2; margin-top:4px; padding-top:9px; }
+    .topology-retirement-dialog { width:min(560px,calc(100vw - 32px)); border:1px solid #789097; border-radius:7px; padding:18px; color:#243740; box-shadow:0 12px 42px #14252d66; }
+    .topology-retirement-dialog::backdrop { background:#14252d66; }
+    .topology-retirement-dialog h3 { margin:0 0 6px; }
+    .topology-retirement-dialog .retirement-target { padding:9px 10px; background:#f1f6f6; border-left:4px solid #b43c34; margin:10px 0 12px; }
+    .topology-retirement-dialog label { display:block; margin:9px 0; font-size:12px; font-weight:700; }
+    .topology-retirement-dialog input { width:100%; margin-top:4px; }
+    .map-control-dock { display:flex; position:absolute; z-index:15; left:9px; top:9px; align-items:center; flex-wrap:wrap; gap:4px; max-width:calc(100% - 18px); padding:5px; background:#fffffff0; border:1px solid #aebfc2; border-radius:5px; box-shadow:0 2px 8px #1b3c4830; }
+    .map-control-dock button { min-width:31px; padding:6px 8px; font-size:12px; }
+    .map-control-dock label { display:flex; align-items:center; gap:4px; padding:0 4px; color:#354a53; font-size:12px; font-weight:650; }
+    #mapCard.controls-collapsed .map-control-dock,#mapCard:fullscreen .map-control-dock { display:flex; }
+    #fullMapDock { display:block; }
+    #geoMap { display:block; width:100%; height:520px; cursor:grab; touch-action:none; user-select:none; background:#eaf5f8; }
+    #geoMap.dragging { cursor:grabbing; }
+    .regional-country { fill:#ece9e1; stroke:#a7b1b3; stroke-width:.7; vector-effect:non-scaling-stroke; }
+    .country { fill:#fffef8; stroke:#33434b; stroke-width:1.1; vector-effect:non-scaling-stroke; }
+    .neighbor { fill:#ece9e1; }
+    .waterbody { fill:var(--water); stroke:#398ba8; stroke-width:.55; vector-effect:non-scaling-stroke; }
+    .route { fill:none; vector-effect:non-scaling-stroke; stroke-linecap:round; stroke-linejoin:round; transition:opacity .2s,stroke-width .2s; pointer-events:none; }
+    .route.background { opacity:.34; stroke-width:1.8; }
+    .route.active { opacity:1; stroke-width:4; }
+    .route.multimodal { stroke-dasharray:4 3; }
+    .route-hit { fill:none; stroke:transparent; stroke-width:32; vector-effect:non-scaling-stroke; pointer-events:stroke; cursor:pointer; }
+    .route-hit:hover + .route { opacity:1; filter:drop-shadow(0 0 3px #ffd66b); }
+    .route.traced { opacity:1; stroke-width:6.2; filter:drop-shadow(0 0 2px #fff); }
+    .route.user-selected { opacity:1; stroke:#8c2be2 !important; stroke-width:6.4; filter:drop-shadow(0 0 2px #fff); }
+    .route.all-selected { opacity:1; stroke-width:4.2; filter:drop-shadow(0 0 2px #fff); }
+    .route.dimmed { opacity:.07; }
+    .route.pulse { stroke-dasharray:8 7; animation:routePulse 2s linear infinite; filter:drop-shadow(0 0 1.5px #fff); }
+    @keyframes routePulse { to { stroke-dashoffset:-30; } }
+    .route.pulse.anim-wave { stroke-dasharray:none; animation:routeWave 2.5s ease-in-out infinite; }
+    .route.pulse.anim-colorwave { stroke-dasharray:none; animation:routeColorWave 3.2s cubic-bezier(.45,0,.25,1) infinite; }
+    .route.pulse.anim-glow { stroke-dasharray:none; animation:routeGlow 1.5s ease-in-out infinite alternate; }
+    .route.pulse.anim-static,.route.pulse.anim-particles { animation:none; stroke-dasharray:none; }
+    @keyframes routeWave { 0%,100%{opacity:.38;stroke-width:2.6} 45%,65%{opacity:1;stroke-width:5.6} }
+    @keyframes routeColorWave { 0%,100%{opacity:.30;stroke-width:2.6;filter:drop-shadow(0 0 0 #fff) saturate(1)} 40%,58%{opacity:1;stroke-width:6.2;filter:drop-shadow(0 0 4px #fff) saturate(1.9) brightness(1.25)} 76%{opacity:.62;stroke-width:3.8;filter:drop-shadow(0 0 2px #fff) saturate(1.35)} }
+    @keyframes routeGlow { from{filter:drop-shadow(0 0 0 #fff);opacity:.45} to{filter:drop-shadow(0 0 4px #ffd66b);opacity:1} }
+    .flow-particle { fill:#ff8a00; stroke:#fff; stroke-width:.8; vector-effect:non-scaling-stroke; pointer-events:none; }
+    .selected-flow-arrow { fill:#8c2be2; stroke:#fff; stroke-width:.7; vector-effect:non-scaling-stroke; pointer-events:none; filter:drop-shadow(0 0 1.5px #fff); }
+    .selected-flow-arrow.traced-flow { fill:#ff7b00; }
+    .selected-flow-arrow.reverse-flow { fill:#00a0b8; }
+    .marker-hit { fill:transparent; stroke:transparent; stroke-width:32; vector-effect:non-scaling-stroke; pointer-events:all; cursor:pointer; }
+    .marker-hit:hover + .node-marker,.marker-hit:hover + .source-marker { stroke:#ff7b00; stroke-width:3; }
+    .node-marker { fill:#17324d; stroke:white; stroke-width:.8; vector-effect:non-scaling-stroke; cursor:pointer; }
+    .node-marker.source-proximate { fill:#fff; stroke:#e59a00; stroke-width:1.6; }
+    .node-marker.transit { fill:#74858e; }
+    .node-marker.external-terminal { fill:none; stroke:#a85f00; stroke-width:3.1; vector-effect:non-scaling-stroke; }
+    .node-marker.traced,.source-marker.traced { stroke:#ff7b00; stroke-width:3; filter:drop-shadow(0 0 2px #fff); }
+    .node-marker.trace-sink { fill:#d52b1e; stroke:#fff; stroke-width:2.5; }
+    .node-marker.trace-upstream,.source-marker.trace-upstream { fill:#ffd34d; stroke:#7b4300; stroke-width:2.5; }
+    .node-marker.user-selected,.source-marker.user-selected { stroke:#8c2be2; stroke-width:3.2; filter:drop-shadow(0 0 2px #fff); }
+    .node-marker.all-selected,.source-marker.all-selected { stroke-width:2.4; filter:drop-shadow(0 0 2px #fff); }
+    .marker-dimmed { opacity:.18; }
+    .source-marker { fill:#54c4dd; stroke:#00566b; stroke-width:1.1; vector-effect:non-scaling-stroke; cursor:pointer; }
+    .source-marker.surplus-4 { fill:#006f87; stroke:#003e4c; stroke-width:1.8; }
+    .source-marker.surplus-3 { fill:#199eb8; stroke:#00566b; stroke-width:1.5; }
+    .source-marker.surplus-2 { fill:#65c9dc; }
+    .source-marker.surplus-1 { fill:#b8e6ee; }
+    .source-marker.surplus-0 { fill:#fff; stroke:#71838a; }
+    .source-marker.provisional { fill:white; stroke-dasharray:2 1; }
+    .selected-source { fill:none; stroke:#f18a22; stroke-width:2.4; vector-effect:non-scaling-stroke; animation:sourceGlow 1.1s ease-in-out infinite alternate; }
+    .selected-source.screening { stroke:#e39a24; }
+    .selected-source.serious { stroke:#ce3028; stroke-width:3; }
+    @keyframes sourceGlow { from { opacity:.35; } to { opacity:1; } }
+    .map-label { font-family:"Segoe UI",Arial,sans-serif; font-size:var(--map-label-size,.245px); font-weight:600; fill:#243740; paint-order:stroke; stroke:#fff; stroke-width:var(--map-label-stroke,.07px); stroke-linejoin:round; pointer-events:none; }
+    .source-label { fill:#006a82; font-style:italic; }
+    .regional-label { font-family:"Segoe UI",Arial,sans-serif; font-size:var(--context-label-size,.22px); font-weight:600; fill:#69777c; letter-spacing:.03em; paint-order:stroke; stroke:#f6f3eb; stroke-width:var(--context-label-stroke,.06px); pointer-events:none; }
+    .regional-label.water-label { fill:#287f9c; font-style:italic; letter-spacing:.08em; stroke:#eaf5f8; }
+    .detail-label { display:none; }
+    #geoMap.map-detail .detail-label { display:block; }
+    .risk-ring { fill:none; stroke-width:2.2; vector-effect:non-scaling-stroke; pointer-events:none; }
+    .risk-ring.screening { stroke:#f0a126; fill:#f0a12618; }
+    .risk-ring.serious { stroke:#ce3028; fill:#ce30282c; animation:riskPulse 1s ease-in-out infinite alternate; }
+    .consumption-ring { fill:#2784a51b; stroke:#2784a5; stroke-width:1.4; vector-effect:non-scaling-stroke; pointer-events:none; }
+    @keyframes riskPulse { from { opacity:.55; } to { opacity:1; } }
+    .map-inspector { position:absolute; z-index:13; left:9px; bottom:9px; max-width:370px; background:#fffffff0; border:1px solid #aebfc2; border-radius:5px; box-shadow:0 2px 8px #1b3c4830; padding:0 10px 8px; font-size:12px; color:#354a53; }
+    .map-inspector.dragging { box-shadow:0 5px 18px #1b3c4850; }
+    .map-inspector-handle { display:flex; justify-content:space-between; gap:16px; margin:0 -10px 7px; padding:6px 9px; border-bottom:1px solid #d5e0e1; background:#edf4f4e8; color:#315b66; font-size:11px; font-weight:750; cursor:move; touch-action:none; user-select:none; }
+    .map-inspector-actions { display:flex; align-items:center; gap:7px; color:#71838a; font-weight:500; }
+    .map-inspector-handle .inspector-close { min-width:0; margin:0; padding:2px 7px; border:1px solid #aebfc2; background:#fff; color:#40555e; font-size:11px; font-weight:700; line-height:1.2; cursor:pointer; }
+    .map-inspector-handle .inspector-close:hover,.map-inspector-handle .inspector-close:focus-visible { background:#dfeaea; color:#174f67; }
+    #mapInspector { max-height:min(58vh,430px); overflow:auto; padding-right:2px; }
+    .selection-stack { margin-top:7px; }
+    .selection-entry { padding:6px 0; border-top:1px solid #dce5e6; line-height:1.35; }
+    .selection-entry:first-child { border-top:0; }
+    .selection-entry .selection-type { color:#6b7c82; font-size:11px; font-weight:700; text-transform:uppercase; }
+    .map-inspector b { color:#174f67; font-size:13px; }
+    .map-inspector button { margin-top:5px; padding:5px 8px; font-size:12px; }
+    .source-alert { position:absolute; right:9px; top:9px; max-width:390px; background:#eef7f8ef; border:1px solid #6fa6b2; border-left:5px solid #2784a5; border-radius:5px; box-shadow:0 2px 8px #1b3c4830; padding:8px 10px; font-size:12px; color:#354a53; }
+    .source-alert b { color:#174f67; font-size:13px; }
+    .source-alert.screening { background:#fff7e8f2; border-color:#d99a31; border-left-color:#d99a31; }
+    .source-alert.serious { background:#fff0eef2; border-color:#c63b31; border-left-color:#c63b31; }
+    .map-scale { position:absolute; right:9px; bottom:9px; background:#ffffffdd; border:1px solid #aebfc2; border-radius:4px; padding:4px 7px; font-size:11px; color:#536770; }
+    .map-legend-section { margin:7px 0 2px; }
+    .map-legend-section .input-section-body { padding-top:7px; }
+    .map-legend { display:flex; flex-wrap:wrap; gap:5px 12px; min-height:23px; margin:0 0 6px; font-size:11px; color:#52666f; }
+    .map-legend span { white-space:nowrap; }
+    .map-legend .legend-heading { flex-basis:100%; color:#173f50; font-weight:700; }
+    .map-legend .source-name-key { flex:1 1 260px; white-space:normal; }
+    .line-key { display:inline-block; width:18px; height:3px; margin-right:4px; vertical-align:3px; }
+    .metrics { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin:10px 0; }
+    .metric { background:#eef6f5; border-radius:5px; padding:9px; }
+    .metric b { font-size:18px; color:#174f67; display:block; }
+    .metric span { font-size:11px; color:#5a6d75; }
+    .bar { height:9px; background:#e3ecec; border-radius:5px; overflow:hidden; min-width:90px; }
+    .bar i { display:block; height:100%; background:var(--blue); }
+    .result-legend { display:flex; gap:15px; font-size:12px; color:#566a73; margin:4px 0 8px; }
+    .swatch { display:inline-block; width:13px; height:8px; margin-right:4px; }
+    .reference { background:var(--blue); }
+    .bounds { border:2px solid var(--amber); }
+    details { margin-top:12px; border-top:1px solid #dbe5e5; padding-top:8px; }
+    summary { cursor:pointer; font-weight:650; color:#315b66; }
+    .formula { font-family:Cambria Math,"Times New Roman",serif; background:#f2f5f4; padding:8px; border-radius:4px; margin:7px 0; }
+    .footer { font-size:12px; color:#647780; margin-top:12px; }
+    #mapCard:fullscreen { background:#fff; padding:14px; overflow:hidden; }
+    #mapCard:fullscreen .map-shell { height:calc(100vh - 315px); min-height:360px; transition:height .24s ease; }
+    #mapCard:fullscreen.controls-collapsed .map-shell { height:calc(100vh - 145px); }
+    #mapCard:fullscreen #geoMap { height:100%; }
+    #mapCard:fullscreen .below-map { display:none; }
+    @media(max-width:1150px) { .grid{grid-template-columns:1fr}.fields{grid-template-columns:repeat(2,1fr)}.source-data-summary{grid-template-columns:repeat(2,1fr)} #geoMap{height:600px} }
+    @media(max-width:900px) { .temporal-panel{grid-template-columns:1fr 1fr}.evidence-grid{grid-template-columns:1fr 1fr} }
+    @media(max-width:650px) { .map-toolbar{grid-template-columns:1fr}.map-actions{justify-content:flex-start}.fields{grid-template-columns:1fr 1fr}.source-data-summary{grid-template-columns:1fr}.pending-node-fields{grid-template-columns:1fr}.temporal-panel{grid-template-columns:1fr}.evidence-grid{grid-template-columns:1fr}.map-control-dock{max-width:calc(100% - 18px)} }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="status" id="serverStatus">local core: checking</span>
+    <h1>TEM-FLOW</h1>
+    <p>Coverage-aware partial identification of spatial food flows and contaminant exposure under sparse domestic data</p>
+  </header>
+  <main>
+    <div class="notice"><b>Research demonstrator.</b> Starting numerical values are illustrative and editable. The geographic topology is taken from the audited Figure 5 registers; its candidate corridors are not presented as measured transactions.</div>
+    <div class="grid">
+      <section class="card" id="scenarioCard">
+        <h2>Scenario inputs</h2>
+        <details class="input-section" id="scenarioSection" open>
+          <summary><span class="input-section-title">Scenario and evidence coverage</span><span class="input-section-status" id="scenarioSectionStatus">Select a source</span></summary>
+          <div class="input-section-body">
+            <p class="sub">Define the production source and retained evidence coverage. Sharp bounds remain separate from the operational reference allocation.</p>
+            <div class="fields">
+              <div class="field"><label>Production source</label><select id="source"><option value="">Loading registered sources…</option></select></div>
+              <div class="field"><label>Commodity</label><input id="commodity" value="Fish" readonly></div>
+              <div class="field"><label>Fish species / species scenario</label><select id="species"><option value="__all__">All reported species — maximum</option></select></div>
+              <div class="field"><label>Available production (t/y)</label><input id="production" type="number" min="0" step="any" placeholder="No compatible record"></div>
+              <div class="field"><label>Destination-resolved coverage lower bound, c</label><input id="coverage" type="number" min="0" max="1" step="0.01" value="0"></div>
+            </div>
+            <details class="source-data-details" id="sourceDataDetails">
+              <summary><b>Loaded source-evidence audit</b><span id="sourceDataDetailsStatus">No compatible records loaded</span></summary>
+              <div class="source-data-summary" id="sourceDataStatus"><div class="state-item missing"><b>Source data</b>Select a production source to load its latest compatible records.</div></div>
+            </details>
+          </div>
+        </details>
+        <details class="input-section" id="destinationSection" open>
+          <summary><span class="input-section-title">Destination nodes</span><span class="input-section-status" id="destinationSectionStatus">Waiting for source network</span></summary>
+          <div class="input-section-body">
+            <div class="table-wrap"><table><thead><tr><th>Destination</th><th>Pop.</th><th>Time h</th><th>Market</th><th>Tradition</th><th>Route</th><th>Channel q</th><th>Reach</th></tr></thead><tbody id="destinations"></tbody></table></div>
+            <div class="button-row"><button class="secondary" id="addRow">+ Add node</button><button class="danger" id="removeRow">Remove last</button></div>
+            <div class="pending-node-registration" id="pendingNodeRegistration" hidden>
+              <h3>Pending node registration</h3>
+              <div class="pending-node-fields">
+                <label>Effective/observed date<input id="pendingNodeDate" type="date" value="2026-08-19"></label>
+                <label>Verified evidence source, DOI, report or audit note<input id="pendingNodeSource" placeholder="Required provenance"></label>
+                <label>Functional role<select id="pendingNodeRole"><option>Consumption destination</option><option>Consumption destination / transit node</option><option>Transit / redistribution node</option><option>Export sink</option></select></label>
+              </div>
+              <div class="button-row"><button class="secondary" id="anchorPendingNode" type="button">Anchor on map</button><label><input id="pendingNodeVerified" type="checkbox"> I verified the node and supporting record</label><button id="savePendingNode" type="button" disabled>Save node to ledger</button><button class="danger" id="discardPendingNode" type="button">Discard temporary row</button></div>
+              <div class="pending-node-status" id="pendingNodeStatus">Enter the node name in the empty row, add provenance, then anchor its location on the map.</div>
+            </div>
+          </div>
+        </details>
+        <details class="input-section" id="exposureSection" open>
+          <summary><span class="input-section-title">Exposure inputs</span><span class="input-section-status" id="exposureSectionStatus">DDE · no source record loaded</span></summary>
+          <div class="input-section-body">
+            <div class="fields">
+              <div class="field"><label>Edible fraction</label><input id="edible" type="number" min="0" max="1" step="0.01" value="0.55"></div>
+              <div class="field"><label>Contaminant chemical species</label><select id="contaminant"><optgroup label="DDT-related"><option value="DDE">p,p′-DDE</option><option value="DDD">p,p′-DDD</option><option value="DDT">p,p′-DDT</option></optgroup><optgroup label="Other pesticides"><option value="chlorpyrifos">Chlorpyrifos</option><option value="HCB">Hexachlorobenzene (HCB)</option><option value="lindane">Lindane (γ-HCH)</option><option value="heptachlor">Heptachlor</option><option value="aldrin">Aldrin</option><option value="endosulfan">Endosulfan</option></optgroup><optgroup label="Metals and metalloids"><option value="methylmercury">Methylmercury</option><option value="mercury_total">Mercury, total</option><option value="lead">Lead</option><option value="cadmium">Cadmium</option><option value="arsenic_inorganic">Arsenic, inorganic</option><option value="arsenic_total">Arsenic, total</option><option value="chromium">Chromium</option></optgroup><optgroup label="Industrial contaminants"><option value="PCB_total">PCBs, total</option><option value="PFOS">PFOS</option><option value="PFOA">PFOA</option></optgroup><option value="__custom__">Other / custom analyte…</option></select><input class="custom-analyte" id="customContaminant" placeholder="Enter exact chemical/analyte name"></div>
+              <div class="field"><label>Edible-tissue concentration (mg/kg)</label><input id="concentration" type="number" min="0" step="0.001" value="0.03"></div>
+              <div class="field"><label>Adult body weight (kg)</label><input id="bodyweight" type="number" min="1" step="1" value="55"></div>
+              <div class="field"><label>Oral slope factor (optional)</label><input id="slope" type="number" min="0" step="0.01" value="0.34"></div>
+            </div>
+          </div>
+        </details>
+        <div class="button-row"><button id="run">Run / update model</button><button class="secondary download" id="download">Download scenario + results</button><span id="message" class="message"></span></div>
+        <details><summary>What the model is calculating</summary><div class="formula"><i>P</i><sub>d</sub> = <i>c q</i><sub>d</sub> + (1 − <i>c</i>)<i>u</i><sub>d</sub></div><p class="sub">Coverage produces marginal destination-share intervals. A gravity/market prior is projected into the feasible bounded simplex by minimum Kullback–Leibler divergence. The map visualizes the selected candidate topology and mapped destination outputs; it does not convert candidate edges into measured flows.</p></details>
+      </section>
+
+      <section class="card" id="mapCard">
+        <h2>Dynamic Ethiopian source–corridor–destination map</h2>
+        <p class="sub">Drag to pan and use the wheel to zoom. Left-click selects the exact source, node or route segment; Shift/Ctrl-click adds to the selection. Right-click opens network-expansion choices.</p>
+        <div class="map-controls-drawer" id="mapUpperControls">
+        <div class="map-toolbar">
+          <label>Production source<select id="mapSource"></select></label>
+          <label>Visible corridor layer<select id="corridorFilter"><option value="__source__">Selected source corridors</option></select></label>
+          <label>Sources activated for visualization<select id="multiSources" multiple title="Use Ctrl/Command-click to select several sources"></select></label>
+          <label>Flow animation<select id="animationType"><option value="dash">Directional flowing dashes</option><option value="wave">Source-to-sink width cascade</option><option value="colorwave">Color glow wave</option><option value="particles">Moving particles</option><option value="glow">Hazard/attention glow</option><option value="static">Static width/color</option></select></label>
+          <div class="map-actions"><button id="mapRun">Run/update</button><button id="traceSelection">Trace selection</button><button class="secondary" id="selectAllMap" title="Select all registered nodes, production sources and route segments">Select all network</button><button class="secondary" id="clearTrace">Clear trace</button><button class="secondary" id="zoomIn" title="Zoom in">+</button><button class="secondary" id="zoomOut" title="Zoom out">−</button><button class="secondary" id="resetMap">Reset</button><button class="full" id="fullMap">Full-screen map</button></div>
+        </div>
+        <div class="map-options"><label><input type="checkbox" id="backgroundRoutes" checked> Show inactive corridors</label><label><input type="checkbox" id="showOtherSources"> Show additional production-source labels</label><label><input type="checkbox" id="showExposure" checked> Show modeled consumption/exposure rings</label><label><input type="checkbox" id="multiSelectMode"> Additive multi-select for sources, nodes and routes</label><span id="mapStatus">loading geographic registers…</span></div>
+        <details class="input-section temporal-section" id="temporalSection">
+          <summary><span class="input-section-title">Time and evidence cutoff</span><span class="input-section-status" id="temporalSectionStatus">Observation date · through 2026</span></summary>
+          <div class="input-section-body temporal-panel">
+            <label>As-of year <span class="temporal-date" id="asOfLabel">2026</span><input id="asOfSlider" type="range" min="1990" max="2026" step="1" value="2026"></label>
+            <label>Time axis<select id="timeAxis"><option value="observed">Observation date</option><option value="entered">Evidence-entry date</option></select></label>
+            <label><input type="checkbox" id="useTemporal" checked> Apply dated evidence</label>
+            <button class="secondary" id="playTimeline">Play timeline</button>
+            <div class="temporal-status" id="temporalStatus">Loading append-only evidence ledger…</div>
+          </div>
+        </details>
+        <details class="evidence-editor" id="evidenceEditor">
+          <summary>Evidence ledger history and append a dated record</summary>
+          <div class="evidence-grid">
+            <label>Observed date<input id="evidenceDate" type="date" value="2026-08-19"></label>
+            <label>Evidence type<select id="evidenceType"><option value="contaminant">Contaminant</option><option value="production">Production</option><option value="share">Destination share</option><option value="route">Route/link</option><option value="consumption">Consumption</option></select></label>
+            <label>Flow measurement basis<select id="evidenceBasis"><option value="channel_share">Within observed channel, q</option><option value="total_source_share">Share of total source production, P</option><option value="destination_tonnage">Destination tonnage</option><option value="destination_group_share">Aggregate destination-group share</option><option value="other">Not a flow measurement</option></select></label>
+            <label>Destination (optional)<input id="evidenceDestination" placeholder="registered town/city"></label>
+            <label>Species (optional)<input id="evidenceSpecies" placeholder="exact reported species"></label>
+            <label>Analyte / product<input id="evidenceProduct" value="DDE"></label>
+            <label>Matrix<select id="evidenceMatrix"><option value="muscle">Muscle / edible tissue</option><option value="whole edible product">Whole edible product</option><option value="liver">Liver</option><option value="gills">Gills</option><option value="water">Water</option><option value="sediment">Sediment</option><option value="soil">Soil</option></select></label>
+            <label>Value<input id="evidenceValue" type="number" step="any" value="0.03"></label>
+            <label>Unit<input id="evidenceUnit" value="mg/kg wet weight"></label>
+            <label>Denominator / population basis<input id="evidenceDenominator" placeholder="e.g. total source production"></label>
+            <label>Coverage lower, c (optional)<input id="evidenceCoverage" type="number" min="0" max="1" step="0.01"></label>
+            <label>Relative uncertainty, %<input id="evidenceUncertainty" type="number" min="0" max="100" step="1" value="10"></label>
+            <label>Evidence source / URI<input id="evidenceSource" value="local:user-entered-evidence"></label>
+            <label>Supersedes record ID (optional)<input id="evidenceSupersedes" placeholder="existing ledger record ID"></label>
+          </div>
+          <div class="button-row"><button id="appendEvidence">Append record and update</button><span class="message" id="evidenceMessage"></span></div>
+          <div class="evidence-ledger" id="evidenceList">No snapshot loaded.</div>
+        </details>
+        <details class="evidence-editor" id="topologyEditor">
+          <summary>Geographic topology: add a source, anchored node or directed route</summary>
+          <p class="sub">A production source is a typed graph node. Places may be consumption, transit, redistribution or export-sink nodes and may later acquire additional roles.</p>
+          <p class="sub"><b>Route geometry status:</b> the current national register contains directed source–place topology, not an exhaustive road polyline network. A new link follows its selected corridor and is rendered node-to-node unless verified geometry is attached later.</p>
+          <div class="evidence-grid">
+            <label>Object type<select id="topologyKind"><option value="source">Production source</option><option value="node">Place / destination / transit node</option><option value="edge">Directed route link</option></select></label>
+            <label>Observed/effective date<input id="topologyDate" type="date" value="2026-08-19"></label>
+            <label>Name or short label<input id="topologyName" placeholder="New reservoir or town"></label>
+            <label>Evidence source / note<input id="topologySource" value="local:user-entered-topology"></label>
+            <label>Longitude<input id="topologyLon" type="number" step="any" placeholder="32.5–49.6"></label>
+            <label>Latitude<input id="topologyLat" type="number" step="any" placeholder="3.0–15.5"></label>
+            <label>Functional role<input id="topologyRole" value="Consumption destination"></label>
+            <label>Region / source class<input id="topologyRegion" value="User registered"></label>
+            <label>Route origin<select id="routeFrom"><option value="">Select registered source/place</option></select></label>
+            <label>Route destination<select id="routeTo"><option value="">Select registered source/place</option></select></label>
+            <label>Corridor family<select id="routeCorridor"><option value="">Select registered corridor</option></select></label>
+          </div>
+          <div class="button-row"><button id="appendTopology">Append map object</button><span class="message" id="topologyMessage"></span></div>
+        </details>
+        </div>
+        <div class="map-controls-strip"><label><input type="checkbox" id="autoHideMapControls" checked> Auto-hide controls when the map is used</label><button class="secondary" id="toggleMapControls" type="button" aria-expanded="true" aria-controls="mapUpperControls">Hide controls</button></div>
+        <div class="map-shell">
+          <svg id="geoMap" role="img" aria-label="Zoomable TEM-FLOW Ethiopia fish source and destination network within a Horn of Africa and Red Sea regional context"></svg>
+          <div class="map-control-dock" id="mapControlDock" aria-label="Map controls"><button id="mapRunDock" type="button">Run/update</button><button id="traceSelectionDock" type="button">Trace selection</button><button class="secondary" id="selectAllMapDock" type="button" title="Select all registered nodes, production sources and route segments">Select all</button><button class="secondary" id="clearTraceDock" type="button">Clear</button><label><input type="checkbox" id="multiSelectModeDock"> Additive select</label><button class="secondary" id="zoomInDock" type="button" aria-label="Zoom in">+</button><button class="secondary" id="zoomOutDock" type="button" aria-label="Zoom out">−</button><button class="secondary" id="resetMapDock" type="button">Reset</button><button class="secondary" id="toggleMapControlsDock" type="button">Controls</button><button class="secondary" id="fullMapDock" type="button">Full screen</button></div>
+          <div class="map-context-menu" id="mapContextMenu" role="menu" hidden></div>
+          <div class="source-alert" id="sourceAlert"><b>Contaminant hazard/exposure alert</b><br>Run the model to calculate the selected source scenario.</div>
+          <div class="map-inspector" id="mapInspectorWindow" hidden><div class="map-inspector-handle" id="mapInspectorHandle"><span>Selection inspector</span><span class="map-inspector-actions"><span>drag to move</span><button class="inspector-close" id="closeMapInspector" type="button" title="Clear the map selection and close this inspector" aria-label="Clear selection and close inspector">Close</button></span></div><div id="mapInspector">Click a source, town or city to inspect it.</div></div>
+          <div class="map-scale" id="mapScale">National extent</div>
+        </div>
+        <details class="input-section map-legend-section" id="mapLegendSection">
+          <summary><span class="input-section-title">Legends</span><span class="input-section-status" id="mapLegendStatus">Corridors, symbols and model outputs</span></summary>
+          <div class="input-section-body">
+            <div class="map-legend" id="mapLegend"></div>
+            <div class="result-legend"><span><i class="swatch reference"></i>reference allocation</span><span><i class="swatch bounds"></i>identified bounds</span><span><i class="swatch" style="border:2px solid #ce3028"></i>risk ≥ 10⁻⁴</span></div>
+          </div>
+        </details>
+        <details class="below-map input-section allocation-section" id="allocationResultsSection">
+          <summary><span class="input-section-title">Destination allocation and exposure results</span><span class="input-section-status" id="allocationResultsStatus">Run/update to calculate</span></summary>
+          <div class="input-section-body">
+            <div class="metrics"><div class="metric"><b id="mass">—</b><span>allocated tonnes/year</span></div><div class="metric"><b id="closure">—</b><span>allocation closure error</span></div><div class="metric"><b id="width">—</b><span>mean identified interval width</span></div></div>
+            <div class="table-wrap"><table><thead><tr><th>Destination</th><th>Share interval</th><th>Reference</th><th>kg/person/y interval</th><th>Reference kg/person/y</th><th>Reference cancer risk</th><th>Share</th></tr></thead><tbody id="results"></tbody></table></div>
+            <p class="footer">Risk rings use the entered edible-tissue concentration and optional slope factor. Amber denotes a screening estimate at or above 10⁻⁶ and red denotes at or above 10⁻⁴; these are risk-management reference levels, not categorical safe/unsafe labels. Environmental matrices remain an alert layer rather than an edible dose.</p>
+          </div>
+        </details>
+      </section>
+    </div>
+  </main>
+  <dialog class="topology-retirement-dialog" id="retirementDialog">
+    <form method="dialog" id="retirementForm">
+      <h3>Retire topology object</h3>
+      <p class="sub">This does not erase the audit trail. It appends a dated retirement record and removes the object—and any dependent links for a source or place—from effective map snapshots.</p>
+      <div class="retirement-target" id="retirementTarget">No target selected.</div>
+      <label>Effective/observed date<input id="retirementDate" type="date" value="2026-08-19" required></label>
+      <label>Evidence source or provenance note<input id="retirementSource" value="local:user-verified-topology-correction" required></label>
+      <label>Reason for removal<input id="retirementReason" placeholder="Why this linkage or node is invalid" required></label>
+      <div class="button-row"><button class="danger" id="confirmRetirement" type="button">Retire from effective topology</button><button class="secondary" id="cancelRetirement" type="button">Cancel</button><span class="message" id="retirementMessage"></span></div>
+    </form>
+  </dialog>
+  <script>
+    const NS='http://www.w3.org/2000/svg';
+    const defaults=[
+      {name:'Arba Minch',pop:180000,time:.5,market:.45,tradition:1,route:1,q:.35,reachable:true},
+      {name:'Wolaita Sodo',pop:260000,time:2.2,market:.55,tradition:.65,route:1,q:.25,reachable:true},
+      {name:'Hawassa City',pop:480000,time:4.8,market:.78,tradition:.75,route:.85,q:.15,reachable:true},
+      {name:'Addis Ababa',pop:5500000,time:8,market:1,tradition:.10,route:1,q:.25,reachable:true}
+    ];
+    let lastPayload=null,lastResult=null,mapData=null,selectedMapItem=null,temporalSnapshot=null,sourceState=null,temporalHasContaminant=false,timelineTimer=null,controlHideTimer=null,traceState=null,controlsBound=false,flowAnimationEnabled=true,selectedNodeIds=new Set(),selectedEdgeIndices=new Set(),selectedSourceIds=new Set(),selectionOrder=[],allFeaturesSelected=false,pendingDestinationRow=null,pendingAnchorMode=false,pendingRetirement=null,suppressNextMapClick=false,stateRequestToken=0,suppressManualState=false,lastSelectionPointer=null,selectionInspectorPlacementPending=false;
+    const initialView={x:30,y:-19,w:23,h:21};
+    let mapView={...initialView},drag=null;
+
+    function element(name,attrs={}){const e=document.createElementNS(NS,name);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,String(v)));return e}
+    function row(d={}){const tr=document.createElement('tr'),fields=['name','pop','time','market','tradition','route','q'];fields.forEach(k=>{const td=document.createElement('td'),i=document.createElement('input');i.dataset.k=k;i.value=d[k]??'';i.type=k==='name'?'text':'number';i.placeholder=k==='name'?'Enter verified place name':'—';if(k!=='name'){i.min='0';i.step=['market','tradition','route','q'].includes(k)?'.05':'1'}td.append(i);tr.append(td)});const td=document.createElement('td'),c=document.createElement('input');c.type='checkbox';c.className='check';c.dataset.k='reachable';c.checked=Boolean(d.reachable);td.append(c);tr.append(td);return tr}
+    function add(d){document.getElementById('destinations').append(row(d));updateInputSectionSummaries()}
+    function pendingNodeName(){return pendingDestinationRow?pendingDestinationRow.querySelector('[data-k="name"]').value.trim():''}
+    function cancelPendingAnchor(){pendingAnchorMode=false;document.getElementById('geoMap').classList.remove('anchor-mode');document.getElementById('anchorPendingNode').textContent='Anchor on map'}
+    function updatePendingNodeRegistration(){const panel=document.getElementById('pendingNodeRegistration'),save=document.getElementById('savePendingNode');if(!pendingDestinationRow){panel.hidden=true;save.disabled=true;return}panel.hidden=false;const name=pendingNodeName(),source=document.getElementById('pendingNodeSource').value.trim(),date=document.getElementById('pendingNodeDate').value,verified=document.getElementById('pendingNodeVerified').checked,anchored=Number.isFinite(Number(pendingDestinationRow.dataset.anchorLon))&&Number.isFinite(Number(pendingDestinationRow.dataset.anchorLat));save.disabled=!(name&&source&&date&&verified&&anchored);document.getElementById('pendingNodeStatus').textContent=anchored?`Anchored at ${Number(pendingDestinationRow.dataset.anchorLat).toFixed(5)}° N, ${Number(pendingDestinationRow.dataset.anchorLon).toFixed(5)}° E. ${save.disabled?'Complete the name, date, provenance and verification confirmation.':'Ready for append-only ledger registration.'}`:'Not anchored. Choose “Anchor on map,” then click its verified location.'}
+    function startPendingNode(){if(pendingDestinationRow){document.getElementById('pendingNodeStatus').textContent='Finish or discard the current temporary node before adding another.';pendingDestinationRow.querySelector('[data-k="name"]').focus();return}const tr=row({});tr.dataset.pending='true';tr.classList.add('pending-node-row');document.getElementById('destinations').append(tr);pendingDestinationRow=tr;document.getElementById('destinationSection').open=true;document.getElementById('pendingNodeSource').value='';document.getElementById('pendingNodeVerified').checked=false;updatePendingNodeRegistration();updateInputSectionSummaries();tr.querySelector('[data-k="name"]').focus()}
+    function beginPendingNodeAnchor(){if(!pendingDestinationRow)return;pendingAnchorMode=true;const svg=document.getElementById('geoMap');svg.classList.add('anchor-mode');document.getElementById('anchorPendingNode').textContent='Click map location…';document.getElementById('mapInspector').innerHTML='<b>Node anchoring active</b><br>Click the verified geographic position on the map. Escape cancels anchoring without deleting the temporary row.'}
+    function anchorPendingNodeAt(point){if(!pendingDestinationRow)return;suppressNextMapClick=true;pendingDestinationRow.dataset.anchorLon=String(point.x);pendingDestinationRow.dataset.anchorLat=String(-point.y);cancelPendingAnchor();updatePendingNodeRegistration();renderMap(false)}
+    function discardPendingNode(){cancelPendingAnchor();if(pendingDestinationRow)pendingDestinationRow.remove();pendingDestinationRow=null;document.getElementById('pendingNodeRegistration').hidden=true;updateInputSectionSummaries();if(mapData)renderMap(false)}
+    async function savePendingNodeToLedger(){if(!pendingDestinationRow)return;updatePendingNodeRegistration();const save=document.getElementById('savePendingNode'),status=document.getElementById('pendingNodeStatus');if(save.disabled)return;save.disabled=true;status.textContent='Saving append-only node record…';try{const body={kind:'node',observed_at:document.getElementById('pendingNodeDate').value,source_uri:document.getElementById('pendingNodeSource').value.trim(),name:pendingNodeName(),lon:Number(pendingDestinationRow.dataset.anchorLon),lat:Number(pendingDestinationRow.dataset.anchorLat),role:document.getElementById('pendingNodeRole').value,map_class:'destination_market',tier:'LOCAL_MARKET'};const response=await fetch('/api/topology',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}),data=await response.json();if(!response.ok)throw new Error(data.error||'node registration failed');const savedRow=pendingDestinationRow,nodeId=data.record.item.id;savedRow.dataset.pending='false';savedRow.dataset.nodeId=nodeId;savedRow.classList.remove('pending-node-row');pendingDestinationRow=null;document.getElementById('pendingNodeRegistration').hidden=true;const year=new Date(body.observed_at+'T00:00:00Z').getUTCFullYear();document.getElementById('asOfSlider').max=String(Math.max(Number(document.getElementById('asOfSlider').max),year));document.getElementById('asOfSlider').value=String(year);await refreshDatedState(false);setMapControlsCollapsed(false);const editor=document.getElementById('topologyEditor');editor.open=true;document.getElementById('topologyKind').value='edge';updateTopologyForm();document.getElementById('routeFrom').value=selectedSource()?.id||'';document.getElementById('routeTo').value=nodeId;document.getElementById('topologyDate').value=body.observed_at;document.getElementById('topologySource').value=body.source_uri;document.getElementById('topologyMessage').textContent=`Node saved as ${nodeId}. Route destination is prefilled; select its origin and corridor, then append the directed link.`}catch(error){status.textContent=error.message;status.className='pending-node-status error';save.disabled=false}}
+    function nullableNumber(id){const value=document.getElementById(id).value.trim();return value===''?null:Number(value)}
+    function requiredNumber(id,label){const value=nullableNumber(id);if(value===null||!Number.isFinite(value))throw new Error(`${label} is missing. Load a compatible record or enter a verified scenario value.`);return value}
+    function number(id){const value=nullableNumber(id);return value===null?NaN:value}
+    function selectedAnalyte(){const value=document.getElementById('contaminant').value;return value==='__custom__'?(document.getElementById('customContaminant').value.trim()||'custom analyte'):value}
+    function selectedSpecies(){return document.getElementById('species').value||'__all__'}
+    function payload(){const ds=[...document.querySelectorAll('#destinations tr')].map(tr=>{const d={};tr.querySelectorAll('input').forEach(i=>d[i.dataset.k]=i.type==='checkbox'?i.checked:(i.dataset.k==='name'?i.value:Number(i.value)));if(tr.dataset.directShareLower!==undefined&&tr.dataset.directShareLower!=='')d.direct_share_lower=Number(tr.dataset.directShareLower);if(tr.dataset.directShareUpper!==undefined&&tr.dataset.directShareUpper!=='')d.direct_share_upper=Number(tr.dataset.directShareUpper);return d}),source=selectedSource(),species=selectedSpecies();return{source:source?source.name:'Unselected source',source_id:source?source.id:'',commodity:`${document.getElementById('commodity').value}${species==='__all__'?' / all reported species':` / ${species}`}`,species:species==='__all__'?null:species,production_tonnes:requiredNumber('production','Available production'),coverage_lower:requiredNumber('coverage','Destination-resolved coverage lower bound'),edible_fraction:requiredNumber('edible','Edible fraction'),contaminant:selectedAnalyte(),concentration_mg_kg:nullableNumber('concentration'),body_weight_kg:requiredNumber('bodyweight','Adult body weight'),slope_factor:requiredNumber('slope','Oral slope factor'),destinations:ds}}
+    function fmt(x,n=3){if(!Number.isFinite(x))return'—';if(x!==0&&(Math.abs(x)<.001||Math.abs(x)>=10000))return x.toExponential(2);return x.toLocaleString(undefined,{maximumFractionDigits:n})}
+    function esc(v){return String(v).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]))}
+    function normalized(v){return String(v).toLowerCase().replace(/[^a-z0-9]+/g,' ').trim()}
+    function mapName(item){const compact={SUDAN_EXPORT_NW:'Sudan (Tana)',SUDAN_EXPORT_WEST:'Sudan (GERD)',KENYA_MARKET:'Kenya',SOUTH_SUDAN_EXPORT:'South Sudan'};if(compact[item.id])return compact[item.id];if(['ADDIS','ADDIS_REEXPORT_MIX'].includes(item.id))return'A.A.';if(item.source_class&&item.label)return item.label;return item.name||item.label||item.id}
+    function updateInputSectionSummaries(){const source=mapData?selectedSource():null,production=nullableNumber('production'),coverage=nullableNumber('coverage'),concentration=nullableNumber('concentration'),rowCount=document.querySelectorAll('#destinations tr').length,species=selectedSpecies();document.getElementById('scenarioSectionStatus').textContent=source?`${mapName(source)} · ${production===null?'production missing':`${fmt(production)} t/y`} · c=${coverage===null?'—':fmt(coverage,3)}`:'Select a source';document.getElementById('destinationSectionStatus').textContent=source?`${rowCount} node${rowCount===1?'':'s'} populated for ${mapName(source)}`:`${rowCount} destination node${rowCount===1?'':'s'}`;document.getElementById('exposureSectionStatus').textContent=`${selectedAnalyte()} · ${species==='__all__'?'all reported species':species} · ${concentration===null?'no compatible edible-tissue record':`${fmt(concentration)} mg/kg`}`}
+    function updateTemporalSectionSummary(){const enabled=document.getElementById('useTemporal').checked,axis=document.getElementById('timeAxis'),year=document.getElementById('asOfSlider').value;document.getElementById('temporalSectionStatus').textContent=enabled?`${axis.options[axis.selectedIndex].text} · through ${year}`:`Dated evidence paused · manual scenario`}
+    function additiveSelection(event){return document.getElementById('multiSelectMode').checked||event.shiftKey||event.ctrlKey||event.metaKey}
+    function setSelectAllButtonState(active){const normal=document.getElementById('selectAllMap'),dock=document.getElementById('selectAllMapDock');if(normal){normal.textContent=active?'All network selected':'Select all network';normal.setAttribute('aria-pressed',String(active))}if(dock){dock.textContent=active?'All selected':'Select all';dock.setAttribute('aria-pressed',String(active))}}
+    function clearFeatureSelection(){selectedNodeIds.clear();selectedEdgeIndices.clear();selectedSourceIds.clear();selectionOrder=[];allFeaturesSelected=false;setSelectAllButtonState(false);traceState=null}
+    function syncFeatureTrace(){if(!selectedNodeIds.size&&!selectedEdgeIndices.size&&!selectedSourceIds.size){traceState=null;return}traceState={edgeIndices:new Set(selectedEdgeIndices),nodeIds:new Set(selectedNodeIds),sourceIds:new Set(selectedSourceIds),sinkIds:new Set(),selection:true}}
+    function selectionKey(entry){return `${entry.type}:${entry.type==='edge'?entry.index:entry.id}`}
+    function rememberSelection(entry){const key=selectionKey(entry);if(!selectionOrder.some(item=>selectionKey(item)===key))selectionOrder.push(entry)}
+    function forgetSelection(entry){const key=selectionKey(entry);selectionOrder=selectionOrder.filter(item=>selectionKey(item)!==key)}
+    function reconcileSelectionOrder(){selectionOrder=selectionOrder.filter(entry=>entry.type==='source'?selectedSourceIds.has(entry.id):entry.type==='node'?selectedNodeIds.has(entry.id):selectedEdgeIndices.has(entry.index));selectedSourceIds.forEach(id=>rememberSelection({type:'source',id}));selectedEdgeIndices.forEach(index=>rememberSelection({type:'edge',index}));selectedNodeIds.forEach(id=>rememberSelection({type:'node',id}))}
+    function selectionDetail(entry,position){const items=new Map([...mapData.nodes,...mapData.sources].map(item=>[item.id,item]));if(entry.type==='source'){const item=items.get(entry.id)||{id:entry.id};return `<div class="selection-entry"><span class="selection-type">${position}. Production source</span><br><b>${esc(mapName(item))}</b>${item.name&&item.name!==mapName(item)?` — ${esc(item.name)}`:''}<br>${esc(item.source_class||'Source class not retained')} · ${esc(item.region||'region not retained')}<br>Production: ${esc(item.quantity_status||'not quantified')}<br>Display priority: ${esc(item.display_priority_label||'not classified')}<br>Evidence: ${esc(item.evidence_state||'not retained')}</div>`}if(entry.type==='node'){const item=items.get(entry.id)||{id:entry.id},sink=nodeSinkPriority(item);return `<div class="selection-entry"><span class="selection-type">${position}. Place node</span><br><b>${esc(item.code||item.id)} — ${esc(mapName(item))}</b><br>${esc(item.role||'role not retained')} · ${esc(item.tier||'tier not retained')}<br>Active-scenario sink: ${sink.tonnes===null?'not calculated':`${fmt(sink.tonnes,1)} t/y`}<br>Evidence: ${esc(item.evidence_state||'not retained')}</div>`}const edge=mapData.edges[entry.index]||{},from=items.get(edge.from)||{id:edge.from||'?'},to=items.get(edge.to)||{id:edge.to||'?'},corridor=mapData.corridors.find(item=>item.id===edge.corridor_id)||{};return `<div class="selection-entry"><span class="selection-type">${position}. Route segment</span><br><b>${esc(mapName(from))} → ${esc(mapName(to))}</b><br>${esc(corridor.code||edge.corridor_id||'uncoded corridor')} · ${esc(corridor.name||'corridor name not retained')}<br>${esc(edge.mode_note||edge.transport_mode||'transport mode not retained')}<br>Evidence: ${esc(edge.evidence_state||'candidate topology')}</div>`}
+    function selectionSummary(title='Map selection'){if(allFeaturesSelected){document.getElementById('mapInspector').innerHTML=`<b>${esc(title)}</b><br>${mapData.edges.length} route segment(s) · ${mapData.nodes.length} place node(s) · ${mapData.sources.length} source node(s)<br><span class="sub">The complete registered network is highlighted. Hierarchical label masking remains active to preserve map readability.</span>`;return}reconcileSelectionOrder();const bulk=selectionOrder.length>80,details=bulk?'':selectionOrder.map((entry,index)=>selectionDetail(entry,index+1)).join(''),note=bulk?'Large selection active; the item list is suppressed to keep the movable inspector usable.':'Items are listed in selection order. Shift/Ctrl-click or enable additive multi-select to retain selections.';document.getElementById('mapInspector').innerHTML=`<b>${esc(title)}</b><br>${selectedEdgeIndices.size} route segment(s) · ${selectedNodeIds.size} place node(s) · ${selectedSourceIds.size} source node(s)${bulk?'':`<div class="selection-stack">${details}</div>`}<span class="sub">${note}</span>`}
+    function applySelection({edges=[],nodes=[],sources=[]},additive=false,title='Map selection'){if(!additive)clearFeatureSelection();sources.forEach(id=>{selectedSourceIds.add(id);rememberSelection({type:'source',id})});edges.forEach(index=>{selectedEdgeIndices.add(index);rememberSelection({type:'edge',index})});nodes.forEach(id=>{selectedNodeIds.add(id);rememberSelection({type:'node',id})});syncFeatureTrace();selectionSummary(title);renderMap(false)}
+    function selectAllMapFeatures(){if(!mapData)return;requestSelectionInspectorPlacement(null,{x:0,y:0});clearFeatureSelection();allFeaturesSelected=true;setSelectAllButtonState(true);traceState=null;selectionSummary('All registered nodes, sources and routes selected');renderMap(false)}
+    function toggleSourceSelection(source,event={shiftKey:true,ctrlKey:false,metaKey:false}){requestSelectionInspectorPlacement(event);const additive=additiveSelection(event);if(!additive)clearFeatureSelection();if(additive&&selectedSourceIds.has(source.id)){selectedSourceIds.delete(source.id);forgetSelection({type:'source',id:source.id})}else{selectedSourceIds.add(source.id);rememberSelection({type:'source',id:source.id})}const option=[...document.getElementById('multiSources').options].find(o=>o.value===source.id);if(option)option.selected=selectedSourceIds.has(source.id)||option.value===document.getElementById('mapSource').value;populateCorridorFilter();syncFeatureTrace();selectionSummary(`${mapName(source)} source selection`);renderMap(true)}
+    function toggleNodeSelection(node,event={shiftKey:true,ctrlKey:false,metaKey:false}){requestSelectionInspectorPlacement(event);const additive=additiveSelection(event);if(!additive)clearFeatureSelection();if(additive&&selectedNodeIds.has(node.id)){selectedNodeIds.delete(node.id);forgetSelection({type:'node',id:node.id})}else{selectedNodeIds.add(node.id);rememberSelection({type:'node',id:node.id})}syncFeatureTrace();selectionSummary(`${mapName(node)} node selection`);renderMap(false)}
+    function toggleEdgeSelection(edge,index,event={shiftKey:true,ctrlKey:false,metaKey:false}){requestSelectionInspectorPlacement(event);const additive=additiveSelection(event);if(!additive)clearFeatureSelection();if(additive&&selectedEdgeIndices.has(index)){selectedEdgeIndices.delete(index);forgetSelection({type:'edge',index})}else{selectedEdgeIndices.add(index);rememberSelection({type:'edge',index})}syncFeatureTrace();selectionSummary(`${mapName((mapData.nodes.find(n=>n.id===edge.from)||mapData.sources.find(s=>s.id===edge.from)||{id:edge.from}))} → ${mapName((mapData.nodes.find(n=>n.id===edge.to)||mapData.sources.find(s=>s.id===edge.to)||{id:edge.to}))}`);renderMap(false)}
+    function hideMapContextMenu(){const menu=document.getElementById('mapContextMenu');menu.hidden=true;menu.innerHTML=''}
+    function showMapContextMenu(event,title,actions){event.preventDefault();event.stopPropagation();requestSelectionInspectorPlacement(event);const shell=document.querySelector('.map-shell'),menu=document.getElementById('mapContextMenu'),rect=shell.getBoundingClientRect();menu.innerHTML=`<div class="map-context-title">${esc(title)}</div>`;actions.forEach(action=>{const button=document.createElement('button');button.type='button';button.setAttribute('role','menuitem');button.textContent=action.label;if(action.retire)button.classList.add('retire-action');button.onclick=()=>{hideMapContextMenu();action.run()};menu.append(button)});menu.hidden=false;const left=event.clientX-rect.left,top=event.clientY-rect.top;menu.style.left=`${Math.max(4,Math.min(left,shell.clientWidth-menu.offsetWidth-4))}px`;menu.style.top=`${Math.max(4,Math.min(top,shell.clientHeight-menu.offsetHeight-4))}px`;menu.querySelector('button')?.focus()}
+    function setMapControlsCollapsed(collapsed){const card=document.getElementById('mapCard'),button=document.getElementById('toggleMapControls'),dockButton=document.getElementById('toggleMapControlsDock');card.classList.toggle('controls-collapsed',collapsed);button.textContent=collapsed?'Show controls':'Hide controls';dockButton.textContent=collapsed?'Show controls':'Hide controls';button.setAttribute('aria-expanded',String(!collapsed));clearTimeout(controlHideTimer);controlHideTimer=null;setTimeout(applyView,260)}
+    function scheduleAutoHideControls(delay=650){if(!document.getElementById('autoHideMapControls').checked||document.getElementById('mapCard').classList.contains('controls-collapsed'))return;clearTimeout(controlHideTimer);controlHideTimer=setTimeout(()=>{const drawer=document.getElementById('mapUpperControls');if(!drawer.contains(document.activeElement))setMapControlsCollapsed(true)},delay)}
+    function clampSelectionInspector(){const panel=document.getElementById('mapInspectorWindow'),shell=document.querySelector('.map-shell');if(panel.hidden||panel.dataset.positioned!=='true')return;const maxLeft=Math.max(4,shell.clientWidth-panel.offsetWidth-4),maxTop=Math.max(4,shell.clientHeight-panel.offsetHeight-4);panel.style.left=`${Math.max(4,Math.min(parseFloat(panel.style.left)||4,maxLeft))}px`;panel.style.top=`${Math.max(4,Math.min(parseFloat(panel.style.top)||4,maxTop))}px`}
+    function requestSelectionInspectorPlacement(event,fallback=null){const shell=document.querySelector('.map-shell');if(!shell)return;if(event&&Number.isFinite(event.clientX)&&Number.isFinite(event.clientY)){const rect=shell.getBoundingClientRect();lastSelectionPointer={x:event.clientX-rect.left,y:event.clientY-rect.top}}else if(fallback)lastSelectionPointer=fallback;else return;selectionInspectorPlacementPending=true}
+    function placeSelectionInspectorAway(){const panel=document.getElementById('mapInspectorWindow'),shell=document.querySelector('.map-shell');if(panel.hidden||!selectionInspectorPlacementPending||!lastSelectionPointer)return;const pad=10,maxLeft=Math.max(pad,shell.clientWidth-panel.offsetWidth-pad),maxTop=Math.max(pad,shell.clientHeight-panel.offsetHeight-pad),dock=document.getElementById('mapControlDock'),top=Math.min(maxTop,Math.max(pad,(dock?.offsetHeight||0)+18)),candidates=[{left:pad,top},{left:maxLeft,top},{left:pad,top:maxTop},{left:maxLeft,top:maxTop}],point=lastSelectionPointer,best=candidates.reduce((winner,candidate)=>{const dx=candidate.left+panel.offsetWidth/2-point.x,dy=candidate.top+panel.offsetHeight/2-point.y,score=dx*dx+dy*dy;return!winner||score>winner.score?{...candidate,score}:winner},null);panel.style.left=`${best.left}px`;panel.style.top=`${best.top}px`;panel.style.right='auto';panel.style.bottom='auto';panel.dataset.positioned='true';selectionInspectorPlacementPending=false}
+    function hideSelectionInspector(clearSelection=true){hideMapContextMenu();if(clearSelection)clearFeatureSelection();document.getElementById('mapInspectorWindow').hidden=true;if(mapData)renderMap(false)}
+    function bindSelectionInspector(){const panel=document.getElementById('mapInspectorWindow'),handle=document.getElementById('mapInspectorHandle'),shell=document.querySelector('.map-shell'),content=document.getElementById('mapInspector'),close=document.getElementById('closeMapInspector');let panelDrag=null;close.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();hideSelectionInspector(true)});handle.addEventListener('pointerdown',event=>{if(event.target.closest('#closeMapInspector'))return;event.preventDefault();event.stopPropagation();const shellRect=shell.getBoundingClientRect(),panelRect=panel.getBoundingClientRect();panel.style.left=`${panelRect.left-shellRect.left}px`;panel.style.top=`${panelRect.top-shellRect.top}px`;panel.style.right='auto';panel.style.bottom='auto';panel.dataset.positioned='true';selectionInspectorPlacementPending=false;panelDrag={x:event.clientX,y:event.clientY,left:parseFloat(panel.style.left),top:parseFloat(panel.style.top)};handle.setPointerCapture(event.pointerId);panel.classList.add('dragging')});handle.addEventListener('pointermove',event=>{if(!panelDrag)return;const maxLeft=Math.max(4,shell.clientWidth-panel.offsetWidth-4),maxTop=Math.max(4,shell.clientHeight-panel.offsetHeight-4);panel.style.left=`${Math.max(4,Math.min(panelDrag.left+event.clientX-panelDrag.x,maxLeft))}px`;panel.style.top=`${Math.max(4,Math.min(panelDrag.top+event.clientY-panelDrag.y,maxTop))}px`});const finish=()=>{panelDrag=null;panel.classList.remove('dragging')};handle.addEventListener('pointerup',finish);handle.addEventListener('pointercancel',finish);new MutationObserver(()=>{panel.hidden=false;requestAnimationFrame(()=>{placeSelectionInspectorAway();clampSelectionInspector()})}).observe(content,{childList:true,subtree:true,characterData:true});window.addEventListener('resize',clampSelectionInspector)}
+
+    function recordMatchesSource(record,source=selectedSource()){
+      if(!source||!record.origin)return false;
+      if(record.metadata&&record.metadata.source_id)return normalized(record.metadata.source_id)===normalized(source.id);
+      const observed=normalized(record.origin),names=[source.name,source.label,source.id].map(normalized);
+      return names.some(name=>name&&observed===name);
+    }
+    function activeTemporalRecords(){return temporalSnapshot?temporalSnapshot.records:[]}
+    function invalidateResults(reason='Inputs changed; run the model to recalculate.'){
+      lastPayload=null;lastResult=null;
+      ['mass','closure','width'].forEach(id=>document.getElementById(id).textContent='—');
+      document.getElementById('results').innerHTML='';
+      document.getElementById('message').textContent=reason;
+    }
+    function stateItem(title,text,state='missing'){return `<div class="state-item ${state}"><b>${esc(title)}</b>${text}</div>`}
+    function recordLabel(record){return record?`${esc((record.observed_at||'').slice(0,10))} · ${esc(record.record_id)} · ${esc(record.source_uri)}`:'No compatible retained record'}
+    function populateSpecies(names){const select=document.getElementById('species'),previous=select.value;select.innerHTML='<option value="__all__">All reported species — maximum latest value</option>';names.forEach(name=>{const option=document.createElement('option');option.value=name;option.textContent=name;select.append(option)});select.value=[...select.options].some(option=>option.value===previous)?previous:'__all__'}
+    function resetSourceInputs(){
+      suppressManualState=true;
+      document.getElementById('commodity').value='Fish';document.getElementById('production').value='';document.getElementById('coverage').value='0';document.getElementById('concentration').value='';populateSpecies([]);
+      [...document.querySelectorAll('#destinations tr')].forEach(tr=>{tr.dataset.directShareLower='';tr.dataset.directShareUpper=''});
+      document.getElementById('sourceDataDetailsStatus').textContent='Loading latest compatible records…';
+      suppressManualState=false;sourceState=null;temporalHasContaminant=false;invalidateResults('Source changed; compatible records are loading.');updateInputSectionSummaries();
+    }
+    function renderSourceState(state){
+      const p=state.production,c=state.coverage,h=state.contaminant,structural=document.querySelectorAll('#destinations tr').length,broader=c.broader_mass_coverage,groups=c.unresolved_group_records.length;
+      const speciesText=state.species.length?state.species.map(esc).join(', '):'No source-specific species list retained';
+      const productionText=p.value===null?`${recordLabel(null)}. Enter a verified scenario value to calculate mass/exposure.`:`${fmt(p.value)} ${esc(p.unit||'t/year')}<br>${recordLabel(p.record)}`;
+      const coverageText=`<i>c</i> = ${fmt(c.value,3)} · ${esc(c.basis)}${broader!==null?`<br>Broader mass disposition coverage: ${fmt(broader,3)}${groups?`; ${groups} aggregate group record(s) remain unresolved at town level.`:''}`:''}`;
+      const contaminantText=h.value===null?`No compatible edible-tissue ${esc(selectedAnalyte())} record for ${esc(selectedSpecies()==='__all__'?'the source species set':selectedSpecies())}. Exposure is not calculated.`:`${fmt(h.value)} ${esc(h.unit||'')} · ${esc(h.selection_rule)}<br>${recordLabel(h.record)}`;
+      const routeText=`${structural} structural destination/transit row(s); ${state.documented_route_destinations.length} destination(s) have named route evidence: ${state.documented_route_destinations.map(esc).join(', ')||'none at this cutoff'}.`;
+      document.getElementById('sourceDataStatus').innerHTML=[
+        stateItem('Available production',productionText,p.value===null?'missing':'reported'),
+        stateItem('Destination-resolved evidence coverage',coverageText,c.status==='reported'?'reported':'missing'),
+        stateItem('Reported species',speciesText,state.species.length?'reported':'missing'),
+        stateItem('Compatible contaminant record',contaminantText,h.value===null?'missing':'reported'),
+        stateItem('Destination/node basis',routeText,'reported'),
+        stateItem('Data-loading rule',`Latest compatible record on ${esc(state.axis)} time as of ${esc(state.as_of.slice(0,10))}. Workbook values become active only after normalization/import into the append-only ledger.`,'reported')
+      ].join('');
+      document.getElementById('sourceDataDetailsStatus').textContent=`${p.value===null?'production missing':`${fmt(p.value)} t/y`} · c=${fmt(c.value,3)} · ${state.species.length} species · ${h.value===null?'contaminant missing':`${selectedAnalyte()} loaded`}`;
+    }
+    function applySourceState(state){
+      sourceState=state;
+      if(!document.getElementById('useTemporal').checked){renderSourceState(state);return}
+      suppressManualState=true;
+      document.getElementById('commodity').value=(state.commodity||'fish').replace(/^./,character=>character.toUpperCase());
+      populateSpecies(state.species||[]);
+      document.getElementById('production').value=state.production.value===null?'':state.production.value;
+      document.getElementById('coverage').value=state.coverage.value;
+      document.getElementById('concentration').value=state.contaminant.value===null?'':state.contaminant.value;
+      temporalHasContaminant=state.contaminant.value!==null;
+      const rows=[...document.querySelectorAll('#destinations tr')];rows.forEach(tr=>{tr.dataset.directShareLower='';tr.dataset.directShareUpper=''});
+      if(state.destination_constraints.length){
+        rows.forEach(tr=>tr.querySelector('[data-k="q"]').value=0);
+        state.destination_constraints.forEach(constraint=>{const tr=rows.find(row=>normalized(row.querySelector('[data-k="name"]').value)===normalized(constraint.destination));if(!tr)return;tr.querySelector('[data-k="q"]').value=constraint.q;if(constraint.direct_share_lower!==null)tr.dataset.directShareLower=constraint.direct_share_lower;if(constraint.direct_share_upper!==null)tr.dataset.directShareUpper=constraint.direct_share_upper});
+      }
+      suppressManualState=false;renderSourceState(state);invalidateResults('Source records loaded; choose Run/update to calculate allocation and exposure.');updateInputSectionSummaries();
+    }
+    async function loadSourceState(requestToken=stateRequestToken){
+      const source=selectedSource();if(!source)return;
+      const year=document.getElementById('asOfSlider').value,axis=document.getElementById('timeAxis').value,analyte=selectedAnalyte(),species=selectedSpecies();
+      const query=new URLSearchParams({source_id:source.id,as_of:`${year}-12-31T23:59:59Z`,axis,analyte,species});
+      const response=await fetch(`/api/source-state?${query}`),data=await response.json();if(!response.ok)throw new Error(data.error||'source-state loading failed');
+      if(requestToken!==stateRequestToken||selectedSource().id!==source.id)return;
+      applySourceState(data);
+    }
+    function renderEvidenceLedger(){
+      if(!temporalSnapshot)return;
+      const source=selectedSource(),relevant=activeTemporalRecords().filter(r=>recordMatchesSource(r,source)||r.evidence_type==='consumption');
+      document.getElementById('temporalStatus').innerHTML=`<b>${esc(temporalSnapshot.as_of)}</b> on ${esc(temporalSnapshot.axis)} time · ${temporalSnapshot.record_count} active records · ledger ${esc(temporalSnapshot.digest.slice(0,10))}… · explicit new share/coverage evidence narrows the bounds.`;
+      document.getElementById('evidenceList').innerHTML=relevant.length?relevant.map(r=>`<div><b>${esc(r.observed_at.slice(0,10))}</b> · ${esc(r.evidence_type)} · ${esc(r.origin||'—')}${r.destination?` → ${esc(r.destination)}`:''}${r.product?` · ${esc(r.product)}`:''}${r.value!==null&&r.value!==undefined?` · ${fmt(Number(r.value))} ${esc(r.unit||'')}`:''}</div>`).join(''):'No active source-compatible record at this date.';
+    }
+    async function loadTemporalSnapshot(runAfter=false){
+      const requestToken=++stateRequestToken,slider=document.getElementById('asOfSlider'),year=slider.value,axis=document.getElementById('timeAxis').value;
+      document.getElementById('asOfLabel').textContent=year;updateTemporalSectionSummary();
+      const r=await fetch(`/api/evidence?as_of=${encodeURIComponent(year+'-12-31T23:59:59Z')}&axis=${encodeURIComponent(axis)}`),data=await r.json();
+      if(!r.ok)throw new Error(data.error||'temporal evidence failed');
+      if(requestToken!==stateRequestToken)return;
+      temporalSnapshot=data;
+      slider.min=String(new Date(data.date_min+'T00:00:00Z').getUTCFullYear());
+      slider.max=String(Math.max(new Date(data.date_max+'T00:00:00Z').getUTCFullYear(),new Date().getUTCFullYear()));
+      await loadSourceState(requestToken);renderEvidenceLedger();
+      if(runAfter)await run();else if(mapData)renderMap(false);
+    }
+    async function appendEvidenceRecord(){
+      const message=document.getElementById('evidenceMessage'),source=selectedSource();message.textContent='saving…';message.className='message';
+      try{
+        if(!source)throw new Error('Select a production source first.');
+        const type=document.getElementById('evidenceType').value,value=document.getElementById('evidenceValue').value;
+        const body={observed_at:document.getElementById('evidenceDate').value,evidence_type:type,source_uri:document.getElementById('evidenceSource').value,commodity:document.getElementById('commodity').value,origin:source.name,destination:document.getElementById('evidenceDestination').value,species:document.getElementById('evidenceSpecies').value,product:document.getElementById('evidenceProduct').value,matrix:type==='contaminant'?document.getElementById('evidenceMatrix').value:'',stage:'consumption/exposure',value:value===''?null:Number(value),unit:document.getElementById('evidenceUnit').value,denominator:document.getElementById('evidenceDenominator').value,coverage_lower:document.getElementById('evidenceCoverage').value===''?null:Number(document.getElementById('evidenceCoverage').value),supersedes:document.getElementById('evidenceSupersedes').value,metadata:{date_basis:'user-entered dated evidence',source_id:source.id,measurement_basis:document.getElementById('evidenceBasis').value,relative_uncertainty_fraction:Number(document.getElementById('evidenceUncertainty').value||0)/100}};
+        const r=await fetch('/api/evidence',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}),data=await r.json();
+        if(!r.ok)throw new Error(data.error||'record append failed');
+        const year=new Date(body.observed_at+'T00:00:00Z').getUTCFullYear();document.getElementById('asOfSlider').max=String(Math.max(Number(document.getElementById('asOfSlider').max),year));document.getElementById('asOfSlider').value=String(year);
+        await refreshDatedState(true);message.textContent=`appended ${data.record.record_id}`;
+      }catch(e){message.textContent=e.message;message.className='message error'}
+    }
+    function updateTopologyForm(){const edge=document.getElementById('topologyKind').value==='edge';['topologyName','topologyLon','topologyLat','topologyRegion'].forEach(id=>document.getElementById(id).disabled=edge);['routeFrom','routeTo','routeCorridor'].forEach(id=>document.getElementById(id).disabled=!edge);document.getElementById('topologyRole').value=edge?'Candidate directed commodity route':document.getElementById('topologyKind').value==='source'?'Fish production source':'Consumption destination / transit node'}
+    async function appendTopologyObject(){const message=document.getElementById('topologyMessage'),kind=document.getElementById('topologyKind').value;message.textContent='saving…';message.className='message';try{const body={kind,observed_at:document.getElementById('topologyDate').value,source_uri:document.getElementById('topologySource').value,name:document.getElementById('topologyName').value,label:document.getElementById('topologyName').value,lon:document.getElementById('topologyLon').value,lat:document.getElementById('topologyLat').value,role:document.getElementById('topologyRole').value,source_class:document.getElementById('topologyRole').value,region:document.getElementById('topologyRegion').value,from_id:document.getElementById('routeFrom').value,to_id:document.getElementById('routeTo').value,corridor_id:document.getElementById('routeCorridor').value};const r=await fetch('/api/topology',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}),data=await r.json();if(!r.ok)throw new Error(data.error||'topology append failed');const year=new Date(body.observed_at+'T00:00:00Z').getUTCFullYear();document.getElementById('asOfSlider').max=String(Math.max(Number(document.getElementById('asOfSlider').max),year));document.getElementById('asOfSlider').value=String(year);await refreshDatedState(false);if(kind==='source'){const id=data.record.item.id;await selectPrimarySource(id)}else renderMap(false);message.textContent=`appended ${data.record.record_id}`;}catch(e){message.textContent=e.message;message.className='message error'}}
+    function beginTopologyRetirement(targetKind,target,label){hideMapContextMenu();pendingRetirement={targetKind,target,label};document.getElementById('retirementTarget').innerHTML=`<b>${esc(targetKind==='edge'?'Route segment':targetKind==='source'?'Production source':'Place node')}</b><br>${esc(label)}`;document.getElementById('retirementDate').value=document.getElementById('topologyDate').value||new Date().toISOString().slice(0,10);document.getElementById('retirementSource').value='local:user-verified-topology-correction';document.getElementById('retirementReason').value='';document.getElementById('retirementMessage').textContent='';document.getElementById('retirementDialog').showModal()}
+    function closeTopologyRetirement(){pendingRetirement=null;document.getElementById('retirementDialog').close()}
+    async function saveTopologyRetirement(){if(!pendingRetirement)return;const message=document.getElementById('retirementMessage'),date=document.getElementById('retirementDate').value,sourceUri=document.getElementById('retirementSource').value.trim(),reason=document.getElementById('retirementReason').value.trim();if(!date||!sourceUri||!reason){message.textContent='Date, provenance and reason are required.';message.className='message error';return}const {targetKind,target}=pendingRetirement,body={kind:'retirement',target_kind:targetKind,observed_at:date,source_uri:sourceUri,reason};if(targetKind==='edge')Object.assign(body,{from_id:target.from,to_id:target.to,corridor_id:target.corridor_id,branch:target.branch,order:target.order});else body.target_id=target.id;message.textContent='appending retirement…';message.className='message';try{const response=await fetch('/api/topology',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}),data=await response.json();if(!response.ok)throw new Error(data.error||'topology retirement failed');const year=new Date(date+'T00:00:00Z').getUTCFullYear();document.getElementById('asOfSlider').max=String(Math.max(Number(document.getElementById('asOfSlider').max),year));document.getElementById('asOfSlider').value=String(Math.max(year,Number(document.getElementById('asOfSlider').value)));closeTopologyRetirement();clearFeatureSelection();await refreshDatedState(false);document.getElementById('topologyMessage').textContent=`Retired by ${data.record.record_id}; the append-only audit record is retained.`;renderMap(true)}catch(error){message.textContent=error.message;message.className='message error'}}
+    function playTimeline(){
+      const button=document.getElementById('playTimeline');
+      if(timelineTimer){clearInterval(timelineTimer);timelineTimer=null;button.textContent='Play timeline';return}
+      const available=(temporalSnapshot&&temporalSnapshot.timeline_years)||[];
+      const years=available.length?available:[Number(document.getElementById('asOfSlider').min),Number(document.getElementById('asOfSlider').max)];let index=Math.max(0,years.indexOf(Number(document.getElementById('asOfSlider').value)));
+      const advance=async()=>{index=(index+1)%years.length;document.getElementById('asOfSlider').value=String(years[index]);await refreshDatedState(true)};
+      button.textContent='Stop timeline';advance();timelineTimer=setInterval(advance,32000);
+    }
+
+    async function run(){const msg=document.getElementById('message');msg.textContent='calculating…';msg.className='message';try{lastPayload=payload();const r=await fetch('/api/calculate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(lastPayload)}),data=await r.json();if(!r.ok)throw new Error(data.error||'calculation failed');lastResult=data;renderResults(data);if(mapData)renderMap(true);msg.textContent='updated'}catch(e){msg.textContent=e.message;msg.className='message error'}}
+    function renderResults(data){document.getElementById('mass').textContent=fmt(data.total_reference_tonnes,1);document.getElementById('closure').textContent=fmt(data.closure_error,8);document.getElementById('width').textContent=fmt(data.mean_interval_width,3);document.getElementById('allocationResultsStatus').textContent=`${data.destinations.length} destination${data.destinations.length===1?'':'s'} · ${fmt(data.total_reference_tonnes,1)} t/year allocated`;const body=document.getElementById('results');body.innerHTML='';data.destinations.forEach(d=>{const tr=document.createElement('tr');tr.innerHTML=`<td>${esc(d.name)}</td><td>${fmt(d.share_lower)}–${fmt(d.share_upper)}</td><td><b>${fmt(d.share_reference)}</b></td><td>${fmt(d.consumption_lower)}–${fmt(d.consumption_upper)}</td><td><b>${fmt(d.consumption_reference)}</b></td><td>${fmt(d.cancer_risk_reference,2)}</td><td><div class="bar"><i style="width:${Math.max(1,d.share_reference*100)}%"></i></div></td>`;body.append(tr)})}
+
+    function geometryPath(g){if(!g)return'';const ring=r=>r.map((p,i)=>`${i?'L':'M'}${p[0]} ${-p[1]}`).join(' ')+' Z';if(g.type==='Polygon')return g.coordinates.map(ring).join(' ');if(g.type==='MultiPolygon')return g.coordinates.flatMap(p=>p.map(ring)).join(' ');return''}
+    function coordinates(){const all=[...mapData.nodes,...mapData.sources],m=new Map();all.forEach(i=>m.set(i.id,i));return m}
+    function edgePath(edge,a,b){
+      if(Array.isArray(edge.geometry)&&edge.geometry.length>1)return edge.geometry.map((point,index)=>`${index?'L':'M'}${point[0]} ${-point[1]}`).join(' ');
+      if(edge.transport_mode==='multimodal_candidate'){const dx=b.lon-a.lon,dy=(-b.lat)-(-a.lat),mx=(a.lon+b.lon)/2-dy*.11,my=(-a.lat-b.lat)/2+dx*.11;return`M${a.lon} ${-a.lat} Q${mx} ${my} ${b.lon} ${-b.lat}`}
+      return`M${a.lon} ${-a.lat} L${b.lon} ${-b.lat}`;
+    }
+    function reverseEdgeIndices(edge,index){return mapData.edges.map((candidate,i)=>i!==index&&candidate.from===edge.to&&candidate.to===edge.from?i:null).filter(i=>i!==null)}
+    function segmentIsBidirectional(edge,index){return edge.bidirectional===true||edge.directionality==='bidirectional'||reverseEdgeIndices(edge,index).length>0}
+    function appendSelectedFlowArrow(layer,pathData,{reverse=false,delay=0,traced=false}={}){const arrow=element('path',{d:'M-.075 -.045 L.09 0 L-.075 .045 Z',class:`selected-flow-arrow ${traced?'traced-flow':''} ${reverse?'reverse-flow':''}`}),attrs={path:pathData,dur:'2.35s',begin:`${delay}s`,repeatCount:'indefinite',rotate:'auto',calcMode:'linear'};if(reverse){attrs.keyPoints='1;0';attrs.keyTimes='0;1'}const motion=element('animateMotion',attrs);arrow.append(motion);layer.append(arrow)}
+    function selectedSource(){return mapData.sources.find(s=>s.id===document.getElementById('mapSource').value)}
+    function visualSourceIds(){return new Set([...document.getElementById('multiSources').selectedOptions].map(option=>option.value))}
+    function activatedSources(){const ids=visualSourceIds();return ids.size?mapData.sources.filter(source=>ids.has(source.id)):[selectedSource()].filter(Boolean)}
+    function coveredCorridorIds(){return new Set(activatedSources().flatMap(source=>source.corridors||[]))}
+    function populateCorridorFilter(){const select=document.getElementById('corridorFilter'),previous=select.value,sources=activatedSources(),covered=coveredCorridorIds();select.innerHTML='';const all=document.createElement('option');all.value='__source__';all.textContent=sources.length===1?`All corridors linked to ${mapName(sources[0])}`:`All corridors linked to ${sources.length} activated sources`;select.append(all);[...mapData.corridors].filter(corridor=>covered.has(corridor.id)).sort((a,b)=>a.code.localeCompare(b.code)).forEach(corridor=>{const option=document.createElement('option');option.value=corridor.id;option.textContent=`${corridor.code} — ${corridor.name}`;select.append(option)});select.value=[...select.options].some(option=>option.value===previous)?previous:'__source__'}
+    function edgeIndicesForSource(source,corridors=null){if(!source)return new Set();return new Set(mapData.edges.map((edge,index)=>{if(!source.corridors.includes(edge.corridor_id)||(corridors&&!corridors.has(edge.corridor_id)))return null;const scope=source.branch_scope||{},hasScope=Object.prototype.hasOwnProperty.call(scope,edge.corridor_id),scoped=scope[edge.corridor_id]||[];return hasScope&&!scoped.includes(edge.branch)?null:index}).filter(index=>index!==null))}
+    function reachableDestinationNodes(source){if(!source)return[];const allowed=edgeIndicesForSource(source),distance=new Map([[source.id,0]]),queue=[source.id];while(queue.length){const current=queue.shift();mapData.edges.forEach((edge,index)=>{if(!allowed.has(index)||edge.from!==current||distance.has(edge.to))return;distance.set(edge.to,distance.get(current)+1);queue.push(edge.to)})}const rank={NATIONAL_TERMINAL:0,REGIONAL_HUB:1,HIGH_LOCAL_CULTURAL:2,SECONDARY_MARKET:3,ROUTE_INTERCEPT:4};return mapData.nodes.filter(node=>distance.has(node.id)).sort((a,b)=>distance.get(a.id)-distance.get(b.id)||(rank[a.tier]??9)-(rank[b.tier]??9)||mapName(a).localeCompare(mapName(b))).map(node=>({node,steps:distance.get(node.id)}))}
+    function destinationPrior(node,steps){const known={ADDIS:{pop:5500000,market:1,tradition:.10},ARBA_MINCH:{pop:180000,market:.45,tradition:1},WOLAITA_SODO:{pop:260000,market:.55,tradition:.65},HAWASSA_CITY:{pop:480000,market:.78,tradition:.75},KOKA_TOWN:{pop:100000,market:.48,tradition:.95},BOTE_ALEM_TENA:{pop:100000,market:.42,tradition:.9},METEHARA:{pop:100000,market:.45,tradition:.85}},tier={NATIONAL_TERMINAL:{pop:1500000,market:1,tradition:.25},REGIONAL_HUB:{pop:500000,market:.75,tradition:.5},HIGH_LOCAL_CULTURAL:{pop:200000,market:.5,tradition:.9},SECONDARY_MARKET:{pop:150000,market:.5,tradition:.5},ROUTE_INTERCEPT:{pop:100000,market:.35,tradition:.35}},base=known[node.id]||tier[node.tier]||{pop:100000,market:.4,tradition:.4},route=Math.max(.35,1-.07*Math.max(0,steps-1));return{name:node.name,pop:base.pop,time:Math.max(.5,steps*1.5),market:base.market,tradition:node.map_class==='source_proximate'?Math.max(.85,base.tradition):base.tradition,route,q:Math.max(.01,base.market*base.tradition*route/(1+steps*.35)),reachable:true}}
+    function currentDestinationRows(){return new Map([...document.querySelectorAll('#destinations tr')].map(tr=>{const d={};tr.querySelectorAll('input').forEach(input=>d[input.dataset.k]=input.type==='checkbox'?input.checked:(input.dataset.k==='name'?input.value:Number(input.value)));return[normalized(d.name),d]}))}
+    function syncDestinationsToSource(source){if(!source||!mapData)return;if(pendingDestinationRow){cancelPendingAnchor();pendingDestinationRow=null;document.getElementById('pendingNodeRegistration').hidden=true}const existing=currentDestinationRows(),reachable=reachableDestinationNodes(source),rows=reachable.map(({node,steps})=>existing.get(normalized(node.name))||destinationPrior(node,steps)),weight=rows.reduce((sum,d)=>sum+Math.max(0,Number(d.q)||0),0),body=document.getElementById('destinations');body.innerHTML='';rows.forEach(d=>{d.q=weight?Math.max(0,Number(d.q)||0)/weight:1/Math.max(rows.length,1);add(d)});lastResult=null;document.getElementById('destinationSection').open=true;document.getElementById('mapInspector').innerHTML=`<b>${esc(source.label)} downstream destination set</b><br>${rows.length} registered consumption/transit place(s) were loaded automatically from its directed corridor network.<br><span class="sub">The rows are editable operational priors; dated survey evidence replaces or constrains them when available.</span>`;updateInputSectionSummaries()}
+    function activeCorridors(){const value=document.getElementById('corridorFilter').value,covered=coveredCorridorIds();return value==='__source__'||!covered.has(value)?covered:new Set([value])}
+    function sourceReachableEdges(active){const keys=new Set();activatedSources().forEach(source=>graphWalk([source.id],'down',edgeIndicesForSource(source,active)).edges.forEach(index=>keys.add(index)));return keys}
+    function graphWalk(seed,direction,allowed){const vertices=new Set(seed),edges=new Set();let changed=true;while(changed){changed=false;mapData.edges.forEach((edge,index)=>{if(allowed&&!allowed.has(index))return;const from=direction==='down'?edge.from:edge.to,to=direction==='down'?edge.to:edge.from;if(vertices.has(from)){edges.add(index);if(!vertices.has(to)){vertices.add(to);changed=true}}})}return{vertices,edges}}
+    function connectedNetworkForNode(node){const up=graphWalk([node.id],'up',null),down=graphWalk([node.id],'down',null),vertices=new Set([...up.vertices,...down.vertices]),edges=new Set([...up.edges,...down.edges]),sourceIds=new Set(mapData.sources.filter(source=>vertices.has(source.id)).map(source=>source.id)),nodeIds=new Set(mapData.nodes.filter(item=>vertices.has(item.id)).map(item=>item.id));return{edges,nodeIds,sourceIds}}
+    function networkThroughEdge(edge,index){const up=graphWalk([edge.from],'up',null),down=graphWalk([edge.to],'down',null),edges=new Set([...up.edges,index,...down.edges]),vertices=new Set([...up.vertices,...down.vertices]),sourceIds=new Set(mapData.sources.filter(source=>vertices.has(source.id)).map(source=>source.id)),nodeIds=new Set(mapData.nodes.filter(item=>vertices.has(item.id)).map(item=>item.id));return{edges,nodeIds,sourceIds}}
+    function adjacentEdgeIndices(edge,index){return new Set(mapData.edges.map((candidate,i)=>i===index||candidate.from===edge.from||candidate.to===edge.from||candidate.from===edge.to||candidate.to===edge.to?i:null).filter(i=>i!==null))}
+    function nearestSourceNodeSinkPath(node){const upstream=mapData.sources.map(source=>({source,path:shortestDirectedPath(source.id,node.id,null)})).filter(item=>item.path).sort((a,b)=>a.path.edges.length-b.path.edges.length||mapName(a.source).localeCompare(mapName(b.source))),down=graphWalk([node.id],'down',null),outgoing=new Set([...down.edges].map(index=>mapData.edges[index].from)),sinks=[...down.vertices].filter(id=>id!==node.id&&!outgoing.has(id)),downstream=sinks.map(id=>({id,path:shortestDirectedPath(node.id,id,null)})).filter(item=>item.path).sort((a,b)=>a.path.edges.length-b.path.edges.length||a.id.localeCompare(b.id)),edges=new Set(),nodes=new Set([node.id]),sources=new Set();if(upstream.length){upstream[0].path.edges.forEach(index=>edges.add(index));upstream[0].path.vertices.forEach(id=>nodes.add(id));sources.add(upstream[0].source.id)}if(downstream.length){downstream[0].path.edges.forEach(index=>edges.add(index));downstream[0].path.vertices.forEach(id=>nodes.add(id))}return{edges,nodes,sources}}
+    function openNodeContext(event,node){const network=connectedNetworkForNode(node),nearest=nearestSourceNodeSinkPath(node),title=`${node.code} — ${mapName(node)}`;showMapContextMenu(event,title,[{label:'Select this node only',run:()=>applySelection({nodes:[node.id]},false,'Node selected')},{label:'Add/remove this node from selection',run:()=>toggleNodeSelection(node,{shiftKey:true,ctrlKey:true,metaKey:false})},{label:'Select all connected nodes',run:()=>applySelection({nodes:[...network.nodeIds],sources:[...network.sourceIds]},false,'Connected nodes selected')},{label:'Select nearest source → node → nearest sink',run:()=>applySelection({edges:[...nearest.edges],nodes:[...nearest.nodes],sources:[...nearest.sources]},false,'Nearest source–node–sink path')},{label:'Select all source–sink routes through this node',run:()=>applySelection({edges:[...network.edges],nodes:[...network.nodeIds],sources:[...network.sourceIds]},false,'All routes through node')},{label:'Retire/remove this place node…',retire:true,run:()=>beginTopologyRetirement('node',node,title)}])}
+    function openEdgeContext(event,edge,index){const network=networkThroughEdge(edge,index),adjacent=adjacentEdgeIndices(edge,index),items=new Map([...mapData.nodes,...mapData.sources].map(item=>[item.id,item])),title=`${mapName(items.get(edge.from)||{id:edge.from})} → ${mapName(items.get(edge.to)||{id:edge.to})}`;showMapContextMenu(event,title,[{label:'Select this route segment only',run:()=>applySelection({edges:[index]},false,'Route segment selected')},{label:'Add/remove this segment from selection',run:()=>toggleEdgeSelection(edge,index,{shiftKey:true,ctrlKey:true,metaKey:false})},{label:'Select adjacent connected route segments',run:()=>applySelection({edges:[...adjacent]},false,'Adjacent route segments selected')},{label:'Select all source–sink routes using this segment',run:()=>applySelection({edges:[...network.edges],sources:[...network.sourceIds]},false,'Source–sink routes through segment')},{label:'Select those routes plus all nodes along them',run:()=>applySelection({edges:[...network.edges],nodes:[...network.nodeIds],sources:[...network.sourceIds]},false,'Routes and nodes through segment')},{label:'Retire/remove this route segment…',retire:true,run:()=>beginTopologyRetirement('edge',edge,title)}])}
+    async function selectMapSource(source,event={shiftKey:false,ctrlKey:false,metaKey:false}){requestSelectionInspectorPlacement(event);if(additiveSelection(event)){toggleSourceSelection(source,event);return}await selectPrimarySource(source.id);clearFeatureSelection();selectedSourceIds.add(source.id);rememberSelection({type:'source',id:source.id});syncFeatureTrace();selectionSummary(`${mapName(source)} source selected`);renderMap(true)}
+    function openSourceContext(event,source){const allowed=edgeIndicesForSource(source),down=graphWalk([source.id],'down',allowed),nodes=mapData.nodes.filter(node=>down.vertices.has(node.id)).map(node=>node.id),title=`${source.label} — ${source.name}`;showMapContextMenu(event,title,[{label:'Select this source only and load its records',run:()=>selectMapSource(source,{shiftKey:false,ctrlKey:false,metaKey:false})},{label:'Add/remove this source from selection',run:()=>toggleSourceSelection(source,{shiftKey:true,ctrlKey:true,metaKey:false})},{label:'Select all downstream routes from this source',run:()=>applySelection({edges:[...down.edges],sources:[source.id]},false,'Downstream routes selected')},{label:'Select downstream routes plus destination nodes',run:()=>applySelection({edges:[...down.edges],nodes,sources:[source.id]},false,'Source routes and destinations selected')},{label:'Retire/remove this production source…',retire:true,run:()=>beginTopologyRetirement('source',source,title)}])}
+    async function traceSource(source){const allowed=edgeIndicesForSource(source),down=graphWalk([source.id],'down',allowed),nodes=mapData.nodes.filter(node=>down.vertices.has(node.id)).map(node=>node.id);await selectPrimarySource(source.id);applySelection({edges:[...down.edges],nodes,sources:[source.id]},false,`${mapName(source)} complete downstream network`);renderMap(true)}
+    function shortestDirectedPath(fromId,toId,allowed){const queue=[fromId],previous=new Map([[fromId,null]]),via=new Map();while(queue.length){const current=queue.shift();if(current===toId)break;mapData.edges.forEach((edge,index)=>{if(allowed&&!allowed.has(index)||edge.from!==current||previous.has(edge.to))return;previous.set(edge.to,current);via.set(edge.to,index);queue.push(edge.to)})}if(!previous.has(toId))return null;const edges=[],vertices=[toId];let current=toId;while(previous.get(current)!==null){edges.unshift(via.get(current));current=previous.get(current);vertices.unshift(current)}return{edges,vertices}}
+    function traceSelection(){const seedEdges=new Set(selectedEdgeIndices),seedNodes=new Set(selectedNodeIds),seedSources=new Set(selectedSourceIds);if(!seedEdges.size&&!seedNodes.size&&!seedSources.size){document.getElementById('mapInspector').innerHTML='<b>No feature selection yet</b><br>Left-click a node, route segment or source. Use Shift/Ctrl-click or additive multi-select to retain several features.';return}const edges=new Set(seedEdges),nodes=new Set(seedNodes),sources=new Set(seedSources);seedEdges.forEach(index=>{const edge=mapData.edges[index];if(!edge)return;const network=networkThroughEdge(edge,index);network.edges.forEach(i=>edges.add(i));network.nodeIds.forEach(id=>nodes.add(id));network.sourceIds.forEach(id=>sources.add(id))});if(seedSources.size&&seedNodes.size){seedSources.forEach(sourceId=>{const source=mapData.sources.find(item=>item.id===sourceId);if(!source)return;seedNodes.forEach(nodeId=>{const path=shortestDirectedPath(sourceId,nodeId,edgeIndicesForSource(source));if(path){path.edges.forEach(i=>edges.add(i));path.vertices.forEach(id=>nodes.add(id))}})})}else if(seedSources.size){seedSources.forEach(sourceId=>{const source=mapData.sources.find(item=>item.id===sourceId);if(!source)return;const down=graphWalk([sourceId],'down',edgeIndicesForSource(source));down.edges.forEach(i=>edges.add(i));down.vertices.forEach(id=>{if(mapData.nodes.some(node=>node.id===id))nodes.add(id)})})}else if(seedNodes.size){seedNodes.forEach(nodeId=>{const node=mapData.nodes.find(item=>item.id===nodeId);if(!node)return;const network=connectedNetworkForNode(node);network.edges.forEach(i=>edges.add(i));network.nodeIds.forEach(id=>nodes.add(id));network.sourceIds.forEach(id=>sources.add(id))})}applySelection({edges:[...edges],nodes:[...nodes],sources:[...sources]},false,'Expanded multi-feature network');renderMap(true)}
+    function featureGroup(svg,id){const g=element('g',{id});svg.append(g);return g}
+    function nodeSinkPriority(node){const row=lastResult?.destinations?.find(destination=>normalized(destination.name)===normalized(node.name));if(!row||!Number.isFinite(Number(row.reference_tonnes)))return{rank:0,tonnes:null,basis:'No sink quantity calculated for the active scenario'};const tonnes=Math.max(0,Number(row.reference_tonnes)),maximum=Math.max(...lastResult.destinations.map(destination=>Number(destination.reference_tonnes)||0),0),relative=maximum?tonnes/maximum:0,rank=relative>=.5?4:relative>=.2?3:relative>=.05?2:tonnes>0?1:0;return{rank,tonnes,basis:'TEM-FLOW reference sink tonnage for the active source and scenario'}}
+    function boxesOverlap(a,b,padding=3){return!(a.right+padding<b.left||a.left-padding>b.right||a.bottom+padding<b.top||a.top-padding>b.bottom)}
+    function retainPriorityLabels(labels,accepted=[]){labels.sort((a,b)=>Number(b.dataset.force||0)-Number(a.dataset.force||0)||Number(b.dataset.priorityScore||0)-Number(a.dataset.priorityScore||0)).forEach(label=>{if(label.style.display==='none')return;const box=label.getBoundingClientRect(),forced=label.dataset.force==='1';if(!forced&&accepted.some(other=>boxesOverlap(box,other))){label.style.display='none';return}accepted.push(box)});return accepted}
+
+    function renderMap(replay=false){
+      if(!mapData)return;
+      if(replay)flowAnimationEnabled=true;
+      const svg=document.getElementById('geoMap'),coords=coordinates(),active=activeCorridors(),reachableEdges=sourceReachableEdges(active),showBackground=document.getElementById('backgroundRoutes').checked,animationStyle=document.getElementById('animationType').value,animate=flowAnimationEnabled&&animationStyle!=='static',multiSourceIds=visualSourceIds(),animatedDirections=new Set();let particleCount=0;
+      svg.innerHTML='';
+      const regional=featureGroup(svg,'regionalContextLayer');
+      (mapData.regional_context?.features||[]).forEach(feature=>regional.append(element('path',{d:geometryPath(feature.geometry),class:'regional-country'})));
+      const base=featureGroup(svg,'baseLayer');
+      mapData.boundary.features.forEach(f=>base.append(element('path',{d:geometryPath(f.geometry),class:'country'})));
+      const water=featureGroup(svg,'waterLayer');
+      mapData.waterbodies.features.forEach(f=>water.append(element('path',{d:geometryPath(f.geometry),class:'waterbody'})));
+      const regionalLabels=featureGroup(svg,'regionalLabelLayer');
+      (mapData.regional_labels||[]).forEach(label=>{const attrs={x:label.lon,y:-label.lat,class:`regional-label ${label.kind==='water'?'water-label':''}`,'text-anchor':'middle'};if(label.rotation)attrs.transform=`rotate(${label.rotation} ${label.lon} ${-label.lat})`;const text=element('text',attrs);text.textContent=label.name;regionalLabels.append(text)});
+      const routes=featureGroup(svg,'routeLayer'),corridors=new Map(mapData.corridors.map(c=>[c.id,c]));
+      const directionallySelected=(edge,index)=>{const isActive=active.has(edge.corridor_id)&&reachableEdges.has(index);return allFeaturesSelected||selectedEdgeIndices.has(index)||(traceState&&traceState.edgeIndices.has(index))||selectedNodeIds.has(edge.from)||selectedNodeIds.has(edge.to)||(isActive&&selectedSourceIds.size>0)};
+      mapData.edges.forEach((edge,index)=>{
+        const a=coords.get(edge.from),b=coords.get(edge.to),isActive=active.has(edge.corridor_id)&&reachableEdges.has(index),showAsBackground=showBackground&&!isActive,traced=traceState&&traceState.edgeIndices.has(index),selectedEdge=allFeaturesSelected||selectedEdgeIndices.has(index),directionalSelection=directionallySelected(edge,index),shouldAnimate=animate&&(isActive||directionalSelection);
+        if(!a||!b||(!isActive&&!showAsBackground&&!traced&&!selectedEdge&&!directionalSelection))return;
+        const dimmed=traceState&&traceState.edgeIndices.size>0&&!traced,pathData=edgePath(edge,a,b),multimodal=edge.transport_mode==='multimodal_candidate',selectionClass=selectedEdge?(allFeaturesSelected?'all-selected':'user-selected'):'',hit=element('path',{d:pathData,class:'route-hit'});
+        hit.onclick=e=>{e.stopPropagation();toggleEdgeSelection(edge,index,e)};hit.oncontextmenu=e=>openEdgeContext(e,edge,index);routes.append(hit);
+        const path=element('path',{d:pathData,class:`route ${isActive?'active':'background'} ${multimodal?'multimodal':''} ${shouldAnimate?`pulse anim-${animationStyle}`:''} ${traced?'traced':''} ${selectionClass} ${dimmed?'dimmed':''}`,stroke:(corridors.get(edge.corridor_id)||{color:'#778'}).color,'data-corridor':edge.corridor_id});
+        if(shouldAnimate)path.style.animationDelay=`${Math.min(2.4,(edge.order-1)*.13)}s`;
+        const title=element('title');title.textContent=`Left-click segment to select; right-click for network options\n${mapName(coords.get(edge.from)||{id:edge.from})} → ${mapName(coords.get(edge.to)||{id:edge.to})}\nDirection: ${segmentIsBidirectional(edge,index)?'registered in both directions':'from origin toward destination'}\n${(corridors.get(edge.corridor_id)||{}).code||edge.corridor_id}\nMode: ${edge.mode_note||edge.transport_mode}\nGeometry: ${edge.geometry_status||'registered topology'}\n${edge.evidence_state}`;path.append(title);routes.append(path);
+        if(isActive&&animate&&animationStyle==='particles'&&particleCount<80){const particle=element('circle',{r:'.045',class:'flow-particle'}),motion=element('animateMotion',{path:pathData,dur:'2s',begin:`${(particleCount%12)*.12}s`,repeatCount:'indefinite'});particle.append(motion);routes.append(particle);particleCount++}
+        const directionKey=`${edge.from}>${edge.to}`;
+        if(animate&&directionalSelection&&!animatedDirections.has(directionKey)&&particleCount<100){appendSelectedFlowArrow(routes,pathData,{delay:(particleCount%14)*.11,traced:traced&&!selectedEdge});animatedDirections.add(directionKey);particleCount++}
+        const reverseIndices=reverseEdgeIndices(edge,index),reverseWillAnimate=reverseIndices.some(reverseIndex=>directionallySelected(mapData.edges[reverseIndex],reverseIndex)),reverseKey=`${edge.to}>${edge.from}`;
+        if(animate&&directionalSelection&&reverseIndices.length&&!reverseWillAnimate&&!animatedDirections.has(reverseKey)&&particleCount<100){appendSelectedFlowArrow(routes,pathData,{reverse:true,delay:(particleCount%14)*.11});animatedDirections.add(reverseKey);particleCount++}
+      });
+      if(document.getElementById('useTemporal').checked&&temporalSnapshot){
+        const source=selectedSource();
+        activeTemporalRecords().filter(record=>record.evidence_type==='route'&&recordMatchesSource(record,source)&&record.destination).forEach((record,recordIndex)=>{const destination=[...mapData.nodes,...mapData.sources].find(item=>[item.id,item.name,item.label,item.code].some(value=>normalized(value)===normalized(record.destination)));if(!source||!destination)return;const directed=shortestDirectedPath(source.id,destination.id,edgeIndicesForSource(source));if(!directed)return;directed.edges.forEach((edgeIndex,segmentIndex)=>{const edge=mapData.edges[edgeIndex],from=coords.get(edge.from),to=coords.get(edge.to);if(!from||!to)return;const path=element('path',{d:edgePath(edge,from,to),class:`route active ${edge.transport_mode==='multimodal_candidate'?'multimodal':''} ${animate?`pulse anim-${animationStyle}`:''}`,stroke:'#c02d8a'});path.style.strokeWidth='3.6px';if(animate)path.style.animationDelay=`${recordIndex*.2+segmentIndex*.08}s`;const title=element('title');title.textContent=`Dated evidence route: ${source.name} → ${mapName(destination)}\nObserved ${record.observed_at}\n${record.source_uri}`;path.append(title);routes.append(path)})})
+      }
+      const effects=featureGroup(svg,'effectLayer');
+      if(pendingDestinationRow&&Number.isFinite(Number(pendingDestinationRow.dataset.anchorLon))&&Number.isFinite(Number(pendingDestinationRow.dataset.anchorLat))){const lon=Number(pendingDestinationRow.dataset.anchorLon),lat=Number(pendingDestinationRow.dataset.anchorLat),marker=element('circle',{cx:lon,cy:-lat,r:'.13',class:'pending-anchor'}),title=element('title');title.textContent=`Temporary unsaved node anchor\n${pendingNodeName()||'Unnamed node'}\n${lat.toFixed(5)} N, ${lon.toFixed(5)} E`;marker.append(title);effects.append(marker)}
+      if(document.getElementById('showExposure').checked&&lastResult&&(!document.getElementById('useTemporal').checked||temporalHasContaminant)){const resultMap=new Map(lastResult.destinations.map(d=>[normalized(d.name),d])),max=Math.max(...lastResult.destinations.map(d=>d.consumption_reference),.0001);mapData.nodes.forEach(n=>{const r=resultMap.get(normalized(n.name));if(!r)return;const radius=.13+.20*Math.sqrt(Math.max(0,r.consumption_reference)/max),risk=r.cancer_risk_reference;effects.append(element('circle',{cx:n.lon,cy:-n.lat,r,class:risk>=1e-4?'risk-ring serious':risk>=1e-6?'risk-ring screening':'consumption-ring'}))})}
+      const markers=featureGroup(svg,'markerLayer'),labels=featureGroup(svg,'labelLayer');
+      mapData.nodes.forEach(n=>{
+        const sink=nodeSinkPriority(n),rank=sink.rank,external=n.map_class==='external_terminal',forced=external||allFeaturesSelected||selectedNodeIds.has(n.id)||(traceState&&(traceState.nodeIds.has(n.id)||traceState.sinkIds.has(n.id))),labelForced=external||(forced&&!allFeaturesSelected),baseClass=external?'external-terminal':n.map_class==='source_proximate'?'source-proximate':n.map_class==='intercept_transit'?'transit':'',traceClass=!traceState?'':traceState.sinkIds.has(n.id)?'traced trace-sink':traceState.nodeIds.has(n.id)?'traced':'marker-dimmed',selectedClass=allFeaturesSelected?'all-selected':selectedNodeIds.has(n.id)?'user-selected':'',onClick=e=>{e.stopPropagation();toggleNodeSelection(n,e)},onContext=e=>openNodeContext(e,n),nodeRadius=.055+.018*rank,priorityScore=sink.tonnes||0;
+        const hit=element('circle',{cx:n.lon,cy:-n.lat,r:'.10',class:'marker-hit node-zoom-item','data-rank':rank,'data-priority-score':priorityScore,'data-force':forced?'1':'0'});hit.onclick=onClick;hit.oncontextmenu=onContext;markers.append(hit);
+        const externalRadius=.075,c=external?element('path',{d:`M${n.lon-externalRadius} ${-n.lat-externalRadius} L${n.lon+externalRadius} ${-n.lat+externalRadius} M${n.lon+externalRadius} ${-n.lat-externalRadius} L${n.lon-externalRadius} ${-n.lat+externalRadius}`,class:`node-marker node-zoom-item external-terminal ${traceClass} ${selectedClass}`,'data-rank':rank,'data-priority-score':priorityScore,'data-force':'1'}):element('circle',{cx:n.lon,cy:-n.lat,r:nodeRadius,class:`node-marker node-zoom-item ${baseClass} ${traceClass} ${selectedClass}`,'data-rank':rank,'data-priority-score':priorityScore,'data-force':forced?'1':'0'});const t=element('title');t.textContent=`Left-click node to select; right-click for network options\n${n.code} — ${mapName(n)}\n${n.role}\nSink: ${sink.tonnes===null?'not calculated':`${fmt(sink.tonnes,1)} t/y`}\n${sink.basis}\n${n.evidence_state}`;c.append(t);c.onclick=onClick;c.oncontextmenu=onContext;markers.append(c);
+        const txt=element('text',{x:n.lon+.10,y:-n.lat-.08,class:'map-label node-zoom-label','data-rank':rank,'data-priority-score':priorityScore,'data-force':labelForced?'1':'0','data-lon':n.lon,'data-lat':n.lat,'data-dx':'8','data-dy':'-6'});txt.textContent=mapName(n);labels.append(txt)
+      });
+      const selected=selectedSource();
+      [...mapData.sources].sort((a,b)=>(Number(a.display_priority_score)||0)-(Number(b.display_priority_score)||0)).forEach(s=>{
+        const priorityClass=Number(s.display_priority_class||0),priorityScore=Number(s.display_priority_score||0),forced=allFeaturesSelected||(selected&&s.id===selected.id)||multiSourceIds.has(s.id)||selectedSourceIds.has(s.id)||(traceState&&traceState.sourceIds.has(s.id)),labelForced=forced&&!allFeaturesSelected,r=.09+.014*priorityClass,d=`M${s.lon} ${-s.lat-r} L${s.lon+r} ${-s.lat} L${s.lon} ${-s.lat+r} L${s.lon-r} ${-s.lat} Z`,provisional=['provisional','aggregate','candidate'].some(x=>(s.coordinate_status||'').toLowerCase().includes(x)),traceClass=!traceState?'':traceState.sourceIds.has(s.id)?'traced trace-upstream':'marker-dimmed',selectedClass=allFeaturesSelected?'all-selected':selectedSourceIds.has(s.id)?'user-selected':'',onClick=e=>{e.stopPropagation();selectMapSource(s,e)},onContext=e=>openSourceContext(e,s);
+        const hit=element('path',{d,class:'marker-hit source-zoom-item','data-priority-class':priorityClass,'data-priority-score':priorityScore,'data-force':forced?'1':'0'});hit.onclick=onClick;hit.oncontextmenu=onContext;markers.append(hit);
+        const p=element('path',{d,class:`source-marker source-zoom-item surplus-${priorityClass} ${provisional?'provisional':''} ${traceClass} ${selectedClass}`,'data-priority-class':priorityClass,'data-priority-score':priorityScore,'data-force':forced?'1':'0'});const t=element('title');t.textContent=`Left-click source to select; right-click for network options\n${mapName(s)} — ${s.name}\n${s.source_class}\nDisplay priority: ${s.display_priority_label||'not classified'}\nBasis: ${s.display_priority_basis||'not retained'}\n${s.evidence_state}`;p.append(t);p.onclick=onClick;p.oncontextmenu=onContext;markers.append(p);
+        if(selected&&s.id===selected.id){const riskEnabled=!document.getElementById('useTemporal').checked||temporalHasContaminant,maxRisk=riskEnabled&&lastResult?Math.max(...lastResult.destinations.map(d=>d.cancer_risk_reference),0):0;effects.append(element('circle',{cx:s.lon,cy:-s.lat,r:'.22',class:`selected-source ${maxRisk>=1e-4?'serious':maxRisk>=1e-6?'screening':''}`}))}
+        const txt=element('text',{x:s.lon+.12,y:-s.lat+.16,class:'map-label source-label source-zoom-label','data-priority-class':priorityClass,'data-priority-score':priorityScore,'data-force':labelForced?'1':'0','data-lon':s.lon,'data-lat':s.lat,'data-dx':'9','data-dy':'10'});txt.textContent=mapName(s);labels.append(txt)
+      });
+      const animationRunning=animate&&reachableEdges.size>0;
+      updateSourceAlert();updateMapLegend(active,corridors);applyView();document.getElementById('mapStatus').textContent=`${mapData.sources.length} registered sources · ${mapData.nodes.length} places · ${reachableEdges.size} active source-linked segments · ${animationRunning?'continuous flow animation active':animationStyle==='static'?'static display selected':'flow animation ready'} · ${mapData.user_topology_count||0} dated user additions`;
+    }
+
+    function updateSourceAlert(){const box=document.getElementById('sourceAlert'),source=selectedSource(),contaminant=selectedAnalyte(),concentration=number('concentration');box.className='source-alert';if(!source){box.innerHTML='<b>Contaminant hazard/exposure alert</b><br>No production source selected.';return}if(document.getElementById('useTemporal').checked&&temporalSnapshot&&!temporalHasContaminant){box.innerHTML=`<b>No active edible-tissue contaminant record</b><br>${esc(source.label)} · ${esc(contaminant)} at the selected ${esc(temporalSnapshot.axis)}-time cutoff (${esc(temporalSnapshot.as_of.slice(0,10))}).<br>No exposure ring is propagated. This means “not retained in the active ledger,” not “no contamination.”`;return}if(!lastResult){box.innerHTML=`<b>${esc(source.label)} contaminant alert</b><br>${esc(contaminant)}: ${fmt(concentration)} mg/kg edible-tissue input.<br>Run the model to propagate exposure.`;return}const risks=lastResult.destinations.map(d=>d.cancer_risk_reference),maxRisk=Math.max(...risks,0),screening=risks.filter(v=>v>=1e-6).length,serious=risks.filter(v=>v>=1e-4).length;if(source.id==='CHAMO_LAKE'){box.classList.add(serious?'serious':'screening');box.innerHTML=`<b>Lake Chamo evidence alert</b><br>Edible muscle: DDE 0.01–0.03 mg/kg; catfish DDD 0.02 mg/kg; Bagrus chlorpyrifos 0.24 mg/kg.<br>Documented-consumption recalculation: 3/4 species ≥ 10⁻⁶ at 3.62 kg/year; 4/4 ≥ 10⁻⁶ and 0/4 ≥ 10⁻⁴ at 8.5 kg/year.<br><b>Current dated scenario:</b> ${screening}/${risks.length} destinations ≥ 10⁻⁶; ${serious}/${risks.length} ≥ 10⁻⁴; maximum CR ${fmt(maxRisk,2)}.`;return}if(serious)box.classList.add('serious');else if(screening)box.classList.add('screening');const state=serious?'<b>Serious screening alert</b>':screening?'<b>Elevated screening alert</b>':'<b>Below the 10⁻⁶ screening reference in this scenario</b>';box.innerHTML=`${state}<br><b>${esc(source.label)} · ${esc(contaminant)}</b>: ${fmt(concentration)} mg/kg edible-tissue input.<br>${screening}/${risks.length} mapped destinations ≥ 10⁻⁶; ${serious}/${risks.length} ≥ 10⁻⁴. Maximum modeled CR: ${fmt(maxRisk,2)}.`}
+
+    function updateMapLegend(active,corridors){const box=document.getElementById('mapLegend'),visible=[...active].filter(id=>corridors.has(id));box.innerHTML='';visible.forEach(id=>{const c=corridors.get(id),s=document.createElement('span');s.innerHTML=`<i class="line-key" style="background:${c.color}"></i>${esc(c.code)} ${esc(c.name)}`;box.append(s)});const note=document.createElement('span');note.textContent='◆ diamond size/order = outbound-surplus evidence priority   ● circle size/order = active-scenario sink tonnes   ✕ orange cross = external sink   rings = modeled exposure';box.append(note);const sourceHeading=document.createElement('span');sourceHeading.className='legend-heading';sourceHeading.textContent='Production-source label key';box.append(sourceHeading);[...mapData.sources].sort((a,b)=>a.label.localeCompare(b.label)).forEach(source=>{const key=document.createElement('span');key.className='source-name-key';key.innerHTML=`<b>${esc(source.label)}</b> = ${esc(source.name)}`;box.append(key)});const boundaryNote=document.createElement('span');boundaryNote.className='legend-heading';boundaryNote.textContent=`Regional ADM0 context: ${mapData.regional_context_sources?.provider||'audited boundary register'}`;box.append(boundaryNote);document.getElementById('mapLegendStatus').textContent=`${visible.length} corridor key${visible.length===1?'':'s'} · ${mapData.sources.length} canonical source-name keys · source-surplus and sink-quantity hierarchy · allocation and risk output`}
+    function inspectItem(item,type){selectedMapItem={item,type};const box=document.getElementById('mapInspector');if(type==='source'){const alert=document.getElementById('sourceAlert').innerHTML;box.innerHTML=`<b>${esc(item.label)} — ${esc(item.name)}</b><br>${esc(item.source_class)} · ${esc(item.region)}<br>Quantity: ${esc(item.quantity_status)}<br>Display priority: ${esc(item.display_priority_label||'not classified')}<br>Priority basis: ${esc(item.display_priority_basis||'not retained')}<br>Evidence: ${esc(item.evidence_state)}<br>${selectedSource()&&item.id===selectedSource().id?`<hr>${alert}`:''}<br><button id="useMapItem">Use as production source</button>`}else{const sink=nodeSinkPriority(item);box.innerHTML=`<b>${esc(item.code)} — ${esc(item.name)}</b><br>${esc(item.role)}<br>Active-scenario sink: ${sink.tonnes===null?'not calculated':`${fmt(sink.tonnes,1)} t/y`}<br>${esc(sink.basis)}<br>Evidence: ${esc(item.evidence_state)}<br><button id="useMapItem">Add as destination node</button>`}document.getElementById('useMapItem').onclick=useInspectedItem}
+    function useInspectedItem(){if(!selectedMapItem)return;const {item,type}=selectedMapItem;if(type==='source'){traceSource(item)}else{const high=['NATIONAL_TERMINAL','REGIONAL_HUB','HIGH_LOCAL_CULTURAL'].includes(item.tier);add({name:item.name,pop:high?500000:100000,time:3,market:high?.8:.4,tradition:item.map_class==='source_proximate'?.9:.35,route:.75,q:.1,reachable:true})}}
+
+    function applyView(){
+      const svg=document.getElementById('geoMap');svg.setAttribute('viewBox',`${mapView.x} ${mapView.y} ${mapView.w} ${mapView.h}`);const screenWidth=Math.max(320,svg.getBoundingClientRect().width||700),unitPerPixel=mapView.w/screenWidth;svg.style.setProperty('--map-label-size',`${13.333*unitPerPixel}px`);svg.style.setProperty('--map-label-stroke',`${1.35*unitPerPixel}px`);svg.style.setProperty('--context-label-size',`${12*unitPerPixel}px`);svg.style.setProperty('--context-label-stroke',`${1.15*unitPerPixel}px`);svg.querySelectorAll('.map-label[data-lon]').forEach(label=>{label.setAttribute('x',Number(label.dataset.lon)+Number(label.dataset.dx||0)*unitPerPixel);label.setAttribute('y',-Number(label.dataset.lat)+Number(label.dataset.dy||0)*unitPerPixel)});
+      const width=mapView.w,nodeMarkerThreshold=width>=18?3:width>=12?2:width>=8?1:0,nodeLabelThreshold=width>=18?4:width>=13?3:width>=8?2:0,sourceLabelThreshold=width>=18?3:width>=13?2:0,showAllSourceLabels=document.getElementById('showOtherSources').checked;
+      svg.querySelectorAll('.node-zoom-item').forEach(item=>item.style.display=item.dataset.force==='1'||Number(item.dataset.rank)>=nodeMarkerThreshold?'':'none');
+      svg.querySelectorAll('.node-zoom-label').forEach(item=>item.style.display=item.dataset.force==='1'||Number(item.dataset.rank)>=nodeLabelThreshold?'':'none');
+      svg.querySelectorAll('.source-zoom-item').forEach(item=>item.style.display='');
+      svg.querySelectorAll('.source-zoom-label').forEach(item=>item.style.display=item.dataset.force==='1'||showAllSourceLabels||Number(item.dataset.priorityClass)>=sourceLabelThreshold?'':'none');
+      svg.querySelectorAll('.regional-label').forEach(item=>item.style.display=width>=12?'':'none');
+      retainPriorityLabels([...svg.querySelectorAll('.node-zoom-label')],retainPriorityLabels([...svg.querySelectorAll('.source-zoom-label')],[]));
+      svg.classList.toggle('map-detail',width<9);document.getElementById('mapScale').textContent=width<5?'Detailed node view · all nodes available; sink size retained':width<9?'Subregional view · sink-ranked nodes revealed':width<18?'Ethiopia national view · source-surplus and sink-quantity hierarchy':'Horn regional overview · sources ordered by surplus evidence; largest sinks retained'
+    }
+    function zoom(factor,cx=mapView.x+mapView.w/2,cy=mapView.y+mapView.h/2){const nw=Math.max(1.4,Math.min(initialView.w,mapView.w*factor)),nh=nw*(initialView.h/initialView.w);mapView={x:cx-(cx-mapView.x)*(nw/mapView.w),y:cy-(cy-mapView.y)*(nh/mapView.h),w:nw,h:nh};applyView()}
+    function pointerMap(e){const rect=document.getElementById('geoMap').getBoundingClientRect();return{x:mapView.x+(e.clientX-rect.left)/rect.width*mapView.w,y:mapView.y+(e.clientY-rect.top)/rect.height*mapView.h}}
+    async function selectPrimarySource(id){document.getElementById('mapSource').value=id;document.getElementById('source').value=id;clearFeatureSelection();[...document.getElementById('multiSources').options].forEach(option=>option.selected=option.value===id);populateCorridorFilter();document.getElementById('corridorFilter').value='__source__';syncDestinationsToSource(selectedSource());resetSourceInputs();await loadTemporalSnapshot(false);renderMap(true)}
+    function bindMapControls(){
+      if(controlsBound)return;
+      controlsBound=true;
+      bindSelectionInspector();
+      const svg=document.getElementById('geoMap'),interactiveSelector='.route-hit,.marker-hit,.node-marker,.source-marker';
+      svg.addEventListener('click',e=>{if(suppressNextMapClick){suppressNextMapClick=false;e.preventDefault();e.stopImmediatePropagation()}},true);
+      svg.addEventListener('wheel',e=>{hideMapContextMenu();e.preventDefault();const p=pointerMap(e);zoom(e.deltaY>0?1.18:.84,p.x,p.y);scheduleAutoHideControls()},{passive:false});
+      svg.addEventListener('pointerdown',e=>{if(pendingAnchorMode){e.preventDefault();e.stopPropagation();anchorPendingNodeAt(pointerMap(e));return}if(e.target.closest&&e.target.closest(interactiveSelector))return;hideMapContextMenu();drag={point:pointerMap(e),view:{...mapView}};svg.setPointerCapture(e.pointerId);svg.classList.add('dragging')});
+      svg.addEventListener('pointermove',e=>{if(!drag)return;const p=pointerMap(e);mapView.x=drag.view.x-(p.x-drag.point.x);mapView.y=drag.view.y-(p.y-drag.point.y);applyView()});
+      svg.addEventListener('pointerup',()=>{drag=null;svg.classList.remove('dragging');scheduleAutoHideControls()});
+      svg.addEventListener('pointercancel',()=>{drag=null;svg.classList.remove('dragging')});
+      svg.addEventListener('click',()=>scheduleAutoHideControls());
+      svg.addEventListener('dblclick',e=>{if(e.target.closest&&e.target.closest(interactiveSelector))return;const p=pointerMap(e);zoom(.7,p.x,p.y)});
+      svg.addEventListener('contextmenu',e=>{if(e.target===svg){e.preventDefault();hideMapContextMenu()}});
+      document.addEventListener('keydown',e=>{if(e.key!=='Escape')return;if(document.fullscreenElement){e.preventDefault();document.exitFullscreen();return}if(pendingAnchorMode)cancelPendingAnchor()});
+      document.getElementById('toggleMapControls').onclick=()=>setMapControlsCollapsed(!document.getElementById('mapCard').classList.contains('controls-collapsed'));
+      document.getElementById('toggleMapControlsDock').onclick=()=>setMapControlsCollapsed(!document.getElementById('mapCard').classList.contains('controls-collapsed'));
+      document.getElementById('autoHideMapControls').onchange=e=>{if(!e.target.checked){clearTimeout(controlHideTimer);controlHideTimer=null}else if(document.fullscreenElement)scheduleAutoHideControls(100)};
+      document.getElementById('mapRun').onclick=run;
+      document.getElementById('mapRunDock').onclick=run;
+      document.getElementById('traceSelection').onclick=traceSelection;
+      document.getElementById('traceSelectionDock').onclick=traceSelection;
+      document.getElementById('selectAllMap').onclick=selectAllMapFeatures;
+      document.getElementById('selectAllMapDock').onclick=selectAllMapFeatures;
+      document.getElementById('clearTrace').onclick=()=>{const selected=selectedSource();[...document.getElementById('multiSources').options].forEach(option=>option.selected=selected&&option.value===selected.id);populateCorridorFilter();hideSelectionInspector(true)};
+      document.getElementById('clearTraceDock').onclick=()=>document.getElementById('clearTrace').click();
+      document.getElementById('zoomIn').onclick=()=>{zoom(.72);scheduleAutoHideControls()};
+      document.getElementById('zoomInDock').onclick=()=>zoom(.72);
+      document.getElementById('zoomOut').onclick=()=>{zoom(1.3);scheduleAutoHideControls()};
+      document.getElementById('zoomOutDock').onclick=()=>zoom(1.3);
+      document.getElementById('resetMap').onclick=()=>{mapView={...initialView};applyView()};
+      document.getElementById('resetMapDock').onclick=()=>{mapView={...initialView};applyView()};
+      const toggleFullMap=async()=>{hideMapContextMenu();const card=document.getElementById('mapCard');if(document.fullscreenElement)await document.exitFullscreen();else{if(document.getElementById('autoHideMapControls').checked)setMapControlsCollapsed(true);await card.requestFullscreen()}};
+      document.getElementById('fullMap').onclick=toggleFullMap;
+      document.getElementById('fullMapDock').onclick=toggleFullMap;
+      document.addEventListener('fullscreenchange',()=>{const full=Boolean(document.fullscreenElement);document.getElementById('fullMap').textContent=full?'Exit full screen':'Full-screen map';document.getElementById('fullMapDock').textContent=full?'Exit full screen':'Full screen';if(full&&document.getElementById('autoHideMapControls').checked)setMapControlsCollapsed(true);setTimeout(()=>{applyView();clampSelectionInspector()},280)});
+      document.getElementById('corridorFilter').onchange=()=>{clearFeatureSelection();renderMap(true)};
+      document.getElementById('backgroundRoutes').onchange=()=>renderMap(false);
+      document.getElementById('showOtherSources').onchange=()=>renderMap(false);
+      document.getElementById('showExposure').onchange=()=>renderMap(false);
+      document.getElementById('animationType').onchange=()=>renderMap(true);
+      document.getElementById('multiSources').onchange=()=>{selectedSourceIds=new Set([...document.getElementById('multiSources').selectedOptions].map(option=>option.value));populateCorridorFilter();reconcileSelectionOrder();syncFeatureTrace();selectionSummary('Source multi-selection');renderMap(true)};
+      document.getElementById('multiSelectMode').onchange=e=>{document.getElementById('multiSelectModeDock').checked=e.target.checked;document.getElementById('mapInspector').textContent=e.target.checked?'Additive multi-select is active: each source, node or route click is retained.':'Replace-selection mode is active; Shift/Ctrl-click still adds features.'};
+      document.getElementById('multiSelectModeDock').onchange=e=>{document.getElementById('multiSelectMode').checked=e.target.checked;document.getElementById('multiSelectMode').dispatchEvent(new Event('change'))};
+      document.getElementById('mapSource').onchange=async e=>selectPrimarySource(e.target.value);
+      document.getElementById('source').onchange=async e=>selectPrimarySource(e.target.value)
+    }
+
+    function fillSelect(select,items,valueFor,labelFor,placeholder){select.innerHTML=placeholder?`<option value="">${esc(placeholder)}</option>`:'';items.forEach(item=>{const option=document.createElement('option');option.value=valueFor(item);option.textContent=labelFor(item);select.append(option)})}
+    async function loadMap(){const previous=(document.getElementById('mapSource').value||document.getElementById('source').value),previousMulti=new Set([...document.getElementById('multiSources').selectedOptions].map(option=>option.value)),year=document.getElementById('asOfSlider').value,axis=document.getElementById('timeAxis').value,r=await fetch(`/api/map?as_of=${encodeURIComponent(year+'-12-31T23:59:59Z')}&axis=${encodeURIComponent(axis)}`),data=await r.json();if(!r.ok)throw new Error(data.error||'map data failed');mapData=data;traceState=null;selectedNodeIds=new Set([...selectedNodeIds].filter(id=>data.nodes.some(node=>node.id===id)));selectedEdgeIndices=new Set([...selectedEdgeIndices].filter(index=>index>=0&&index<data.edges.length));selectedSourceIds=new Set([...selectedSourceIds].filter(id=>data.sources.some(source=>source.id===id)));const sources=[...data.sources].sort((a,b)=>a.name.localeCompare(b.name)),selected=sources.some(s=>s.id===previous)?previous:(sources.some(s=>s.id==='CHAMO_LAKE')?'CHAMO_LAKE':sources[0].id);fillSelect(document.getElementById('mapSource'),sources,s=>s.id,s=>`${s.label} — ${s.name}`);fillSelect(document.getElementById('source'),sources,s=>s.id,s=>`${s.label} — ${s.name}`);fillSelect(document.getElementById('multiSources'),sources,s=>s.id,s=>`${mapName(s)} — ${s.name}`);document.getElementById('mapSource').value=selected;document.getElementById('source').value=selected;const retained=[...document.getElementById('multiSources').options].filter(option=>previousMulti.has(option.value));if(retained.length)retained.forEach(option=>option.selected=true);else{const primary=[...document.getElementById('multiSources').options].find(option=>option.value===selected);if(primary)primary.selected=true}populateCorridorFilter();fillSelect(document.getElementById('routeCorridor'),[...data.corridors].sort((a,b)=>a.code.localeCompare(b.code)),c=>c.id,c=>`${c.code} — ${c.name}`,'Select registered corridor');const endpoints=[...data.sources.map(s=>({...s,typeLabel:'SOURCE'})),...data.nodes.map(n=>({...n,typeLabel:'PLACE'}))].sort((a,b)=>(a.name||a.label).localeCompare(b.name||b.label));fillSelect(document.getElementById('routeFrom'),endpoints,x=>x.id,x=>`${x.typeLabel}: ${mapName(x)}`,'Select registered source/place');fillSelect(document.getElementById('routeTo'),endpoints,x=>x.id,x=>`${x.typeLabel}: ${mapName(x)}`,'Select registered source/place');bindMapControls();if(!document.querySelector('#destinations tr'))syncDestinationsToSource(selectedSource());renderMap(false)}
+    async function refreshDatedState(runAfter=false){await loadMap();await loadTemporalSnapshot(false);if(runAfter)await run();else renderMap(false)}
+
+    document.getElementById('addRow').onclick=startPendingNode;
+    document.getElementById('removeRow').onclick=()=>{const rows=document.querySelectorAll('#destinations tr'),last=rows[rows.length-1];if(last===pendingDestinationRow){discardPendingNode();return}if(rows.length>2)last.remove();updateInputSectionSummaries()};
+    document.getElementById('anchorPendingNode').onclick=beginPendingNodeAnchor;
+    document.getElementById('savePendingNode').onclick=savePendingNodeToLedger;
+    document.getElementById('discardPendingNode').onclick=discardPendingNode;
+    ['pendingNodeSource','pendingNodeDate','pendingNodeRole','pendingNodeVerified'].forEach(id=>document.getElementById(id).addEventListener('input',updatePendingNodeRegistration));
+    document.getElementById('run').onclick=run;
+    document.getElementById('asOfSlider').oninput=e=>{document.getElementById('asOfLabel').textContent=e.target.value;updateTemporalSectionSummary()};
+    document.getElementById('asOfSlider').onchange=()=>refreshDatedState(false);
+    document.getElementById('timeAxis').onchange=()=>{updateTemporalSectionSummary();refreshDatedState(false)};
+    document.getElementById('useTemporal').onchange=async()=>{updateTemporalSectionSummary();if(document.getElementById('useTemporal').checked)await loadTemporalSnapshot(false);else{stateRequestToken++;temporalHasContaminant=nullableNumber('concentration')!==null;invalidateResults('Dated evidence is paused; visible values are now editable manual scenario inputs.');if(sourceState){renderSourceState(sourceState);document.getElementById('sourceDataStatus').insertAdjacentHTML('afterbegin',stateItem('Manual scenario mode','Automatic ledger refresh is paused. Edited values must be retained with their evidence provenance.','manual'))}renderMap(false)}};
+    ['production','coverage','concentration'].forEach(id=>document.getElementById(id).addEventListener('input',()=>{updateInputSectionSummaries();if(suppressManualState)return;invalidateResults(`${id==='production'?'Production':id==='coverage'?'Coverage':'Concentration'} was edited manually; choose Run/update to recalculate.`);if(sourceState){renderSourceState(sourceState);document.getElementById('sourceDataStatus').insertAdjacentHTML('afterbegin',stateItem('Manual override',`${esc(id)} no longer equals the automatically loaded record for this scenario.`, 'manual'));document.getElementById('sourceDataDetailsStatus').textContent=`Manual override · ${document.getElementById('sourceDataDetailsStatus').textContent}`}}));
+    document.getElementById('destinations').addEventListener('input',event=>{if(pendingDestinationRow&&pendingDestinationRow.contains(event.target))updatePendingNodeRegistration();updateInputSectionSummaries();if(suppressManualState)return;invalidateResults('Destination priors or evidence shares were edited manually; choose Run/update to recalculate.')});
+    document.getElementById('playTimeline').onclick=playTimeline;
+    document.getElementById('appendEvidence').onclick=appendEvidenceRecord;
+    document.getElementById('topologyKind').onchange=updateTopologyForm;
+    document.getElementById('appendTopology').onclick=appendTopologyObject;
+    document.getElementById('confirmRetirement').onclick=saveTopologyRetirement;
+    document.getElementById('cancelRetirement').onclick=closeTopologyRetirement;
+    document.getElementById('retirementDialog').addEventListener('cancel',()=>{pendingRetirement=null});
+    document.getElementById('species').onchange=async()=>{const species=selectedSpecies();document.getElementById('evidenceSpecies').value=species==='__all__'?'':species;updateInputSectionSummaries();await loadTemporalSnapshot(false)};
+    document.getElementById('contaminant').onchange=async()=>{const custom=document.getElementById('contaminant').value==='__custom__';document.getElementById('customContaminant').classList.toggle('visible',custom);const analyte=selectedAnalyte();document.getElementById('evidenceProduct').value=analyte;if(analyte==='DDE')document.getElementById('slope').value=.34;else if(analyte==='DDD')document.getElementById('slope').value=.24;else{document.getElementById('slope').value=0;document.getElementById('message').textContent='No cancer slope factor is assigned automatically for this analyte.'}updateInputSectionSummaries();await loadTemporalSnapshot(false)};
+    document.getElementById('customContaminant').onchange=()=>{document.getElementById('evidenceProduct').value=selectedAnalyte();updateInputSectionSummaries();loadTemporalSnapshot(false)};
+    document.getElementById('download').onclick=async()=>{if(!lastResult)await run();if(!lastResult)return;const b=new Blob([JSON.stringify({generated_at:new Date().toISOString(),input:lastPayload,result:lastResult,map:{source_id:document.getElementById('mapSource').value,corridor_filter:document.getElementById('corridorFilter').value}},null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='TEMFLOW_scenario_snapshot.json';a.click();URL.revokeObjectURL(a.href)};
+    defaults.forEach(add);updateTopologyForm();
+    Promise.all([fetch('/api/health').then(r=>r.json()),refreshDatedState(false)]).then(([health])=>{document.getElementById('serverStatus').textContent=`local core: ${health.version}`;document.getElementById('message').textContent='Latest compatible source records loaded; choose Run/update to calculate.'}).catch(e=>{document.getElementById('serverStatus').textContent='local core: interface error';document.getElementById('mapStatus').textContent=e.message;document.getElementById('mapStatus').className='error';document.getElementById('message').textContent=e.message;document.getElementById('message').className='message error'});
+  </script>
+</body>
+</html>
+
