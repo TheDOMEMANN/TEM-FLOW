@@ -30,7 +30,9 @@ and do not establish contaminant transport along a route.
 
 ## Verification
 
-- 158 unit and integration tests passed.
+- 175 unit and integration tests were run in the public package: 173 passed
+  and 2 provenance checks were skipped because the editor-private application
+  ledger is intentionally excluded.
 - All eight installed-package validation gates passed.
 - The embedded browser JavaScript passed `node --check`.
 - The live reviewer interface produced CPC 36.5–73.0 kg/person/year, estimated

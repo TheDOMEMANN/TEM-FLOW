@@ -115,8 +115,8 @@
     },
     {
       "path": "RELEASE_NOTES_1.0.0.md",
-      "bytes": 2051,
-      "sha256": "98e87a332db01780e6f5ae61845705f840d20c0b343e6d4672ad4bcbfaec43b1"
+      "bytes": 2200,
+      "sha256": "091ecf1660c498584674e98e37750147ef6f1967869bbeaac900e72ef2dcf572"
     },
     {
       "path": "Restart TEM-FLOW.cmd",
