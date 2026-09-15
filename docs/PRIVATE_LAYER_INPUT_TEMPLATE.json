@@ -1,6 +1,7 @@
 {
   "_schema_version": "1.0.0",
   "_instructions": "Populate only the layers you choose to enable. This template contains no application data.",
+  "od_evidence": [],
   "cpc_compatibility": {
     "identified_lower": null,
     "identified_upper": null,
@@ -8,7 +9,36 @@
     "measured_upper": null,
     "concentration_mg_per_kg_food": null,
     "body_weight_kg": null,
-    "reference_dose_mg_per_kg_day": null
+    "reference_dose_mg_per_kg_day": null,
+    "signature": {
+      "country": "",
+      "food_domain": "",
+      "commodity": "",
+      "product_form": "",
+      "destination": "",
+      "period": "",
+      "denominator": "",
+      "unit": ""
+    },
+    "evidence_ids": []
+  },
+  "certificates": {
+    "direct_cpc": {
+      "status": "certified",
+      "certificate_id": "",
+      "signature": {
+        "country": "",
+        "food_domain": "",
+        "commodity": "",
+        "product_form": "",
+        "destination": "",
+        "period": "",
+        "denominator": "",
+        "unit": ""
+      },
+      "evidence_ids": [],
+      "boundary": ""
+    }
   },
   "contaminant_trace": [],
   "exposure_scenario": {

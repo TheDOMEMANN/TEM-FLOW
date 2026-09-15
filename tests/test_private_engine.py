@@ -409,6 +409,57 @@ class PrivateEngineTests(unittest.TestCase):
                 server.server_close()
                 worker.join(timeout=5)
 
+    def test_csv_endpoint_converts_and_integrates_certified_cpc_and_od_evidence(self):
+        with TemporaryDirectory() as directory:
+            server = EngineServer(("127.0.0.1", 0), Path(directory), "reviewer-secret", "author-secret")
+            worker = threading.Thread(target=server.serve_forever, daemon=True)
+            worker.start()
+            base = f"http://127.0.0.1:{server.server_port}"
+            node_id = "ETH-N-LAKE-ZIWAY-4AD5F37"
+            csv_text = (
+                "layer,record_id,observed_at,origin,destination,reported_mass,unit,identified_lower,"
+                "identified_upper,measured_lower,measured_upper,country,food_domain,commodity,product_form,"
+                "period,denominator,certificate_id,evidence_ids,claim_boundary,provenance\n"
+                "od_evidence,OD-NEW,2025-12-30,Landing,Market,100,kg/year,,,,,,,,,,,,,,ledger page 2\n"
+                "cpc_compatibility,CPC-NEW,2025-12-31,,Lake Ziway,,kg/person/year,8,12,9,11,ETH,fish,tilapia,"
+                "edible fish,2025,resident consumers,CPC-CERT-1,CPC-SOURCE-1,Exact node product period and denominator,\n"
+            )
+            headers = {"Content-Type": "application/json", "X-TEMFLOW-Token": "reviewer-secret"}
+            try:
+                conversion_request = Request(
+                    f"{base}/api/input/convert",
+                    data=json.dumps({"filename": "records.csv", "csv_text": csv_text}).encode("utf-8"),
+                    method="POST",
+                    headers=headers,
+                )
+                with urlopen(conversion_request, timeout=5) as response:
+                    conversion = json.loads(response.read())
+                self.assertEqual(conversion["status"], "converted")
+                self.assertEqual(conversion["row_count"], 2)
+                model_payload = {
+                    "node_id": node_id,
+                    "selected_node_ids": [node_id],
+                    "scope": {"countries": ["ETH"]},
+                    "layers": {"err": False, "cpc_compatibility": True},
+                    "private_layer_data": conversion["private_layer_data"],
+                }
+                model_request = Request(
+                    f"{base}/api/model/run",
+                    data=json.dumps(model_payload).encode("utf-8"),
+                    method="POST",
+                    headers=headers,
+                )
+                with urlopen(model_request, timeout=5) as response:
+                    result = json.loads(response.read())
+                self.assertEqual(result["model_steps"]["cpc_recalculation"]["status"], "explicit_node_cpc_used")
+                self.assertEqual(result["model_steps"]["cpc_recalculation"]["certificate_ids"], ["CPC-CERT-1"])
+                self.assertEqual(result["active_evidence"]["uploaded_od_evidence"][0]["record_id"], "OD-NEW")
+                self.assertEqual(result["evidence_resolved_reconstruction"]["status"], "excluded_by_user")
+            finally:
+                server.shutdown()
+                server.server_close()
+                worker.join(timeout=5)
+
     def test_model_run_uses_typed_claim_operator_and_blocks_qualitative_chemistry(self):
         with TemporaryDirectory() as directory:
             server = EngineServer(("127.0.0.1", 0), Path(directory), "reviewer-secret", "author-secret")

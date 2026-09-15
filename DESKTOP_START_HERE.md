@@ -17,7 +17,7 @@ The launcher detects changes to Python, interface and bundled data files. Launch
 
 The desktop launcher generates a private curator token on first launch and signs the local owner into that session. A plain URL opened elsewhere has read access but no editing rights. Optional reader and curator tokens can be configured in `user_data/desktop_settings.json`. Never upload that file. No global Windows settings or administrator rights are needed.
 
-The public desktop build contains the general engine and public map data. It does not contain the private Nature Food chemistry application ledger. Optional CPC, chemistry and exposure inputs can be loaded through the existing private-file controls.
+The public desktop build contains the general engine and public map data. It does not contain the private Nature Food chemistry application ledger. Optional CPC, chemistry, exposure, OD-evidence and monitoring records can be loaded as a dated CSV or as JSON through the private-file control. CSV files are validated and converted to the engine's JSON structure on your PC. Start with `docs/INPUT_GUIDE_FOR_ORDINARY_USERS.md` and `docs/TEMFLOW_DATED_RECORD_INPUT_TEMPLATE.csv`.
 
 ## Editing and checking the source
 

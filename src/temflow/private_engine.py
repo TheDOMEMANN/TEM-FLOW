@@ -20,6 +20,7 @@ from .curation import AIProposalStore, AIProviderConfig, TopologyRecord, Topolog
 from .evidential_resolution import run_evidence_resolved_payload
 from .exposure_scenario import calculate_exposure_scenario
 from .compositional import run_compositional_payload
+from .csv_intake import convert_csv_text
 from .monitoring_layers import normalize_layer_selection, summarize_private_layers
 from .tem_calculus import run_typed_model, tem_compare_and_screen
 from .versioned_registry import RevisionStore
@@ -31,6 +32,9 @@ from ._version import VERSION
 PREVIEW_BUILD_ID = preview_build_id()
 DATA_DIR = Path(__file__).with_name("data") / "patterns"
 UI_PATH = Path(__file__).with_name("data") / "patterns_private_ui.html"
+INPUT_GUIDE_PATH = Path(__file__).with_name("data") / "INPUT_GUIDE_FOR_ORDINARY_USERS.md"
+CSV_TEMPLATE_PATH = Path(__file__).with_name("data") / "TEMFLOW_DATED_RECORD_INPUT_TEMPLATE.csv"
+CSV_EXAMPLE_PATH = Path(__file__).with_name("data") / "TEMFLOW_DATED_RECORD_EXAMPLE.csv"
 
 # Display anchors are used only when the bundled polygon layer omits a small
 # island state. They never replace or assert a node coordinate.
@@ -1186,6 +1190,32 @@ class EngineHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(encoded)
             return
+        if parsed.path == "/docs/TEMFLOW_DATED_RECORD_INPUT_TEMPLATE.csv":
+            encoded = CSV_TEMPLATE_PATH.read_bytes()
+            self.send_response(200)
+            self.send_header("Content-Type", "text/csv; charset=utf-8")
+            self.send_header("Content-Disposition", 'attachment; filename="TEMFLOW_DATED_RECORD_INPUT_TEMPLATE.csv"')
+            self.send_header("Content-Length", str(len(encoded)))
+            self.end_headers()
+            self.wfile.write(encoded)
+            return
+        if parsed.path == "/docs/TEMFLOW_DATED_RECORD_EXAMPLE.csv":
+            encoded = CSV_EXAMPLE_PATH.read_bytes()
+            self.send_response(200)
+            self.send_header("Content-Type", "text/csv; charset=utf-8")
+            self.send_header("Content-Disposition", 'attachment; filename="TEMFLOW_DATED_RECORD_EXAMPLE.csv"')
+            self.send_header("Content-Length", str(len(encoded)))
+            self.end_headers()
+            self.wfile.write(encoded)
+            return
+        if parsed.path == "/docs/INPUT_GUIDE_FOR_ORDINARY_USERS.md":
+            encoded = INPUT_GUIDE_PATH.read_bytes()
+            self.send_response(200)
+            self.send_header("Content-Type", "text/markdown; charset=utf-8")
+            self.send_header("Content-Length", str(len(encoded)))
+            self.end_headers()
+            self.wfile.write(encoded)
+            return
         if parsed.path == "/api/health":
             self._json(200, {"status": "ok", "version": VERSION, "private_review": True})
             return
@@ -1420,6 +1450,11 @@ class EngineHandler(BaseHTTPRequestHandler):
                 self._json(200, run_evidence_resolved_payload(payload))
             elif parsed.path == "/api/compositional/run":
                 self._json(200, run_compositional_payload(payload))
+            elif parsed.path == "/api/input/convert":
+                csv_text = payload.get("csv_text")
+                if not isinstance(csv_text, str):
+                    raise ValueError("csv_text must be a string")
+                self._json(200, convert_csv_text(csv_text, filename=str(payload.get("filename") or "input.csv")))
             elif parsed.path == "/api/model/run":
                 node_id = str(payload.get("node_id", ""))
                 route_id = str(payload.get("route_id", ""))
@@ -1518,6 +1553,17 @@ class EngineHandler(BaseHTTPRequestHandler):
                     raise ValueError("private_layer_data must be an object")
                 private_data = dict(raw_private_data or {})
                 model_payload = dict(payload)
+                private_certificates = private_data.get("certificates")
+                if private_certificates is not None:
+                    if not isinstance(private_certificates, Mapping):
+                        raise ValueError("private_layer_data.certificates must be an object")
+                    entered_certificates = payload.get("certificates") if isinstance(payload.get("certificates"), Mapping) else {}
+                    model_payload["certificates"] = {**entered_certificates, **private_certificates}
+                uploaded_od_evidence = private_data.get("od_evidence", [])
+                if not isinstance(uploaded_od_evidence, list) or not all(isinstance(record, Mapping) for record in uploaded_od_evidence):
+                    raise ValueError("private_layer_data.od_evidence must be an array of objects")
+                if uploaded_od_evidence:
+                    active_evidence["uploaded_od_evidence"] = [dict(record) for record in uploaded_od_evidence]
                 private_cpc = private_data.get("cpc_compatibility")
                 if layers["cpc_compatibility"] and private_cpc is not None:
                     if not isinstance(private_cpc, Mapping):

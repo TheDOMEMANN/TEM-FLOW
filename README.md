@@ -40,11 +40,17 @@ value.
   never displays the animation automatically, and route pulses do not assert
   that contaminated product travelled along the displayed route.
 
-The public Patterns package contains the computational slots and a local JSON
-file loader, but no CPC or contaminant-chemistry application ledger. Sensitive
-application records can be supplied on demand and remain in browser memory for
-the active session. The editor-private package retains the frozen evidence
-ledger for confidential testing.
+The public Patterns package contains the computational slots and a local CSV or
+JSON file loader, but no contaminant-chemistry application ledger. A dated CSV
+uses one observation per row and is validated and converted internally to the
+engine's JSON contract. Sensitive application records can be supplied on
+demand and remain in browser memory for the active session. See the
+[plain-language input guide](docs/INPUT_GUIDE_FOR_ORDINARY_USERS.md) and the
+[blank CSV template](docs/TEMFLOW_DATED_RECORD_INPUT_TEMPLATE.csv). A
+[filled synthetic example](docs/TEMFLOW_DATED_RECORD_EXAMPLE.csv) shows four
+record types without disclosing application data. The
+editor-private package retains the frozen evidence ledger for confidential
+testing.
 
 Map coordinates are drawn from the audited predecessor coordinate registers
 where an exact or documented same-feature match exists. Commodity-state child

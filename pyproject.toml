@@ -30,6 +30,7 @@ temflow = [
   "data/*.json",
   "data/*.geojson",
   "data/*.html",
+  "data/*.md",
   "data/patterns/*.csv",
   "data/patterns/*.json",
   "data/patterns/*.geojson",
