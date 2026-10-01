@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "revision": "2026-10-01-structural",
+  "baseline_commit": "e7e7546030c23dc277ac6c193fb3d97bcb7d5efa",
+  "original_tag_commit": "fc339365d6ba96f55facf1811080b508ca6b4b32",
+  "original_tag_unchanged": true,
+  "new_formulation": "TEMFLOW_STRUCTURAL_2026_10_01",
+  "chemistry_values_included": false
+}

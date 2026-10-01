@@ -13,7 +13,20 @@ def main() -> int:
     subparsers.add_parser("validate", help="run installed-package validation checks")
     dashboard_parser(subparsers)
     private_engine_parser(subparsers)
+    structural = subparsers.add_parser("structural", help="calculate ranges and missing-record uncertainty from aggregate CSV or JSON")
+    structural.add_argument("input")
+    structural.add_argument("--output", required=True)
     args = parser.parse_args()
+    if args.command == "structural":
+        import json
+        from pathlib import Path
+        from .structural import load_structural_file, run_structural_payload
+        try:
+            result = run_structural_payload(load_structural_file(args.input))
+            Path(args.output).write_text(json.dumps(result, indent=2, allow_nan=False) + "\n", encoding="utf-8")
+        except (ValueError, OSError) as exc:
+            parser.error(str(exc))
+        return 0
     if args.command == "validate":
         return run_packaged_validation()
     if args.command == "dashboard":

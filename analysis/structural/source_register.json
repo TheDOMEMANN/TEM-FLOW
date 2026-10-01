@@ -1,0 +1,97 @@
+{
+  "checked_on": "2026-10-01",
+  "scope": "Bounded comparison of the precise statements and a constructive reduction; not an exhaustive priority search.",
+  "sources": [
+    {
+      "id": "Gusfield1990",
+      "authors": "Dan Gusfield",
+      "title": "A Little Knowledge Goes a Long Way: Faster Detection of Compromised Data in 2-D Tables",
+      "venue": "1990 IEEE Computer Society Symposium on Research in Security and Privacy",
+      "pages": "86-94",
+      "url": "https://csiflabs.cs.ucdavis.edu/~gusfield/littleknowledge.pdf",
+      "author_publication_list": "https://faculty.engineering.ucdavis.edu/gusfield/publications/",
+      "local_file": "Gusfield.pdf",
+      "inspection": "Scanned author PDF; first three PDF pages inspected visually. Plain text extraction did not recover usable text.",
+      "supports": "Tight uncertainty bounds for suppressed nonnegative table cells from marginal information through network flow, with reuse across cells.",
+      "does_not_establish": "Identity with the full nested-record, prospective uncertainty and shared-erasure formulation in this package."
+    },
+    {
+      "id": "Wolf2023",
+      "authors": "Matthias Wolf",
+      "title": "Designing and Expanding Electrical Networks - Complexity and Combinatorial Algorithms",
+      "venue": "Doctoral dissertation, Karlsruhe Institute of Technology",
+      "year": 2023,
+      "url": "https://publikationen.bibliothek.kit.edu/1000156516/150409911",
+      "local_file": "Wolf_2023.pdf",
+      "extracted_text": "Wolf_2023.txt",
+      "inspection": "Section 3.6, Proposition 3.16 and proof, printed pages 35-36 inspected in the full dissertation.",
+      "supports": "Budget-indexed series/parallel flow expansion recurrences: maximize over budget splits, take a minimum for series composition and a sum for parallel composition.",
+      "implication": "The fixed-target recurrence is a specialization of established dynamic programming. Truncating the budget to r already gives a corresponding limited-budget calculation; the nominal complexity cannot alone establish a new algorithm.",
+      "does_not_establish": "Priority for the complete statistical record interpretation and all-leaf statement; no assertion that this difference is sufficient for publication."
+    },
+    {
+      "id": "Demgensky2004",
+      "authors": "I. Demgensky; H. Noltemeier; H.-C. Wirth",
+      "title": "Optimizing cost flows by edge cost and capacity upgrade",
+      "venue": "Journal of Discrete Algorithms",
+      "year": 2004,
+      "volume": "2",
+      "issue": "4",
+      "pages": "407-423",
+      "doi": "10.1016/j.jda.2004.04.003",
+      "url": "https://doi.org/10.1016/j.jda.2004.04.003",
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/S1570866704000176",
+      "inspection": "Publisher-origin text retrieved through the web tool, including abstract, introduction and capacity-upgrade discussion. Direct page opening was restricted. No local full-text copy retained.",
+      "supports": "Budgeted network-capacity upgrade and relevant structured-network treatments predate this report.",
+      "does_not_establish": "An identical complete theorem, or any speed comparison with this paper."
+    },
+    {
+      "id": "WagnerWolf2021",
+      "authors": "Dorothea Wagner; Matthias Wolf",
+      "title": "The Complexity of Flow Expansion and Electrical Flow Expansion",
+      "venue": "SOFSEM 2021: Theory and Practice of Computer Science. Lecture Notes in Computer Science 12607",
+      "year": 2021,
+      "pages": "431-441",
+      "doi": "10.1007/978-3-030-67731-2_32",
+      "url": "https://publikationen.bibliothek.kit.edu/1000134698/140994861",
+      "local_file": "Wagner_Wolf_2021.pdf",
+      "extracted_text": "Wagner_Wolf_2021.txt",
+      "inspection": "Author accepted manuscript, Section 2 definitions and Section 5 Lemma 9. The detailed recurrence was checked in Wolf 2023, Proposition 3.16.",
+      "supports": "Earlier series-parallel single-source, single-sink expansion result. Capacities are integral in the source statement; simple graphs can represent parallel paths.",
+      "derived_comparison": "Proposition 5 of the TEM-FLOW research report constructs one record stage and unit-cost bypass per relevant measurement. For rational capacities this gives an exact scaled instance of the earlier expansion setting.",
+      "does_not_establish": "First-in-literature priority or the significance of the complete record-based structural characterization."
+    }
+  ],
+  "assessment": {
+    "proved_in_this_package": "Sharp cut characterization under stated assumptions; budget profiles; all-leaf computational bound; exact-record path threshold.",
+    "established_prior_ingredients": "Max-flow/min-cut, flow-based uncertainty bounds, budgeted series/parallel recurrences and tree message reuse.",
+    "unresolved": "Literature priority and substantial novelty of the complete specialization.",
+    "prohibited_claims": [
+      "First flow-based uncertainty theorem",
+      "New general observability theory",
+      "Existing methods cannot recover the same bounds under equivalent assumptions",
+      "Benchmark superiority over the fastest published method"
+    ],
+    "corrected_novelty_standard": "Equivalent numerical answers or an alternative solution do not disqualify a distinct theorem. Assess the precise relationship proved and whether it is already an equivalent theorem or a routine consequence.",
+    "explicit_overlap": "One-target worst record-loss ambiguity is exactly representable as budgeted series-parallel expansion; the core recurrence is inherited. All-target compact reuse employs standard tree techniques.",
+    "defensible_framing": "An alternative structural characterization of evidence sufficiency and fragility for nested aggregate mass records, with sharpness, all-target profiles, an exact threshold and an assumption-boundary counterexample.",
+    "priority_status": "Not certified. The absence of an identical statement in the bounded comparison is not proof of originality.",
+    "new_checks": "results/structural_comparison_summary.json"
+  },
+  "search_note": {
+    "date": "2026-10-01",
+    "queries": [
+      "laminar measurements identifiability tree",
+      "hierarchical uncertainty bounds flow measurements",
+      "series parallel flow expansion budget",
+      "tree measurement erasure identifiability",
+      "laminar partial identification",
+      "hierarchical aggregate tight bounds network flow",
+      "cospark observability sensor removal",
+      "tree all terminals budget flow expansion",
+      "The Complexity of Flow Expansion and Electrical Flow Expansion Wagner Wolf 2021",
+      "A Little Knowledge Goes a Long Way Gusfield 1990 table bounds"
+    ],
+    "limitations": "Several broad searches returned irrelevant results. Only the primary sources identified in this register were used substantively; uninspected secondary summaries were not evidence."
+  }
+}

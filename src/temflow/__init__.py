@@ -15,3 +15,5 @@ from .compositional import *  # noqa: F401,F403
 
 from ._version import VERSION as __version__
 
+
+from .structural import run_structural_payload, structural_csv_to_payload

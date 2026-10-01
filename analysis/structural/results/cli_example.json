@@ -1,0 +1,66 @@
+{
+  "status": "ok",
+  "engine_version": "1.0.0",
+  "formulation": "TEMFLOW_STRUCTURAL_2026_10_01",
+  "context": {
+    "source": "Synthetic source",
+    "commodity": "Fish",
+    "mass_unit": "kg",
+    "period_start": "2026-01-01",
+    "period_end": "2026-01-31"
+  },
+  "total_mass": 100.0,
+  "structure": "nested_groups",
+  "conditional": {
+    "status": "ok",
+    "meaning": "Sharp ranges for the entered readings and known missing records",
+    "bounds": {
+      "A": {
+        "lower": 0.0,
+        "upper": 40.0
+      },
+      "B": {
+        "lower": 0.0,
+        "upper": 40.0
+      },
+      "Unallocated": {
+        "lower": 60.0,
+        "upper": 60.0
+      }
+    }
+  },
+  "prospective": {
+    "status": "ok",
+    "method": "nested_group_tree_law",
+    "widths": {
+      "A": [
+        100.0,
+        100.0
+      ],
+      "B": [
+        100.0,
+        100.0
+      ],
+      "Unallocated": [
+        0.0,
+        100.0
+      ]
+    },
+    "accounting_nodes": 5,
+    "informative_records": 1,
+    "missing_record_budgets": [
+      0,
+      1
+    ],
+    "meaning": "Worst possible range over compatible readings, after up to this many additional records become unavailable; not a confidence interval or the range for current readings",
+    "conditional_on_known_missing_record_ids": []
+  },
+  "assumptions": [
+    "Exact source total remains known",
+    "Nonnegative destination masses sum to that total",
+    "No extra allocation constraints",
+    "Each reading has its own absolute error bound",
+    "Missing record identities are known; copied reports are not independent records"
+  ],
+  "boundary": "The accounting hierarchy does not alter or establish geographic routes."
+}

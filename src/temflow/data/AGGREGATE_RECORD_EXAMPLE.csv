@@ -1,0 +1,2 @@
+total_mass,destinations,missing_record_budget,source,commodity,mass_unit,period_start,period_end,record_id,group_destinations,error,value,observed_on,provenance
+100,A|B|Unallocated,1,Synthetic source,Fish,kg,2026-01-01,2026-01-31,market-pair-1,A|B,0,40,2026-01-31,Synthetic demonstration

@@ -70,3 +70,10 @@ TEM-FLOW is licensed under BSD-3-Clause. Add the archival DOI to `CITATION.cff` 
 For a new data format, write an explicit migration that reads the old data and writes a new copy, test it on a backup, and document the change. Never overwrite users' provenance history during an upgrade.
 
 Runtime provenance: [Python 3.13.15 release and checksums](https://www.python.org/downloads/release/python-31315/), [Python embeddable distribution documentation](https://docs.python.org/3.13/using/windows.html#the-embeddable-package), [NumPy release metadata](https://pypi.org/pypi/numpy/2.5.1/json), [SciPy release metadata](https://pypi.org/pypi/scipy/1.18.0/json). The build verifies downloaded hashes and keeps their licenses.
+
+
+## Structural formulation revision of 1 October 2026
+
+Version remains **1.0.0**. The new aggregate-record calculation reports both ranges for entered readings and worst uncertainty under missing records. [Read the input guide](docs/STRUCTURAL_INPUT_GUIDE.md). The original published v1.0.0 tag predates this revision and is retained unchanged. Use the revision manifest to identify the code used for the revised manuscript.
+
+The shared public entry point is `src/temflow/structural.py`. Its nested calculation is in `_structural_tree.py`; arbitrary overlapping groups use independent linear programs. The existing ERR and compositional solvers remain available for their broader assumptions. Update the structural integration tests and independent validation scripts whenever the mathematics is changed.

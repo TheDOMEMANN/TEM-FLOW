@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-01",
+  "all_passed": true,
+  "case_count": 72,
+  "fixed_expansion_vs_cut_checks": 11229,
+  "target_budget_profile_checks": 936,
+  "maximum_fixed_gap": 1.7763568394002505e-15,
+  "comparison": "Explicit record-stage expansion plus augmenting-path maximum flow versus independently enumerated cuts and compact tree profiles.",
+  "crossing_example": {
+    "mass": 100.0,
+    "H": [
+      [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "errors": [
+      0,
+      0
+    ],
+    "prospective_widths": [
+      50.0,
+      50.0,
+      50.0,
+      50.0
+    ],
+    "x": [
+      50.0,
+      0.0,
+      0.0,
+      50.0
+    ],
+    "x_prime": [
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "common_readings": [
+      50.0,
+      50.0
+    ],
+    "analytic_upper_bound": "d=(t,-t,-t,t); positive mass is 2|t| <= M."
+  },
+  "conditional_example": {
+    "input": {
+      "nodes": [
+        "R",
+        "G",
+        "A",
+        "B",
+        "U"
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "terminals": [
+        2,
+        3,
+        4
+      ],
+      "records": [
+        {
+          "id": "G-total",
+          "edge": 0,
+          "error": 0
+        }
+      ],
+      "mass": 100.0
+    },
+    "received_group_total": 40,
+    "conditional_A_interval": [
+      0.0,
+      40.0
+    ],
+    "prospective_A_width": 100.0
+  },
+  "novelty_inference": "These checks verify mathematical relationships and assumptions; they do not establish literature priority."
+}

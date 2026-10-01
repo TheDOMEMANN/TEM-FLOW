@@ -1,0 +1,122 @@
+[
+  {
+    "leaves": 16,
+    "vertices": 31,
+    "records": 60,
+    "r": 0,
+    "seconds": 0.0008625000009487849,
+    "scalar_candidates": 250,
+    "min_width": 2.0,
+    "max_width": 5.0
+  },
+  {
+    "leaves": 16,
+    "vertices": 31,
+    "records": 60,
+    "r": 1,
+    "seconds": 0.0005779000002803514,
+    "scalar_candidates": 750,
+    "min_width": 2.5,
+    "max_width": 5.5
+  },
+  {
+    "leaves": 16,
+    "vertices": 31,
+    "records": 60,
+    "r": 3,
+    "seconds": 0.001029200000630226,
+    "scalar_candidates": 2410,
+    "min_width": 5.5,
+    "max_width": 10.0
+  },
+  {
+    "leaves": 128,
+    "vertices": 255,
+    "records": 508,
+    "r": 0,
+    "seconds": 0.0026836999986699084,
+    "scalar_candidates": 2154,
+    "min_width": 2.0,
+    "max_width": 5.0
+  },
+  {
+    "leaves": 128,
+    "vertices": 255,
+    "records": 508,
+    "r": 1,
+    "seconds": 0.004684600000473438,
+    "scalar_candidates": 6462,
+    "min_width": 2.5,
+    "max_width": 5.5
+  },
+  {
+    "leaves": 128,
+    "vertices": 255,
+    "records": 508,
+    "r": 3,
+    "seconds": 0.00890110000000277,
+    "scalar_candidates": 20778,
+    "min_width": 5.5,
+    "max_width": 10.0
+  },
+  {
+    "leaves": 1024,
+    "vertices": 2047,
+    "records": 4092,
+    "r": 0,
+    "seconds": 0.02225650000036694,
+    "scalar_candidates": 17386,
+    "min_width": 2.0,
+    "max_width": 5.0
+  },
+  {
+    "leaves": 1024,
+    "vertices": 2047,
+    "records": 4092,
+    "r": 1,
+    "seconds": 0.04189760000008391,
+    "scalar_candidates": 52158,
+    "min_width": 2.5,
+    "max_width": 5.5
+  },
+  {
+    "leaves": 1024,
+    "vertices": 2047,
+    "records": 4092,
+    "r": 3,
+    "seconds": 0.08012640000015381,
+    "scalar_candidates": 167722,
+    "min_width": 5.5,
+    "max_width": 10.0
+  },
+  {
+    "leaves": 8192,
+    "vertices": 16383,
+    "records": 32764,
+    "r": 0,
+    "seconds": 0.22364940000079514,
+    "scalar_candidates": 139242,
+    "min_width": 2.0,
+    "max_width": 5.0
+  },
+  {
+    "leaves": 8192,
+    "vertices": 16383,
+    "records": 32764,
+    "r": 1,
+    "seconds": 0.34194709999974293,
+    "scalar_candidates": 417726,
+    "min_width": 2.5,
+    "max_width": 5.5
+  },
+  {
+    "leaves": 8192,
+    "vertices": 16383,
+    "records": 32764,
+    "r": 3,
+    "seconds": 0.6677159000009851,
+    "scalar_candidates": 1343274,
+    "min_width": 5.5,
+    "max_width": 10.0
+  }
+]

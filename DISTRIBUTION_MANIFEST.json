@@ -1,17 +1,18 @@
 {
   "release": "TEM-FLOW 1.0.0",
-  "distribution": "Patterns-public",
-  "created": "2026-09-13",
+  "distribution": "JOCS-public-structural",
+  "created": "2026-10-01",
+  "version": "1.0.0",
+  "revision": "2026-10-01-structural",
+  "baseline_commit": "e7e7546030c23dc277ac6c193fb3d97bcb7d5efa",
   "excluded_from_public": [
     "PRIVATE_EDITOR_DATA/",
-    "src/temflow/data/patterns/atlas_evidence_ledger.csv",
-    "ledger/temflow_evidence_ledger.csv",
-    "ledger/temflow_evidence_ledger.jsonl",
-    "ledger/ledger_manifest.json"
+    "runtime/",
+    "user_data/",
+    "application contaminant chemistry values",
+    "restricted raw microdata"
   ],
-  "latest_correction": "Cross-platform preservation of sealed validation bytes and resolved public repository identifiers.",
-  "version": "1.0.0",
-  "file_count": 170,
+  "file_count": 209,
   "files": [
     {
       "path": ".gitattributes",
@@ -27,121 +28,6 @@
       "path": ".gitignore",
       "bytes": 172,
       "sha256": "6cf5c2a8d406c2ffd20af48c3c1a2fcfc7ce68b048998bf8dd4c71b100d148e2"
-    },
-    {
-      "path": "CHANGELOG.md",
-      "bytes": 741,
-      "sha256": "20dd1f56055bb99cb2fee70845f5caaebcdd293da935d67f0c0d7ab11143f326"
-    },
-    {
-      "path": "CITATION.cff",
-      "bytes": 417,
-      "sha256": "33c2c807c161e989d99c9bfdae2daca52b6c155baf9e7b15d0c65f6604d6c1d7"
-    },
-    {
-      "path": "Create desktop shortcut.vbs",
-      "bytes": 610,
-      "sha256": "be4ea8fd9fb2df61c052b5d5f5e0816e5679cfde4330bfad5ac5beb43ea9859b"
-    },
-    {
-      "path": "DESKTOP_START_HERE.md",
-      "bytes": 3439,
-      "sha256": "1d8e211d33006c3e5c25c24ce7aba28188dad8ae602a9bab8907e79cfc3c64d1"
-    },
-    {
-      "path": "DEVELOPER_GUIDE.md",
-      "bytes": 5700,
-      "sha256": "f5b75e29d43ad37d670c115f7a134399b0ae591148dcc073715ef8739fce871e"
-    },
-    {
-      "path": "Edit source.cmd",
-      "bytes": 53,
-      "sha256": "dd0e286183ae165d5183ac35580fe34d1b30158c70c60f8fe3489d2cb8a6484a"
-    },
-    {
-      "path": "FORMULATION/ERR_FORMAL_RESULTS_V1_1.md",
-      "bytes": 4677,
-      "sha256": "f98f1ac5d68a9a43168499be7e67f60ddbe70fa976ea66cab2d8fe44a8be3aba"
-    },
-    {
-      "path": "FORMULATION/ERR_MATHEMATICAL_FORMULATION_V1_1.md",
-      "bytes": 5773,
-      "sha256": "d06c3f5232dd860d1c9bc8779a39997bbc90f2ed17265c5f7cfa7d298a265b28"
-    },
-    {
-      "path": "FORMULATION/TEMFLOW_FORMAL_PROOFS_V0_3.md",
-      "bytes": 11912,
-      "sha256": "457eb21020d4b5d3271e10eff04432f37e43ddbd555bc7fe6cf0187e5c616840"
-    },
-    {
-      "path": "FORMULATION/TEMFLOW_MATHEMATICAL_FORMULATION_V0_3.md",
-      "bytes": 15540,
-      "sha256": "f4f9f3af45f46e632d58ee1ab81b70bcad0ece33798997f7b877c28bd975ddf6"
-    },
-    {
-      "path": "FORMULATION/TEMFLOW_V1_0_ALGORITHM_LINEAGE.md",
-      "bytes": 2307,
-      "sha256": "969c12caa0a868047b923c30b804f55ff2a81d64fb16e2b192bfdb79eb3cd9f7"
-    },
-    {
-      "path": "GEOGRAPHIC_COVERAGE.csv",
-      "bytes": 1539,
-      "sha256": "fe2fc157e0cb3f6857e00835d9206012fb12b0d0b71685fe21ed747e76f4ccd6"
-    },
-    {
-      "path": "LICENSE",
-      "bytes": 1528,
-      "sha256": "8fe7ac9e4b8cffa70721f8f7e92716b9ecdba53b5c6167842338df9e9349ab93"
-    },
-    {
-      "path": "Launch TEM-FLOW.cmd",
-      "bytes": 91,
-      "sha256": "d13479c0fef3b0c24928f355e9140d1f370aa00b7e67c93d9a5708efc36cdca4"
-    },
-    {
-      "path": "Launch TEM-FLOW.vbs",
-      "bytes": 325,
-      "sha256": "b5ed2ebf9c612cbb4f9460a0e9e4b67c3f3d4f93429020ed80d07a2e55c2a068"
-    },
-    {
-      "path": "PUBLIC_DATA_BOUNDARY.md",
-      "bytes": 396,
-      "sha256": "a2000f85ec334787f22d00223994ee4046e8465f504a6d41f4682d6041631861"
-    },
-    {
-      "path": "README.md",
-      "bytes": 6378,
-      "sha256": "0e78bb60b3ad300c1d903809d647e2edc7480634d90f9eeba9c25b695b6390a4"
-    },
-    {
-      "path": "RELEASE_NOTES_1.0.0.md",
-      "bytes": 2200,
-      "sha256": "091ecf1660c498584674e98e37750147ef6f1967869bbeaac900e72ef2dcf572"
-    },
-    {
-      "path": "Restart TEM-FLOW.cmd",
-      "bytes": 100,
-      "sha256": "513981dd6ee99a4f9ddb3941f4534c1aeadc80f5878142a22f5f3b260f9b803c"
-    },
-    {
-      "path": "Run checks.cmd",
-      "bytes": 85,
-      "sha256": "0300c6b7ea18066786a9f6084074c0b4780e4009bc94fdbaecf0bd6e07faea6f"
-    },
-    {
-      "path": "Stop TEM-FLOW.cmd",
-      "bytes": 97,
-      "sha256": "9768c4ca33184d1e10df1c647203dba99af347a6dc08253b87f390846d17e737"
-    },
-    {
-      "path": "analysis/R/reproduce_validation_summary.R",
-      "bytes": 1230,
-      "sha256": "b1303e82d21296d10745e6a93335fa06505849fc74f4fa0bdbcacb141eeae2be"
-    },
-    {
-      "path": "analysis/README.md",
-      "bytes": 2307,
-      "sha256": "4af6d591fb806a8d3f5d548fb1d011bb23360ae9bb7474de678f620fc4a9ec06"
     },
     {
       "path": "analysis/data/crosscommodity/EVIDENCE_ROLE_LEDGER_V1_0_0.csv",
@@ -194,14 +80,14 @@
       "sha256": "1ab6310f1abb0717efe533e912a6efcb4fc74a298eca887113054ede512f582b"
     },
     {
-      "path": "analysis/data/uk_rpa/UNBLINDED_DESTINATION_TRUTH_V1_0_0.csv",
-      "bytes": 1043399,
-      "sha256": "e3e028193efbce3501f5d91a1bc90812cefbc8c6f8b798df516539c65b7e94fc"
-    },
-    {
       "path": "analysis/data/uk_rpa/cattle-movements-to-slaughterhouses-during-2010.csv",
       "bytes": 739301,
       "sha256": "23584327dde9a6f6e59efe1281204cdaf5b9f6a3c69aed9233e43c0c7c163875"
+    },
+    {
+      "path": "analysis/data/uk_rpa/UNBLINDED_DESTINATION_TRUTH_V1_0_0.csv",
+      "bytes": 1043399,
+      "sha256": "e3e028193efbce3501f5d91a1bc90812cefbc8c6f8b798df516539c65b7e94fc"
     },
     {
       "path": "analysis/data/validation_summary.csv",
@@ -309,14 +195,14 @@
       "sha256": "631ef330685a8b18394062b8f0ef55d72b0ad9d6ab4287bcafc64379baf3185f"
     },
     {
-      "path": "analysis/results/REPRODUCTION_REPORT_V1_0_0.json",
-      "bytes": 2360,
-      "sha256": "fa0c7d730cca20435e0a5e0b3f0662f8ce9a66d8cd4934331c0989b43172d3d2"
+      "path": "analysis/R/reproduce_validation_summary.R",
+      "bytes": 1230,
+      "sha256": "b1303e82d21296d10745e6a93335fa06505849fc74f4fa0bdbcacb141eeae2be"
     },
     {
-      "path": "analysis/results/SOURCE_ONLY_ALLOCATION_SCORE_V1_0_0.json",
-      "bytes": 1275,
-      "sha256": "6a8eb2c06abcbb7381c59b33774186bd121dda7a8f0a7fee0557a6e58ab0ac12"
+      "path": "analysis/README.md",
+      "bytes": 3065,
+      "sha256": "c91f6e2bf51365753f54f33a1b66c6681fd5d6b396100f37539fd3b04cb7b514"
     },
     {
       "path": "analysis/results/crosscommodity/FROZEN_PREDICTIONS_V1_0_0.json",
@@ -359,6 +245,21 @@
       "sha256": "1cf1688203821b4ef12bfdbfbad2ab77980ab7092cf6d5f8db0d16b2b8941e72"
     },
     {
+      "path": "analysis/results/REPRODUCTION_REPORT_STRUCTURAL_REVISION.json",
+      "bytes": 2360,
+      "sha256": "fa0c7d730cca20435e0a5e0b3f0662f8ce9a66d8cd4934331c0989b43172d3d2"
+    },
+    {
+      "path": "analysis/results/REPRODUCTION_REPORT_V1_0_0.json",
+      "bytes": 2360,
+      "sha256": "fa0c7d730cca20435e0a5e0b3f0662f8ce9a66d8cd4934331c0989b43172d3d2"
+    },
+    {
+      "path": "analysis/results/SOURCE_ONLY_ALLOCATION_SCORE_V1_0_0.json",
+      "bytes": 1275,
+      "sha256": "6a8eb2c06abcbb7381c59b33774186bd121dda7a8f0a7fee0557a6e58ab0ac12"
+    },
+    {
       "path": "analysis/results/uk_rpa/FROZEN_PREDICTIONS_V1_0_0.json",
       "bytes": 3081015,
       "sha256": "5a40817e23240ca1557311d44a71cad4099c062270d9fff0273a23639e213c1d"
@@ -394,6 +295,106 @@
       "sha256": "1a671f12fa7d8870b3c5e2b35a34e8ebc1edc5f5563517d3152e8ee501cda218"
     },
     {
+      "path": "analysis/structural/baseline/measurement_design.py",
+      "bytes": 15745,
+      "sha256": "c585982e92f26986579d82d5610bb04d70aea011b5d0c606159600b7e209b975"
+    },
+    {
+      "path": "analysis/structural/results/cases.json",
+      "bytes": 68790,
+      "sha256": "6331faa4d9fba2615c0e5b3f347bb224c4f4bd8e87330d182654875a9697f508"
+    },
+    {
+      "path": "analysis/structural/results/cli_example.json",
+      "bytes": 1746,
+      "sha256": "aff68c25b95e6b45900cb1f3ed2182b6b9276289ed1f1aa0adddbcb275d82fa5"
+    },
+    {
+      "path": "analysis/structural/results/cut_checks.json",
+      "bytes": 16668,
+      "sha256": "96604dd22b01216da2e43d5b281fcc0515d93821290e38c5859a3aca2d143dea"
+    },
+    {
+      "path": "analysis/structural/results/edge_cases.json",
+      "bytes": 5796,
+      "sha256": "585711fdd340b34ae72a3e53a61a95223c0af3c387dd0f0c3e213f8bcb55cc75"
+    },
+    {
+      "path": "analysis/structural/results/exact_transition_checks.json",
+      "bytes": 7031,
+      "sha256": "f3a077fa070343d11c2cd51f744e12957fa05cff53434757daa9f5414327e0a2"
+    },
+    {
+      "path": "analysis/structural/results/integer_checks.json",
+      "bytes": 13150,
+      "sha256": "dede41a574a82a884184309dad11bb020f47507c85b068dbb7bc2e498757abc8"
+    },
+    {
+      "path": "analysis/structural/results/lp_checks.json",
+      "bytes": 222687,
+      "sha256": "20d528bcfb313246dacc866136b31e669ba083ec1092e182521d5c05a76595b0"
+    },
+    {
+      "path": "analysis/structural/results/performance.json",
+      "bytes": 3726,
+      "sha256": "0e644a7fa659987998639df4bb8f641808c4137e9e0a7ecb7b0d10ac4e95f29b"
+    },
+    {
+      "path": "analysis/structural/results/scaling.json",
+      "bytes": 2451,
+      "sha256": "d14fc5ce98ae5d7d3786ad1d0bb782471444f76416d0d6b7f65a73beb4ad6889"
+    },
+    {
+      "path": "analysis/structural/results/structural_comparison_checks.json",
+      "bytes": 61033,
+      "sha256": "d39130f506f2755111b010d69dea160f979991bc321077fcabcc1f585d5276fb"
+    },
+    {
+      "path": "analysis/structural/results/structural_comparison_summary.json",
+      "bytes": 1840,
+      "sha256": "c4d4da7a18012a4bcd8c5b7c473a08a8c54442cb3e312c22df32fd386fc220c4"
+    },
+    {
+      "path": "analysis/structural/results/summary.json",
+      "bytes": 5097,
+      "sha256": "669e94d18da7de51a0ac36de67a0dc92e9a4e9636a422ccb9a2b678d3f81c5a8"
+    },
+    {
+      "path": "analysis/structural/results/worked_example.json",
+      "bytes": 1947,
+      "sha256": "5208d6e582f292814a108ce2267fd49ddbfebf72663a5035542b2fe8177c688d"
+    },
+    {
+      "path": "analysis/structural/source_register.json",
+      "bytes": 7043,
+      "sha256": "ce5922ed79424b8411a844ef472beeeb5592a99ace3e479bcb0f4b769f39f0d3"
+    },
+    {
+      "path": "analysis/structural/validate.py",
+      "bytes": 11829,
+      "sha256": "0ee37b2c1ab800f77e07e0c38c4013acb4dbd2fa38ca1763b9e397b7895c78d0"
+    },
+    {
+      "path": "analysis/structural/validate_structural_comparison.py",
+      "bytes": 7108,
+      "sha256": "d762205f9d115c365e1016d902cb861a6a1efa0ec2d8465a004e148bce7017b9"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1595,
+      "sha256": "10194197638aa64172e65d7a3537fa15f62263938d7b3a0053a84899434e896b"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 417,
+      "sha256": "33c2c807c161e989d99c9bfdae2daca52b6c155baf9e7b15d0c65f6604d6c1d7"
+    },
+    {
+      "path": "Create desktop shortcut.vbs",
+      "bytes": 610,
+      "sha256": "be4ea8fd9fb2df61c052b5d5f5e0816e5679cfde4330bfad5ac5beb43ea9859b"
+    },
+    {
       "path": "desktop_launcher.py",
       "bytes": 5274,
       "sha256": "a62e5934ef2b9107e38e463cc9fab702718c8bc5202c7f59eea0f9db8a403ce6"
@@ -404,19 +405,114 @@
       "sha256": "55024082f9347a37eff78552e26c58edc938721915af6665f3e952f90b6ea9e8"
     },
     {
+      "path": "DESKTOP_START_HERE.md",
+      "bytes": 3665,
+      "sha256": "24f9336499d9304d4837573bbf10f3a98a9d676fd63fa324f601a41fa6deb06e"
+    },
+    {
+      "path": "DEVELOPER_GUIDE.md",
+      "bytes": 6583,
+      "sha256": "c3c62cc3c0047c13b0cd7d9b7c6b02116d569c0dcf25166e81f97eebabae7210"
+    },
+    {
+      "path": "docs/AGGREGATE_RECORD_EXAMPLE.csv",
+      "bytes": 290,
+      "sha256": "3a8ce1b8634f392789c7f3ade77840459e034bc2c4362ce04d61cfee4782f925"
+    },
+    {
+      "path": "docs/AGGREGATE_RECORD_TEMPLATE.csv",
+      "bytes": 162,
+      "sha256": "9731bfde3f17fd4897651160c2fdc7b0b4f00248d8d8a057c505ea8952f97f23"
+    },
+    {
       "path": "docs/COORDINATE_RECONCILIATION_V1_0_0.md",
       "bytes": 1065,
       "sha256": "a8211d5c1e1acc3aef6abf27d1aad4bba66944fcf84bbe8788db0c6568d71767"
     },
     {
+      "path": "docs/INPUT_GUIDE_FOR_ORDINARY_USERS.md",
+      "bytes": 7699,
+      "sha256": "d9171511466bfaf777fe568c2f08bb81af8575656a5897cf382395ca4be2c28a"
+    },
+    {
       "path": "docs/PRIVATE_LAYER_INPUT_TEMPLATE.json",
-      "bytes": 1013,
-      "sha256": "ea1082b500f533be0ed122f266826e39334f3bdc92e05b5cf0f4545fa3d698c1"
+      "bytes": 1649,
+      "sha256": "c7ef266f6730b49fcddf8922be53a0852c575c204c26798eaadcdc5fdb81a695"
     },
     {
       "path": "docs/REPRODUCIBILITY.md",
       "bytes": 1113,
       "sha256": "b39cbae58e705e361d8753af907a3a9c75a94c45d57eecfd64dec7687a0de69d"
+    },
+    {
+      "path": "docs/STRUCTURAL_EXAMPLE.json",
+      "bytes": 664,
+      "sha256": "ccd65bb659448e7701e7d6eb5ef5537c93d7247acce296628e68fc089b0e0876"
+    },
+    {
+      "path": "docs/STRUCTURAL_INPUT_GUIDE.md",
+      "bytes": 6156,
+      "sha256": "0081bd2a6c3e6a57c16d7f6ad14eac1e54d0f3e142aa06c56aae304bd28aaf5f"
+    },
+    {
+      "path": "docs/TEMFLOW_DATED_RECORD_EXAMPLE.csv",
+      "bytes": 1594,
+      "sha256": "0c6d375fd32c8d0b24ba89eee59de3d5a8d0e683059afcf2d15be47ac3becbd3"
+    },
+    {
+      "path": "docs/TEMFLOW_DATED_RECORD_INPUT_TEMPLATE.csv",
+      "bytes": 652,
+      "sha256": "fdf5e0b194a713ab182a1943ad507f878a03cf5749cf0e2f572581eb2a6396f5"
+    },
+    {
+      "path": "Edit source.cmd",
+      "bytes": 53,
+      "sha256": "dd0e286183ae165d5183ac35580fe34d1b30158c70c60f8fe3489d2cb8a6484a"
+    },
+    {
+      "path": "FORMULATION/ERR_FORMAL_RESULTS_V1_1.md",
+      "bytes": 4677,
+      "sha256": "f98f1ac5d68a9a43168499be7e67f60ddbe70fa976ea66cab2d8fe44a8be3aba"
+    },
+    {
+      "path": "FORMULATION/ERR_MATHEMATICAL_FORMULATION_V1_1.md",
+      "bytes": 5773,
+      "sha256": "d06c3f5232dd860d1c9bc8779a39997bbc90f2ed17265c5f7cfa7d298a265b28"
+    },
+    {
+      "path": "FORMULATION/STRUCTURAL_FORMULATION.md",
+      "bytes": 15901,
+      "sha256": "7c07e739352635957fd26e4f7344a8ea3dda2ad301923f52c0d65f5f08e2f5d5"
+    },
+    {
+      "path": "FORMULATION/TEMFLOW_FORMAL_PROOFS_V0_3.md",
+      "bytes": 11912,
+      "sha256": "457eb21020d4b5d3271e10eff04432f37e43ddbd555bc7fe6cf0187e5c616840"
+    },
+    {
+      "path": "FORMULATION/TEMFLOW_MATHEMATICAL_FORMULATION_V0_3.md",
+      "bytes": 15540,
+      "sha256": "f4f9f3af45f46e632d58ee1ab81b70bcad0ece33798997f7b877c28bd975ddf6"
+    },
+    {
+      "path": "FORMULATION/TEMFLOW_V1_0_ALGORITHM_LINEAGE.md",
+      "bytes": 2307,
+      "sha256": "969c12caa0a868047b923c30b804f55ff2a81d64fb16e2b192bfdb79eb3cd9f7"
+    },
+    {
+      "path": "GEOGRAPHIC_COVERAGE.csv",
+      "bytes": 1539,
+      "sha256": "fe2fc157e0cb3f6857e00835d9206012fb12b0d0b71685fe21ed747e76f4ccd6"
+    },
+    {
+      "path": "Launch TEM-FLOW.cmd",
+      "bytes": 91,
+      "sha256": "d13479c0fef3b0c24928f355e9140d1f370aa00b7e67c93d9a5708efc36cdca4"
+    },
+    {
+      "path": "Launch TEM-FLOW.vbs",
+      "bytes": 325,
+      "sha256": "b5ed2ebf9c612cbb4f9460a0e9e4b67c3f3d4f93429020ed80d07a2e55c2a068"
     },
     {
       "path": "ledger/certificate_ledger_summary.json",
@@ -439,9 +535,29 @@
       "sha256": "8026eeee368eaa7e8c7cf67ec3bf180636544a37c33819bf385e9dc183483d8a"
     },
     {
+      "path": "LICENSE",
+      "bytes": 1528,
+      "sha256": "8fe7ac9e4b8cffa70721f8f7e92716b9ecdba53b5c6167842338df9e9349ab93"
+    },
+    {
+      "path": "PUBLIC_DATA_BOUNDARY.md",
+      "bytes": 396,
+      "sha256": "a2000f85ec334787f22d00223994ee4046e8465f504a6d41f4682d6041631861"
+    },
+    {
       "path": "pyproject.toml",
-      "bytes": 1193,
-      "sha256": "0b047160c98337e403a004eafb18359351795b6cffd489ba6e0d46c9f7791cb0"
+      "bytes": 1207,
+      "sha256": "56fb443725a95ecc0b91107a94b93f08c7e611ae120530383611456c5ad75d55"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7226,
+      "sha256": "ad9c4c40d1cf9b396a5bb0f845766cd0368180948c996dc6d90981cc30597d78"
+    },
+    {
+      "path": "RELEASE_NOTES_1.0.0.md",
+      "bytes": 2200,
+      "sha256": "091ecf1660c498584674e98e37750147ef6f1967869bbeaac900e72ef2dcf572"
     },
     {
       "path": "requirements-desktop.txt",
@@ -454,14 +570,29 @@
       "sha256": "bfc062c4ab193f988f14b3f31c2e9d7b3b3e55663c0d41e3e3146433706f6b03"
     },
     {
+      "path": "Restart TEM-FLOW.cmd",
+      "bytes": 100,
+      "sha256": "513981dd6ee99a4f9ddb3941f4534c1aeadc80f5878142a22f5f3b260f9b803c"
+    },
+    {
+      "path": "Run checks.cmd",
+      "bytes": 85,
+      "sha256": "0300c6b7ea18066786a9f6084074c0b4780e4009bc94fdbaecf0bd6e07faea6f"
+    },
+    {
       "path": "src/temflow/__init__.py",
-      "bytes": 723,
-      "sha256": "830bd7e2918fbd9bc97ab001ff1a8ad672a20ccf7930c6ac6ddd588713596345"
+      "bytes": 800,
+      "sha256": "3f481c13f7b4264c4174b8d9a44fd37365b16bcf770214d9325214ee1b67285a"
     },
     {
       "path": "src/temflow/__main__.py",
-      "bytes": 1011,
-      "sha256": "b43239e5c54cafd2fd2b8e0f7a1b5ea4ffe209984c0a72b3fb2a62d05ea62402"
+      "bytes": 1747,
+      "sha256": "f21a67eec5847bb243a3a96d60621e3a4bb2f19f89ea6fdba03d479449ece384"
+    },
+    {
+      "path": "src/temflow/_structural_tree.py",
+      "bytes": 9542,
+      "sha256": "a8953442fb1a388205b410210210e0310c8147d55b6fd0bf6b60088fbbb24b6c"
     },
     {
       "path": "src/temflow/_version.py",
@@ -494,6 +625,11 @@
       "sha256": "41e2ee145a394f14835d844a902e05d534c0a3f62a0667f1716deef16c7bb4b1"
     },
     {
+      "path": "src/temflow/csv_intake.py",
+      "bytes": 8864,
+      "sha256": "f60c2bc5c03bb96aaf6c95c479690d5045226cbdee531a5367da812f44d418d6"
+    },
+    {
       "path": "src/temflow/curation.py",
       "bytes": 19807,
       "sha256": "7a55fd3c66dc5e374a63f0340035f51545843739870c72a9db78c51fd7365d2e"
@@ -502,6 +638,16 @@
       "path": "src/temflow/dashboard.py",
       "bytes": 83416,
       "sha256": "01ec959dbe633fc113b956dd96a873d8a95499546516d94a61ca7ba52763a671"
+    },
+    {
+      "path": "src/temflow/data/AGGREGATE_RECORD_EXAMPLE.csv",
+      "bytes": 290,
+      "sha256": "3a8ce1b8634f392789c7f3ade77840459e034bc2c4362ce04d61cfee4782f925"
+    },
+    {
+      "path": "src/temflow/data/AGGREGATE_RECORD_TEMPLATE.csv",
+      "bytes": 162,
+      "sha256": "9731bfde3f17fd4897651160c2fdc7b0b4f00248d8d8a057c505ea8952f97f23"
     },
     {
       "path": "src/temflow/data/dashboard_ui.html",
@@ -542,6 +688,11 @@
       "path": "src/temflow/data/ethiopia_waterbodies.geojson",
       "bytes": 319760,
       "sha256": "729a88571627b3d601a66a1cd1cd56ed57facf03007f2e19a0b58d4b09af0927"
+    },
+    {
+      "path": "src/temflow/data/INPUT_GUIDE_FOR_ORDINARY_USERS.md",
+      "bytes": 7699,
+      "sha256": "d9171511466bfaf777fe568c2f08bb81af8575656a5897cf382395ca4be2c28a"
     },
     {
       "path": "src/temflow/data/patterns/africa_countries.geojson",
@@ -650,8 +801,8 @@
     },
     {
       "path": "src/temflow/data/patterns_private_ui.html",
-      "bytes": 132154,
-      "sha256": "10c2a21729b9929be47585c5e797809708dbef450500c2d9645fde0aa9e4618a"
+      "bytes": 137400,
+      "sha256": "731ef5f738904977432fb50413d8ef604280089c87710c92d89957bf12e34b54"
     },
     {
       "path": "src/temflow/data/regional_context.geojson",
@@ -662,6 +813,26 @@
       "path": "src/temflow/data/regional_context_sources.json",
       "bytes": 6365,
       "sha256": "13798d2be69205f3b874cff12587d4274a61b5be011a5a99952b380959db3501"
+    },
+    {
+      "path": "src/temflow/data/STRUCTURAL_EXAMPLE.json",
+      "bytes": 664,
+      "sha256": "ccd65bb659448e7701e7d6eb5ef5537c93d7247acce296628e68fc089b0e0876"
+    },
+    {
+      "path": "src/temflow/data/STRUCTURAL_INPUT_GUIDE.md",
+      "bytes": 6156,
+      "sha256": "0081bd2a6c3e6a57c16d7f6ad14eac1e54d0f3e142aa06c56aae304bd28aaf5f"
+    },
+    {
+      "path": "src/temflow/data/TEMFLOW_DATED_RECORD_EXAMPLE.csv",
+      "bytes": 1594,
+      "sha256": "0c6d375fd32c8d0b24ba89eee59de3d5a8d0e683059afcf2d15be47ac3becbd3"
+    },
+    {
+      "path": "src/temflow/data/TEMFLOW_DATED_RECORD_INPUT_TEMPLATE.csv",
+      "bytes": 652,
+      "sha256": "fdf5e0b194a713ab182a1943ad507f878a03cf5749cf0e2f572581eb2a6396f5"
     },
     {
       "path": "src/temflow/downstream_consequence.py",
@@ -700,13 +871,18 @@
     },
     {
       "path": "src/temflow/private_engine.py",
-      "bytes": 96550,
-      "sha256": "f2ca2d60032d7de53f3a9694a7a6b2c10b365047b6a0c5863b70153b2d306b2d"
+      "bytes": 101069,
+      "sha256": "718186f9be85e1089d9ca688075c22b76e82b785c57ff83931bac7bff472d754"
     },
     {
       "path": "src/temflow/proof_obligations.py",
       "bytes": 7070,
       "sha256": "f182a83ccc5dbcf2265ca25b1e42803cef0f209b05277ab36a865183e007a5b4"
+    },
+    {
+      "path": "src/temflow/structural.py",
+      "bytes": 14057,
+      "sha256": "949dc209fab53297ad12fb70729a709c5b757fe3d8eff0642912d5405e2948d6"
     },
     {
       "path": "src/temflow/tem_calculus.py",
@@ -732,6 +908,16 @@
       "path": "start_preview.py",
       "bytes": 2724,
       "sha256": "b27371a54bd678a98a6dcc4f57895fcfc45301045cf72f1a317acdc27242de21"
+    },
+    {
+      "path": "Stop TEM-FLOW.cmd",
+      "bytes": 97,
+      "sha256": "9768c4ca33184d1e10df1c647203dba99af347a6dc08253b87f390846d17e737"
+    },
+    {
+      "path": "STRUCTURAL_REVISION.json",
+      "bytes": 333,
+      "sha256": "2bfbbd19f15f90d30c2dd0cf5fd40db55aa40156aaba2583e2018f7cfdf457b7"
     },
     {
       "path": "tests/test_certificates.py",
@@ -762,6 +948,11 @@
       "path": "tests/test_cpc_compatibility.py",
       "bytes": 3266,
       "sha256": "126513905de7498604537ff0d2c12f116113d52c3afe441b241720bc5ffac3b6"
+    },
+    {
+      "path": "tests/test_csv_intake.py",
+      "bytes": 3642,
+      "sha256": "1c3e5121a95a8837b5cbba7caf6cdc2c51ce7f5eda95bfe01ac66fe2cc3ac81d"
     },
     {
       "path": "tests/test_curation.py",
@@ -805,8 +996,8 @@
     },
     {
       "path": "tests/test_private_engine.py",
-      "bytes": 32901,
-      "sha256": "ed30552d6c53897e173ce3e04610a3cde55c90446b0d409dd2efe33c59fd2214"
+      "bytes": 35991,
+      "sha256": "245999f8b966ff9ea4d33380f604957219000da2edc9b5230a2997040b660f7c"
     },
     {
       "path": "tests/test_proof_obligations.py",
@@ -822,6 +1013,11 @@
       "path": "tests/test_road_geometry_consistency.py",
       "bytes": 1215,
       "sha256": "35f5a278e004b00e22fc0252efdf4c70ada0931ba0ee8f003f08dfb87826e05b"
+    },
+    {
+      "path": "tests/test_structural.py",
+      "bytes": 6276,
+      "sha256": "769fc72a3ec00db6b26c9d2d0f6654e43f742b81bffb6c79970a9ff25f0a4948"
     },
     {
       "path": "tests/test_tem_calculus.py",
@@ -850,8 +1046,8 @@
     },
     {
       "path": "tools/check.py",
-      "bytes": 837,
-      "sha256": "4e2abc263939b96e1a97459d19aa7f7ef31e068aabe8313e88a51aab31b0259f"
+      "bytes": 1296,
+      "sha256": "8c54dc5a2dcb42a4573806229f4deabf1a6f7d029893237eb601541e2afcedbf"
     },
     {
       "path": "tools/package_release.py",

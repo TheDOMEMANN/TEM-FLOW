@@ -21,4 +21,12 @@ if __name__ == '__main__':
         cwd=ROOT,
         check=False,
     )
-    raise SystemExit(reproduction.returncode)
+    if reproduction.returncode:
+        raise SystemExit(reproduction.returncode)
+    for script in ("validate.py", "validate_structural_comparison.py"):
+        import os
+        environment = dict(os.environ, PYTHONPATH=str(ROOT / "src"))
+        checked = subprocess.run([sys.executable, "-B", str(ROOT / "analysis/structural" / script)], cwd=ROOT, env=environment)
+        if checked.returncode:
+            raise SystemExit(checked.returncode)
+    raise SystemExit(0)

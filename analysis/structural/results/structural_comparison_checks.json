@@ -1,0 +1,3980 @@
+[
+  {
+    "kind": "continuous",
+    "case_id": 0,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      0.7238497193790174,
+      3.195119095717488,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.7238497193790174,
+      3.195119095717488,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 0,
+    "target": "node-2",
+    "expansion_widths": [
+      0.0,
+      0.7238497193790174,
+      3.195119095717488,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.7238497193790174,
+      3.195119095717488,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 1,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 1,
+    "target": "node-3",
+    "expansion_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 1,
+    "target": "node-4",
+    "expansion_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 2,
+    "target": "node-2",
+    "expansion_widths": [
+      0.27674917888317585,
+      3.9551057432391308,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.27674917888317585,
+      3.9551057432391308,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 2,
+    "target": "node-4",
+    "expansion_widths": [
+      0.27674917888317585,
+      3.9551057432391308,
+      4.258020133952786,
+      100.0
+    ],
+    "compact_widths": [
+      0.27674917888317585,
+      3.9551057432391308,
+      4.258020133952786,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 2,
+    "target": "node-5",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      4.231854922122307,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      4.231854922122307,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 2,
+    "target": "node-6",
+    "expansion_widths": [
+      0.0,
+      4.231854922122307,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      4.231854922122307,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 3,
+    "target": "node-4",
+    "expansion_widths": [
+      0.0,
+      3.122129410395413,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      3.122129410395413,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 3,
+    "target": "node-5",
+    "expansion_widths": [
+      0.0,
+      2.88674247748629,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      2.88674247748629,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 3,
+    "target": "node-6",
+    "expansion_widths": [
+      3.4899574646489135,
+      6.6120868750443265,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      3.4899574646489135,
+      6.6120868750443265,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 3,
+    "target": "node-7",
+    "expansion_widths": [
+      3.4899574646489135,
+      9.637038153570842,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      3.4899574646489135,
+      9.637038153570842,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 3,
+    "target": "node-8",
+    "expansion_widths": [
+      0.0,
+      6.147080688921929,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      6.147080688921929,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 4,
+    "target": "node-1",
+    "expansion_widths": [
+      1.6761726420165777,
+      3.078218072670587,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      1.6761726420165777,
+      3.078218072670587,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 4,
+    "target": "node-2",
+    "expansion_widths": [
+      1.6761726420165777,
+      3.078218072670587,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      1.6761726420165777,
+      3.078218072670587,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 5,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      5.385271581729987,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      5.385271581729987,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 5,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      5.385271581729987,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      5.385271581729987,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 5,
+    "target": "node-4",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      5.385271581729987,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      5.385271581729987,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 6,
+    "target": "node-1",
+    "expansion_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 6,
+    "target": "node-3",
+    "expansion_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 6,
+    "target": "node-5",
+    "expansion_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 6,
+    "target": "node-6",
+    "expansion_widths": [
+      0.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 7,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 7,
+    "target": "node-5",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      4.762719769431282,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      4.762719769431282,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 7,
+    "target": "node-6",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      4.762719769431282,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      4.762719769431282,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 7,
+    "target": "node-7",
+    "expansion_widths": [
+      4.561884123078588,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      4.561884123078588,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 7,
+    "target": "node-8",
+    "expansion_widths": [
+      4.561884123078588,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      4.561884123078588,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 8,
+    "target": "node-1",
+    "expansion_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 8,
+    "target": "node-2",
+    "expansion_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 9,
+    "target": "node-2",
+    "expansion_widths": [
+      0.0,
+      2.0847340046999903,
+      3.971449336246141,
+      4.519490003240086
+    ],
+    "compact_widths": [
+      0.0,
+      2.0847340046999903,
+      3.971449336246141,
+      4.519490003240086
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 9,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      2.0847340046999903,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      2.0847340046999903,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 9,
+    "target": "node-4",
+    "expansion_widths": [
+      0.0,
+      2.0847340046999903,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      2.0847340046999903,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 10,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      6.233239551287508,
+      7.054174677544801,
+      7.884031643856807
+    ],
+    "compact_widths": [
+      0.0,
+      6.233239551287508,
+      7.054174677544801,
+      7.884031643856807
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 10,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      6.233239551287508,
+      13.28741422883231,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      6.233239551287508,
+      13.28741422883231,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 10,
+    "target": "node-5",
+    "expansion_widths": [
+      1.8626690251171187,
+      6.2093513336481,
+      7.394149198468121,
+      100.0
+    ],
+    "compact_widths": [
+      1.8626690251171187,
+      6.2093513336481,
+      7.394149198468121,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 10,
+    "target": "node-6",
+    "expansion_widths": [
+      1.8626690251171187,
+      6.2093513336481,
+      8.095908576404627,
+      100.0
+    ],
+    "compact_widths": [
+      1.8626690251171187,
+      6.2093513336481,
+      8.095908576404627,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 11,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      2.6330420454273957,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      2.6330420454273957,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 11,
+    "target": "node-4",
+    "expansion_widths": [
+      0.9371896363954759,
+      1.69585240903192,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.9371896363954759,
+      1.69585240903192,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 11,
+    "target": "node-5",
+    "expansion_widths": [
+      0.9371896363954759,
+      5.96984518421357,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.9371896363954759,
+      5.96984518421357,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 11,
+    "target": "node-7",
+    "expansion_widths": [
+      0.0,
+      5.032655547818094,
+      7.946097779734871,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      5.032655547818094,
+      7.946097779734871,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 11,
+    "target": "node-8",
+    "expansion_widths": [
+      0.0,
+      5.032655547818094,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      5.032655547818094,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 12,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 12,
+    "target": "node-2",
+    "expansion_widths": [
+      0.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 13,
+    "target": "node-1",
+    "expansion_widths": [
+      1.1226568488647137,
+      2.3859066163017095,
+      3.5358933039973484,
+      4.752549151692015
+    ],
+    "compact_widths": [
+      1.1226568488647137,
+      2.3859066163017095,
+      3.5358933039973484,
+      4.752549151692015
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 13,
+    "target": "node-3",
+    "expansion_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 13,
+    "target": "node-4",
+    "expansion_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 14,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      1.303254730419912,
+      2.778156088616696
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      1.303254730419912,
+      2.778156088616696
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 14,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      1.303254730419912,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      1.303254730419912,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 14,
+    "target": "node-5",
+    "expansion_widths": [
+      0.0,
+      4.649644790580813,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      4.649644790580813,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 14,
+    "target": "node-6",
+    "expansion_widths": [
+      0.0,
+      4.649644790580813,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      4.649644790580813,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 15,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 15,
+    "target": "node-4",
+    "expansion_widths": [
+      2.4387488615882043,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      2.4387488615882043,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 15,
+    "target": "node-5",
+    "expansion_widths": [
+      0.0,
+      5.205507000377969,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      5.205507000377969,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 15,
+    "target": "node-7",
+    "expansion_widths": [
+      0.0,
+      3.9410526508378108,
+      5.205507000377969,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      3.9410526508378108,
+      5.205507000377969,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 15,
+    "target": "node-8",
+    "expansion_widths": [
+      2.4387488615882043,
+      2.7667581387897644,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      2.4387488615882043,
+      2.7667581387897644,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 16,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      3.734574331517654,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      3.734574331517654,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 16,
+    "target": "node-2",
+    "expansion_widths": [
+      0.0,
+      3.734574331517654,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      3.734574331517654,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 17,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      2.0179006583543497,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      2.0179006583543497,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 17,
+    "target": "node-3",
+    "expansion_widths": [
+      6.659517366846404,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      6.659517366846404,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 17,
+    "target": "node-4",
+    "expansion_widths": [
+      6.659517366846404,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      6.659517366846404,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 18,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      5.881656533940887,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      5.881656533940887,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 18,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      5.881656533940887,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      5.881656533940887,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 18,
+    "target": "node-5",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 18,
+    "target": "node-6",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 19,
+    "target": "node-2",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 19,
+    "target": "node-4",
+    "expansion_widths": [
+      1.5086664094332927,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      1.5086664094332927,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 19,
+    "target": "node-6",
+    "expansion_widths": [
+      0.0,
+      4.319000911002863,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      4.319000911002863,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 19,
+    "target": "node-7",
+    "expansion_widths": [
+      0.0,
+      6.636862611814409,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      6.636862611814409,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 19,
+    "target": "node-8",
+    "expansion_widths": [
+      1.5086664094332927,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      1.5086664094332927,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 20,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      7.479389060370681
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      0.0,
+      7.479389060370681
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 20,
+    "target": "node-2",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      7.479389060370681
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      0.0,
+      7.479389060370681
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 21,
+    "target": "node-2",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      3.6888114922077095,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      3.6888114922077095,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 21,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 21,
+    "target": "node-4",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      3.6888114922077095,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      3.6888114922077095,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 22,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      7.386361574380315,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      7.386361574380315,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 22,
+    "target": "node-4",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      7.386361574380315,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      7.386361574380315,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 22,
+    "target": "node-5",
+    "expansion_widths": [
+      0.0,
+      6.821177450116195,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      6.821177450116195,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 22,
+    "target": "node-6",
+    "expansion_widths": [
+      0.0,
+      6.821177450116195,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      6.821177450116195,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 23,
+    "target": "node-4",
+    "expansion_widths": [
+      3.644004554923063,
+      4.749829621969997,
+      8.653795336266459,
+      100.0
+    ],
+    "compact_widths": [
+      3.644004554923063,
+      4.749829621969997,
+      8.653795336266459,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 23,
+    "target": "node-5",
+    "expansion_widths": [
+      1.7337713726322654,
+      3.4487657360678785,
+      7.846906914967488,
+      100.0
+    ],
+    "compact_widths": [
+      1.7337713726322654,
+      3.4487657360678785,
+      7.846906914967488,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 23,
+    "target": "node-6",
+    "expansion_widths": [
+      0.0,
+      5.182537108700144,
+      10.108828540328673,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      5.182537108700144,
+      10.108828540328673,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 23,
+    "target": "node-7",
+    "expansion_widths": [
+      3.0160582493377315,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      3.0160582493377315,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 23,
+    "target": "node-8",
+    "expansion_widths": [
+      0.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 24,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 24,
+    "target": "node-2",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 25,
+    "target": "node-1",
+    "expansion_widths": [
+      0.7876653379449268,
+      3.01627809341008,
+      5.595897279002662,
+      100.0
+    ],
+    "compact_widths": [
+      0.7876653379449268,
+      3.01627809341008,
+      5.595897279002662,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 25,
+    "target": "node-3",
+    "expansion_widths": [
+      0.7876653379449268,
+      3.01627809341008,
+      5.595897279002662,
+      100.0
+    ],
+    "compact_widths": [
+      0.7876653379449268,
+      3.01627809341008,
+      5.595897279002662,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 25,
+    "target": "node-4",
+    "expansion_widths": [
+      0.0,
+      3.8039434313550067,
+      4.003855241373844,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      3.8039434313550067,
+      4.003855241373844,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 26,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 26,
+    "target": "node-4",
+    "expansion_widths": [
+      0.8364179073209486,
+      1.2765338932834243,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.8364179073209486,
+      1.2765338932834243,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 26,
+    "target": "node-5",
+    "expansion_widths": [
+      5.427416893745445,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      5.427416893745445,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 26,
+    "target": "node-6",
+    "expansion_widths": [
+      6.263834801066393,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      6.263834801066393,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 27,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 27,
+    "target": "node-5",
+    "expansion_widths": [
+      0.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 27,
+    "target": "node-6",
+    "expansion_widths": [
+      0.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 27,
+    "target": "node-7",
+    "expansion_widths": [
+      0.7699277965519669,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.7699277965519669,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 27,
+    "target": "node-8",
+    "expansion_widths": [
+      0.7699277965519669,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.7699277965519669,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 28,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      3.552477331705015,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      3.552477331705015,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 28,
+    "target": "node-2",
+    "expansion_widths": [
+      0.0,
+      3.552477331705015,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      3.552477331705015,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 29,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      4.101424465897304,
+      6.315824688886357
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      4.101424465897304,
+      6.315824688886357
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 29,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      4.101424465897304,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      4.101424465897304,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "continuous",
+    "case_id": 29,
+    "target": "node-4",
+    "expansion_widths": [
+      0.0,
+      4.101424465897304,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      4.101424465897304,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 0,
+    "target": "node-1",
+    "expansion_widths": [
+      3.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      3.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 0,
+    "target": "node-2",
+    "expansion_widths": [
+      3.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      3.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 1,
+    "target": "node-2",
+    "expansion_widths": [
+      0.0,
+      1.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      1.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 1,
+    "target": "node-3",
+    "expansion_widths": [
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "compact_widths": [
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 1,
+    "target": "node-4",
+    "expansion_widths": [
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "compact_widths": [
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 2,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "compact_widths": [
+      0.0,
+      1.0,
+      2.0,
+      4.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 2,
+    "target": "node-4",
+    "expansion_widths": [
+      1.0,
+      1.0,
+      2.0,
+      5.0
+    ],
+    "compact_widths": [
+      1.0,
+      1.0,
+      2.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 2,
+    "target": "node-5",
+    "expansion_widths": [
+      4.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      4.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 2,
+    "target": "node-6",
+    "expansion_widths": [
+      3.0,
+      4.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      3.0,
+      4.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 3,
+    "target": "node-1",
+    "expansion_widths": [
+      3.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      3.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 3,
+    "target": "node-2",
+    "expansion_widths": [
+      3.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      3.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 4,
+    "target": "node-2",
+    "expansion_widths": [
+      1.0,
+      3.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      1.0,
+      3.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 4,
+    "target": "node-3",
+    "expansion_widths": [
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "compact_widths": [
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 4,
+    "target": "node-4",
+    "expansion_widths": [
+      3.0,
+      3.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      3.0,
+      3.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 5,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      3.0,
+      4.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 5,
+    "target": "node-3",
+    "expansion_widths": [
+      1.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "compact_widths": [
+      1.0,
+      3.0,
+      4.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 5,
+    "target": "node-5",
+    "expansion_widths": [
+      0.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      3.0,
+      4.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 5,
+    "target": "node-6",
+    "expansion_widths": [
+      1.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "compact_widths": [
+      1.0,
+      3.0,
+      4.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 6,
+    "target": "node-1",
+    "expansion_widths": [
+      2.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      2.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 6,
+    "target": "node-2",
+    "expansion_widths": [
+      2.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      2.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 7,
+    "target": "node-1",
+    "expansion_widths": [
+      2.0,
+      2.0,
+      2.0,
+      5.0
+    ],
+    "compact_widths": [
+      2.0,
+      2.0,
+      2.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 7,
+    "target": "node-3",
+    "expansion_widths": [
+      2.0,
+      2.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      2.0,
+      2.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 7,
+    "target": "node-4",
+    "expansion_widths": [
+      0.0,
+      4.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      4.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 8,
+    "target": "node-3",
+    "expansion_widths": [
+      2.0,
+      3.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      2.0,
+      3.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 8,
+    "target": "node-4",
+    "expansion_widths": [
+      4.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      4.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 8,
+    "target": "node-5",
+    "expansion_widths": [
+      1.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      1.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 8,
+    "target": "node-6",
+    "expansion_widths": [
+      3.0,
+      3.0,
+      3.0,
+      5.0
+    ],
+    "compact_widths": [
+      3.0,
+      3.0,
+      3.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 9,
+    "target": "node-1",
+    "expansion_widths": [
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 9,
+    "target": "node-2",
+    "expansion_widths": [
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 10,
+    "target": "node-2",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 10,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 10,
+    "target": "node-4",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      3.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      3.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 11,
+    "target": "node-2",
+    "expansion_widths": [
+      3.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "compact_widths": [
+      3.0,
+      3.0,
+      4.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 11,
+    "target": "node-4",
+    "expansion_widths": [
+      1.0,
+      3.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      1.0,
+      3.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 11,
+    "target": "node-5",
+    "expansion_widths": [
+      2.0,
+      4.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      2.0,
+      4.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 11,
+    "target": "node-6",
+    "expansion_widths": [
+      2.0,
+      4.0,
+      4.0,
+      5.0
+    ],
+    "compact_widths": [
+      2.0,
+      4.0,
+      4.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 12,
+    "target": "node-1",
+    "expansion_widths": [
+      1.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      1.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 12,
+    "target": "node-2",
+    "expansion_widths": [
+      1.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      1.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 13,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      1.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      1.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 13,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      2.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      2.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 13,
+    "target": "node-4",
+    "expansion_widths": [
+      0.0,
+      2.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      2.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 14,
+    "target": "node-2",
+    "expansion_widths": [
+      0.0,
+      1.0,
+      1.0,
+      4.0
+    ],
+    "compact_widths": [
+      0.0,
+      1.0,
+      1.0,
+      4.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 14,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      1.0,
+      2.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      1.0,
+      2.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 14,
+    "target": "node-5",
+    "expansion_widths": [
+      2.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      2.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 14,
+    "target": "node-6",
+    "expansion_widths": [
+      2.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      2.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 15,
+    "target": "node-1",
+    "expansion_widths": [
+      2.0,
+      3.0,
+      3.0,
+      5.0
+    ],
+    "compact_widths": [
+      2.0,
+      3.0,
+      3.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 15,
+    "target": "node-2",
+    "expansion_widths": [
+      2.0,
+      3.0,
+      3.0,
+      5.0
+    ],
+    "compact_widths": [
+      2.0,
+      3.0,
+      3.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 16,
+    "target": "node-2",
+    "expansion_widths": [
+      0.0,
+      3.0,
+      4.0,
+      4.0
+    ],
+    "compact_widths": [
+      0.0,
+      3.0,
+      4.0,
+      4.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 16,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      3.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      3.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 16,
+    "target": "node-4",
+    "expansion_widths": [
+      0.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      3.0,
+      4.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 17,
+    "target": "node-3",
+    "expansion_widths": [
+      2.0,
+      3.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      2.0,
+      3.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 17,
+    "target": "node-4",
+    "expansion_widths": [
+      2.0,
+      3.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      2.0,
+      3.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 17,
+    "target": "node-5",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      1.0,
+      2.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      1.0,
+      2.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 17,
+    "target": "node-6",
+    "expansion_widths": [
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "compact_widths": [
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 18,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      1.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      1.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 18,
+    "target": "node-2",
+    "expansion_widths": [
+      0.0,
+      1.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      1.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 19,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      3.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      3.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 19,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      3.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      3.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 19,
+    "target": "node-4",
+    "expansion_widths": [
+      0.0,
+      3.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      3.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 20,
+    "target": "node-2",
+    "expansion_widths": [
+      3.0,
+      3.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      3.0,
+      3.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 20,
+    "target": "node-3",
+    "expansion_widths": [
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 20,
+    "target": "node-5",
+    "expansion_widths": [
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 20,
+    "target": "node-6",
+    "expansion_widths": [
+      1.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      1.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 21,
+    "target": "node-1",
+    "expansion_widths": [
+      1.0,
+      3.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      1.0,
+      3.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 21,
+    "target": "node-2",
+    "expansion_widths": [
+      1.0,
+      3.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      1.0,
+      3.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 22,
+    "target": "node-2",
+    "expansion_widths": [
+      3.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "compact_widths": [
+      3.0,
+      3.0,
+      4.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 22,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 22,
+    "target": "node-4",
+    "expansion_widths": [
+      3.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      3.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 23,
+    "target": "node-3",
+    "expansion_widths": [
+      3.0,
+      4.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      3.0,
+      4.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 23,
+    "target": "node-4",
+    "expansion_widths": [
+      1.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      1.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 23,
+    "target": "node-5",
+    "expansion_widths": [
+      3.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      3.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "integer",
+    "case_id": 23,
+    "target": "node-6",
+    "expansion_widths": [
+      0.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "compact_widths": [
+      0.0,
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 0,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 0,
+    "target": "node-2",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 1,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      17.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 1,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 1,
+    "target": "node-4",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 2,
+    "target": "node-2",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 2,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      17.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 2,
+    "target": "node-5",
+    "expansion_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 2,
+    "target": "node-6",
+    "expansion_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      17.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 3,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 3,
+    "target": "node-4",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 3,
+    "target": "node-5",
+    "expansion_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      17.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 3,
+    "target": "node-7",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 3,
+    "target": "node-8",
+    "expansion_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 4,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 4,
+    "target": "node-2",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 5,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 5,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 5,
+    "target": "node-4",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 6,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 6,
+    "target": "node-4",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 6,
+    "target": "node-5",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 6,
+    "target": "node-6",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 7,
+    "target": "node-4",
+    "expansion_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 7,
+    "target": "node-5",
+    "expansion_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      17.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 7,
+    "target": "node-6",
+    "expansion_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 7,
+    "target": "node-7",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 7,
+    "target": "node-8",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 8,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 8,
+    "target": "node-2",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 9,
+    "target": "node-2",
+    "expansion_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 9,
+    "target": "node-3",
+    "expansion_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      17.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 9,
+    "target": "node-4",
+    "expansion_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      17.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 10,
+    "target": "node-3",
+    "expansion_widths": [
+      17.0,
+      17.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      17.0,
+      17.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 10,
+    "target": "node-4",
+    "expansion_widths": [
+      17.0,
+      17.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      17.0,
+      17.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 10,
+    "target": "node-5",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 10,
+    "target": "node-6",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 11,
+    "target": "node-1",
+    "expansion_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 11,
+    "target": "node-5",
+    "expansion_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      17.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 11,
+    "target": "node-6",
+    "expansion_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ],
+    "compact_widths": [
+      0.0,
+      17.0,
+      17.0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 11,
+    "target": "node-7",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      0,
+      17.0
+    ]
+  },
+  {
+    "kind": "exact",
+    "case_id": 11,
+    "target": "node-8",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      17.0
+    ],
+    "compact_widths": [
+      0,
+      0,
+      0,
+      17.0
+    ]
+  },
+  {
+    "kind": "boundary",
+    "case_id": "one_destination",
+    "target": "only",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "kind": "boundary",
+    "case_id": "zero_mass",
+    "target": "A",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "kind": "boundary",
+    "case_id": "zero_mass",
+    "target": "B",
+    "expansion_widths": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "compact_widths": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "kind": "boundary",
+    "case_id": "no_records",
+    "target": "A",
+    "expansion_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "boundary",
+    "case_id": "no_records",
+    "target": "U",
+    "expansion_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "boundary",
+    "case_id": "unary_chain",
+    "target": "A",
+    "expansion_widths": [
+      2.0,
+      4.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      2,
+      4.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "boundary",
+    "case_id": "unary_chain",
+    "target": "B",
+    "expansion_widths": [
+      2.0,
+      4.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      2.0,
+      4,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "boundary",
+    "case_id": "shared_erasure_budget",
+    "target": "A",
+    "expansion_widths": [
+      2.0,
+      2.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      2,
+      2,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "boundary",
+    "case_id": "shared_erasure_budget",
+    "target": "B",
+    "expansion_widths": [
+      2.0,
+      2.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      2,
+      2,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "boundary",
+    "case_id": "high_degree_star",
+    "target": "leaf0",
+    "expansion_widths": [
+      1.0,
+      8.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      1.0,
+      8.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "boundary",
+    "case_id": "high_degree_star",
+    "target": "leaf1",
+    "expansion_widths": [
+      2.0,
+      7.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      2.0,
+      7.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "boundary",
+    "case_id": "high_degree_star",
+    "target": "leaf2",
+    "expansion_widths": [
+      0.0,
+      9.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      9.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "boundary",
+    "case_id": "high_degree_star",
+    "target": "leaf3",
+    "expansion_widths": [
+      1.0,
+      8.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      1.0,
+      8.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "boundary",
+    "case_id": "high_degree_star",
+    "target": "leaf4",
+    "expansion_widths": [
+      2.0,
+      7.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      2.0,
+      7.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "boundary",
+    "case_id": "high_degree_star",
+    "target": "leaf5",
+    "expansion_widths": [
+      0.0,
+      9.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      0.0,
+      9.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "boundary",
+    "case_id": "high_degree_star",
+    "target": "leaf6",
+    "expansion_widths": [
+      1.0,
+      8.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      1.0,
+      8.0,
+      100.0,
+      100.0
+    ]
+  },
+  {
+    "kind": "boundary",
+    "case_id": "high_degree_star",
+    "target": "leaf7",
+    "expansion_widths": [
+      2.0,
+      7.0,
+      100.0,
+      100.0
+    ],
+    "compact_widths": [
+      2.0,
+      7.0,
+      100.0,
+      100.0
+    ]
+  }
+]

@@ -43,3 +43,21 @@ The optional base-R integrity check remains available:
 ```powershell
 Rscript analysis\R\reproduce_validation_summary.R
 ```
+
+
+## Structural theorem validation
+
+Run after installing this exact revision:
+
+```text
+python analysis/structural/validate.py
+python analysis/structural/validate_structural_comparison.py
+```
+
+These scripts import the production structural kernel. The independent baseline
+uses paired-allocation linear programs; further checks enumerate integer states,
+cuts and expanded maximum-flow networks. All structural inputs are synthetic.
+The external validation results above test the existing reconstruction and
+calibrated-share procedures; they do not empirically validate the new theorem.
+Timing outputs are single local measurements, not a comparison with the fastest
+published specialized method.

@@ -124,3 +124,8 @@ TEM-FLOW is released under the BSD 3-Clause License. The maintained source and
 versioned releases are available at
 [github.com/TheDOMEMANN/TEM-FLOW](https://github.com/TheDOMEMANN/TEM-FLOW).
 Add the archival DOI to `CITATION.cff` after an archival record is deposited.
+
+
+## Structural formulation revision of 1 October 2026
+
+Version remains **1.0.0**. The new aggregate-record calculation reports both ranges for entered readings and worst uncertainty under missing records. [Read the input guide](docs/STRUCTURAL_INPUT_GUIDE.md). The original published v1.0.0 tag predates this revision and is retained unchanged. Use the revision manifest to identify the code used for the revised manuscript.

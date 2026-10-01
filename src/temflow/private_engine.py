@@ -20,6 +20,7 @@ from .curation import AIProposalStore, AIProviderConfig, TopologyRecord, Topolog
 from .evidential_resolution import run_evidence_resolved_payload
 from .exposure_scenario import calculate_exposure_scenario
 from .compositional import run_compositional_payload
+from .structural import run_structural_payload, structural_csv_to_payload
 from .csv_intake import convert_csv_text
 from .monitoring_layers import normalize_layer_selection, summarize_private_layers
 from .tem_calculus import run_typed_model, tem_compare_and_screen
@@ -1190,6 +1191,15 @@ class EngineHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(encoded)
             return
+        if parsed.path in {"/docs/AGGREGATE_RECORD_TEMPLATE.csv", "/docs/AGGREGATE_RECORD_EXAMPLE.csv", "/docs/STRUCTURAL_INPUT_GUIDE.md", "/docs/STRUCTURAL_EXAMPLE.json"}:
+            name = parsed.path.rsplit("/", 1)[1]
+            encoded = (Path(__file__).with_name("data") / name).read_bytes()
+            self.send_response(200)
+            self.send_header("Content-Type", "text/plain; charset=utf-8")
+            self.send_header("Content-Length", str(len(encoded)))
+            self.end_headers()
+            self.wfile.write(encoded)
+            return
         if parsed.path == "/docs/TEMFLOW_DATED_RECORD_INPUT_TEMPLATE.csv":
             encoded = CSV_TEMPLATE_PATH.read_bytes()
             self.send_response(200)
@@ -1448,6 +1458,9 @@ class EngineHandler(BaseHTTPRequestHandler):
                 self._json(200, tem_compare_and_screen(payload))
             elif parsed.path == "/api/err/run":
                 self._json(200, run_evidence_resolved_payload(payload))
+            elif parsed.path == "/api/structural/run":
+                problem = structural_csv_to_payload(payload["csv_text"]) if "csv_text" in payload else payload
+                self._json(200, run_structural_payload(problem))
             elif parsed.path == "/api/compositional/run":
                 self._json(200, run_compositional_payload(payload))
             elif parsed.path == "/api/input/convert":
@@ -1629,6 +1642,12 @@ class EngineHandler(BaseHTTPRequestHandler):
                     raise ValueError("err_problem must be an object")
                 else:
                     err_result = run_evidence_resolved_payload(raw_err_problem)
+                structural_problem = payload.get("structural_problem", private_data.get("structural_problem"))
+                structural_result = (
+                    run_structural_payload(structural_problem)
+                    if structural_problem is not None and layers["err"] else
+                    {"status": "not_requested" if layers["err"] else "excluded_by_user"}
+                )
                 monitoring_layers = summarize_private_layers(layers, private_data)
                 manifest = {
                     "engine_version": VERSION,
@@ -1645,7 +1664,9 @@ class EngineHandler(BaseHTTPRequestHandler):
                     "route_revision_id": route_revision.revision_id if route_revision else "BASE" if route_id else None,
                     "approved_ledger_digest": self.store.digest(),
                     "active_evidence": active_evidence,
+                    "structural_evidence_analysis": structural_result,
                     "model_steps": {
+                        "structural_evidence_analysis": structural_result,
                         "evidence_resolved_reconstruction": err_result,
                         "cpc_recalculation": recalculation,
                         "contaminant_tracing": contaminant_trace,

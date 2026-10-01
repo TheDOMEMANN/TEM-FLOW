@@ -101,3 +101,8 @@ The uploaded data remain in browser memory for the session. Click **Clear loaded
 ## JSON users
 
 Advanced users may continue to upload `docs/PRIVATE_LAYER_INPUT_TEMPLATE.json`. Its root must be a JSON object. CSV and JSON follow the same session-only privacy rule and feed the same engine integration point.
+
+
+## Structural formulation revision of 1 October 2026
+
+Version remains **1.0.0**. The new aggregate-record calculation reports both ranges for entered readings and worst uncertainty under missing records. [Read the input guide](STRUCTURAL_INPUT_GUIDE.md). The original published v1.0.0 tag predates this revision and is retained unchanged. Use the revision manifest to identify the code used for the revised manuscript.
