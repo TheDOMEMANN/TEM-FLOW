@@ -1,8 +1,17 @@
 > For the editable Windows desktop build, start with [DESKTOP_START_HERE.md](DESKTOP_START_HERE.md). For source changes, version upgrades and repository releases, read [DEVELOPER_GUIDE.md](DEVELOPER_GUIDE.md). The current feature manager adds, removes and restores nodes/routes with curator access.
 
+> To edit the engine or interface yourself, open [EDITABLE_SOURCE_START_HERE.html](EDITABLE_SOURCE_START_HERE.html) locally, or read [the text guide](EDITABLE_SOURCE_START_HERE.txt). The source has its own launch and check buttons.
+
 # TEM-FLOW 1.0.0
 
-TEM-FLOW reconstructs source–transient–destination mass-flow intervals when
+The current structural formulation and separate source-editing controls are available in the dated downloads on the [v1.0.0 release page](https://github.com/TheDOMEMANN/TEM-FLOW/releases/tag/v1.0.0):
+
+- [Editable source and reproduction files](https://github.com/TheDOMEMANN/TEM-FLOW/releases/download/v1.0.0/TEM-FLOW-1.0.0-source-editable-2026-10-01.zip)
+- [Windows desktop application with Python included](https://github.com/TheDOMEMANN/TEM-FLOW/releases/download/v1.0.0/TEM-FLOW-1.0.0-Windows-desktop-structural-2026-10-01.zip)
+
+The original `v1.0.0` Git tag and older undated assets remain historical snapshots. Use the dated files above or current source for the structural formulation and editing controls. Software version **1.0.0** is unchanged. The [maintenance verification record](analysis/results/SOURCE_MAINTENANCE_RECHECK_2026_10_01.json) reports the repeated mathematical and empirical checks.
+
+TEM-FLOW reconstructs sourceâ€“transientâ€“destination mass-flow intervals when
 route evidence is incomplete, dated differently, or collected by separate
 institutions. It preserves mass balance and the identity of the material while
 distinguishing observed, source-reported, transparently derived, and

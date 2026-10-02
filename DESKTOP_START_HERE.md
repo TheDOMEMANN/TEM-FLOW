@@ -1,6 +1,6 @@
 # TEM-FLOW desktop and editable source
 
-This folder is the editable application. It includes its Python runtime and does not require a repository connection or internet connection. It contains a private local server and a browser interface. On Windows with Microsoft Edge, the launcher opens a separate application window; otherwise it opens your default browser. The numerical engine runs on your PC.
+A complete Windows desktop bundle includes its Python runtime and does not require a repository connection or internet connection. It contains a private local server and a browser interface. On Windows with Microsoft Edge, the launcher opens a separate application window; otherwise it opens your default browser. The numerical engine runs on your PC.
 
 1. Extract the complete desktop ZIP to a writable folder. Keep its folders together.
 2. Double-click **Launch TEM-FLOW.vbs** (silent launcher), or **Launch TEM-FLOW.cmd**.
@@ -21,8 +21,12 @@ The public desktop build contains the general engine and public map data. It doe
 
 ## Editing and checking the source
 
-Double-click **Edit source.cmd** to open the Python source folder. Use any text editor you are comfortable with. The map interface is `src/temflow/data/patterns_private_ui.html`. See **DEVELOPER_GUIDE.md** for the code map and a complete edit → test → version → release workflow.
+Double-click **Edit source.cmd** to open the Python source folder. Use any text editor you are comfortable with. The map interface is `src/temflow/data/patterns_private_ui.html`. See **DEVELOPER_GUIDE.md** for the code map and a complete edit â†’ test â†’ version â†’ release workflow.
 
 After editing, double-click **Run checks.cmd**. Then use **Restart TEM-FLOW.cmd** to see your changes. Ordinary Python, HTML, CSS or JavaScript edits require no compilation. Changes requiring additional Python dependencies need a rebuilt runtime.
 
 If launch fails, read `desktop-launch-error.log` or `user_data/desktop-server.log`. Do not run directly inside the ZIP archive.
+
+## Separately labelled source package
+
+The folder labelled **TEM-FLOW-1.0.0-EDITABLE-SOURCE** is for your future edits. Read **EDITABLE_SOURCE_START_HERE.html**, then use its **Launch editable source.cmd** and **Check editable source.cmd** buttons. It runs independently and stores its own local records. The ordinary desktop shortcut continues to open the checked daily-use copy.

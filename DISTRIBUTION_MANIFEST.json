@@ -12,7 +12,7 @@
     "application contaminant chemistry values",
     "restricted raw microdata"
   ],
-  "file_count": 209,
+  "file_count": 220,
   "files": [
     {
       "path": ".gitattributes",
@@ -255,6 +255,11 @@
       "sha256": "fa0c7d730cca20435e0a5e0b3f0662f8ce9a66d8cd4934331c0989b43172d3d2"
     },
     {
+      "path": "analysis/results/SOURCE_MAINTENANCE_RECHECK_2026_10_01.json",
+      "bytes": 4636,
+      "sha256": "64e28284f4ec45a5e506de8a929de54e4604b4cb09a0f92492ed622c78c62dc9"
+    },
+    {
       "path": "analysis/results/SOURCE_ONLY_ALLOCATION_SCORE_V1_0_0.json",
       "bytes": 1275,
       "sha256": "6a8eb2c06abcbb7381c59b33774186bd121dda7a8f0a7fee0557a6e58ab0ac12"
@@ -371,18 +376,23 @@
     },
     {
       "path": "analysis/structural/validate.py",
-      "bytes": 11829,
-      "sha256": "0ee37b2c1ab800f77e07e0c38c4013acb4dbd2fa38ca1763b9e397b7895c78d0"
+      "bytes": 12088,
+      "sha256": "bfd968ea68cafa1fb1c3b0cd8f69bb146c9e611009bc2fe91a5226ee191b6922"
     },
     {
       "path": "analysis/structural/validate_structural_comparison.py",
-      "bytes": 7108,
-      "sha256": "d762205f9d115c365e1016d902cb861a6a1efa0ec2d8465a004e148bce7017b9"
+      "bytes": 7456,
+      "sha256": "53dcd28e45ba29372509915421c19ec4287afb1f451add0228f5db445dddb72b"
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 1595,
-      "sha256": "10194197638aa64172e65d7a3537fa15f62263938d7b3a0053a84899434e896b"
+      "bytes": 2206,
+      "sha256": "0e8f52804fb65a53287adba9f753841d2b9d3e19c295ed20080cc82245ef4165"
+    },
+    {
+      "path": "Check editable source.cmd",
+      "bytes": 184,
+      "sha256": "aceaf72b84ca563de06ee865644a1d5d1c7d334f981ef199d53ed0459bb7c975"
     },
     {
       "path": "CITATION.cff",
@@ -406,13 +416,13 @@
     },
     {
       "path": "DESKTOP_START_HERE.md",
-      "bytes": 3665,
-      "sha256": "24f9336499d9304d4837573bbf10f3a98a9d676fd63fa324f601a41fa6deb06e"
+      "bytes": 4059,
+      "sha256": "1b70d9531faa6fb163e7ede7fbbd29ad3ce4530c7982b0f3f4ebe8d3e0ea6ee6"
     },
     {
       "path": "DEVELOPER_GUIDE.md",
-      "bytes": 6583,
-      "sha256": "c3c62cc3c0047c13b0cd7d9b7c6b02116d569c0dcf25166e81f97eebabae7210"
+      "bytes": 8212,
+      "sha256": "c3fd6b4ce48d8854cb49e74fe143151c1a04f1ffa4f3674df9e595356da87999"
     },
     {
       "path": "docs/AGGREGATE_RECORD_EXAMPLE.csv",
@@ -470,6 +480,16 @@
       "sha256": "dd0e286183ae165d5183ac35580fe34d1b30158c70c60f8fe3489d2cb8a6484a"
     },
     {
+      "path": "EDITABLE_SOURCE_START_HERE.html",
+      "bytes": 11465,
+      "sha256": "462cf1b7043f35d175289224f53cb21fe1055d66471847b9a1128f0ca3331447"
+    },
+    {
+      "path": "EDITABLE_SOURCE_START_HERE.txt",
+      "bytes": 10167,
+      "sha256": "a064d5b857611bf10ae2a7a0bf515843a1aec47b311092ee498db22e46948941"
+    },
+    {
       "path": "FORMULATION/ERR_FORMAL_RESULTS_V1_1.md",
       "bytes": 4677,
       "sha256": "f98f1ac5d68a9a43168499be7e67f60ddbe70fa976ea66cab2d8fe44a8be3aba"
@@ -503,6 +523,11 @@
       "path": "GEOGRAPHIC_COVERAGE.csv",
       "bytes": 1539,
       "sha256": "fe2fc157e0cb3f6857e00835d9206012fb12b0d0b71685fe21ed747e76f4ccd6"
+    },
+    {
+      "path": "Launch editable source.cmd",
+      "bytes": 216,
+      "sha256": "138b21c2a4f37b0a47992ecf2638ccca9a63f63126386a3413fa4a0abc4c5a2a"
     },
     {
       "path": "Launch TEM-FLOW.cmd",
@@ -551,8 +576,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7226,
-      "sha256": "ad9c4c40d1cf9b396a5bb0f845766cd0368180948c996dc6d90981cc30597d78"
+      "bytes": 8381,
+      "sha256": "d3d39db93eac55058fbe2ecc1c4f88ac263e32d1707e3beb930f67f74a47bb33"
     },
     {
       "path": "RELEASE_NOTES_1.0.0.md",
@@ -568,6 +593,11 @@
       "path": "requirements-lock.txt",
       "bytes": 171,
       "sha256": "bfc062c4ab193f988f14b3f31c2e9d7b3b3e55663c0d41e3e3146433706f6b03"
+    },
+    {
+      "path": "Restart editable source.cmd",
+      "bytes": 217,
+      "sha256": "8d3ae65df848424bc418c487a1b24e7fd9375376a490b094f002c18e3727f2f6"
     },
     {
       "path": "Restart TEM-FLOW.cmd",
@@ -910,6 +940,11 @@
       "sha256": "b27371a54bd678a98a6dcc4f57895fcfc45301045cf72f1a317acdc27242de21"
     },
     {
+      "path": "Stop editable source.cmd",
+      "bytes": 214,
+      "sha256": "7ece0761c4f3e56e313cea6b22f8fcae707d37882e0894eb3db744f658f70c64"
+    },
+    {
       "path": "Stop TEM-FLOW.cmd",
       "bytes": 97,
       "sha256": "9768c4ca33184d1e10df1c647203dba99af347a6dc08253b87f390846d17e737"
@@ -1015,6 +1050,11 @@
       "sha256": "35f5a278e004b00e22fc0252efdf4c70ada0931ba0ee8f003f08dfb87826e05b"
     },
     {
+      "path": "tests/test_source_distribution.py",
+      "bytes": 2215,
+      "sha256": "bf0ac37536565e7486677d47a12ee1e30d816e740c681ed99275f335c16b4406"
+    },
+    {
       "path": "tests/test_structural.py",
       "bytes": 6276,
       "sha256": "769fc72a3ec00db6b26c9d2d0f6654e43f742b81bffb6c79970a9ff25f0a4948"
@@ -1046,18 +1086,33 @@
     },
     {
       "path": "tools/check.py",
-      "bytes": 1296,
-      "sha256": "8c54dc5a2dcb42a4573806229f4deabf1a6f7d029893237eb601541e2afcedbf"
+      "bytes": 4072,
+      "sha256": "861e35e0682f806f68bf34cbdf903582066e15492457de72f8298dbf107776a2"
+    },
+    {
+      "path": "tools/compare_saved_results.py",
+      "bytes": 2761,
+      "sha256": "46a3e5dc79622da4f7290aa82adc94006f01037c313c94d26ad40db627550c88"
     },
     {
       "path": "tools/package_release.py",
-      "bytes": 3547,
-      "sha256": "81dd7551fb73643bc03da2e39850c7b9395e4b5cac33d6de5151008fe2ce56cb"
+      "bytes": 5454,
+      "sha256": "10ae88c799c5f53bbead57f1c411af7a9075d539ac638380018ba39a77b256e8"
     },
     {
       "path": "tools/set_version.py",
       "bytes": 1556,
       "sha256": "f37934697de9d1b4419a105616f73041070b4e2fbee4cacab03baf7757c423a5"
+    },
+    {
+      "path": "tools/source_cli.py",
+      "bytes": 296,
+      "sha256": "62e8c1ce8b9e186b762eacd9d4ccd058775135e371c4ac22a02de3060ccdfa6d"
+    },
+    {
+      "path": "tools/source_workspace.ps1",
+      "bytes": 2266,
+      "sha256": "1a6c89449d0e93495d20e4dfd28064564c5425ac12ef57587065cf7bffc8ea53"
     }
   ]
 }

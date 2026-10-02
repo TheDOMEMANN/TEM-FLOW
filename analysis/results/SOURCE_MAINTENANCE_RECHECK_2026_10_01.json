@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-01",
+  "software_version": "1.0.0",
+  "status": "pass",
+  "scientific_baseline_commit": "738e31fefdb223064c4ef4dde21c4cfa19e7b94b",
+  "mathematics_unchanged_files": [
+    "src/temflow/_structural_tree.py",
+    "src/temflow/structural.py",
+    "src/temflow/core.py",
+    "src/temflow/constraints.py",
+    "src/temflow/compositional.py",
+    "src/temflow/evidential_resolution.py",
+    "FORMULATION/STRUCTURAL_FORMULATION.md"
+  ],
+  "preserved_data_and_result_files": 88,
+  "python_scripts_syntax_checked": 77,
+  "unit_tests": {
+    "run": 195,
+    "skipped": 2,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  },
+  "packaged_checks": 8,
+  "saved_result_files_compared": 14,
+  "numerical_result_changes": 0,
+  "exact_json_matches": 11,
+  "comparison_tolerance": {
+    "absolute": 1e-10,
+    "relative": 1e-10
+  },
+  "excluded_metadata_fields": [
+    "date",
+    "numpy",
+    "prototype_seconds",
+    "python",
+    "scipy",
+    "seconds",
+    "tree_seconds"
+  ],
+  "structural_checks": {
+    "seed": 2026093003,
+    "continuous_cases": 30,
+    "continuous_target_budget_checks": 412,
+    "fixed_cut_checks": 103,
+    "integer_cases": 24,
+    "integer_target_budget_checks": 288,
+    "exact_cases": 12,
+    "exact_target_budget_checks": 210,
+    "witnesses_checked": 517,
+    "edge_cases": 6,
+    "invalid_inputs_rejected": 3,
+    "maximum_lp_gap": 1.1546319456101628e-14,
+    "maximum_lp_primal_violation": 1.4210854715202004e-14,
+    "all_passed": true,
+    "python": "3.13.15",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "novelty_status": "Proven structural specialization; publication originality not established by these tests."
+  },
+  "expansion_checks": {
+    "all_passed": true,
+    "case_count": 72,
+    "fixed_expansion_vs_cut_checks": 11229,
+    "target_budget_profile_checks": 936,
+    "maximum_fixed_gap": 1.7763568394002505e-15
+  },
+  "empirical_reproduction": {
+    "checks": {
+      "crosscommodity": {
+        "level": "frozen_prediction_rescore",
+        "mass_certificate_coverage": 0.9897475490209191,
+        "median_relative_width": 0.017337314092697904,
+        "positive_routes": 610,
+        "route_certificate_coverage": 0.8672131147540983,
+        "status": "pass"
+      },
+      "dryad_transient": {
+        "coverage": 0.8863636363636364,
+        "level": "frozen_prediction_rescore",
+        "median_relative_width": 0.21938768441543063,
+        "raw_access": "external_large_archive; acquisition manifest included",
+        "status": "pass",
+        "targets": 440
+      },
+      "karg_source_only": {
+        "level": "frozen_prediction_rescore",
+        "median_relative_width": 0.9831693326003128,
+        "positive_compartment_coverage": 0.8234662210551444,
+        "status": "pass",
+        "targets": 5334
+      },
+      "nass_retention": {
+        "domains": {
+          "fish_capture": {
+            "coverage": 0.9738095238095238,
+            "median_upper_fraction": 0.9993577392594414,
+            "records": 1260
+          },
+          "fish_farming": {
+            "coverage": 0.9994722955145119,
+            "median_upper_fraction": 1.0,
+            "records": 1895
+          }
+        },
+        "hard_rule_status": "rejected",
+        "level": "derived_truth_rescore",
+        "raw_access": "restricted; acquisition manifest and limitation documented",
+        "status": "pass"
+      },
+      "summary_integrity": {
+        "level": "integrity",
+        "rows": 18,
+        "status": "pass"
+      },
+      "uk_rpa": {
+        "level": "raw_to_result",
+        "positive_compartment_coverage": 0.995334370139969,
+        "raw_sha256": "23584327dde9a6f6e59efe1281204cdaf5b9f6a3c69aed9233e43c0c7c163875",
+        "status": "pass",
+        "targets": 544
+      },
+      "zambia_scale": {
+        "level": "published_table_recalculation",
+        "on_farm_household_share": 0.49700000000000005,
+        "outside_district_household_share": 0.03,
+        "status": "pass"
+      }
+    },
+    "interpretation": "UK RPA is reproduced raw-to-result. Karg, Dryad and cross-commodity metrics are independently rescored from frozen predictions and unblinded truth. NASS is rescored from public derived truth because raw microdata are restricted. Zambia is recalculated from the published-table extraction.",
+    "software_version": "1.0.0",
+    "status": "pass"
+  },
+  "interpretation": "Checks reproduce the saved scientific outputs under their stated assumptions and data-access levels. They do not establish publication priority."
+}

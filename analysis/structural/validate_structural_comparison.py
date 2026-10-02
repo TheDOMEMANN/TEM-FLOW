@@ -10,7 +10,9 @@ import json
 import sys
 import numpy as np
 from scipy.optimize import linprog
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / 'src'))
 from temflow._structural_tree import from_payload, NestedLedger, Record
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from validate import explicit_cut_width
 
 ROOT=Path(__file__).resolve().parent
@@ -75,6 +77,11 @@ is a series-parallel source-to-sink network after pruning.
 
 
 def main():
+    import argparse
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--output-dir', type=Path, default=ROOT/'results')
+    out=parser.parse_args().output_dir
+    out.mkdir(parents=True, exist_ok=True)
     cases=json.loads((ROOT/'results/cases.json').read_text())
     boundaries=json.loads((ROOT/'results/edge_cases.json').read_text())
     cases+= [{'kind':'boundary','id':c['name'],'input':c['input']} for c in boundaries]
@@ -133,8 +140,8 @@ def main():
             'conditional_example':{'input':nested.payload(),'received_group_total':40,
                                    'conditional_A_interval':fixed_interval,'prospective_A_width':prospective},
             'novelty_inference':'These checks verify mathematical relationships and assumptions; they do not establish literature priority.'}
-    (ROOT/'results/structural_comparison_checks.json').write_text(json.dumps(comparisons,indent=2),encoding='utf-8')
-    (ROOT/'results/structural_comparison_summary.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
+    (out/'structural_comparison_checks.json').write_text(json.dumps(comparisons,indent=2),encoding='utf-8')
+    (out/'structural_comparison_summary.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
     print(json.dumps(result,indent=2))
 
 

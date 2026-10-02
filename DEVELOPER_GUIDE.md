@@ -11,6 +11,8 @@ The maintained application uses one source tree. The Windows desktop launcher ru
 | API, access control, model dispatch, catalog | `src/temflow/private_engine.py` |
 | Added nodes/routes and AI proposal records | `src/temflow/curation.py` |
 | Dated removal, restoration and affected-feature review | `src/temflow/feature_changes.py` |
+| Structural record validation and conditional ranges | `src/temflow/structural.py` |
+| Nested aggregate uncertainty mathematics | `src/temflow/_structural_tree.py` |
 | Evidence-resolved reconstruction | `src/temflow/evidential_resolution.py` |
 | Joint compositional allocation | `src/temflow/compositional.py` |
 | Core numerical constraints | `src/temflow/core.py`, `src/temflow/constraints.py` |
@@ -27,7 +29,7 @@ Add a substantial independent feature in its own module and connect it through t
 1. Make a copy or a Git branch before editing.
 2. Edit the relevant source files with your preferred editor.
 3. Add a test for meaningful changes to calculations, permissions, topology or saved data.
-4. Run `runtime\python.exe -B tools\check.py`, or double-click **Run checks.cmd**.
+4. Double-click **Check editable source.cmd** in the separate source folder, or **Run checks.cmd** in a full desktop bundle. All checks resolve the edited source, including when Python is borrowed from the desktop runtime. A dated report is written under `user_data/checks/`; the saved scientific reference results are preserved.
 5. Restart the desktop engine and inspect the changed interface. Check selection, Escape, pan/zoom and road alignment if map code changed.
 6. Record what changed and what passed in `CHANGELOG.md`, then commit your changes if using Git.
 
@@ -77,3 +79,11 @@ Runtime provenance: [Python 3.13.15 release and checksums](https://www.python.or
 Version remains **1.0.0**. The new aggregate-record calculation reports both ranges for entered readings and worst uncertainty under missing records. [Read the input guide](docs/STRUCTURAL_INPUT_GUIDE.md). The original published v1.0.0 tag predates this revision and is retained unchanged. Use the revision manifest to identify the code used for the revised manuscript.
 
 The shared public entry point is `src/temflow/structural.py`. Its nested calculation is in `_structural_tree.py`; arbitrary overlapping groups use independent linear programs. The existing ERR and compositional solvers remain available for their broader assumptions. Update the structural integration tests and independent validation scripts whenever the mathematics is changed.
+
+## Separate editable source workspace
+
+Start with [the ordinary-user guide](EDITABLE_SOURCE_START_HERE.txt). **Launch editable source.cmd** runs the code in this folder, with a separate `user_data/` and local port. It can use the runtime in an adjacent TEM-FLOW desktop folder; no code is loaded from that adjacent application. **Restart editable source.cmd** reloads changes. A copied source folder is a working backup; it is not a new software version.
+
+Use `python tools/package_release.py --revision source-editing-2026-10-01` to distinguish a further archive while the current software version remains 1.0.0. The release builder includes the structural formulation, guides, checks and saved scientific results. Do not change a published tag merely to replace an archive. Cite the precise commit for a paper.
+
+The comparison in `tools/compare_saved_results.py` checks new numerical outputs against the saved reference run. It excludes only runtime durations, environment versions and the dated comparison field. A failure can indicate a mathematical change, a numerical dependency change, or a broken reproduction. Investigate it; do not alter the saved reference values merely to make a check pass.

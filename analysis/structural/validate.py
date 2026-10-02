@@ -4,6 +4,7 @@ import sys,json,time,random,math,platform
 from itertools import combinations
 import numpy as np
 import scipy
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / 'src'))
 from temflow._structural_tree import NestedLedger,Record,example
 ROOT=Path(__file__).resolve().parent
 sys.path.insert(0,str(ROOT/'baseline'))
@@ -55,6 +56,11 @@ def explicit_cut_width(ledger,target,erased):
     return result
 
 def main():
+    import argparse
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--output-dir', type=Path, default=ROOT/'results')
+    out=parser.parse_args().output_dir
+    out.mkdir(parents=True, exist_ok=True)
     rng=random.Random(2026093003);cases=[];lp_checks=[];int_checks=[];cut_checks=[]
     witness_count=0;max_gap=0.;max_residual=0.
     for i in range(30):
@@ -168,7 +174,6 @@ def main():
     performance={'input':small.payload(),'r':2,'tree_seconds':quicktime,'prototype_seconds':slowtime,
                  'prototype_lp_calls':d.lp_calls,'same_widths':True,
                  'qualification':'Single local timing, includes Python/solver overhead; no superiority claim over the best published specialized algorithms.'}
-    out=ROOT/'results';out.mkdir(exist_ok=True)
     data={'cases.json':cases,'lp_checks.json':lp_checks,'cut_checks.json':cut_checks,
           'integer_checks.json':int_checks,'exact_transition_checks.json':exact_checks,
           'edge_cases.json':edge_checks,'worked_example.json':worked,'scaling.json':scaling,'performance.json':performance}
