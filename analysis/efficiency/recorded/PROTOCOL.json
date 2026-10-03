@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-10-02T21:28:04+0300",
+  "question": "Runtime to compute all destination prospective width profiles for all budgets 0..r under identical nested mass-accounting assumptions.",
+  "repeats": 3,
+  "evaluation_limit_seconds": 10.0,
+  "case_ids": [
+    "balanced_L4_r0",
+    "balanced_L8_r0",
+    "balanced_L16_r0",
+    "balanced_L32_r0",
+    "balanced_L128_r0",
+    "balanced_L1024_r0",
+    "balanced_L4_r1",
+    "balanced_L8_r1",
+    "balanced_L16_r1",
+    "balanced_L4_r2",
+    "balanced_L8_r2",
+    "balanced_L16_r2",
+    "star_L8_r2",
+    "comb_L8_r2",
+    "random_L8_r2"
+  ],
+  "temflow_only_scaling_ids": [
+    "balanced_L128_r1",
+    "balanced_L128_r3",
+    "balanced_L1024_r1",
+    "balanced_L1024_r3",
+    "balanced_L8192_r1",
+    "balanced_L8192_r3"
+  ],
+  "methods": [
+    "temflow",
+    "expanded_dinic",
+    "paired_highs_lp"
+  ],
+  "timing": "Fresh in-memory construction and complete calculation; excludes JSON I/O, process startup, imports, and common warm-up. Includes graph or LP preparation. Three repeated batches; batch chosen by an untimed pilot, capped at 256; median with range.",
+  "accuracy": "All completed full profiles compared to TEM-FLOW at absolute tolerance 1e-7 and zero relative tolerance.",
+  "fairness": "Compiled Dinic; one undirected record-stage CSR graph shared across every target and erasure subset, with capacities updated in-place. HiGHS paired-flow LP omits prototype witness/caching overhead. Baselines enumerate record losses; no claim to beat the best specialized loss-budget algorithm.",
+  "limits": "One Windows PC, deterministic synthetic quarter-unit errors, three repeats, no CPU affinity or controlled power plan. Peak working set includes imports and allocator history. Limits apply to each evaluation; timed-out pilot prevents further repeats. Missing-record profiles, not conditional inverse problems or whole GUI latency.",
+  "sources": [
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.csgraph.maximum_flow.html",
+    "https://docs.scipy.org/doc/scipy/reference/optimize.linprog-highs.html"
+  ]
+}

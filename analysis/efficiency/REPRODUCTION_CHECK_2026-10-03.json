@@ -1,0 +1,214 @@
+{
+  "status": "PASS",
+  "failed_checks": [],
+  "additional_timeouts": [],
+  "timeouts": [
+    "balanced_L1024_r0/paired_highs_lp",
+    "balanced_L16_r2/paired_highs_lp"
+  ],
+  "completed_method_case_evaluations": 49,
+  "completed_comparator_cases": 28,
+  "matched_destination_budget_values": 1776,
+  "maximum_absolute_gap_from_recorded": 0.0,
+  "maximum_absolute_gap_between_methods": 0.0,
+  "temflow_faster_in_every_completed_comparison": true,
+  "comparisons": [
+    {
+      "case": "balanced_L4_r0",
+      "method": "paired_highs_lp",
+      "values": 4,
+      "gap": 0.0,
+      "ratio": 143.60489374619291
+    },
+    {
+      "case": "balanced_L4_r0",
+      "method": "expanded_dinic",
+      "values": 4,
+      "gap": 0.0,
+      "ratio": 15.534325263660305
+    },
+    {
+      "case": "balanced_L8_r0",
+      "method": "paired_highs_lp",
+      "values": 8,
+      "gap": 0.0,
+      "ratio": 114.34167432065107
+    },
+    {
+      "case": "balanced_L8_r0",
+      "method": "expanded_dinic",
+      "values": 8,
+      "gap": 0.0,
+      "ratio": 13.49153081789778
+    },
+    {
+      "case": "balanced_L16_r0",
+      "method": "paired_highs_lp",
+      "values": 16,
+      "gap": 0.0,
+      "ratio": 122.86188946629576
+    },
+    {
+      "case": "balanced_L16_r0",
+      "method": "expanded_dinic",
+      "values": 16,
+      "gap": 0.0,
+      "ratio": 12.562883093196843
+    },
+    {
+      "case": "balanced_L32_r0",
+      "method": "paired_highs_lp",
+      "values": 32,
+      "gap": 0.0,
+      "ratio": 145.22147835908282
+    },
+    {
+      "case": "balanced_L32_r0",
+      "method": "expanded_dinic",
+      "values": 32,
+      "gap": 0.0,
+      "ratio": 13.546686811839376
+    },
+    {
+      "case": "balanced_L128_r0",
+      "method": "expanded_dinic",
+      "values": 128,
+      "gap": 0.0,
+      "ratio": 13.886873125466208
+    },
+    {
+      "case": "balanced_L128_r0",
+      "method": "paired_highs_lp",
+      "values": 128,
+      "gap": 0.0,
+      "ratio": 373.3248596364569
+    },
+    {
+      "case": "balanced_L1024_r0",
+      "method": "expanded_dinic",
+      "values": 1024,
+      "gap": 0.0,
+      "ratio": 16.864142388724613
+    },
+    {
+      "case": "balanced_L4_r1",
+      "method": "expanded_dinic",
+      "values": 8,
+      "gap": 0.0,
+      "ratio": 118.39070363483152
+    },
+    {
+      "case": "balanced_L4_r1",
+      "method": "paired_highs_lp",
+      "values": 8,
+      "gap": 0.0,
+      "ratio": 1083.5784909345623
+    },
+    {
+      "case": "balanced_L8_r1",
+      "method": "paired_highs_lp",
+      "values": 16,
+      "gap": 0.0,
+      "ratio": 2235.311524128788
+    },
+    {
+      "case": "balanced_L8_r1",
+      "method": "expanded_dinic",
+      "values": 16,
+      "gap": 0.0,
+      "ratio": 219.5117863913502
+    },
+    {
+      "case": "balanced_L16_r1",
+      "method": "expanded_dinic",
+      "values": 32,
+      "gap": 0.0,
+      "ratio": 443.33660961018916
+    },
+    {
+      "case": "balanced_L16_r1",
+      "method": "paired_highs_lp",
+      "values": 32,
+      "gap": 0.0,
+      "ratio": 6346.73952313851
+    },
+    {
+      "case": "balanced_L4_r2",
+      "method": "paired_highs_lp",
+      "values": 12,
+      "gap": 0.0,
+      "ratio": 6191.633765593655
+    },
+    {
+      "case": "balanced_L4_r2",
+      "method": "expanded_dinic",
+      "values": 12,
+      "gap": 0.0,
+      "ratio": 555.5627755964193
+    },
+    {
+      "case": "balanced_L8_r2",
+      "method": "paired_highs_lp",
+      "values": 24,
+      "gap": 0.0,
+      "ratio": 17491.673881349103
+    },
+    {
+      "case": "balanced_L8_r2",
+      "method": "expanded_dinic",
+      "values": 24,
+      "gap": 0.0,
+      "ratio": 1302.5250422430104
+    },
+    {
+      "case": "balanced_L16_r2",
+      "method": "expanded_dinic",
+      "values": 48,
+      "gap": 0.0,
+      "ratio": 10991.309182367202
+    },
+    {
+      "case": "star_L8_r2",
+      "method": "expanded_dinic",
+      "values": 24,
+      "gap": 0.0,
+      "ratio": 2038.0586631098483
+    },
+    {
+      "case": "star_L8_r2",
+      "method": "paired_highs_lp",
+      "values": 24,
+      "gap": 0.0,
+      "ratio": 14913.955979105931
+    },
+    {
+      "case": "comb_L8_r2",
+      "method": "paired_highs_lp",
+      "values": 24,
+      "gap": 0.0,
+      "ratio": 26589.065641215595
+    },
+    {
+      "case": "comb_L8_r2",
+      "method": "expanded_dinic",
+      "values": 24,
+      "gap": 0.0,
+      "ratio": 2382.178383622811
+    },
+    {
+      "case": "random_L8_r2",
+      "method": "expanded_dinic",
+      "values": 24,
+      "gap": 0.0,
+      "ratio": 2092.022920132304
+    },
+    {
+      "case": "random_L8_r2",
+      "method": "paired_highs_lp",
+      "values": 24,
+      "gap": 0.0,
+      "ratio": 22696.023998321834
+    }
+  ],
+  "interpretation": "Exact timing values and timeout patterns depend on the computer. Numerical agreement is checked separately from measured speed. No universal superiority or memory advantage is asserted."
+}

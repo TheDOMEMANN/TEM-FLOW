@@ -1,0 +1,31 @@
+{
+  "software_version": "1.0.0",
+  "completed_method_case_evaluations": 49,
+  "timed_out_method_case_evaluations": 2,
+  "completed_comparator_cases": 28,
+  "maximum_absolute_gap": 0.0,
+  "matched_destination_budget_values": 1776,
+  "eight_destination_two_loss_example": {
+    "temflow": {
+      "median_seconds": 0.000268155555574965,
+      "min_seconds": 0.0002636722223272685,
+      "max_seconds": 0.00027723148162261133,
+      "speed_ratio_vs_temflow": 1.0
+    },
+    "expanded_dinic": {
+      "median_seconds": 0.6836672999925213,
+      "min_seconds": 0.6411837999912677,
+      "max_seconds": 0.8126278999989154,
+      "speed_ratio_vs_temflow": 2549.517568363027
+    },
+    "paired_highs_lp": {
+      "median_seconds": 6.206334299989976,
+      "min_seconds": 6.149358499998925,
+      "max_seconds": 6.239741099998355,
+      "speed_ratio_vs_temflow": 23144.52999745868
+    }
+  },
+  "scope": "Prospective width profiles on nested accounting trees; local reference-implementation comparison only.",
+  "kernel_sha256": "a8953442fb1a388205b410210210e0310c8147d55b6fd0bf6b60088fbbb24b6c",
+  "overall": "All completed comparisons agree; local speed advantage over the tested enumeration baselines; strongest specialized competitor not benchmarked."
+}

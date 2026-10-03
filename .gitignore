@@ -12,3 +12,9 @@ build/
 *.log
 *.lnk
 .temflow-preview-state/
+
+# Local benchmark repeats and isolated dependency environments
+analysis/efficiency/results-*/
+analysis/efficiency/table-from-recorded/
+analysis/efficiency/figure-new/
+analysis/efficiency/.benchmark-venv/
