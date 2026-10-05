@@ -1,0 +1,257 @@
+product,design,lost_report,mean_width_share_of_total
+Amarante,seven_individual_markets,none,0.11520685987004772
+Amarante,seven_individual_markets,market:Madibou,0.14217945242613172
+Amarante,seven_individual_markets,market:Total,0.2999170342623853
+Amarante,seven_individual_markets,market:Ouenze,0.18107477595143626
+Amarante,seven_individual_markets,market:Texaco,0.16444055628116344
+Amarante,seven_individual_markets,market:Mikalou,0.21916097817426092
+Amarante,seven_individual_markets,market:Bifouiti,0.20165192176577376
+Amarante,seven_individual_markets,market:Bourreau,0.1529937488191757
+Amarante,seven_paired_market_groups,none,0.14285714285714288
+Amarante,seven_paired_market_groups,pair:Madibou|Plateaux des 15 ans,0.14285714285714288
+Amarante,seven_paired_market_groups,pair:Total|Commission,0.14285714285714288
+Amarante,seven_paired_market_groups,pair:Ouenze|Kintele,0.14285714285714288
+Amarante,seven_paired_market_groups,pair:Texaco|Moungali,0.14285714285714288
+Amarante,seven_paired_market_groups,pair:Mikalou|Mokoundzi-ngouaka,0.14285714285714288
+Amarante,seven_paired_market_groups,pair:Bifouiti|Poto-poto,0.14285714285714288
+Amarante,seven_paired_market_groups,pair:Bourreau|Talangai,0.14285714285714288
+Aubergine violette,seven_individual_markets,none,0.10920345286553765
+Aubergine violette,seven_individual_markets,market:Ouenze,0.17070707801099186
+Aubergine violette,seven_individual_markets,market:Total,0.27862377580259307
+Aubergine violette,seven_individual_markets,market:Texaco,0.18043786199924616
+Aubergine violette,seven_individual_markets,market:Kintele,0.13301082266519515
+Aubergine violette,seven_individual_markets,market:Mikalou,0.21919053713260303
+Aubergine violette,seven_individual_markets,market:Poto-poto,0.19194584052214728
+Aubergine violette,seven_individual_markets,market:Talangai,0.14633633208805313
+Aubergine violette,seven_paired_market_groups,none,0.14285714285714288
+Aubergine violette,seven_paired_market_groups,pair:Ouenze|Bifouiti,0.14285714285714288
+Aubergine violette,seven_paired_market_groups,pair:Total|Commission,0.14285714285714288
+Aubergine violette,seven_paired_market_groups,pair:Texaco|Mokoundzi-ngouaka,0.14285714285714288
+Aubergine violette,seven_paired_market_groups,pair:Kintele|Plateaux des 15 ans,0.14285714285714288
+Aubergine violette,seven_paired_market_groups,pair:Mikalou|Madibou,0.14285714285714288
+Aubergine violette,seven_paired_market_groups,pair:Poto-poto|Bourreau,0.14285714285714288
+Aubergine violette,seven_paired_market_groups,pair:Talangai|Moungali,0.14285714285714288
+Baselle,seven_individual_markets,none,0.1875594044166884
+Baselle,seven_individual_markets,market:Total,0.456263022963021
+Baselle,seven_individual_markets,market:Bourreau,0.22303438280340102
+Baselle,seven_individual_markets,market:Texaco,0.22056699192577559
+Baselle,seven_individual_markets,market:Madibou,0.25434118774190567
+Baselle,seven_individual_markets,market:Ouenze,0.2292509397768787
+Baselle,seven_individual_markets,market:Bifouiti,0.24499955077635546
+Baselle,seven_individual_markets,market:Mokoundzi-ngouaka,0.22909412572709725
+Baselle,seven_paired_market_groups,none,0.14285714285714282
+Baselle,seven_paired_market_groups,pair:Total|Commission,0.14285714285714282
+Baselle,seven_paired_market_groups,pair:Bourreau|Kintele,0.14285714285714282
+Baselle,seven_paired_market_groups,pair:Texaco|Moungali,0.14285714285714282
+Baselle,seven_paired_market_groups,pair:Madibou|Plateaux des 15 ans,0.14285714285714282
+Baselle,seven_paired_market_groups,pair:Ouenze|Talangai,0.14285714285714282
+Baselle,seven_paired_market_groups,pair:Bifouiti|Poto-poto,0.14285714285714282
+Baselle,seven_paired_market_groups,pair:Mokoundzi-ngouaka|Mikalou,0.14285714285714282
+Carotte,seven_individual_markets,none,0.0584963469874009
+Carotte,seven_individual_markets,market:Total,0.39666000391364864
+Carotte,seven_individual_markets,market:Ouenze,0.08539502834968334
+Carotte,seven_individual_markets,market:Moungali,0.10248849024782167
+Carotte,seven_individual_markets,market:Bourreau,0.0777642573536956
+Carotte,seven_individual_markets,market:Mokoundzi-ngouaka,0.09785638362377978
+Carotte,seven_individual_markets,market:Poto-poto,0.1366638252563708
+Carotte,seven_individual_markets,market:Texaco,0.07571839059717787
+Carotte,seven_paired_market_groups,none,0.14285714285714285
+Carotte,seven_paired_market_groups,pair:Total|Bifouiti,0.14285714285714285
+Carotte,seven_paired_market_groups,pair:Ouenze|Kintele,0.14285714285714285
+Carotte,seven_paired_market_groups,pair:Moungali|Mikalou,0.14285714285714285
+Carotte,seven_paired_market_groups,pair:Bourreau|Talangai,0.14285714285714285
+Carotte,seven_paired_market_groups,pair:Mokoundzi-ngouaka|Commission,0.14285714285714285
+Carotte,seven_paired_market_groups,pair:Poto-poto|Madibou,0.14285714285714285
+Carotte,seven_paired_market_groups,pair:Texaco|Plateaux des 15 ans,0.14285714285714285
+Chou pomme,seven_individual_markets,none,0.1341901561559321
+Chou pomme,seven_individual_markets,market:Total,0.34213066429372535
+Chou pomme,seven_individual_markets,market:Texaco,0.2051413470697671
+Chou pomme,seven_individual_markets,market:Poto-poto,0.23098848102445882
+Chou pomme,seven_individual_markets,market:Ouenze,0.192495135074517
+Chou pomme,seven_individual_markets,market:Moungali,0.16594414161496476
+Chou pomme,seven_individual_markets,market:Mikalou,0.18398717649979265
+Chou pomme,seven_individual_markets,market:Plateaux des 15 ans,0.17090269663488034
+Chou pomme,seven_paired_market_groups,none,0.14285714285714285
+Chou pomme,seven_paired_market_groups,pair:Total|Commission,0.14285714285714285
+Chou pomme,seven_paired_market_groups,pair:Texaco|Madibou,0.14285714285714285
+Chou pomme,seven_paired_market_groups,pair:Poto-poto|Bifouiti,0.14285714285714285
+Chou pomme,seven_paired_market_groups,pair:Ouenze|Kintele,0.14285714285714285
+Chou pomme,seven_paired_market_groups,pair:Moungali|Talangai,0.14285714285714285
+Chou pomme,seven_paired_market_groups,pair:Mikalou|Bourreau,0.14285714285714285
+Chou pomme,seven_paired_market_groups,pair:Plateaux des 15 ans|Mokoundzi-ngouaka,0.14285714285714285
+Ciboule,seven_individual_markets,none,0.15681466050806017
+Ciboule,seven_individual_markets,market:Total,0.35773575251930867
+Ciboule,seven_individual_markets,market:Ouenze,0.19080189398487435
+Ciboule,seven_individual_markets,market:Texaco,0.19187424768605355
+Ciboule,seven_individual_markets,market:Talangai,0.20835006351110738
+Ciboule,seven_individual_markets,market:Mokoundzi-ngouaka,0.19037419221966415
+Ciboule,seven_individual_markets,market:Moungali,0.2333768153522117
+Ciboule,seven_individual_markets,market:Mikalou,0.2742161353534786
+Ciboule,seven_paired_market_groups,none,0.14285714285714288
+Ciboule,seven_paired_market_groups,pair:Total|Madibou,0.14285714285714288
+Ciboule,seven_paired_market_groups,pair:Ouenze|Kintele,0.14285714285714288
+Ciboule,seven_paired_market_groups,pair:Texaco|Bifouiti,0.14285714285714288
+Ciboule,seven_paired_market_groups,pair:Talangai|Commission,0.14285714285714288
+Ciboule,seven_paired_market_groups,pair:Mokoundzi-ngouaka|Plateaux des 15 ans,0.14285714285714288
+Ciboule,seven_paired_market_groups,pair:Moungali|Poto-poto,0.14285714285714288
+Ciboule,seven_paired_market_groups,pair:Mikalou|Bourreau,0.14285714285714288
+Concombre,seven_individual_markets,none,0.07509519023672731
+Concombre,seven_individual_markets,market:Total,0.3353954049063308
+Concombre,seven_individual_markets,market:Ouenze,0.10562547601099455
+Concombre,seven_individual_markets,market:Poto-poto,0.1302158096930727
+Concombre,seven_individual_markets,market:Mikalou,0.12642190437030335
+Concombre,seven_individual_markets,market:Texaco,0.17730617383674
+Concombre,seven_individual_markets,market:Moungali,0.09843368330107827
+Concombre,seven_individual_markets,market:Talangai,0.11296856664761047
+Concombre,seven_paired_market_groups,none,0.14285714285714282
+Concombre,seven_paired_market_groups,pair:Total|Kintele,0.14285714285714282
+Concombre,seven_paired_market_groups,pair:Ouenze|Bifouiti,0.14285714285714282
+Concombre,seven_paired_market_groups,pair:Poto-poto|Commission,0.14285714285714282
+Concombre,seven_paired_market_groups,pair:Mikalou|Madibou,0.14285714285714282
+Concombre,seven_paired_market_groups,pair:Texaco|Bourreau,0.14285714285714282
+Concombre,seven_paired_market_groups,pair:Moungali|Mokoundzi-ngouaka,0.14285714285714282
+Concombre,seven_paired_market_groups,pair:Talangai|Plateaux des 15 ans,0.14285714285714282
+Courgette,seven_individual_markets,none,0.19344391785150078
+Courgette,seven_individual_markets,market:Total,0.4710449108553374
+Courgette,seven_individual_markets,market:Poto-poto,0.28132099601293914
+Courgette,seven_individual_markets,market:Texaco,0.2257729632137215
+Courgette,seven_individual_markets,market:Ouenze,0.2355224554276687
+Courgette,seven_individual_markets,market:Kintele,0.22107876325885803
+Courgette,seven_individual_markets,market:Talangai,0.23124952982772887
+Courgette,seven_individual_markets,market:Moungali,0.231911532385466
+Courgette,seven_paired_market_groups,none,0.14285714285714285
+Courgette,seven_paired_market_groups,pair:Total|Mokoundzi-ngouaka,0.14285714285714285
+Courgette,seven_paired_market_groups,pair:Poto-poto|Madibou,0.14285714285714285
+Courgette,seven_paired_market_groups,pair:Texaco|Commission,0.14285714285714285
+Courgette,seven_paired_market_groups,pair:Ouenze|Bourreau,0.14285714285714285
+Courgette,seven_paired_market_groups,pair:Kintele|Bifouiti,0.14285714285714285
+Courgette,seven_paired_market_groups,pair:Talangai|Plateaux des 15 ans,0.14285714285714285
+Courgette,seven_paired_market_groups,pair:Moungali|Mikalou,0.14285714285714285
+Grande morelle,seven_individual_markets,none,0.1191062387589087
+Grande morelle,seven_individual_markets,market:Total,0.3310507047116941
+Grande morelle,seven_individual_markets,market:Ouenze,0.17536265300261153
+Grande morelle,seven_individual_markets,market:Texaco,0.14751116259884917
+Grande morelle,seven_individual_markets,market:Madibou,0.13792561054185307
+Grande morelle,seven_individual_markets,market:Bourreau,0.21103273006285075
+Grande morelle,seven_individual_markets,market:Bifouiti,0.19159897445843635
+Grande morelle,seven_individual_markets,market:Poto-poto,0.19367523039907888
+Grande morelle,seven_paired_market_groups,none,0.14285714285714282
+Grande morelle,seven_paired_market_groups,pair:Total|Kintele,0.14285714285714282
+Grande morelle,seven_paired_market_groups,pair:Ouenze|Commission,0.14285714285714282
+Grande morelle,seven_paired_market_groups,pair:Texaco|Mikalou,0.14285714285714282
+Grande morelle,seven_paired_market_groups,pair:Madibou|Moungali,0.14285714285714282
+Grande morelle,seven_paired_market_groups,pair:Bourreau|Mokoundzi-ngouaka,0.14285714285714282
+Grande morelle,seven_paired_market_groups,pair:Bifouiti|Plateaux des 15 ans,0.14285714285714282
+Grande morelle,seven_paired_market_groups,pair:Poto-poto|Talangai,0.14285714285714282
+Haricot vert,seven_individual_markets,none,0.053443033446610624
+Haricot vert,seven_individual_markets,market:Poto-poto,0.16532692848199915
+Haricot vert,seven_individual_markets,market:Total,0.35702276618034084
+Haricot vert,seven_individual_markets,market:Texaco,0.12558959552341772
+Haricot vert,seven_individual_markets,market:Ouenze,0.07916805069371693
+Haricot vert,seven_individual_markets,market:Moungali,0.07775762066586607
+Haricot vert,seven_individual_markets,market:Mokoundzi-ngouaka,0.06336714617880777
+Haricot vert,seven_individual_markets,market:Plateaux des 15 ans,0.06966297876689578
+Haricot vert,seven_paired_market_groups,none,0.14285714285714285
+Haricot vert,seven_paired_market_groups,pair:Poto-poto|Mikalou,0.14285714285714285
+Haricot vert,seven_paired_market_groups,pair:Total|Bifouiti,0.14285714285714285
+Haricot vert,seven_paired_market_groups,pair:Texaco|Kintele,0.14285714285714285
+Haricot vert,seven_paired_market_groups,pair:Ouenze|Talangai,0.14285714285714285
+Haricot vert,seven_paired_market_groups,pair:Moungali|Bourreau,0.14285714285714285
+Haricot vert,seven_paired_market_groups,pair:Mokoundzi-ngouaka|Madibou,0.14285714285714285
+Haricot vert,seven_paired_market_groups,pair:Plateaux des 15 ans|Commission,0.14285714285714285
+Laitue,seven_individual_markets,none,0.0925359437136739
+Laitue,seven_individual_markets,market:Total,0.38659871789269157
+Laitue,seven_individual_markets,market:Poto-poto,0.22674541732357575
+Laitue,seven_individual_markets,market:Ouenze,0.12527943148928158
+Laitue,seven_individual_markets,market:Texaco,0.10738236984795564
+Laitue,seven_individual_markets,market:Moungali,0.11718138087058246
+Laitue,seven_individual_markets,market:Talangai,0.116848584269814
+Laitue,seven_individual_markets,market:Madibou,0.12592485519986282
+Laitue,seven_paired_market_groups,none,0.14285714285714288
+Laitue,seven_paired_market_groups,pair:Total|Bifouiti,0.14285714285714288
+Laitue,seven_paired_market_groups,pair:Poto-poto|Commission,0.14285714285714288
+Laitue,seven_paired_market_groups,pair:Ouenze|Kintele,0.14285714285714288
+Laitue,seven_paired_market_groups,pair:Texaco|Plateaux des 15 ans,0.14285714285714288
+Laitue,seven_paired_market_groups,pair:Moungali|Mikalou,0.14285714285714288
+Laitue,seven_paired_market_groups,pair:Talangai|Bourreau,0.14285714285714288
+Laitue,seven_paired_market_groups,pair:Madibou|Mokoundzi-ngouaka,0.14285714285714288
+Morelle amere,seven_individual_markets,none,0.11514793403387734
+Morelle amere,seven_individual_markets,market:Total,0.26449111696165256
+Morelle amere,seven_individual_markets,market:Texaco,0.13695134063079378
+Morelle amere,seven_individual_markets,market:Ouenze,0.1912184082167154
+Morelle amere,seven_individual_markets,market:Bourreau,0.22528741925720427
+Morelle amere,seven_individual_markets,market:Bifouiti,0.20168246160772269
+Morelle amere,seven_individual_markets,market:Poto-poto,0.20153645156040634
+Morelle amere,seven_individual_markets,market:Moungali,0.13984720656923535
+Morelle amere,seven_paired_market_groups,none,0.14285714285714285
+Morelle amere,seven_paired_market_groups,pair:Total|Mikalou,0.14285714285714285
+Morelle amere,seven_paired_market_groups,pair:Texaco|Talangai,0.14285714285714285
+Morelle amere,seven_paired_market_groups,pair:Ouenze|Kintele,0.14285714285714285
+Morelle amere,seven_paired_market_groups,pair:Bourreau|Commission,0.14285714285714285
+Morelle amere,seven_paired_market_groups,pair:Bifouiti|Plateaux des 15 ans,0.14285714285714285
+Morelle amere,seven_paired_market_groups,pair:Poto-poto|Madibou,0.14285714285714285
+Morelle amere,seven_paired_market_groups,pair:Moungali|Mokoundzi-ngouaka,0.14285714285714285
+Oseille de guinee,seven_individual_markets,none,0.20243805437716936
+Oseille de guinee,seven_individual_markets,market:Texaco,0.2533951297449177
+Oseille de guinee,seven_individual_markets,market:Bourreau,0.30005233871412046
+Oseille de guinee,seven_individual_markets,market:Total,0.3450291994931409
+Oseille de guinee,seven_individual_markets,market:Talangai,0.2530507960993885
+Oseille de guinee,seven_individual_markets,market:Madibou,0.2774984849319598
+Oseille de guinee,seven_individual_markets,market:Ouenze,0.257871467136797
+Oseille de guinee,seven_individual_markets,market:Mikalou,0.2726778138945513
+Oseille de guinee,seven_paired_market_groups,none,0.14285714285714288
+Oseille de guinee,seven_paired_market_groups,pair:Texaco|Plateaux des 15 ans,0.14285714285714288
+Oseille de guinee,seven_paired_market_groups,pair:Bourreau|Commission,0.14285714285714288
+Oseille de guinee,seven_paired_market_groups,pair:Total|Moungali,0.14285714285714288
+Oseille de guinee,seven_paired_market_groups,pair:Talangai|Kintele,0.14285714285714288
+Oseille de guinee,seven_paired_market_groups,pair:Madibou|Mokoundzi-ngouaka,0.14285714285714288
+Oseille de guinee,seven_paired_market_groups,pair:Ouenze|Bifouiti,0.14285714285714288
+Oseille de guinee,seven_paired_market_groups,pair:Mikalou|Poto-poto,0.14285714285714288
+Piment,seven_individual_markets,none,0.07436487939188183
+Piment,seven_individual_markets,market:Ouenze,0.09268035373606247
+Piment,seven_individual_markets,market:Texaco,0.2269781716271822
+Piment,seven_individual_markets,market:Mikalou,0.11377486201343537
+Piment,seven_individual_markets,market:Total,0.2745126842021241
+Piment,seven_individual_markets,market:Plateaux des 15 ans,0.09212676857408722
+Piment,seven_individual_markets,market:Talangai,0.1185531760431165
+Piment,seven_individual_markets,market:Poto-poto,0.1627331567768961
+Piment,seven_paired_market_groups,none,0.14285714285714285
+Piment,seven_paired_market_groups,pair:Ouenze|Bourreau,0.14285714285714285
+Piment,seven_paired_market_groups,pair:Texaco|Bifouiti,0.14285714285714285
+Piment,seven_paired_market_groups,pair:Mikalou|Madibou,0.14285714285714285
+Piment,seven_paired_market_groups,pair:Total|Commission,0.14285714285714285
+Piment,seven_paired_market_groups,pair:Plateaux des 15 ans|Moungali,0.14285714285714285
+Piment,seven_paired_market_groups,pair:Talangai|Mokoundzi-ngouaka,0.14285714285714285
+Piment,seven_paired_market_groups,pair:Poto-poto|Kintele,0.14285714285714285
+Poivron,seven_individual_markets,none,0.0517243298292087
+Poivron,seven_individual_markets,market:Total,0.3375948343643245
+Poivron,seven_individual_markets,market:Ouenze,0.0747592520894764
+Poivron,seven_individual_markets,market:Texaco,0.11571799839567641
+Poivron,seven_individual_markets,market:Mikalou,0.1286988681489302
+Poivron,seven_individual_markets,market:Poto-poto,0.12814554347057006
+Poivron,seven_individual_markets,market:Kintele,0.07854348408515796
+Poivron,seven_individual_markets,market:Moungali,0.06264970970329553
+Poivron,seven_paired_market_groups,none,0.14285714285714285
+Poivron,seven_paired_market_groups,pair:Total|Madibou,0.14285714285714285
+Poivron,seven_paired_market_groups,pair:Ouenze|Commission,0.14285714285714285
+Poivron,seven_paired_market_groups,pair:Texaco|Bifouiti,0.14285714285714285
+Poivron,seven_paired_market_groups,pair:Mikalou|Talangai,0.14285714285714285
+Poivron,seven_paired_market_groups,pair:Poto-poto|Bourreau,0.14285714285714285
+Poivron,seven_paired_market_groups,pair:Kintele|Plateaux des 15 ans,0.14285714285714285
+Poivron,seven_paired_market_groups,pair:Moungali|Mokoundzi-ngouaka,0.14285714285714285
+Tomate,seven_individual_markets,none,0.15031687719933484
+Tomate,seven_individual_markets,market:Texaco,0.23357047859596955
+Tomate,seven_individual_markets,market:Total,0.3336887077957683
+Tomate,seven_individual_markets,market:Ouenze,0.18369521370573988
+Tomate,seven_individual_markets,market:Poto-poto,0.22166050476023225
+Tomate,seven_individual_markets,market:Mikalou,0.2420649350368657
+Tomate,seven_individual_markets,market:Kintele,0.19798932451641504
+Tomate,seven_individual_markets,market:Mokoundzi-ngouaka,0.1895037078130197
+Tomate,seven_paired_market_groups,none,0.14285714285714285
+Tomate,seven_paired_market_groups,pair:Texaco|Commission,0.14285714285714285
+Tomate,seven_paired_market_groups,pair:Total|Bourreau,0.14285714285714285
+Tomate,seven_paired_market_groups,pair:Ouenze|Madibou,0.14285714285714285
+Tomate,seven_paired_market_groups,pair:Poto-poto|Bifouiti,0.14285714285714285
+Tomate,seven_paired_market_groups,pair:Mikalou|Talangai,0.14285714285714285
+Tomate,seven_paired_market_groups,pair:Kintele|Plateaux des 15 ans,0.14285714285714285
+Tomate,seven_paired_market_groups,pair:Mokoundzi-ngouaka|Moungali,0.14285714285714285

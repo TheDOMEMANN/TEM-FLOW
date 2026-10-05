@@ -9,7 +9,7 @@ the UK Open Government Licence. Large Dryad working archives and restricted
 NASS microdata are not redistributed. Their public download or access route,
 checksums, and derived outputs remain documented by the original protocols.
 
-Run the complete public validation reproduction from the repository root:
+Run the retained empirical reconstruction checks from the repository root:
 
 ```powershell
 python analysis\python\reproduce_all.py --output analysis\results\REPRODUCTION_REPORT_V1_0_0.json
@@ -45,7 +45,7 @@ Rscript analysis\R\reproduce_validation_summary.R
 ```
 
 
-## Structural theorem validation
+## Structural calculation verification
 
 Run after installing this exact revision:
 
@@ -58,6 +58,18 @@ These scripts import the production structural kernel. The independent baseline
 uses paired-allocation linear programs; further checks enumerate integer states,
 cuts and expanded maximum-flow networks. All structural inputs are synthetic.
 The external validation results above test the existing reconstruction and
-calibrated-share procedures; they do not empirically validate the new theorem.
-Timing outputs are single local measurements, not a comparison with the fastest
-published specialized method.
+calibrated-share procedures; they do not validate the reporting design in an
+African field setting. These structural checks use constructed inputs and do
+not establish a new general theorem.
+
+The current Array analysis package contains the separately implemented
+record-stage comparator, UK threshold evaluation and reporting examples. In
+the user distribution use Reproduce_Analyses beside Editable_Source; in the
+journal code archive use Analyses beside Source. The structural comparator agrees on all 57,488 archived
+profile values and has comparable computation time; neither implementation
+is consistently faster across the complete case set. Timing remains specific
+to the computer and implementation.
+
+The accompanying African evaluation uses recorded survey quantities and
+simulated reporting losses; it is not a field trial of independent backup
+measurements. The completed Brazzaville comparison uses 8,208 retail records and is included in Reproduce_Analyses. Its primary worst-loss mean widths are 33.99% for individual-market reports and 14.29% for paired-market reports; the README there gives the full trade-off, thresholds and limits.

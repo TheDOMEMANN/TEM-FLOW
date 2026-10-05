@@ -1,0 +1,14 @@
+TEM-FLOW 1.0.0 — current revision 5 October 2026
+
+The current source includes the Brazzaville retrospective reporting comparison,
+UK threshold and calibrated-box comparisons, structural comparator and constructed
+backup-reporting example. The reproduction materials rerun these analyses and
+separately identify historical rescoring. README.md explains the findings and
+limits. Brazzaville reports share survey errors and loss is simulated after
+aggregation; this is not an independent field trial.
+
+The structural kernel is unchanged. The 4 October correction fixes the single
+exhaustive compartment by conservation. The original v1.0.0 tag and frozen
+historical results are retained. Use the dated release asset, current commit and
+SHA-256 manifest to identify this revision. CURRENT_REVISION.json preserves the
+prior source revision. Data licences are separate from the software licence.

@@ -1,5 +1,4 @@
-Set shell = CreateObject("WScript.Shell")
-Set files = CreateObject("Scripting.FileSystemObject")
-folder = files.GetParentFolderName(WScript.ScriptFullName)
-shell.CurrentDirectory = folder
-shell.Run Chr(34) & folder & "\runtime\pythonw.exe" & Chr(34) & " " & Chr(34) & folder & "\desktop_launcher.py" & Chr(34), 0, False
+Set sh = CreateObject("WScript.Shell")
+Set fs = CreateObject("Scripting.FileSystemObject")
+folder = fs.GetParentFolderName(WScript.ScriptFullName)
+sh.Run "powershell.exe -NoProfile -ExecutionPolicy Bypass -File """ & folder & "\tools\source_workspace.ps1"" -Action Launch", 0, False

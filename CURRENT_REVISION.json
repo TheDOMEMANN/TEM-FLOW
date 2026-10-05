@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "revision_date": "2026-10-05",
+  "target_journal": "Array",
+  "change": "Array evidence and reporting analyses, Brazzaville retrospective comparison, portable reproduction, current documentation and release builder updated. Version remains 1.0.0; structural kernel unchanged.",
+  "african_evaluation": {
+    "scope": "Retrospective resilience of seven stored reports using shared survey-derived quantities and an exact retained total; not independent field validation.",
+    "status": "Complete; independently checked by 7168 linear-program endpoints and 256 public-engine calls.",
+    "input_rows": 8208,
+    "market_labels": 14,
+    "products": 16,
+    "median_worst_loss_mean_width_percent": {
+      "individual": 33.9862749,
+      "paired": 14.2857143
+    },
+    "both_prospective_one_loss_widths": "full retained total",
+    "licence": "CC BY-NC 4.0 for Brazzaville source and derived data"
+  },
+  "prior_commit": "71018d1d4afc0469359355854e3454b79b9bfd6b",
+  "production_structural_kernel_unchanged": true,
+  "base_source_revision": {
+    "version": "1.0.0",
+    "revision_date": "2026-10-04",
+    "change": "A single remaining compartment is fixed by conservation. Lower endpoint and information-only width corrected. No new model assumptions. Historical frozen predictions remain unchanged.",
+    "changed_files": [
+      "src/temflow/compositional.py",
+      "tests/test_compositional.py"
+    ],
+    "prior_commit": "71018d1d4afc0469359355854e3454b79b9bfd6b",
+    "production_structural_kernel_unchanged": true
+  },
+  "changed_files": [
+    "README.md",
+    "analysis/README.md",
+    "analysis/efficiency/README.txt",
+    "src/temflow/private_engine.py",
+    "src/temflow/data/patterns_private_ui.html",
+    "CURRENT_REVISION.txt",
+    "CURRENT_REVISION.json",
+    "DESKTOP_START_HERE.md",
+    "CHANGELOG.md",
+    "PUBLIC_DATA_BOUNDARY.md",
+    "tools/package_release.py",
+    "Reproduce_Analyses/"
+  ],
+  "historical_source_provenance_preserved": true
+}

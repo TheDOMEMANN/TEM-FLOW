@@ -28,6 +28,19 @@ class CompositionalTests(unittest.TestCase):
         self.assertTrue(result.contains({"local": 50, "market": 40, "UNRESOLVED_DESTINATION": 10}))
         self.assertFalse(result.contains({"local": 20, "market": 30, "UNRESOLVED_DESTINATION": 50}))
 
+    def test_single_compartment_is_fixed_by_conservation(self):
+        for radius in (0.0, 0.2, 1.0):
+            result = compositional_allocation(
+                remainder_mass=15, destinations=("UNRESOLVED_DESTINATION",),
+                historical_shares=(1.0,), epsilon=radius)
+            self.assertEqual(result.coordinates[0].lower_mass, 15)
+            self.assertEqual(result.coordinates[0].upper_mass, 15)
+            self.assertEqual(result.evidence_only_total_width, 0)
+            self.assertEqual(result.joint_total_width, 0)
+            self.assertEqual(result.width_contraction, 0)
+            self.assertTrue(result.contains({"UNRESOLVED_DESTINATION": 15}))
+            self.assertFalse(result.contains({"UNRESOLVED_DESTINATION": 14}))
+
     def test_source_only_state_remains_broad(self):
         result = compositional_allocation(
             remainder_mass=80.0,

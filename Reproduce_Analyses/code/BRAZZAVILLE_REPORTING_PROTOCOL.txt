@@ -1,0 +1,101 @@
+BRAZZAVILLE RETROSPECTIVE REPORTING COMPARISON
+Protocol fixed on 5 October 2026 before computing comparison outcomes.
+
+Question
+Do two equal-size reporting arrangements preserve different amounts of useful
+market-level information when one archived report is lost? This evaluates
+reporting-packet resilience using African survey quantities. It is not a field
+trial, an independent validation of measurement accuracy, or a test of newly
+acquired backup measurements.
+
+Source and eligibility
+Ameller, J., Moustier, P., Maba Ngouloubi, P.L., and Ofoueme-Berton, Y. (2026).
+Dataset of produce supply flows in Brazzaville: A survey of traders in 2022.
+CIRAD Dataverse, version 1, https://doi.org/10.18167/DVN1/DAMXAW.
+The retail CSV contains 8,208 rows, 14 market labels and 16 vegetables in Rainy
+and Dry seasons. Use all finite, nonnegative published volume_kg values.
+Require each product's positive total in both seasons. List all exclusions.
+Do not infer unsampled city flows. A market-product cell without an eligible
+row has zero recorded quantity in this finite sample, not proven physical zero.
+Market labels are used exactly as in the CSV. The README's example market list
+differs from the CSV; no unsupported name reconciliation will be introduced.
+
+Temporal separation
+According to the source README, the rainy and dry collections were in April
+and August 2022. Choose arrangements using only Rainy quantities; evaluate on
+Dry quantities. These are two survey snapshots, not a time series or random
+sample of future reporting conditions. The same respondents may recur because
+participant identities are unavailable. This is an internally fixed analysis
+protocol, not an externally preregistered or independently blinded study.
+
+Two arrangements, fixed scalar-report budget
+Both arrangements retain one exact archived total of the Dry survey sample and
+seven scalar report packets. Neither receives more scalar reports.
+A: individual-market reporting. Report the seven markets with largest Rainy
+quantity for that product. Break equal-quantity ties by the CSV market name.
+B: paired-market reporting. Rank markets by Rainy quantity; pair largest with
+smallest, second-largest with second-smallest, and so on. Report seven disjoint
+pair totals. These pairs are accounting groups, not physical connections.
+The scalar-report budget is not a claim about equal collection effort or cost.
+
+Loss and dependence
+Evaluate no loss and each of the seven possible single-packet losses exactly.
+The common archived total is always available. Loss occurs after reports were
+aggregated, during hypothetical storage or transmission. It is NOT deletion of
+an original survey row while pretending its derived aggregates are independent.
+All reports and the archived total derive from the same survey quantities.
+They share unit-price and unit-weight conversion errors. Do not model them as
+independent acquisitions or invent independent noise. Exact constraints refer
+only to published numerical quantities, not to physical measurement accuracy.
+
+Calculations and validation
+Constrain nonnegative market allocations to the archived sample total and to
+every surviving report. Calculate each market's minimum and maximum allocation.
+Check every bound against independent scipy.optimize.linprog solutions.
+Use the unchanged production_tree module to calculate prospective widths for
+zero or one lost report. Compare every conditional width with the corresponding
+prospective width; preserve equal prospective results and negative findings.
+Refer to the Dry aggregate as the source-data reference, not ground truth.
+Containment is a consistency check guaranteed by construction; it is not
+empirical coverage evidence.
+
+Outcomes (all are reported)
+Primary: mean width across the 14 markets, divided by the sample total, under
+the worst single-loss state for each product and arrangement. Summarize the
+16 paired product outcomes with median, range, and win/tie/loss counts.
+Secondary: mean width across all seven one-loss states (equal weights describe
+the scenario average and are not an estimated loss probability).
+For thresholds 5%, 10%, 25%, and 50% of the sample total, report all thresholds
+separately. At or above means lower bound >= threshold; below means upper
+bound < threshold. Use numerical tolerance 1e-10 on normalized shares.
+Report no-loss resolution, equal-weight
+one-loss scenario resolution, and robust resolution (a market has the same
+resolved conclusion in every no-loss and single-loss state). Separate above
+from below so absence conclusions cannot be mistaken for positive detection.
+No thresholds are policy or health thresholds. No outcome-guided threshold,
+product, market, loss-state or design selection is allowed.
+
+Stopping and incorporation
+Stop after all eligible products, two arrangements, eight states, fourteen
+markets and four thresholds have been evaluated and checks completed. Preserve
+all product-level and scenario-level outputs, including any worse arrangement.
+Incorporate only as retrospective African survey-data evaluation. The remaining
+gap is independent validation of reporting acquisition, actual report-loss
+mechanisms, measurement-error allowances and operational collection costs.
+
+Licence and reproducibility
+Source dataset licence: CC BY-NC 4.0. Keep its licence and attribution separate
+from the TEM-FLOW software licence; do not imply the dataset is MIT-licensed.
+The input is downloaded from its DOI and verified by SHA-256. Derived summary
+tables retain source attribution and the source licence. No chemistry input
+is used. The software version and mathematical kernel are unchanged.
+
+Prescoring amendment
+Before any outcome calculation, threshold equality was harmonized with the
+existing manuscript's 'at least' convention (>=), replacing strict >.
+The initial protocol and its hash are preserved in the workflow record.
+The seven-pair design's mean width is algebraically 2/14 of the sample total:
+each pair sum is the upper bound of its two members, including after any one
+pair report is lost and recovered from the archived total. This identity is
+not an empirical discovery. Product comparisons and threshold conclusions
+still depend on the recorded quantities. No other design rule was changed.

@@ -1,0 +1,9 @@
+{
+  "protocol_sha256": "4771a1cef06289e7d56f500cadb81c69fcb7a788a30e32f7a6ddb135d543f4c5",
+  "changes_after_scoring": "none",
+  "lock_created_utc": "2026-10-05T16:23:32.6733130Z",
+  "previous_protocol_sha256": "4dec367cb5248f8219e1a95fb46a8eaee9f5fce357a9fb2f2806bd54809432c0",
+  "prescoring_amendment": "Threshold >= harmonized with existing manuscript; 1/7 algebraic identity stated.",
+  "fixed_before_scoring": true,
+  "fixed_date": "2026-10-05"
+}

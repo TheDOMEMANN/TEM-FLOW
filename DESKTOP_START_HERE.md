@@ -21,7 +21,7 @@ The public desktop build contains the general engine and public map data. It doe
 
 ## Editing and checking the source
 
-Double-click **Edit source.cmd** to open the Python source folder. Use any text editor you are comfortable with. The map interface is `src/temflow/data/patterns_private_ui.html`. See **DEVELOPER_GUIDE.md** for the code map and a complete edit â†’ test â†’ version â†’ release workflow.
+Double-click **Edit source.cmd** to open the Python source folder. Use any text editor you are comfortable with. The map interface is `src/temflow/data/patterns_private_ui.html`. See **DEVELOPER_GUIDE.md** for the code map and a complete edit → test → version → release workflow.
 
 After editing, double-click **Run checks.cmd**. Then use **Restart TEM-FLOW.cmd** to see your changes. Ordinary Python, HTML, CSS or JavaScript edits require no compilation. Changes requiring additional Python dependencies need a rebuilt runtime.
 

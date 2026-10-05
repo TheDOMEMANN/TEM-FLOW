@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-04",
+  "status": "retrospective extension; datasets and earlier results already known",
+  "identity": "Applied computational method for distinguishing supported commodity-flow conclusions from unresolved allocations; no first-in-literature theorem claim.",
+  "questions": [
+    "Does the production solver retain its numerical agreement and timing advantage against an independently implemented record-stage tree dynamic program that does not enumerate losses?",
+    "At fixed historical fitting and calibration periods, how often do reported intervals resolve a declared destination-share threshold correctly?",
+    "How do total-variation intervals compare with mass-balanced maximum-absolute-error intervals using identical current information and calibration cases?",
+    "Can a constructed reporting-design example link prospective resilience to conditional bounds while preserving its explicitly illustrative status?"
+  ],
+  "benchmark": "All 21 archived synthetic cases; fresh construction and all target/budget outputs; 7 paired repetitions after warm-up with deterministic alternating order; measured medians and full ranges; no power/thermal control; no universal fastest-solver claim.",
+  "decision": "UK 2010 raw data; Jan-May fitting, Jun-Aug calibration, Sep-Dec evaluation; fixed historical nonlocal anchor; primary calibration 90%; thresholds 5,10,25,50 percent of current movement-group total; all thresholds retained. Include zero-valued eligible compartments and show positive-only sensitivity. Thresholds illustrative, not policy recommendations.",
+  "comparators": "Information-only bounds; unchanged archived TEM-FLOW total-variation bounds; independently calibrated maximum-absolute-share-error box intersected with simplex; same current group total and measured anchor for all methods.",
+  "outcomes": "Nonzero coverage, simultaneous coordinate coverage, normalized interval width, resolved fraction, incorrect classifications among resolved, all thresholds. No significance testing or external population inference.",
+  "stop_rule": "One specified benchmark and decision analysis; report all outcomes, including absent advantages. Additional runs only for identified implementation errors. No new fitting choices selected using September-December performance.",
+  "boundaries": "Administrative count analysis, not weighed mass, African field validation, or externally validated operational thresholds. No altered production mathematics. Private chemistry excluded."
+}

@@ -1,18 +1,7 @@
 {
-  "release": "TEM-FLOW 1.0.0",
-  "distribution": "JOCS-public-structural",
-  "created": "2026-10-03",
   "version": "1.0.0",
-  "revision": "2026-10-03-reproducibility",
-  "baseline_commit": "e7e7546030c23dc277ac6c193fb3d97bcb7d5efa",
-  "excluded_from_public": [
-    "PRIVATE_EDITOR_DATA/",
-    "runtime/",
-    "user_data/",
-    "application contaminant chemistry values",
-    "restricted raw microdata"
-  ],
-  "file_count": 261,
+  "revision": "2026-10-05",
+  "file_count": 332,
   "files": [
     {
       "path": ".gitattributes",
@@ -28,6 +17,516 @@
       "path": ".gitignore",
       "bytes": 383,
       "sha256": "f66f3487ef8e1cea529b5f46820698d306b68397e7803c7f73f90e4dc0b7f8ec"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 2753,
+      "sha256": "387c970ecc9f4e5dc450c9435f0c7091c014bbfa307c27da342012645c5b0a7b"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 417,
+      "sha256": "33c2c807c161e989d99c9bfdae2daca52b6c155baf9e7b15d0c65f6604d6c1d7"
+    },
+    {
+      "path": "CURRENT_REVISION.json",
+      "bytes": 2037,
+      "sha256": "76ec807c16b5bea3c313e5423fe9ea21a47e191ca2e859545be8be09462b4652"
+    },
+    {
+      "path": "CURRENT_REVISION.txt",
+      "bytes": 906,
+      "sha256": "22deedd6d8015b09b0a90ca7cd88797ab6b8bc53e0fecc25154dfe9e919ef976"
+    },
+    {
+      "path": "Check editable source.cmd",
+      "bytes": 184,
+      "sha256": "aceaf72b84ca563de06ee865644a1d5d1c7d334f981ef199d53ed0459bb7c975"
+    },
+    {
+      "path": "Create desktop shortcut.vbs",
+      "bytes": 610,
+      "sha256": "be4ea8fd9fb2df61c052b5d5f5e0816e5679cfde4330bfad5ac5beb43ea9859b"
+    },
+    {
+      "path": "DESKTOP_START_HERE.md",
+      "bytes": 4012,
+      "sha256": "1a97446fe5b08c0e36f3b556e327a5387293ac09ea70065a94720409f8bb84aa"
+    },
+    {
+      "path": "DEVELOPER_GUIDE.md",
+      "bytes": 8212,
+      "sha256": "c3fd6b4ce48d8854cb49e74fe143151c1a04f1ffa4f3674df9e595356da87999"
+    },
+    {
+      "path": "EDITABLE_SOURCE_START_HERE.html",
+      "bytes": 10311,
+      "sha256": "d93c2d9569b243db06a63be7940593059823bd6f9249cbd753640061b1acf231"
+    },
+    {
+      "path": "EDITABLE_SOURCE_START_HERE.txt",
+      "bytes": 10088,
+      "sha256": "32efec0f20537f9d996cc63bb70e3fdf3e32d180170cccbd78c0b2c2ed7d2b0a"
+    },
+    {
+      "path": "Edit source.cmd",
+      "bytes": 53,
+      "sha256": "dd0e286183ae165d5183ac35580fe34d1b30158c70c60f8fe3489d2cb8a6484a"
+    },
+    {
+      "path": "FORMULATION/ERR_FORMAL_RESULTS_V1_1.md",
+      "bytes": 4677,
+      "sha256": "f98f1ac5d68a9a43168499be7e67f60ddbe70fa976ea66cab2d8fe44a8be3aba"
+    },
+    {
+      "path": "FORMULATION/ERR_MATHEMATICAL_FORMULATION_V1_1.md",
+      "bytes": 5773,
+      "sha256": "d06c3f5232dd860d1c9bc8779a39997bbc90f2ed17265c5f7cfa7d298a265b28"
+    },
+    {
+      "path": "FORMULATION/STRUCTURAL_FORMULATION.md",
+      "bytes": 16543,
+      "sha256": "356a13c3aaa34886129038c78360063440fa8fc4fcdbe3ad7a7810a8f557ff91"
+    },
+    {
+      "path": "FORMULATION/TEMFLOW_FORMAL_PROOFS_V0_3.md",
+      "bytes": 11912,
+      "sha256": "457eb21020d4b5d3271e10eff04432f37e43ddbd555bc7fe6cf0187e5c616840"
+    },
+    {
+      "path": "FORMULATION/TEMFLOW_MATHEMATICAL_FORMULATION_V0_3.md",
+      "bytes": 15540,
+      "sha256": "f4f9f3af45f46e632d58ee1ab81b70bcad0ece33798997f7b877c28bd975ddf6"
+    },
+    {
+      "path": "FORMULATION/TEMFLOW_V1_0_ALGORITHM_LINEAGE.md",
+      "bytes": 2307,
+      "sha256": "969c12caa0a868047b923c30b804f55ff2a81d64fb16e2b192bfdb79eb3cd9f7"
+    },
+    {
+      "path": "GEOGRAPHIC_COVERAGE.csv",
+      "bytes": 1539,
+      "sha256": "fe2fc157e0cb3f6857e00835d9206012fb12b0d0b71685fe21ed747e76f4ccd6"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1528,
+      "sha256": "8fe7ac9e4b8cffa70721f8f7e92716b9ecdba53b5c6167842338df9e9349ab93"
+    },
+    {
+      "path": "Launch TEM-FLOW.cmd",
+      "bytes": 155,
+      "sha256": "5f47f53c92cc05c20db10897a7704bbf21843e8102f88a0e13256e86f6dbc032"
+    },
+    {
+      "path": "Launch TEM-FLOW.vbs",
+      "bytes": 287,
+      "sha256": "5669d43784e6f0468fea78f1d3d10e3ef17fb8f16303831a6d1ba6ad1ae4bfa3"
+    },
+    {
+      "path": "Launch editable source.cmd",
+      "bytes": 216,
+      "sha256": "138b21c2a4f37b0a47992ecf2638ccca9a63f63126386a3413fa4a0abc4c5a2a"
+    },
+    {
+      "path": "PUBLIC_DATA_BOUNDARY.md",
+      "bytes": 1427,
+      "sha256": "f5dac83a4ae76455b65c120ef23e6f1e85325aad58d97d735f2d14f6333c6211"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10198,
+      "sha256": "a7d723bff3b8adb4b3e51429e7d7afe8a93b6bb973c89a368ac15d49c2320852"
+    },
+    {
+      "path": "RELEASE_NOTES_1.0.0.md",
+      "bytes": 2200,
+      "sha256": "091ecf1660c498584674e98e37750147ef6f1967869bbeaac900e72ef2dcf572"
+    },
+    {
+      "path": "Reproduce_Analyses/INPUT_HASHES.json",
+      "bytes": 3761,
+      "sha256": "70c811058124c55c39e5a5967162d9fb41bbfe79bf451eb92627039da7fde971"
+    },
+    {
+      "path": "Reproduce_Analyses/MANIFEST.json",
+      "bytes": 7986,
+      "sha256": "932dd60b5b6b2ac80e20e3a93dce4afe625b6bbc56b8de9d94a2ee49f77cdfbc"
+    },
+    {
+      "path": "Reproduce_Analyses/PROTOCOL.json",
+      "bytes": 2529,
+      "sha256": "187f7cfc5cda43e0dcb10cce5675526c2a4e00acfc0c535283f44b0473756cdb"
+    },
+    {
+      "path": "Reproduce_Analyses/PROTOCOL_AMENDMENT.txt",
+      "bytes": 1081,
+      "sha256": "046ff0828823c23dfc162a0be0a6940253e5f418e21b7bd6441338fa7bdb8599"
+    },
+    {
+      "path": "Reproduce_Analyses/README.txt",
+      "bytes": 7045,
+      "sha256": "ffca63d9d5327807ab5513fe2c1b93921fe491ad6030ada2cbd50d24bd464532"
+    },
+    {
+      "path": "Reproduce_Analyses/Repeat analyses.cmd",
+      "bytes": 549,
+      "sha256": "6fdca3269a62b8900f158e31d92c9f3235d54ab719bbe26de0ee53e186d3c8f0"
+    },
+    {
+      "path": "Reproduce_Analyses/code/BRAZZAVILLE_PROTOCOL_LOCK.json",
+      "bytes": 460,
+      "sha256": "6ea8a51c907fdd58db1f23eab6f045bccd3ccd7374b557bb51e255d3a5e48f86"
+    },
+    {
+      "path": "Reproduce_Analyses/code/BRAZZAVILLE_REPORTING_PROTOCOL.txt",
+      "bytes": 6253,
+      "sha256": "4771a1cef06289e7d56f500cadb81c69fcb7a788a30e32f7a6ddb135d543f4c5"
+    },
+    {
+      "path": "Reproduce_Analyses/code/african_reporting.py",
+      "bytes": 23170,
+      "sha256": "85ae38a53bb3624f81c545659eb6b5da4669044473707a42faa5cc4beb3a9312"
+    },
+    {
+      "path": "Reproduce_Analyses/code/decision_analysis.py",
+      "bytes": 9193,
+      "sha256": "e954e4d3879568e45c5314e51b732738dc0a02f52200a2f7888026bb3e6a39fc"
+    },
+    {
+      "path": "Reproduce_Analyses/code/make_atlas.py",
+      "bytes": 2816,
+      "sha256": "66ec0275f130fb081f6615f9f85a89f04d8714847666021c8ad524281c012c9c"
+    },
+    {
+      "path": "Reproduce_Analyses/code/make_figures.py",
+      "bytes": 4721,
+      "sha256": "d55195a9bc165910afedc43f8e68d02f25e29bf299d2e4322ba6cf9911d40d33"
+    },
+    {
+      "path": "Reproduce_Analyses/code/production_compositional.py",
+      "bytes": 7128,
+      "sha256": "180f594ff860e623e5fcb55fe0db29b2e3612112b1c1a7cd3e8dc68e947775c2"
+    },
+    {
+      "path": "Reproduce_Analyses/code/production_tree.py",
+      "bytes": 9542,
+      "sha256": "a8953442fb1a388205b410210210e0310c8147d55b6fd0bf6b60088fbbb24b6c"
+    },
+    {
+      "path": "Reproduce_Analyses/code/reporting_example.py",
+      "bytes": 2270,
+      "sha256": "1c8b23749a62c2763ca9ec3798af8bc8460a36d1b7c43c8649039df8ded5cdce"
+    },
+    {
+      "path": "Reproduce_Analyses/code/source_location.py",
+      "bytes": 1027,
+      "sha256": "1fe0a9aab802655411ba5d2fb4b0abac3ac06643d1bef381aae2a9aa022d5253"
+    },
+    {
+      "path": "Reproduce_Analyses/code/structural_comparator.py",
+      "bytes": 5723,
+      "sha256": "9d4037849e76e7ac96170bdb400035bd0b654eeea0da966b2757c10f8e826843"
+    },
+    {
+      "path": "Reproduce_Analyses/generated_figures/Supplementary_Figure_S1_African_Atlas.pdf",
+      "bytes": 1344680,
+      "sha256": "6267d5b1418c5550ef55a3d406047d24bc8b3cfa6e171771b84dc37ccdbe9cf4"
+    },
+    {
+      "path": "Reproduce_Analyses/generated_figures/Supplementary_Figure_S1_African_Atlas.png",
+      "bytes": 990519,
+      "sha256": "6b76c2d7080236c8e6c7709399b06dcb3bc1445915bfae820d8ef2b54a3302cd"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/brazzaville/ATTRIBUTION_AND_LICENCE.txt",
+      "bytes": 553,
+      "sha256": "3d9330ed0575de84e7123b952a2749126cb5b0b01777ec0e09dc8cbca128043f"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/brazzaville/README.txt",
+      "bytes": 13806,
+      "sha256": "ff47af88a019fb95d60c994816d0170cf4d597964a0892078cee91b7528e15d6"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/brazzaville/dataset_metadata.json",
+      "bytes": 13378,
+      "sha256": "5afe41e9893ab3c91593d04b933158f5742992e295d767ae30eb25e17286ca19"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/brazzaville/dictionary_of_variables.tab",
+      "bytes": 2285,
+      "sha256": "711b168e00dac5c0f2f8184eb6c28da6ff2f7bfa47f2270de8becb0930896b2d"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/brazzaville/dt_produce_flows_retail_market.csv",
+      "bytes": 1081570,
+      "sha256": "71b5e06c2af23ddc009df9281f33028d7dfc113578d6de02b4a4853d390287d1"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/brazzaville/dt_produce_flows_wholesale_market.csv",
+      "bytes": 7318,
+      "sha256": "50aa592c6a67577b62eb5cd82467a9e9ea72be024b1e31ecbd81a9d4efd9e912"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/cattle-movements-to-slaughterhouses-during-2010.csv",
+      "bytes": 739301,
+      "sha256": "23584327dde9a6f6e59efe1281204cdaf5b9f6a3c69aed9233e43c0c7c163875"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/balanced_L1024_r0.json",
+      "bytes": 504602,
+      "sha256": "3576611d0b72b627b4b1bcb5413f8c703ceb0a03d6092cceabe4fe7880f11169"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/balanced_L1024_r1.json",
+      "bytes": 504602,
+      "sha256": "698213f298ba5f2864701748f17d5b10c43536730dca5927f94ef624e8f6082e"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/balanced_L1024_r3.json",
+      "bytes": 504602,
+      "sha256": "f687918703370b4fbdfaf0fcdb9d731e00ad7a9a7edf76d6dfe512e31dc0be0b"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/balanced_L128_r0.json",
+      "bytes": 61197,
+      "sha256": "828b01566cce1e60a5259b699dab7951f71d30cbe85f4def9b559aaa55b326ed"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/balanced_L128_r1.json",
+      "bytes": 61197,
+      "sha256": "25cfd460c0d5e129b4b0a873794b6da0c55e189ba69d40cf4bbf000f5dd02910"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/balanced_L128_r3.json",
+      "bytes": 61197,
+      "sha256": "8db66c42b73d15db555002dcd7102c68a7bd027a77e1144e51d7c581daecba41"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/balanced_L16_r0.json",
+      "bytes": 7261,
+      "sha256": "d7123b6fd91eb3f18527ca4b7166f701a1f81690aa9b6ad043c696af39e0fc03"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/balanced_L16_r1.json",
+      "bytes": 7261,
+      "sha256": "4ef54fbd514e1dee9ea448b9017a29a2c55d2e8379708afec97cbcafe1a8adaf"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/balanced_L16_r2.json",
+      "bytes": 7261,
+      "sha256": "99c481049d5284de6049b85ea9095a8af290d5c81517afd215949db54bd6b904"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/balanced_L32_r0.json",
+      "bytes": 14812,
+      "sha256": "bc7978024b6c6d5e8ebebbd3e87ff0fc76cfd56c704558bcd1d4cdcae65bd3c4"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/balanced_L4_r0.json",
+      "bytes": 1630,
+      "sha256": "f994d400755ddd24bcf35c5a8841b053350196ada0cb89f497cbeb6d0078c390"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/balanced_L4_r1.json",
+      "bytes": 1630,
+      "sha256": "fd8600967e55c04c25b80bb84916fbccf5b85ef5d5d465e5ca18ef162ce4e937"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/balanced_L4_r2.json",
+      "bytes": 1630,
+      "sha256": "d56fe110cc8cf307c0d099a2a72e6089707097f9124fc7e4a59a0fc40aeb647b"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/balanced_L8192_r1.json",
+      "bytes": 4145185,
+      "sha256": "1f227ba12ceb9d95d344f5b6d991e4f01d5bb7ff440e909b61d4ca45ef3c8d86"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/balanced_L8192_r3.json",
+      "bytes": 4145185,
+      "sha256": "c53393ae19fedbc16db764f4cd3078da168d2220728851d5e06e996056b20257"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/balanced_L8_r0.json",
+      "bytes": 3489,
+      "sha256": "481672cbaf38144023f339939fa03f2a2a0b2663297c514e4db43c8f2001b96b"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/balanced_L8_r1.json",
+      "bytes": 3489,
+      "sha256": "0b2f4cdff2a86d7227f290771f7ef89b14a29e888aebfa967b779e0c9f04500a"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/balanced_L8_r2.json",
+      "bytes": 3489,
+      "sha256": "958e3f86cbe1199d2e3c382ba52a8aa9aa5de3833ba59d9d40e33b1021783aad"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/comb_L8_r2.json",
+      "bytes": 3483,
+      "sha256": "82d862ea2593e0c07e708aea48143d2bcef5ae025a702e43843ec05ed2f18013"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/random_L8_r2.json",
+      "bytes": 3486,
+      "sha256": "d76d6d608ea26aed5ee8b1b0158996cb52d50cc4851cbfc097c8cfa94d6ec6a2"
+    },
+    {
+      "path": "Reproduce_Analyses/inputs/structural_cases/star_L8_r2.json",
+      "bytes": 2108,
+      "sha256": "3f5db86b89ca21201f46cf4da6127c466efffd5ca61712886a578592f608c2a7"
+    },
+    {
+      "path": "Reproduce_Analyses/recorded_results/african_reporting/ATTRIBUTION_AND_LICENCE.txt",
+      "bytes": 553,
+      "sha256": "3d9330ed0575de84e7123b952a2749126cb5b0b01777ec0e09dc8cbca128043f"
+    },
+    {
+      "path": "Reproduce_Analyses/recorded_results/african_reporting/OUTPUT_MANIFEST.json",
+      "bytes": 1064,
+      "sha256": "7a49550baf2987ac1b9811c45cc34a943507aeb41ab68c9441ef359a90393cd7"
+    },
+    {
+      "path": "Reproduce_Analyses/recorded_results/african_reporting/REPORTING_PAYLOADS.json",
+      "bytes": 213396,
+      "sha256": "2f26e718ebb096458e674c177c7d68cec45d53aefa41a3d24b7dcb22c4986199"
+    },
+    {
+      "path": "Reproduce_Analyses/recorded_results/african_reporting/RESULTS.json",
+      "bytes": 8610,
+      "sha256": "123809889b82462351722a66d4f333f1e7ec408de204caf3b94c3297c854a8f6"
+    },
+    {
+      "path": "Reproduce_Analyses/recorded_results/african_reporting/conditional_bounds.csv",
+      "bytes": 591310,
+      "sha256": "1bb487ae2cef8f782aee4629d1e7d5eb4b09a43bc47aee9800ba32b654c7dacb"
+    },
+    {
+      "path": "Reproduce_Analyses/recorded_results/african_reporting/paired_comparison.csv",
+      "bytes": 1684,
+      "sha256": "b3bcef7b940b582a36d4af0cc48142b81fba0ef6a808da165c6c34de7d11feae"
+    },
+    {
+      "path": "Reproduce_Analyses/recorded_results/african_reporting/product_outcomes.csv",
+      "bytes": 3755,
+      "sha256": "3651973ed06d97776c54668fed4bdf597e7b93bf0043509bb4d59739b8b70ce6"
+    },
+    {
+      "path": "Reproduce_Analyses/recorded_results/african_reporting/product_thresholds.csv",
+      "bytes": 8121,
+      "sha256": "99dc156736d3f2d3bb3e33d00dee3ad2a71e43af3cca048e7faea3ee1261dbe3"
+    },
+    {
+      "path": "Reproduce_Analyses/recorded_results/african_reporting/prospective_widths.csv",
+      "bytes": 25008,
+      "sha256": "ae62f25346e7407820e067f6dbbcea1edab1c5a09806a176e77bd3698e2c11f8"
+    },
+    {
+      "path": "Reproduce_Analyses/recorded_results/african_reporting/reference_market_totals.csv",
+      "bytes": 15255,
+      "sha256": "bd73bae2e4be9b7cf12d97e6fe9a71de5ddc132178be8d1e13d09d33ee8ce123"
+    },
+    {
+      "path": "Reproduce_Analyses/recorded_results/african_reporting/scenario_widths.csv",
+      "bytes": 19486,
+      "sha256": "00436304f0e9e660f2e772b11d3483ce3806111664cfce26936bbd86a047a613"
+    },
+    {
+      "path": "Reproduce_Analyses/recorded_results/african_reporting/threshold_summary.csv",
+      "bytes": 1061,
+      "sha256": "fb6fcb8114e6c6a1196d5283ff64bcbc5f5c795f5e8cdc199834a3613076b53f"
+    },
+    {
+      "path": "Reproduce_Analyses/recorded_results/decision/DECISIONS.csv",
+      "bytes": 3808,
+      "sha256": "4abd9ce88ec8dff0e7e525f2c315cdb721d28383d4ee4ea840521752d6e3cda0"
+    },
+    {
+      "path": "Reproduce_Analyses/recorded_results/decision/INTERVALS.csv",
+      "bytes": 2519457,
+      "sha256": "98cf48bec0910d01d9ddce80ebb8ae942a47787f10ef6e007390bf2f51574635"
+    },
+    {
+      "path": "Reproduce_Analyses/recorded_results/decision/RESULTS.json",
+      "bytes": 17351,
+      "sha256": "d9a1ada815bfb839aba35526334c98d6fbde5513e5d40ad43490c28b1c1cff82"
+    },
+    {
+      "path": "Reproduce_Analyses/recorded_results/reporting_example/RESULTS.json",
+      "bytes": 4927,
+      "sha256": "02b77bbea025f644f78344fcf124f3069299fff22dbde91f0a2d84f40e75ed11"
+    },
+    {
+      "path": "Reproduce_Analyses/recorded_results/structural_comparison/RESULTS.json",
+      "bytes": 1551192,
+      "sha256": "6c31c5abcd24488f5209189f309ce5cc2fa8fff95816a119c9650f5b7a2ec9cb"
+    },
+    {
+      "path": "Reproduce_Analyses/repeat_analyses.py",
+      "bytes": 10386,
+      "sha256": "5deb8f97eca9e5e56565db1c97af328b9c84cc9426aa9293f7e04c572efc2270"
+    },
+    {
+      "path": "Reproduce_Analyses/requirements-figures.txt",
+      "bytes": 20,
+      "sha256": "12e3d3c71d6161926b7ce4fac2ca20ff83fc55bc2721c53dd002d084c6c532db"
+    },
+    {
+      "path": "Reproduce_Analyses/requirements-recorded.txt",
+      "bytes": 29,
+      "sha256": "57e74730633249faccf68cf27f4ffd05df5bffb1245dee9b36acce5e4c48019f"
+    },
+    {
+      "path": "Reproduce_Analyses/requirements.txt",
+      "bytes": 31,
+      "sha256": "f928563730722a04fc19e8665fcd5f8325b12a4fd129dfb69262605f7b824c13"
+    },
+    {
+      "path": "Restart TEM-FLOW.cmd",
+      "bytes": 156,
+      "sha256": "ad6d076b4f6be3515f23ab99db0bfe2c7394c5cb55d5565cf6abf6daea6500b8"
+    },
+    {
+      "path": "Restart editable source.cmd",
+      "bytes": 217,
+      "sha256": "8d3ae65df848424bc418c487a1b24e7fd9375376a490b094f002c18e3727f2f6"
+    },
+    {
+      "path": "Run checks.cmd",
+      "bytes": 154,
+      "sha256": "3c6a1cf38b2324cca351ba70a58091d8611c5f5b5bc5d676edc3034d11ae380c"
+    },
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "bytes": 40443,
+      "sha256": "045f5ed47c7baee83a311fbb7fc0c469ec4a4a7f8b09003f30ca21a5ddecb973"
+    },
+    {
+      "path": "STRUCTURAL_REVISION.json",
+      "bytes": 333,
+      "sha256": "2bfbbd19f15f90d30c2dd0cf5fd40db55aa40156aaba2583e2018f7cfdf457b7"
+    },
+    {
+      "path": "Stop TEM-FLOW.cmd",
+      "bytes": 153,
+      "sha256": "0266c2d5cc3d6194b5b15aa92d0bbce4de7dbbf5fe6ede6f9514168807e2140e"
+    },
+    {
+      "path": "Stop editable source.cmd",
+      "bytes": 214,
+      "sha256": "7ece0761c4f3e56e313cea6b22f8fcae707d37882e0894eb3db744f658f70c64"
+    },
+    {
+      "path": "analysis/R/reproduce_validation_summary.R",
+      "bytes": 1230,
+      "sha256": "b1303e82d21296d10745e6a93335fa06505849fc74f4fa0bdbcacb141eeae2be"
+    },
+    {
+      "path": "analysis/README.md",
+      "bytes": 4046,
+      "sha256": "d2675df4e890ccd9b285048492ff34cdef5542442b6236b91586e894c1eae6b6"
     },
     {
       "path": "analysis/data/crosscommodity/EVIDENCE_ROLE_LEDGER_V1_0_0.csv",
@@ -80,14 +579,14 @@
       "sha256": "1ab6310f1abb0717efe533e912a6efcb4fc74a298eca887113054ede512f582b"
     },
     {
-      "path": "analysis/data/uk_rpa/cattle-movements-to-slaughterhouses-during-2010.csv",
-      "bytes": 739301,
-      "sha256": "23584327dde9a6f6e59efe1281204cdaf5b9f6a3c69aed9233e43c0c7c163875"
-    },
-    {
       "path": "analysis/data/uk_rpa/UNBLINDED_DESTINATION_TRUTH_V1_0_0.csv",
       "bytes": 1043399,
       "sha256": "e3e028193efbce3501f5d91a1bc90812cefbc8c6f8b798df516539c65b7e94fc"
+    },
+    {
+      "path": "analysis/data/uk_rpa/cattle-movements-to-slaughterhouses-during-2010.csv",
+      "bytes": 739301,
+      "sha256": "23584327dde9a6f6e59efe1281204cdaf5b9f6a3c69aed9233e43c0c7c163875"
     },
     {
       "path": "analysis/data/validation_summary.csv",
@@ -103,6 +602,21 @@
       "path": "analysis/efficiency/BENCHMARK_MANIFEST.json",
       "bytes": 6002,
       "sha256": "00542d70dcbf6563c52223b68f84977f7c19d52da50ff46f136e280031dc3aeb"
+    },
+    {
+      "path": "analysis/efficiency/README.txt",
+      "bytes": 4546,
+      "sha256": "fe6df3558b0ce622414b67b9a0ce77719fce3985f2c4bd7a7b166a88821a5741"
+    },
+    {
+      "path": "analysis/efficiency/REPEAT_BENCHMARK.cmd",
+      "bytes": 653,
+      "sha256": "35876f8edb52e12ceec3d44517c48f6ac79b0adfb6a9ce7e0e7381f8612c7aa2"
+    },
+    {
+      "path": "analysis/efficiency/REPRODUCTION_CHECK_2026-10-03.json",
+      "bytes": 5116,
+      "sha256": "eb15ceb5ddcc604cb28f47d2a3c3db4a64da3ef728bd083dad0cba7d4dcd8156"
     },
     {
       "path": "analysis/efficiency/code/benchmark.py",
@@ -130,11 +644,6 @@
       "sha256": "b4b2e230b4e128fd2125e4207aa9de3f0b01509086934e8bb77edd31728d8d33"
     },
     {
-      "path": "analysis/efficiency/README.txt",
-      "bytes": 4161,
-      "sha256": "34eaf327eeb23f4ee8b65bef0e7615543c9569b6240792900633bad9dc62fc4b"
-    },
-    {
       "path": "analysis/efficiency/recorded/BENCHMARK_SUMMARY.json",
       "bytes": 1279,
       "sha256": "46d240bbba3427230214fd7c4974b69137ff899d233c417bb547528242fab72b"
@@ -148,6 +657,31 @@
       "path": "analysis/efficiency/recorded/ENVIRONMENT.json",
       "bytes": 458,
       "sha256": "0cc28e44c62c5835da86c337546433b4a7b611a71d49d1f1895bb0e7ba5be530"
+    },
+    {
+      "path": "analysis/efficiency/recorded/OS.json",
+      "bytes": 114,
+      "sha256": "70b49861651d1d9e44600232961066674fe956c94e9a2ac01192453f8c59647b"
+    },
+    {
+      "path": "analysis/efficiency/recorded/PROTOCOL.json",
+      "bytes": 2140,
+      "sha256": "30f3b6e24da9d6cdd1559160445224680f6567545cbdf95238504aae22d6627b"
+    },
+    {
+      "path": "analysis/efficiency/recorded/RAW_RUNS.jsonl",
+      "bytes": 370632,
+      "sha256": "56f78520a374150c133094336f7fa57f0cc35e713a4fb0510ac6e0f605d6c008"
+    },
+    {
+      "path": "analysis/efficiency/recorded/RESULTS.csv",
+      "bytes": 6536,
+      "sha256": "586d4d583b9bedc8c084cd78efb28d6541fd684decd96c566cc93f05d26fc12a"
+    },
+    {
+      "path": "analysis/efficiency/recorded/RESULTS.json",
+      "bytes": 1263395,
+      "sha256": "5419aaa0a822b1ae4992d5a1727e420dd445dbd7b153fe1fcbab350598ea84f5"
     },
     {
       "path": "analysis/efficiency/recorded/inputs/balanced_L1024_r0.json",
@@ -255,44 +789,9 @@
       "sha256": "3f5db86b89ca21201f46cf4da6127c466efffd5ca61712886a578592f608c2a7"
     },
     {
-      "path": "analysis/efficiency/recorded/OS.json",
-      "bytes": 114,
-      "sha256": "70b49861651d1d9e44600232961066674fe956c94e9a2ac01192453f8c59647b"
-    },
-    {
-      "path": "analysis/efficiency/recorded/PROTOCOL.json",
-      "bytes": 2140,
-      "sha256": "30f3b6e24da9d6cdd1559160445224680f6567545cbdf95238504aae22d6627b"
-    },
-    {
-      "path": "analysis/efficiency/recorded/RAW_RUNS.jsonl",
-      "bytes": 370632,
-      "sha256": "56f78520a374150c133094336f7fa57f0cc35e713a4fb0510ac6e0f605d6c008"
-    },
-    {
-      "path": "analysis/efficiency/recorded/RESULTS.csv",
-      "bytes": 6536,
-      "sha256": "586d4d583b9bedc8c084cd78efb28d6541fd684decd96c566cc93f05d26fc12a"
-    },
-    {
-      "path": "analysis/efficiency/recorded/RESULTS.json",
-      "bytes": 1263395,
-      "sha256": "5419aaa0a822b1ae4992d5a1727e420dd445dbd7b153fe1fcbab350598ea84f5"
-    },
-    {
-      "path": "analysis/efficiency/REPEAT_BENCHMARK.cmd",
-      "bytes": 653,
-      "sha256": "35876f8edb52e12ceec3d44517c48f6ac79b0adfb6a9ce7e0e7381f8612c7aa2"
-    },
-    {
       "path": "analysis/efficiency/reproduce_benchmark.py",
       "bytes": 8311,
       "sha256": "71382a582774c3b821aaafa3d51cff200df3486731fc7355c2b93457d7b2607e"
-    },
-    {
-      "path": "analysis/efficiency/REPRODUCTION_CHECK_2026-10-03.json",
-      "bytes": 5116,
-      "sha256": "eb15ceb5ddcc604cb28f47d2a3c3db4a64da3ef728bd083dad0cba7d4dcd8156"
     },
     {
       "path": "analysis/efficiency/requirements.txt",
@@ -400,14 +899,24 @@
       "sha256": "631ef330685a8b18394062b8f0ef55d72b0ad9d6ab4287bcafc64379baf3185f"
     },
     {
-      "path": "analysis/R/reproduce_validation_summary.R",
-      "bytes": 1230,
-      "sha256": "b1303e82d21296d10745e6a93335fa06505849fc74f4fa0bdbcacb141eeae2be"
+      "path": "analysis/results/REPRODUCTION_REPORT_STRUCTURAL_REVISION.json",
+      "bytes": 2360,
+      "sha256": "fa0c7d730cca20435e0a5e0b3f0662f8ce9a66d8cd4934331c0989b43172d3d2"
     },
     {
-      "path": "analysis/README.md",
-      "bytes": 3065,
-      "sha256": "c91f6e2bf51365753f54f33a1b66c6681fd5d6b396100f37539fd3b04cb7b514"
+      "path": "analysis/results/REPRODUCTION_REPORT_V1_0_0.json",
+      "bytes": 2360,
+      "sha256": "fa0c7d730cca20435e0a5e0b3f0662f8ce9a66d8cd4934331c0989b43172d3d2"
+    },
+    {
+      "path": "analysis/results/SOURCE_MAINTENANCE_RECHECK_2026_10_01.json",
+      "bytes": 4636,
+      "sha256": "64e28284f4ec45a5e506de8a929de54e4604b4cb09a0f92492ed622c78c62dc9"
+    },
+    {
+      "path": "analysis/results/SOURCE_ONLY_ALLOCATION_SCORE_V1_0_0.json",
+      "bytes": 1275,
+      "sha256": "6a8eb2c06abcbb7381c59b33774186bd121dda7a8f0a7fee0557a6e58ab0ac12"
     },
     {
       "path": "analysis/results/crosscommodity/FROZEN_PREDICTIONS_V1_0_0.json",
@@ -448,26 +957,6 @@
       "path": "analysis/results/nass_retention/SOURCE_RETENTION_SCORE_V1_0_0.json",
       "bytes": 2351,
       "sha256": "1cf1688203821b4ef12bfdbfbad2ab77980ab7092cf6d5f8db0d16b2b8941e72"
-    },
-    {
-      "path": "analysis/results/REPRODUCTION_REPORT_STRUCTURAL_REVISION.json",
-      "bytes": 2360,
-      "sha256": "fa0c7d730cca20435e0a5e0b3f0662f8ce9a66d8cd4934331c0989b43172d3d2"
-    },
-    {
-      "path": "analysis/results/REPRODUCTION_REPORT_V1_0_0.json",
-      "bytes": 2360,
-      "sha256": "fa0c7d730cca20435e0a5e0b3f0662f8ce9a66d8cd4934331c0989b43172d3d2"
-    },
-    {
-      "path": "analysis/results/SOURCE_MAINTENANCE_RECHECK_2026_10_01.json",
-      "bytes": 4636,
-      "sha256": "64e28284f4ec45a5e506de8a929de54e4604b4cb09a0f92492ed622c78c62dc9"
-    },
-    {
-      "path": "analysis/results/SOURCE_ONLY_ALLOCATION_SCORE_V1_0_0.json",
-      "bytes": 1275,
-      "sha256": "6a8eb2c06abcbb7381c59b33774186bd121dda7a8f0a7fee0557a6e58ab0ac12"
     },
     {
       "path": "analysis/results/uk_rpa/FROZEN_PREDICTIONS_V1_0_0.json",
@@ -590,26 +1079,6 @@
       "sha256": "53dcd28e45ba29372509915421c19ec4287afb1f451add0228f5db445dddb72b"
     },
     {
-      "path": "CHANGELOG.md",
-      "bytes": 2206,
-      "sha256": "0e8f52804fb65a53287adba9f753841d2b9d3e19c295ed20080cc82245ef4165"
-    },
-    {
-      "path": "Check editable source.cmd",
-      "bytes": 184,
-      "sha256": "aceaf72b84ca563de06ee865644a1d5d1c7d334f981ef199d53ed0459bb7c975"
-    },
-    {
-      "path": "CITATION.cff",
-      "bytes": 417,
-      "sha256": "33c2c807c161e989d99c9bfdae2daca52b6c155baf9e7b15d0c65f6604d6c1d7"
-    },
-    {
-      "path": "Create desktop shortcut.vbs",
-      "bytes": 610,
-      "sha256": "be4ea8fd9fb2df61c052b5d5f5e0816e5679cfde4330bfad5ac5beb43ea9859b"
-    },
-    {
       "path": "desktop_launcher.py",
       "bytes": 5274,
       "sha256": "a62e5934ef2b9107e38e463cc9fab702718c8bc5202c7f59eea0f9db8a403ce6"
@@ -618,16 +1087,6 @@
       "path": "desktop_server.py",
       "bytes": 2377,
       "sha256": "55024082f9347a37eff78552e26c58edc938721915af6665f3e952f90b6ea9e8"
-    },
-    {
-      "path": "DESKTOP_START_HERE.md",
-      "bytes": 4059,
-      "sha256": "1b70d9531faa6fb163e7ede7fbbd29ad3ce4530c7982b0f3f4ebe8d3e0ea6ee6"
-    },
-    {
-      "path": "DEVELOPER_GUIDE.md",
-      "bytes": 8212,
-      "sha256": "c3fd6b4ce48d8854cb49e74fe143151c1a04f1ffa4f3674df9e595356da87999"
     },
     {
       "path": "docs/AGGREGATE_RECORD_EXAMPLE.csv",
@@ -666,8 +1125,8 @@
     },
     {
       "path": "docs/STRUCTURAL_INPUT_GUIDE.md",
-      "bytes": 6156,
-      "sha256": "0081bd2a6c3e6a57c16d7f6ad14eac1e54d0f3e142aa06c56aae304bd28aaf5f"
+      "bytes": 6160,
+      "sha256": "df33a1dfe46a9dad8e483a40a726bc88804a6f4882536356165fee92fe3f1087"
     },
     {
       "path": "docs/TEMFLOW_DATED_RECORD_EXAMPLE.csv",
@@ -678,71 +1137,6 @@
       "path": "docs/TEMFLOW_DATED_RECORD_INPUT_TEMPLATE.csv",
       "bytes": 652,
       "sha256": "fdf5e0b194a713ab182a1943ad507f878a03cf5749cf0e2f572581eb2a6396f5"
-    },
-    {
-      "path": "Edit source.cmd",
-      "bytes": 53,
-      "sha256": "dd0e286183ae165d5183ac35580fe34d1b30158c70c60f8fe3489d2cb8a6484a"
-    },
-    {
-      "path": "EDITABLE_SOURCE_START_HERE.html",
-      "bytes": 11465,
-      "sha256": "462cf1b7043f35d175289224f53cb21fe1055d66471847b9a1128f0ca3331447"
-    },
-    {
-      "path": "EDITABLE_SOURCE_START_HERE.txt",
-      "bytes": 10167,
-      "sha256": "a064d5b857611bf10ae2a7a0bf515843a1aec47b311092ee498db22e46948941"
-    },
-    {
-      "path": "FORMULATION/ERR_FORMAL_RESULTS_V1_1.md",
-      "bytes": 4677,
-      "sha256": "f98f1ac5d68a9a43168499be7e67f60ddbe70fa976ea66cab2d8fe44a8be3aba"
-    },
-    {
-      "path": "FORMULATION/ERR_MATHEMATICAL_FORMULATION_V1_1.md",
-      "bytes": 5773,
-      "sha256": "d06c3f5232dd860d1c9bc8779a39997bbc90f2ed17265c5f7cfa7d298a265b28"
-    },
-    {
-      "path": "FORMULATION/STRUCTURAL_FORMULATION.md",
-      "bytes": 15901,
-      "sha256": "7c07e739352635957fd26e4f7344a8ea3dda2ad301923f52c0d65f5f08e2f5d5"
-    },
-    {
-      "path": "FORMULATION/TEMFLOW_FORMAL_PROOFS_V0_3.md",
-      "bytes": 11912,
-      "sha256": "457eb21020d4b5d3271e10eff04432f37e43ddbd555bc7fe6cf0187e5c616840"
-    },
-    {
-      "path": "FORMULATION/TEMFLOW_MATHEMATICAL_FORMULATION_V0_3.md",
-      "bytes": 15540,
-      "sha256": "f4f9f3af45f46e632d58ee1ab81b70bcad0ece33798997f7b877c28bd975ddf6"
-    },
-    {
-      "path": "FORMULATION/TEMFLOW_V1_0_ALGORITHM_LINEAGE.md",
-      "bytes": 2307,
-      "sha256": "969c12caa0a868047b923c30b804f55ff2a81d64fb16e2b192bfdb79eb3cd9f7"
-    },
-    {
-      "path": "GEOGRAPHIC_COVERAGE.csv",
-      "bytes": 1539,
-      "sha256": "fe2fc157e0cb3f6857e00835d9206012fb12b0d0b71685fe21ed747e76f4ccd6"
-    },
-    {
-      "path": "Launch editable source.cmd",
-      "bytes": 216,
-      "sha256": "138b21c2a4f37b0a47992ecf2638ccca9a63f63126386a3413fa4a0abc4c5a2a"
-    },
-    {
-      "path": "Launch TEM-FLOW.cmd",
-      "bytes": 91,
-      "sha256": "d13479c0fef3b0c24928f355e9140d1f370aa00b7e67c93d9a5708efc36cdca4"
-    },
-    {
-      "path": "Launch TEM-FLOW.vbs",
-      "bytes": 325,
-      "sha256": "b5ed2ebf9c612cbb4f9460a0e9e4b67c3f3d4f93429020ed80d07a2e55c2a068"
     },
     {
       "path": "ledger/certificate_ledger_summary.json",
@@ -765,29 +1159,9 @@
       "sha256": "8026eeee368eaa7e8c7cf67ec3bf180636544a37c33819bf385e9dc183483d8a"
     },
     {
-      "path": "LICENSE",
-      "bytes": 1528,
-      "sha256": "8fe7ac9e4b8cffa70721f8f7e92716b9ecdba53b5c6167842338df9e9349ab93"
-    },
-    {
-      "path": "PUBLIC_DATA_BOUNDARY.md",
-      "bytes": 396,
-      "sha256": "a2000f85ec334787f22d00223994ee4046e8465f504a6d41f4682d6041631861"
-    },
-    {
       "path": "pyproject.toml",
       "bytes": 1207,
       "sha256": "56fb443725a95ecc0b91107a94b93f08c7e611ae120530383611456c5ad75d55"
-    },
-    {
-      "path": "README.md",
-      "bytes": 9168,
-      "sha256": "bb1bdfd289f3bff11070d1a21d3ac9f62b2d44726cbff87b81c80fb70921f9ad"
-    },
-    {
-      "path": "RELEASE_NOTES_1.0.0.md",
-      "bytes": 2200,
-      "sha256": "091ecf1660c498584674e98e37750147ef6f1967869bbeaac900e72ef2dcf572"
     },
     {
       "path": "requirements-desktop.txt",
@@ -798,21 +1172,6 @@
       "path": "requirements-lock.txt",
       "bytes": 171,
       "sha256": "bfc062c4ab193f988f14b3f31c2e9d7b3b3e55663c0d41e3e3146433706f6b03"
-    },
-    {
-      "path": "Restart editable source.cmd",
-      "bytes": 217,
-      "sha256": "8d3ae65df848424bc418c487a1b24e7fd9375376a490b094f002c18e3727f2f6"
-    },
-    {
-      "path": "Restart TEM-FLOW.cmd",
-      "bytes": 100,
-      "sha256": "513981dd6ee99a4f9ddb3941f4534c1aeadc80f5878142a22f5f3b260f9b803c"
-    },
-    {
-      "path": "Run checks.cmd",
-      "bytes": 85,
-      "sha256": "0300c6b7ea18066786a9f6084074c0b4780e4009bc94fdbaecf0bd6e07faea6f"
     },
     {
       "path": "src/temflow/__init__.py",
@@ -841,8 +1200,8 @@
     },
     {
       "path": "src/temflow/compositional.py",
-      "bytes": 6915,
-      "sha256": "3e2ceb3abc6b44fad18a41e1827a3229b12b5feaf9a2768c5463e9b9c920d8d0"
+      "bytes": 7128,
+      "sha256": "180f594ff860e623e5fcb55fe0db29b2e3612112b1c1a7cd3e8dc68e947775c2"
     },
     {
       "path": "src/temflow/constraints.py",
@@ -885,6 +1244,31 @@
       "sha256": "9731bfde3f17fd4897651160c2fdc7b0b4f00248d8d8a057c505ea8952f97f23"
     },
     {
+      "path": "src/temflow/data/INPUT_GUIDE_FOR_ORDINARY_USERS.md",
+      "bytes": 7699,
+      "sha256": "d9171511466bfaf777fe568c2f08bb81af8575656a5897cf382395ca4be2c28a"
+    },
+    {
+      "path": "src/temflow/data/STRUCTURAL_EXAMPLE.json",
+      "bytes": 664,
+      "sha256": "ccd65bb659448e7701e7d6eb5ef5537c93d7247acce296628e68fc089b0e0876"
+    },
+    {
+      "path": "src/temflow/data/STRUCTURAL_INPUT_GUIDE.md",
+      "bytes": 6156,
+      "sha256": "0081bd2a6c3e6a57c16d7f6ad14eac1e54d0f3e142aa06c56aae304bd28aaf5f"
+    },
+    {
+      "path": "src/temflow/data/TEMFLOW_DATED_RECORD_EXAMPLE.csv",
+      "bytes": 1594,
+      "sha256": "0c6d375fd32c8d0b24ba89eee59de3d5a8d0e683059afcf2d15be47ac3becbd3"
+    },
+    {
+      "path": "src/temflow/data/TEMFLOW_DATED_RECORD_INPUT_TEMPLATE.csv",
+      "bytes": 652,
+      "sha256": "fdf5e0b194a713ab182a1943ad507f878a03cf5749cf0e2f572581eb2a6396f5"
+    },
+    {
       "path": "src/temflow/data/dashboard_ui.html",
       "bytes": 140838,
       "sha256": "d0259af7827a86e9a40241cfb01f0a095551c6b6f197ad480faf92e49718d9ff"
@@ -923,11 +1307,6 @@
       "path": "src/temflow/data/ethiopia_waterbodies.geojson",
       "bytes": 319760,
       "sha256": "729a88571627b3d601a66a1cd1cd56ed57facf03007f2e19a0b58d4b09af0927"
-    },
-    {
-      "path": "src/temflow/data/INPUT_GUIDE_FOR_ORDINARY_USERS.md",
-      "bytes": 7699,
-      "sha256": "d9171511466bfaf777fe568c2f08bb81af8575656a5897cf382395ca4be2c28a"
     },
     {
       "path": "src/temflow/data/patterns/africa_countries.geojson",
@@ -1036,8 +1415,8 @@
     },
     {
       "path": "src/temflow/data/patterns_private_ui.html",
-      "bytes": 137400,
-      "sha256": "731ef5f738904977432fb50413d8ef604280089c87710c92d89957bf12e34b54"
+      "bytes": 136977,
+      "sha256": "2068cf5f458ad00222988d0832900e037a748641608dabef800e7f1ccd36a3ae"
     },
     {
       "path": "src/temflow/data/regional_context.geojson",
@@ -1048,26 +1427,6 @@
       "path": "src/temflow/data/regional_context_sources.json",
       "bytes": 6365,
       "sha256": "13798d2be69205f3b874cff12587d4274a61b5be011a5a99952b380959db3501"
-    },
-    {
-      "path": "src/temflow/data/STRUCTURAL_EXAMPLE.json",
-      "bytes": 664,
-      "sha256": "ccd65bb659448e7701e7d6eb5ef5537c93d7247acce296628e68fc089b0e0876"
-    },
-    {
-      "path": "src/temflow/data/STRUCTURAL_INPUT_GUIDE.md",
-      "bytes": 6156,
-      "sha256": "0081bd2a6c3e6a57c16d7f6ad14eac1e54d0f3e142aa06c56aae304bd28aaf5f"
-    },
-    {
-      "path": "src/temflow/data/TEMFLOW_DATED_RECORD_EXAMPLE.csv",
-      "bytes": 1594,
-      "sha256": "0c6d375fd32c8d0b24ba89eee59de3d5a8d0e683059afcf2d15be47ac3becbd3"
-    },
-    {
-      "path": "src/temflow/data/TEMFLOW_DATED_RECORD_INPUT_TEMPLATE.csv",
-      "bytes": 652,
-      "sha256": "fdf5e0b194a713ab182a1943ad507f878a03cf5749cf0e2f572581eb2a6396f5"
     },
     {
       "path": "src/temflow/downstream_consequence.py",
@@ -1106,8 +1465,8 @@
     },
     {
       "path": "src/temflow/private_engine.py",
-      "bytes": 101069,
-      "sha256": "718186f9be85e1089d9ca688075c22b76e82b785c57ff83931bac7bff472d754"
+      "bytes": 99315,
+      "sha256": "078d2d11f3fa235d70179e93d4434476947055133b8da2603e2bd2b2c12f0b7a"
     },
     {
       "path": "src/temflow/proof_obligations.py",
@@ -1145,29 +1504,14 @@
       "sha256": "b27371a54bd678a98a6dcc4f57895fcfc45301045cf72f1a317acdc27242de21"
     },
     {
-      "path": "Stop editable source.cmd",
-      "bytes": 214,
-      "sha256": "7ece0761c4f3e56e313cea6b22f8fcae707d37882e0894eb3db744f658f70c64"
-    },
-    {
-      "path": "Stop TEM-FLOW.cmd",
-      "bytes": 97,
-      "sha256": "9768c4ca33184d1e10df1c647203dba99af347a6dc08253b87f390846d17e737"
-    },
-    {
-      "path": "STRUCTURAL_REVISION.json",
-      "bytes": 333,
-      "sha256": "2bfbbd19f15f90d30c2dd0cf5fd40db55aa40156aaba2583e2018f7cfdf457b7"
-    },
-    {
       "path": "tests/test_certificates.py",
       "bytes": 1361,
       "sha256": "2ba5475ac79641f64671dfdb3fd5d8262e52724b072b4dc15466d334fc2774d4"
     },
     {
       "path": "tests/test_compositional.py",
-      "bytes": 1806,
-      "sha256": "8450904264fc89b1dde3721964a0b318a5b9c14f6be851f0f907bbf45f2ee0ba"
+      "bytes": 2620,
+      "sha256": "b7eb7840e53aa920336355284c383ed523928d82164e76851916b2e6ea6c3a79"
     },
     {
       "path": "tests/test_constraints.py",
@@ -1246,8 +1590,8 @@
     },
     {
       "path": "tests/test_provenance_release.py",
-      "bytes": 2340,
-      "sha256": "b9d1f53af81859b8af7fef0a937a1af5cd2e6b7e101d8e57b0f2e94724ebfb24"
+      "bytes": 2387,
+      "sha256": "1ebb3fb9f8b3b00694891737682305f22fb88844eaa457946735305b150b66be"
     },
     {
       "path": "tests/test_road_geometry_consistency.py",
@@ -1301,8 +1645,8 @@
     },
     {
       "path": "tools/package_release.py",
-      "bytes": 5454,
-      "sha256": "10ae88c799c5f53bbead57f1c411af7a9075d539ac638380018ba39a77b256e8"
+      "bytes": 7378,
+      "sha256": "4808679e88119cdc63af53f9c4e61e21e7e5ca03bd23302d9978e8aec0ac9480"
     },
     {
       "path": "tools/set_version.py",
@@ -1316,9 +1660,8 @@
     },
     {
       "path": "tools/source_workspace.ps1",
-      "bytes": 2266,
-      "sha256": "1a6c89449d0e93495d20e4dfd28064564c5425ac12ef57587065cf7bffc8ea53"
+      "bytes": 2376,
+      "sha256": "56ed07b26bee60b84fd59069dbf491cf4cdc3f4455ad8582562501424a5ed0ac"
     }
-  ],
-  "engine_baseline_commit": "e51171fc98b4dead06b6d4b1c68e5ad5669de4d4"
+  ]
 }

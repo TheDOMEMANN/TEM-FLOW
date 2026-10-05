@@ -7,10 +7,10 @@ version remains 1.0.0. A file revision and a software version are different:
 commits and dated archive labels identify changes within this version.
 
 Your separate source folder on this PC is:
-Desktop > Exposure_Africa > TEMFLOW_FINAL > TEM-FLOW-1.0.0-EDITABLE-SOURCE
+User_package > Editable_Source
 
-The folder TEM-FLOW-1.0.0-Structural is the checked daily-use desktop copy.
-Your normal TEM-FLOW desktop shortcut still opens that daily-use copy.
+The neighboring Desktop folder is the ready-to-use application copy.
+Open its Launch TEM-FLOW.cmd when you want to run that copy.
 The editable source has its own launcher and its own local records. Editing
 one copy does not silently change the other.
 
@@ -23,7 +23,7 @@ calculations run on your own PC. Internet access is needed only for optional
 online map backgrounds and online services, not the local calculations.
 
 On this PC, the source launcher finds Python automatically in the neighboring
-TEM-FLOW-1.0.0-Structural folder. Keep both folders together. It borrows only
+Desktop folder. Keep both folders together. It borrows only
 Python and its numerical libraries; the engine and interface come from THIS
 editable source folder. Do not edit or delete the runtime folder.
 

@@ -1,4 +1,4 @@
 @echo off
 cd /d "%~dp0"
-"%~dp0runtime\python.exe" -B "%~dp0tools\check.py"
-pause
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0tools\source_workspace.ps1" -Action Check
+if errorlevel 1 pause

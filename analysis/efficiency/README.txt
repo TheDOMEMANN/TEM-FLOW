@@ -1,8 +1,15 @@
+HISTORICAL GENERAL-SOLVER COMPARISON
+The current Array structure-aware comparison is in the separate
+Reproduce_Analyses folder (Analyses in the journal code archive). It compares
+all 57,488 archived profile values with a separately implemented record-stage
+program. The two methods agree and have comparable computation time; neither
+is consistently faster across the complete case set.
+The historical table and figure numbers below belong to that earlier study.
+
 TEM-FLOW 1.0.0 computational efficiency reproduction
 
 Purpose
-This folder repeats the matched comparison reported in manuscript Table 1
-and Supplementary Figure S2. All inputs are synthetic. No chemistry values,
+This folder repeats the matched comparison reported in the earlier general-solver comparison. All inputs are synthetic. No chemistry values,
 restricted records, network service, or account is needed for the calculation.
 
 What is repeated

@@ -32,7 +32,7 @@ For several sources, products or periods, prepare separate files and calculate t
 
 ## How groups are interpreted
 
-Groups are nested when any two groups are either separate or one is entirely inside the other. For example, A and the combined group A+B are nested. A+B and A+C overlap without nesting. TEM-FLOW checks this condition. It uses the structural theorem for nested groups and a general linear calculation for overlapping groups. The group hierarchy is an accounting structure; it is unrelated to the shape of roads on the map.
+Groups are nested when any two groups are either separate or one is entirely inside the other. For example, A and the combined group A+B are nested. A+B and A+C overlap without nesting. TEM-FLOW checks this condition. It uses the structural calculation for nested groups and a general linear calculation for overlapping groups. The group hierarchy is an accounting structure; it is unrelated to the shape of roads on the map.
 
 The exact source total is assumed to remain known when other records are missing. Errors have separate absolute bounds. Missing record identities are known. Hidden incorrect readings, joint error correlations, and simultaneous loss of a whole reporting institution are different problems and are not represented by this calculation.
 

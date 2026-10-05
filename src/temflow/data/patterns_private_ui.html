@@ -414,7 +414,7 @@ $('structuralRun').onclick=async()=>{
     html+='<p><b>Worst uncertainty if records are missing</b><br>These are range widths over possible readings, not the ranges above.</p>';
     if(p.status==='ok')html+='<ul>'+Object.entries(p.widths).map(([n,values])=>'<li>'+esc(n)+': '+values.map((v,k)=>k+' missing → '+fmt(v)).join('; ')+'</li>').join('')+'</ul>';
     else html+='<p>'+esc(p.reason||p.status)+'</p>';
-    html+='<p class="small">'+(r.structure==='nested_groups'?'Nested accounting groups: structural theorem applied.':'Overlapping groups: general calculation applied.')+' Exact source total assumed. Missing-record counts refer to additional records. This does not establish road transport or contamination.</p>';
+    html+='<p class="small">'+(r.structure==='nested_groups'?'Nested accounting groups: structural calculation applied.':'Overlapping groups: general calculation applied.')+' Exact source total assumed. Missing-record counts refer to additional records. This does not establish road transport or contamination.</p>';
     $('structuralResult').innerHTML=html;$('structuralDownload').disabled=false;
   }catch(e){$('structuralResult').textContent=e.message}finally{$('structuralRun').disabled=false}
 };

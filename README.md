@@ -1,19 +1,56 @@
-> **Matched computational benchmark:** [repeat instructions](analysis/efficiency/README.txt) and [recorded results](analysis/efficiency/recorded/RESULTS.csv) compare the unchanged structural calculation with equivalent maximum-flow and linear-programming formulations. The [3 October reproduction check](analysis/efficiency/REPRODUCTION_CHECK_2026-10-03.json) confirms all 1,776 compared values and the speed ordering across 28 completed comparisons. [Download the complete source and reproducibility archive](https://github.com/TheDOMEMANN/TEM-FLOW/releases/download/v1.0.0/TEM-FLOW-1.0.0-Reproducibility-2026-10-03.zip). Software version remains **1.0.0**; the reference methods enumerate missing-record combinations, so this is not a universal algorithm-superiority claim.
-
-> For the editable Windows desktop build, start with [DESKTOP_START_HERE.md](DESKTOP_START_HERE.md). For source changes, version upgrades and repository releases, read [DEVELOPER_GUIDE.md](DEVELOPER_GUIDE.md). The current feature manager adds, removes and restores nodes/routes with curator access.
-
-> To edit the engine or interface yourself, open [EDITABLE_SOURCE_START_HERE.html](EDITABLE_SOURCE_START_HERE.html) locally, or read [the text guide](EDITABLE_SOURCE_START_HERE.txt). The source has its own launch and check buttons.
-
 # TEM-FLOW 1.0.0
 
-The current structural formulation and separate source-editing controls are available in the dated downloads on the [v1.0.0 release page](https://github.com/TheDOMEMANN/TEM-FLOW/releases/tag/v1.0.0):
+Array source revision dated 5 October 2026. The dated manifest and
+[current revision record](CURRENT_REVISION.json), rather than the unchanged
+version label alone, identify this source snapshot.
 
-- [Editable source and reproduction files](https://github.com/TheDOMEMANN/TEM-FLOW/releases/download/v1.0.0/TEM-FLOW-1.0.0-source-editable-2026-10-01.zip)
-- [Windows desktop application with Python included](https://github.com/TheDOMEMANN/TEM-FLOW/releases/download/v1.0.0/TEM-FLOW-1.0.0-Windows-desktop-structural-2026-10-01.zip)
+The current reproduction materials are in `Reproduce_Analyses` in this
+repository. In the desktop user package that folder sits beside `Editable_Source`;
+in Supplementary Code it is called `Analyses` beside `Source`. Run
+`python Reproduce_Analyses/repeat_analyses.py --output fresh_results` from this
+repository, with NumPy and SciPy installed. The user package also includes a
+plain-language guide and a bundled Windows runtime.
 
-The original `v1.0.0` Git tag and older undated assets remain historical snapshots. Use the dated files above or current source for the structural formulation and editing controls. Software version **1.0.0** is unchanged. The [maintenance verification record](analysis/results/SOURCE_MAINTENANCE_RECHECK_2026_10_01.json) reports the repeated mathematical and empirical checks.
+A separately implemented comparator using established tree calculations
+matches all 57,488 tested profile values and has comparable computation time.
+Neither implementation is consistently faster across the complete case set.
+Earlier large speed ratios concern reference implementations that enumerate
+missing-record sets; they do not establish a general computational advantage.
+The UK threshold comparison also shows that high marginal coverage need not
+imply useful resolution. A calibrated box yields narrower intervals with lower
+marginal coverage. These results verify the calculations and their practical
+limits; they do not establish a new general mathematical theorem.
 
-TEM-FLOW reconstructs sourceâ€“transientâ€“destination mass-flow intervals when
+## African reporting comparison
+
+The Brazzaville comparison uses 8,208 public retail survey records, 16 vegetables
+and 14 market labels. April quantities fix two arrangements of seven numerical
+reports; August quantities evaluate them with an exact retained sample total.
+After one simulated report loss, the median worst-loss mean market width is
+33.99% of the total for individual-market reports and 14.29% for paired-market
+reports. Without loss, individual reports have the smaller median width,
+11.52% versus 14.29%. At a 10% share threshold, paired reports retain 108 of 224
+below-threshold conclusions through every single loss; individual reports retain
+none. The paired width is the accounting identity 1/7. Both arrangements have
+full-total prospective widths under one loss, so that structural criterion alone
+does not distinguish them. Neither preserves an above-threshold conclusion
+through every loss.
+
+This is a retrospective comparison using survey-derived quantities and
+simulated losses after aggregation. Reports share the original survey errors;
+the test does not validate independent backup acquisition or real field failures.
+All 7,168 endpoints agree with an independent linear program and the public
+engine. Inputs, protocol, results and 32 executable payload examples accompany
+the reproduction materials. Source and derived Brazzaville data retain
+**CC BY-NC 4.0**, separately from the software licence.
+
+The single exhaustive compartment is fixed by conservation: its amount equals
+the remainder. The structural kernel is unchanged. Public origin-destination
+and CPC data are retained; private contaminant values are excluded. The source
+manifest identifies the supplied files, and the repository commit identifies
+the corresponding published snapshot when available.
+
+TEM-FLOW reconstructs source–transient–destination mass-flow intervals when
 route evidence is incomplete, dated differently, or collected by separate
 institutions. It preserves mass balance and the identity of the material while
 distinguishing observed, source-reported, transparently derived, and
@@ -51,7 +88,7 @@ value.
   never displays the animation automatically, and route pulses do not assert
   that contaminated product travelled along the displayed route.
 
-The public Patterns package contains the computational slots and a local CSV or
+The public package contains the computational slots and a local CSV or
 JSON file loader, but no contaminant-chemistry application ledger. A dated CSV
 uses one observation per row and is validated and converted internally to the
 engine's JSON contract. Sensitive application records can be supplied on
@@ -59,9 +96,7 @@ demand and remain in browser memory for the active session. See the
 [plain-language input guide](docs/INPUT_GUIDE_FOR_ORDINARY_USERS.md) and the
 [blank CSV template](docs/TEMFLOW_DATED_RECORD_INPUT_TEMPLATE.csv). A
 [filled synthetic example](docs/TEMFLOW_DATED_RECORD_EXAMPLE.csv) shows four
-record types without disclosing application data. The
-editor-private package retains the frozen evidence ledger for confidential
-testing.
+record types without disclosing application data. Private application ledgers must be supplied separately; none is included here.
 
 Map coordinates are drawn from the audited predecessor coordinate registers
 where an exact or documented same-feature match exists. Commodity-state child
@@ -119,7 +154,7 @@ rendered pages, caches, and superseded outputs are deliberately excluded.
 
 The strongest branching test used independently collected UK cattle-movement
 records. Under a sealed split, 99.53% of positive withheld compartments were
-inside the intervals, median total width contracted by 50.70%, and 99.12% of
+inside the intervals, the median width was 48.80% of the unmeasured remainder, and 99.12% of
 positive same-county retention cases were covered. These are administrative
 movement counts at county scale, not instrument-weighed mass or farm-scale
 retention.
@@ -131,7 +166,7 @@ rule. These negative results are part of the release.
 
 ## Public release identifiers
 
-TEM-FLOW is released under the BSD 3-Clause License. The maintained source and
+TEM-FLOW software is released under the BSD 3-Clause License. Third-party data retain their source licences; in particular, Brazzaville source and derived data are CC BY-NC 4.0. The maintained source and
 versioned releases are available at
 [github.com/TheDOMEMANN/TEM-FLOW](https://github.com/TheDOMEMANN/TEM-FLOW).
 Add the archival DOI to `CITATION.cff` after an archival record is deposited.

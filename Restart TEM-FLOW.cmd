@@ -1,3 +1,4 @@
 @echo off
 cd /d "%~dp0"
-start "" "%~dp0runtime\pythonw.exe" "%~dp0desktop_launcher.py" --restart
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0tools\source_workspace.ps1" -Action Restart
+if errorlevel 1 pause

@@ -1743,7 +1743,7 @@ def serve_private_engine(
 
 
 def private_engine_parser(subparsers: argparse._SubParsersAction) -> None:
-    parser = subparsers.add_parser("patterns-engine", help="run the private Patterns review engine")
+    parser = subparsers.add_parser("patterns-engine", help="run the local TEM-FLOW map and evidence interface")
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8770)
     parser.add_argument("--data-dir", default="user_data_patterns")

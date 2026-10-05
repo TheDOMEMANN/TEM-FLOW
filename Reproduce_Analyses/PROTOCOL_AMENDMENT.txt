@@ -1,0 +1,16 @@
+Protocol amendment for the conservation edge case
+4 October 2026
+
+The initial retrospective analysis exposed a single-compartment defect in the
+archived closed-form marginal lower bound: one exhaustive compartment must
+equal the remainder. The first analysis and script were preserved in the
+private rollback record. The corrected run changes that edge case and its
+information-only width, without changing thresholds, fitting periods, source
+eligibility, calibration scores, competing uncertainty sets or target outcomes.
+Three positive cases are affected. The production correction has a new unit
+test and the new analysis checks every total-variation interval against it.
+The original PROTOCOL.json and its original hash are preserved. Its statements
+about an unchanged archived compositional calculation are superseded by this
+explicit correction. Structural mathematics and software version 1.0.0 remain
+unchanged. Both the original frozen UK results and the corrected analysis are
+reproducible. No analysis choice was selected to improve the reported scores.

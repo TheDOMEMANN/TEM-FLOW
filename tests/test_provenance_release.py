@@ -10,7 +10,7 @@ class CanonicalProvenanceTests(unittest.TestCase):
     def test_parallel_evidence_ids_and_payload_hashes_are_unique(self):
         ledger = ROOT / "ledger" / "temflow_evidence_ledger.csv"
         if not ledger.exists():
-            self.skipTest("CPC/contaminant application ledger is editor-private")
+            self.skipTest("Private contaminant application ledger is not supplied")
         with ledger.open(encoding="utf-8", newline="") as handle:
             rows = list(csv.DictReader(handle))
         self.assertEqual(len(rows), len({row["tem_record_id"] for row in rows}))
@@ -20,7 +20,7 @@ class CanonicalProvenanceTests(unittest.TestCase):
     def test_observations_are_not_conflated_with_pipeline_results(self):
         ledger = ROOT / "ledger" / "temflow_evidence_ledger.csv"
         if not ledger.exists():
-            self.skipTest("CPC/contaminant application ledger is editor-private")
+            self.skipTest("Private contaminant application ledger is not supplied")
         with ledger.open(encoding="utf-8", newline="") as handle:
             rows = list(csv.DictReader(handle))
         measured = [row for row in rows if row["observation_calculation_class"] == "observed_or_reported_measurement"]

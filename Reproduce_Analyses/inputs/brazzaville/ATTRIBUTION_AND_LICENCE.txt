@@ -1,0 +1,6 @@
+Derived from: Ameller, Joaquin; Moustier, Paule; Maba Ngouloubi, Prince Loique; Ofoueme-Berton, Yolande (2026).
+Dataset of produce supply flows in Brazzaville: A survey of traders in 2022. CIRAD Dataverse, version 1.
+https://doi.org/10.18167/DVN1/DAMXAW
+Source and derived survey summaries: CC BY-NC 4.0, https://creativecommons.org/licenses/by-nc/4.0/.
+Changes: market-product aggregation, normalization, simulated report loss, and calculation of bounds and summaries.
+This licence is distinct from the licence applying to TEM-FLOW program code.

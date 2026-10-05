@@ -1,3 +1,11 @@
+# Dated source revision 5 October 2026
+
+Software version remains 1.0.0. The Brazzaville retrospective reporting comparison, UK decision comparison and structure-aware timing comparison are supplied with licensed inputs and a portable reproduction runner. Current documentation, public/private data descriptions, map calculation label and release builder are synchronized. Structural mathematics and the original v1.0.0 tag are unchanged.
+
+# Dated source revision 4 October 2026
+
+See SCIENTIFIC_REPORTS_REVISION.txt. Software version remains 1.0.0.
+
 ## 1.0.0 — editable source maintenance, 1 October 2026
 
 - Separate source launch, restart, stop and check controls, with a plain-language editing guide.
@@ -8,7 +16,7 @@
 
 # Changelog
 
-## 1.0.0 â€” structural formulation revision, 1 October 2026
+## 1.0.0 — structural formulation revision, 1 October 2026
 
 - Integrated sharp prospective uncertainty profiles for nested aggregate records,
   with a known total, bounded errors and an explicit missing-record budget.
@@ -22,7 +30,7 @@
   unchanged; revision identifiers and file hashes distinguish this extension.
 
 
-## 1.0.0 â€” initial release
+## 1.0.0 — initial release
 
 - Restored predecessor road geometry and made the road cache persist through country selection and Escape.
 - Reconciled node coordinates and retained fixed-size map symbols, double-click selection and mouse navigation.

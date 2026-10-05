@@ -11,6 +11,7 @@ $versionMatch = [regex]::Match((Get-Content -LiteralPath $versionFile -Raw), 'VE
 if (-not $versionMatch.Success) { throw 'Cannot read the software version.' }
 $sourceVersion = $versionMatch.Groups[1].Value
 $runtimeCandidates = @(
+    (Join-Path $sourceParent 'Desktop\runtime\python.exe'),
     (Join-Path $sourceRoot '.venv\Scripts\python.exe'),
     (Join-Path $sourceRoot 'runtime\python.exe'),
     (Join-Path $sourceParent "TEM-FLOW-$sourceVersion-Structural\runtime\python.exe"),

@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TEM-FLOW 1.0.0 — Editable source guide</title><style>body{font:17px/1.55 system-ui,Arial,sans-serif;color:#17212b;background:#f6f7f8;margin:0}main{max-width:980px;margin:auto;padding:36px 32px;background:white}h1{font-size:30px;line-height:1.2}h2{font-size:23px;margin-top:36px}pre{font:inherit;white-space:pre-wrap;overflow-wrap:anywhere}nav{border-bottom:1px solid #bbb;padding-bottom:18px}nav a{display:block;color:#174c73;margin:6px 0}section{border-top:1px solid #ddd;margin-top:30px}@media print{body,main{background:white}main{padding:0}h2{break-after:avoid}section{break-inside:auto}}</style><main><h1>TEM-FLOW 1.0.0</h1><h2>Editable source: start here</h2><pre>TEM-FLOW 1.0.0: EDITABLE SOURCE
+<!doctype html><meta charset="utf-8"><title>TEM-FLOW editable source</title><style>body{max-width:850px;margin:3em auto;font:17px system-ui;line-height:1.5}pre{white-space:pre-wrap}</style><pre>TEM-FLOW 1.0.0: EDITABLE SOURCE
 Instructions for maintaining the engine and interface yourself
 
 This is the complete editable source. You can change it with an ordinary text
@@ -7,25 +7,33 @@ version remains 1.0.0. A file revision and a software version are different:
 commits and dated archive labels identify changes within this version.
 
 Your separate source folder on this PC is:
-Desktop &gt; Exposure_Africa &gt; TEMFLOW_FINAL &gt; TEM-FLOW-1.0.0-EDITABLE-SOURCE
+User_package &gt; Editable_Source
 
-The folder TEM-FLOW-1.0.0-Structural is the checked daily-use desktop copy.
-Your normal TEM-FLOW desktop shortcut still opens that daily-use copy.
+The neighboring Desktop folder is the ready-to-use application copy.
+Open its Launch TEM-FLOW.cmd when you want to run that copy.
 The editable source has its own launcher and its own local records. Editing
 one copy does not silently change the other.
-</pre><nav><a href="#step0">1. Open the source application</a><a href="#step1">2. Make a safe edit and see the result</a><a href="#step2">3. Which file should I edit?</a><a href="#step3">4. Enter new records without changing code</a><a href="#step4">5. Understand the check result</a><a href="#step5">6. Use the source on another computer</a><a href="#step6">7. Keep, release or transfer your changes</a></nav><section id="step0"><h2>1. Open the source application</h2><pre>Extract the whole source ZIP before using it. Double-click Launch editable
+
+
+1. Open the source application
+------------------------------
+Extract the whole source ZIP before using it. Double-click Launch editable
 source.cmd in the source folder. A browser application window opens. The
 calculations run on your own PC. Internet access is needed only for optional
 online map backgrounds and online services, not the local calculations.
 
 On this PC, the source launcher finds Python automatically in the neighboring
-TEM-FLOW-1.0.0-Structural folder. Keep both folders together. It borrows only
+Desktop folder. Keep both folders together. It borrows only
 Python and its numerical libraries; the engine and interface come from THIS
 editable source folder. Do not edit or delete the runtime folder.
 
 Use Stop editable source.cmd when finished. Closing the browser window alone
 does not stop the local engine. Restart editable source.cmd loads saved edits.
-The source normally uses local port 8810 and chooses a free port if necessary.</pre></section><section id="step1"><h2>2. Make a safe edit and see the result</h2><pre>1. Close the source application and use Stop editable source.cmd.
+The source normally uses local port 8810 and chooses a free port if necessary.
+
+2. Make a safe edit and see the result
+--------------------------------------
+1. Close the source application and use Stop editable source.cmd.
 2. Copy the entire editable source folder to a dated backup before editing.
    Back up user_data separately if it contains records you need to retain.
 3. Double-click Edit source.cmd to open the folder containing the engine.
@@ -41,7 +49,11 @@ No compilation is needed for ordinary Python, HTML, CSS or JavaScript edits.
 The complete check may take several minutes. If it fails, keep its report and
 restore the edited files from your backup. Do not change saved scientific
 results just to make a check pass. Numerical changes require a scientific
-review and a corresponding update of the manuscript and its evidence.</pre></section><section id="step2"><h2>3. Which file should I edit?</h2><pre>Interface, labels, colors, panels, mouse and keyboard behavior:
+review and a corresponding update of the manuscript and its evidence.
+
+3. Which file should I edit?
+----------------------------
+Interface, labels, colors, panels, mouse and keyboard behavior:
   src/temflow/data/patterns_private_ui.html
   HTML defines page content; CSS defines appearance; JavaScript handles actions.
 
@@ -89,7 +101,11 @@ Saved reference evidence (keep unchanged when checking edits):
 Some CSV templates and input guides occur in docs/ and src/temflow/data/.
 The first copy accompanies the source; the second accompanies the installed
 application. If you intentionally revise a template or guide, update both
-copies together. The source checks detect differences between these copies.</pre></section><section id="step3"><h2>4. Enter new records without changing code</h2><pre>Use the application&#x27;s CSV/JSON file controls for new observations. Ordinary
+copies together. The source checks detect differences between these copies.
+
+4. Enter new records without changing code
+------------------------------------------
+Use the application&#x27;s CSV/JSON file controls for new observations. Ordinary
 data entry does not require editing Python or HTML. Start with the dated-record
 template in docs/. For nested aggregate records, use the separate aggregate
 template and the Evidence limits and missing records panel.
@@ -101,7 +117,11 @@ record as a measured zero.
 
 This public source retains the CPC and mass-flow features and public inputs.
 Private application contaminant-chemistry values are excluded. Local records
-and access settings are in user_data/. Do not upload that folder to GitHub.</pre></section><section id="step4"><h2>5. Understand the check result</h2><pre>A full check runs the application tests, eight packaged validation checks,
+and access settings are in user_data/. Do not upload that folder to GitHub.
+
+5. Understand the check result
+------------------------------
+A full check runs the application tests, eight packaged validation checks,
 the empirical reproduction, independent mathematical calculations and a
 comparison with the saved results. It checks the source next to the scripts.
 
@@ -120,7 +140,11 @@ New check outputs go into a dated report folder. Saved reference results stay
 unchanged. Runtime durations and Python/library versions may differ. The
 comparison reports numerical differences using an absolute and relative
 tolerance of 1e-10. A passing check is necessary, but meaningful interface
-changes also need a visual check of the actions you changed.</pre></section><section id="step5"><h2>6. Use the source on another computer</h2><pre>Option A: Keep this source next to a compatible full TEM-FLOW desktop folder,
+changes also need a visual check of the actions you changed.
+
+6. Use the source on another computer
+-------------------------------------
+Option A: Keep this source next to a compatible full TEM-FLOW desktop folder,
 named TEM-FLOW-1.0.0-Structural or TEM-FLOW-1.0.0-Desktop. The source controls
 find its bundled Windows runtime automatically. A source ZIP alone does not
 include Python.
@@ -147,7 +171,11 @@ On Linux/macOS use .venv/bin/python instead of .venv\Scripts\python and run:
 
 For the command-line engine, tools/source_cli.py always selects this source:
 
-  .venv\Scripts\python tools\source_cli.py structural docs\AGGREGATE_RECORD_EXAMPLE.csv --output evidence-limits.json</pre></section><section id="step6"><h2>7. Keep, release or transfer your changes</h2><pre>Record the change and the successful checks in CHANGELOG.md. Keep the saved
+  .venv\Scripts\python tools\source_cli.py structural docs\AGGREGATE_RECORD_EXAMPLE.csv --output evidence-limits.json
+
+7. Keep, release or transfer your changes
+-----------------------------------------
+Record the change and the successful checks in CHANGELOG.md. Keep the saved
 check report. After testing, you can continue using the editable source
 launcher as your application. It is not necessary to copy files into the
 daily-use application to use your edits.
@@ -174,4 +202,5 @@ for this maintenance update. Never replace an older public tag in place.
 If using GitHub without Codex, commit the checked source files with Git or
 GitHub Desktop and push the commit. Do not upload the entire working folder.
 Retain the exact commit identifier used by a manuscript. Read DEVELOPER_GUIDE.md
-for the file map, dependency setup and more detailed maintenance instructions.</pre></section></main></html>
+for the file map, dependency setup and more detailed maintenance instructions.
+</pre>
